@@ -15,8 +15,8 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];                :bookdown:books:LSHTM:
 ** TODO Learn Python for beginners;                              :interests:
 ** DONE Learn Emacs and Org-mode mostly done;                        :emacs:
-- [X] Tried to use org-mode to create a pdf file through LaTeX
-- [X] Org-mode is interesting. 
+1. [X] Tried to use org-mode to create a pdf file through LaTeX
+2. [X] Org-mode is interesting. 
 ** TODO Application form for 12.12 Tokyo domestic travel;        :paperwork:
 ** DOING Comment the 2nd version paper of seaweed; 
 ** TODO The report of studying in LSHTM to AMU;
