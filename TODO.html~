@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-12-06 木 11:29 -->
+<!-- 2018-12-06 木 14:27 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>用Org-mode來做我的日程計劃</title>
@@ -234,7 +234,22 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org5436850">1. <span class="todo TODO">TODO</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</a></li>
+<li><a href="#orgf8bd60d">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</a>
+<ul>
+<li><a href="#org3f539ed">1.1. <span class="todo TODO">TODO</span> Return email from LP;</a></li>
+<li><a href="#org02b1e7d">1.2. <span class="todo TODO">TODO</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org1efad8b">1.3. <span class="todo TODO">TODO</span> Bayesian statistics Chapter 8;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orga5d1e68">1.4. <span class="todo TODO">TODO</span> Learn Python for beginners;</a></li>
+<li><a href="#orgbfac783">1.5. <span class="done DONE">DONE</span> Learn Emacs and Org-mode mostly done;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></a></li>
+<li><a href="#org0d32704">1.6. <span class="todo TODO">TODO</span> Application form for 12.12 Tokyo domestic travel;</a></li>
+<li><a href="#org9bfcd08">1.7. <span class="todo DOING">DOING</span> Comment the 2nd version paper of seaweed;</a></li>
+<li><a href="#orgb4c4c10">1.8. <span class="todo TODO">TODO</span> The report of studying in LSHTM to AMU;</a></li>
+<li><a href="#org40ab5f7">1.9. <span class="todo TODO">TODO</span> Add description of frailty model, and time-dependent (updated) model for TR;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#orgb8263ba">1.10. <span class="todo TODO">TODO</span> Read Evidence and Evolution;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgedb841f">1.11. <span class="todo TODO">TODO</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
+</ul>
+</li>
+<li><a href="#orgd8afd6b">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-07 金&gt; </span></span> Tasks</a></li>
 </ul>
 </div>
 </div>
@@ -242,28 +257,52 @@ for the JavaScript code in this tag.
 Org is a mode for keeping notes, maintaining TODO lists, and doing project planning with a fast and effective plain-text system.
 </pre>
 
-<div id="outline-container-org5436850" class="outline-2">
-<h2 id="org5436850"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</h2>
+<div id="outline-container-orgf8bd60d" class="outline-2">
+<h2 id="orgf8bd60d"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-1">
-<ul class="org-ul">
-<li class="off"><code>[&#xa0;]</code> Return email from LP;</li>
-<li class="off"><code>[&#xa0;]</code> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;</li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://wangcc.me/LSHTMlearningnote/section-86.html">Bayesian statistics Chapter 8</a>;</li>
-<li class="off"><code>[&#xa0;]</code> Learn Python for beginners;</li>
-<li class="on"><code>[X]</code> Learn Emacs and Org-mode mostly done;</li>
-<li class="off"><code>[&#xa0;]</code> Application form for 12.12 Tokyo domestic travel;</li>
-<li class="off"><code>[&#xa0;]</code> Comment the 2nd version paper of seaweed;</li>
-<li class="off"><code>[&#xa0;]</code> The report of studying in LSHTM to AMU;</li>
-<li class="off"><code>[&#xa0;]</code> Add description of frailty model, and time-dependent (updated) model for TR;</li>
-<li class="off"><code>[&#xa0;]</code> Read <a href="https://www.amazon.com/Evidence-Evolution-Logic-Behind-Science-ebook/dp/B00KILLNIO/ref=mt_kindle?_encoding=UTF8&amp;me=&amp;qid=1543812059">Evidence and Evolution</a>;</li>
-<li class="off"><code>[&#xa0;]</code> Write something about the trip in Hokkaido.</li>
-</ul>
 </div>
+<div id="outline-container-org3f539ed" class="outline-3">
+<h3 id="org3f539ed"><span class="section-number-3">1.1</span> <span class="todo TODO">TODO</span> Return email from LP;</h3>
+</div>
+<div id="outline-container-org02b1e7d" class="outline-3">
+<h3 id="org02b1e7d"><span class="section-number-3">1.2</span> <span class="todo TODO">TODO</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div>
+<div id="outline-container-org1efad8b" class="outline-3">
+<h3 id="org1efad8b"><span class="section-number-3">1.3</span> <span class="todo TODO">TODO</span> <a href="https://wangcc.me/LSHTMlearningnote/section-86.html">Bayesian statistics Chapter 8</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+</div>
+<div id="outline-container-orga5d1e68" class="outline-3">
+<h3 id="orga5d1e68"><span class="section-number-3">1.4</span> <span class="todo TODO">TODO</span> Learn Python for beginners;</h3>
+</div>
+<div id="outline-container-orgbfac783" class="outline-3">
+<h3 id="orgbfac783"><span class="section-number-3">1.5</span> <span class="done DONE">DONE</span> Learn Emacs and Org-mode mostly done;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></h3>
+</div>
+<div id="outline-container-org0d32704" class="outline-3">
+<h3 id="org0d32704"><span class="section-number-3">1.6</span> <span class="todo TODO">TODO</span> Application form for 12.12 Tokyo domestic travel;</h3>
+</div>
+<div id="outline-container-org9bfcd08" class="outline-3">
+<h3 id="org9bfcd08"><span class="section-number-3">1.7</span> <span class="todo DOING">DOING</span> Comment the 2nd version paper of seaweed;</h3>
+</div>
+<div id="outline-container-orgb4c4c10" class="outline-3">
+<h3 id="orgb4c4c10"><span class="section-number-3">1.8</span> <span class="todo TODO">TODO</span> The report of studying in LSHTM to AMU;</h3>
+</div>
+<div id="outline-container-org40ab5f7" class="outline-3">
+<h3 id="org40ab5f7"><span class="section-number-3">1.9</span> <span class="todo TODO">TODO</span> Add description of frailty model, and time-dependent (updated) model for TR;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+</div>
+<div id="outline-container-orgb8263ba" class="outline-3">
+<h3 id="orgb8263ba"><span class="section-number-3">1.10</span> <span class="todo TODO">TODO</span> Read <a href="https://www.amazon.com/Evidence-Evolution-Logic-Behind-Science-ebook/dp/B00KILLNIO/ref=mt_kindle?_encoding=UTF8&amp;me=&amp;qid=1543812059">Evidence and Evolution</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div>
+<div id="outline-container-orgedb841f" class="outline-3">
+<h3 id="orgedb841f"><span class="section-number-3">1.11</span> <span class="todo TODO">TODO</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h3>
+</div>
+</div>
+
+<div id="outline-container-orgd8afd6b" class="outline-2">
+<h2 id="orgd8afd6b"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-07 金&gt; </span></span> Tasks</h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Chaochen Wang (<a href="https://wangcc.me">https://wangcc.me</a>)</p>
-<p class="date">Created: 2018-12-06 木 11:29</p>
+<p class="date">Created: 2018-12-06 木 14:27</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
