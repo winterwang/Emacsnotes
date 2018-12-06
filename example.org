@@ -1,0 +1,108 @@
+#+STARTUP: showall
+
+* Headline 
+
+* Installing 
+
+sudo apt install org
+
+* setup .emacs file
+
+** add text to file 
+
+** restart emacs
+
+*** a third level
+
+* expand and collapse org mode tree
+
+  <TAB>
+
+  S-<TAB>  <---- S is the shift key --- expand and collapse all entry 
+
+
+* Add text
+
+Hello world.
+
+you  can make *bold* or /italics/ or if _underline_, and =code=, ~verbatim~
+
+C-c C-e b ---> export to html and open in web browser
+
+
+* comment 
+
+# this is a comment 
+**  comment do not export if you have this tag
+will not go to html 
+
+* Lists
+
+- an entry
+- another entry
+  - sub list entry
+  - another entry in a sublist 
+- [ ] this is a todo item
+- [X] Change state of a todo with C-c C-c
+- [ ] Finished task has an X. do not use a 'x'
+
+* TODO creating todo and done items
+
+S-Rightarrow
+C-c C-t
+
+* Date and time. No time zone support 
+<2018-12-04 Tue> 
+
+C-c . <--- insert date and time stamp
+
+<2018-11-03 Sat>
+
+S-up or S-down <---- change by + or - 1 
+
+C-u C-c . <---- insert timestamp with time
+
+<2019-01-18 Fri 22:45>
+
+
+* Links
+
+- https://wangcc.me
+- [[[[https://wangcc.me]]][Chaochen_Wang]] 
+
+* Tagging entry C-c C-c				 :researchtools:teaching:org:
+
+* 2nd tagged entry				       :researchtools:raster:
+
+* 3rd tagged entry					      :researchtools:
+
+
+* Building a table
+
+| column 1  | column 2 |
+|-----------+----------|
+| some data |      123 |
+| dafdafda  |   fdafda |
+|           |          |
+
+* Source code
+
+#+BEGIN_src sh :exports both
+echo "Hello World" #C-c C-c
+#+END_src
+
+#+RESULTS:
+: Hello World
+
+#+BEGIN_SRC python :exports both
+return "Hello World from python" # A comment
+#+END_SRC 
+
+#+RESULTS:
+: Hello World from python
+
+* Dec 5th in AMU <2018-12-05 Wed 00:26>					:day:
+
+** sitting in research tools
+
+Today we talked about grep
