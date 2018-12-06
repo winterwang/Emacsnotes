@@ -26,4 +26,5 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 ** TODO Write something about the trip in Hokkaido.                :private:
 
 * <2018-12-08 土> Tasks
-
+TTACH_DIR_INHERIT: t
+  :
