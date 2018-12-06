@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-12-06 木 11:28 -->
+<!-- 2018-12-06 木 11:29 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>用Org-mode來做我的日程計劃</title>
@@ -234,7 +234,7 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org2d773f2">1. <span class="todo TODO">TODO</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt;</span></span></a></li>
+<li><a href="#org5436850">1. <span class="todo TODO">TODO</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</a></li>
 </ul>
 </div>
 </div>
@@ -242,15 +242,15 @@ for the JavaScript code in this tag.
 Org is a mode for keeping notes, maintaining TODO lists, and doing project planning with a fast and effective plain-text system.
 </pre>
 
-<div id="outline-container-org2d773f2" class="outline-2">
-<h2 id="org2d773f2"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt;</span></span></h2>
+<div id="outline-container-org5436850" class="outline-2">
+<h2 id="org5436850"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li class="off"><code>[&#xa0;]</code> Return email from LP;</li>
 <li class="off"><code>[&#xa0;]</code> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;</li>
 <li class="off"><code>[&#xa0;]</code> <a href="https://wangcc.me/LSHTMlearningnote/section-86.html">Bayesian statistics Chapter 8</a>;</li>
 <li class="off"><code>[&#xa0;]</code> Learn Python for beginners;</li>
-<li class="off"><code>[&#xa0;]</code> Learn Emacs and Org-mode;</li>
+<li class="on"><code>[X]</code> Learn Emacs and Org-mode mostly done;</li>
 <li class="off"><code>[&#xa0;]</code> Application form for 12.12 Tokyo domestic travel;</li>
 <li class="off"><code>[&#xa0;]</code> Comment the 2nd version paper of seaweed;</li>
 <li class="off"><code>[&#xa0;]</code> The report of studying in LSHTM to AMU;</li>
@@ -263,7 +263,7 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Chaochen Wang (<a href="https://wangcc.me">https://wangcc.me</a>)</p>
-<p class="date">Created: 2018-12-06 木 11:28</p>
+<p class="date">Created: 2018-12-06 木 11:29</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
