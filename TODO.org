@@ -8,7 +8,7 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 
 *  <2018-12-06 木> Tasks
 
-** TODO Return email from LP;                                        :LSHTM:
+** TODO Reply email from LP;                                         :LSHTM:
 1. [ ] summarize about the model fitting indexes by gender
 2. [ ] try to draw similar figures for men and women
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
