@@ -1,0 +1,89 @@
+C = control key
+M = Alt key
+
+C-q quit
+C-x C-c exit
+C-x C-f open / "visit" a file
+C-x k kill the buffer representing a file... not deleting a file
+
+C-f move forward one character
+C-b move back one character
+M-f move forward one word
+M-b move back one word
+
+C-d delete a character
+M-d delete a word
+C-_ Undo
+
+C-p previous line / go up one line
+C-n next line / go down one line
+C-a move to the beginning of a line
+C-e move to the end of a line
+
+M-< beginning of the buffer 
+M-> end of the file
+
+
+C-v page down
+M-v page up
+C-l center the screen
+
+C-x 2 split the window vertically
+C-x o jump to other window
+C-x 3 split left right
+C-x 1 remove all windows - simplify life
+
+Search
+C-s text <--- search
+C-s Text <--- case sensitive search
+
+
+C-space <--- start / toggle marking a region
+M-w copy
+C-w cut
+C-y yank / paste
+
+C-k kill to end of line
+
+M-x query-replace
+M-% is also find and replace
+M-$ spell checking
+Hello Worlds
+
+M-x flyspell-mode
+
+Hello worlds  
+something 
+
+贊贊にほんごも大丈夫
+
+良かった
+もう一度試してみる
+
+简介
+
+在ubuntu下直接安装emacs, fcitx时，运行emacs切换不了输入法，即不能输入中文。本文主要讲解如何用最少的命令即可在系统中使用fcitx来输入中文。
+
+配置
+
+/etc/environment文件中追加
+
+export LC_CTYPE="zh_CN.UTF-8"
+
+locale配置
+
+sudo locale-gen
+重启
+
+
+作者：huuinn 
+来源：CSDN
+原文：https://blog.csdn.net/huuinn/article/details/79684601
+版权声明：本文为博主原创文章，转载请附上博文链接！
+
+
+
+https://stackoverflow.com/questions/16172345/how-can-i-use-emacs-ess-mode-with-r-markdown
+中文確實沒問題。
+你好嗎
+にほんごも全然オッケー
