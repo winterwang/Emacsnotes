@@ -1,0 +1,21 @@
+#+TITLE: 用Org-mode來做我的日程計劃
+#+AUTHOR: Chaochen Wang (https://wangcc.me)
+
+
+#+BEGIN_EXAMPLE 
+Org is a mode for keeping notes, maintaining TODO lists, and doing project planning with a fast and effective plain-text system.
+#+END_EXAMPLE
+
+* TODO <2018-12-06 木> Tasks
+
+- [ ] Return email from LP; 
+- [ ] Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;
+- [ ] [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];
+- [ ] Learn Python for beginners;
+- [X] Learn Emacs and Org-mode mostly done;
+- [ ] Application form for 12.12 Tokyo domestic travel;
+- [ ] Comment the 2nd version paper of seaweed; 
+- [ ] The report of studying in LSHTM to AMU;
+- [ ] Add description of frailty model, and time-dependent (updated) model for TR; 
+- [ ] Read [[https://www.amazon.com/Evidence-Evolution-Logic-Behind-Science-ebook/dp/B00KILLNIO/ref=mt_kindle?_encoding=UTF8&me=&qid=1543812059][Evidence and Evolution]];
+- [ ] Write something about the trip in Hokkaido.
