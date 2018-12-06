@@ -1,6 +1,6 @@
 #+TITLE: 用Org-mode來做我的日程計劃
 #+AUTHOR: Chaochen Wang (https://wangcc.me)
-
+#+EMAIL: chaochen@wangcc.me
 
 #+BEGIN_EXAMPLE 
 Org is a mode for keeping notes, maintaining TODO lists, and doing project planning with a fast and effective plain-text system.
