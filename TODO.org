@@ -8,9 +8,10 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 
 *  <2018-12-06 木> Tasks
 
-** TODO Reply email from LP;                                         :LSHTM:
+** DOING Reply email from LP;                                        :LSHTM:
 1. [ ] summarize about the model fitting indexes by gender
 2. [ ] try to draw similar figures for men and women
+3. [X] simply reply the email.
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];                :bookdown:books:LSHTM:
 ** TODO Learn Python for beginners;                              :interests:
@@ -18,11 +19,11 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 1. [X] Tried to use org-mode to create a pdf file through LaTeX
 2. [X] Org-mode is interesting. 
 ** TODO Application form for 12.12 Tokyo domestic travel;        :paperwork:
-** DOING Comment the 2nd version paper of seaweed; 
+** DONE Comment the 2nd version paper of seaweed;          :research:square:
 ** TODO The report of studying in LSHTM to AMU;
 ** TODO Add description of frailty model, and time-dependent (updated) model for TR; :parttime:
 ** TODO Read [[https://www.amazon.com/Evidence-Evolution-Logic-Behind-Science-ebook/dp/B00KILLNIO/ref=mt_kindle?_encoding=UTF8&me=&qid=1543812059][Evidence and Evolution]];                               :reading:
 ** TODO Write something about the trip in Hokkaido.                :private:
 
-* <2018-12-07 金> Tasks
+* <2018-12-08 土> Tasks
 
