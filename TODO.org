@@ -31,9 +31,8 @@ SCHEDULED: <2018-12-10 月>
 3. [ ] simply reply the email.
 ** DONE Reply email to RM;                                           :LSHTM:
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
-** DOING [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];		       :bookdown:books:LSHTM:
-1. [ ] finish the chapter before practice;
-1. [ ] add practice in Chapter 8.
+** DONE [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];		       :bookdown:books:LSHTM:
+1. [X] finish 8.3.5;
 ** TODO Learn Python for beginners;                              :interests:
 ** TODO Application form for 12.12 Tokyo domestic travel;        :paperwork:
 ** TODO Statisitcal review on the paper of stroke;         :research:square:
