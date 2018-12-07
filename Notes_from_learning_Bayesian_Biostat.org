@@ -39,8 +39,8 @@ $$
 
 1) For an "honest" coin, the classical probablity that a coin will
    show heads when tossed up is 0.5. This **probability** has a
-   /long-run frequency meaning/. **objective**
+   /long-run frequency meaning/. **"objective"**
 2) Suppose that you don't believe that there exist honest coins then
    you might give it a probability of 0.6. This kind of probability
    expresses your /personal belief/ and is typically an example of
-   /Bayesian probability/. **subjective**
+   /Bayesian probability/. **"subjective"**
