@@ -1,13 +1,13 @@
-#+TITLE:     Bayesian Biostatistics Learning note
+#+TITLE:    Bayesian Biostatistics Learning note
 #+AUTHOR:   [[https://wangcc.me][Chaochen Wang]]
-#+EMAIL:     chaochen@wangcc.me
+#+EMAIL:    chaochen@wangcc.me
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
 
 
 * Chapter 2 Bayes theorem: computing the posterior distribution
 
-** the binary version of Bayes theorem
+** The binary version of Bayes theorem
 
 $$
 p(\theta = 1 | y = 1) = 
@@ -44,3 +44,15 @@ $$
    you might give it a probability of 0.6. This kind of probability
    expresses your /personal belief/ and is typically an example of
    /Bayesian probability/. **"subjective"**
+** Bayes theorem -- the categorical version
+
+Suppose a subject can belong to $K > 2$ diagnostic classes
+corresponding to $K$ values for $\theta: \theta_1, \theta_2, \dots,
+\theta_K$. Assuming that $y$ can take on $L$ different values: $y_1,
+\dots, y_L$,then Bayes theorem generalizes to: 
+
+$$
+p(\theta_k | y) = \frac{p(y | \theta_k)p(\theta_k)}{\sum_{m = 1}^Kp(y | \theta_m)p(\theta_m)}
+$$
+
+Where $y$ stands for one of the possible values in $\{y_1, \dots, y_L\}$.
