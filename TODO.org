@@ -34,7 +34,7 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 ** TODO Statisitcal review on the paper of stroke;         :research:square:
 ** TODO The report of studying in LSHTM to AMU;                  :paperwork:
 ** DOING Add description of frailty model, and time-dependent (updated) model for TR; :parttime:
-- [ ] time-dependent model description, interpretation, etc. 
+- [X] time-dependent model description, interpretation, etc. 
 - [ ] frailty model description, interpretation, etc. 
 ** DOING Read [[https://www.amazon.com/Evidence-Evolution-Logic-Behind-Science-ebook/dp/B00KILLNIO/ref=mt_kindle?_encoding=UTF8&me=&qid=1543812059][Evidence and Evolution]];                              :reading:
 ** TODO Write something about the trip in Hokkaido.                :private:
