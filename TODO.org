@@ -1,9 +1,13 @@
 #+TITLE: 用Org-mode來做我的日程計劃
-#+AUTHOR: Chaochen Wang (https://wangcc.me)
+#+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
 
 #+BEGIN_EXAMPLE 
-Org is a mode for keeping notes, maintaining TODO lists, and doing project planning with a fast and effective plain-text system.
+Org is a mode for keeping notes, maintaining TODO lists,
+and doing project planning with a fast and effective 
+plain-text system.
 #+END_EXAMPLE
 
 *  <2018-12-06 木> Tasks
@@ -20,6 +24,7 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 * <2018-12-07 金> Tasks
 
 ** DOING Reply email from LP;                                        :LSHTM:
+SCHEDULED: <2018-12-10 月>
 1. [ ] summarize about the model fitting indexes by gender
 2. [ ] add table about the day level Latent classes according to gender
 2. [ ] try to draw similar figures for men and women
@@ -38,8 +43,8 @@ Org is a mode for keeping notes, maintaining TODO lists, and doing project plann
 - [X] frailty model description, interpretation, etc. 
 ** DOING Read [[https://www.amazon.com/Evidence-Evolution-Logic-Behind-Science-ebook/dp/B00KILLNIO/ref=mt_kindle?_encoding=UTF8&me=&qid=1543812059][Evidence and Evolution]];                              :reading:
 ** TODO Write something about the trip in Hokkaido.                :private:
-** DOING Check the data base                                      :parttime:
-** TODO Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                             :interests:
-
+** DONE Check the data base                                       :parttime:
+** DOING Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                            :interests:
+- [ ] Chapter 2 
 * <2018-12-08 土> Tasks
 

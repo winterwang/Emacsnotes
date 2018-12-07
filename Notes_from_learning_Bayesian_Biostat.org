@@ -1,0 +1,18 @@
+#+TITLE:     Bayesian Biostatistics Learning note
+#+AUTHOR:   [[https://wangcc.me][Chaochen Wang]]
+#+EMAIL:     chaochen@wangcc.me
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+
+
+* Chapter 2 Bayes theorem: computing the posterior distribution
+
+$$
+p(\theta = 1 | y = 1) = 
+\frac{p(y = 1 | \theta = 1)\times p(\theta=1)}
+{p(y = 1 | \theta = 1)\times p(\theta = 1) +
+p(y = 1 | \theta  = 0)\times p(\theta = 0)}
+$$
+
+In the above exporession, $p(\theta = 1)(p(\theta = 0))$ 
+represents the prevalence (1 - prevalence) of a disease.
