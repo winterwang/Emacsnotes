@@ -45,6 +45,6 @@ SCHEDULED: <2018-12-10 月>
 ** TODO Write something about the trip in Hokkaido.                :private:
 ** DONE Check the data base                                       :parttime:
 ** DOING Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                            :interests:
-- [ ] Chapter 2 
+- [X] Chapter 2 P39 
 * <2018-12-08 土> Tasks
 
