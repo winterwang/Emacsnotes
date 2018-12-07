@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-12-07 金 16:38 -->
+<!-- 2018-12-07 金 17:39 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Bayesian Biostatistics Learning note</title>
@@ -256,15 +256,24 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org1ff474d">1. Chapter 2 Bayes theorem: computing the posterior distribution</a></li>
+<li><a href="#org62f08dd">1. Chapter 2 Bayes theorem: computing the posterior distribution</a>
+<ul>
+<li><a href="#orge1b6199">1.1. the binary version of Bayes theorem</a></li>
+<li><a href="#org570df7d">1.2. Probability in a Bayesian context</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
 
-<div id="outline-container-org1ff474d" class="outline-2">
-<h2 id="org1ff474d"><span class="section-number-2">1</span> Chapter 2 Bayes theorem: computing the posterior distribution</h2>
+<div id="outline-container-org62f08dd" class="outline-2">
+<h2 id="org62f08dd"><span class="section-number-2">1</span> Chapter 2 Bayes theorem: computing the posterior distribution</h2>
 <div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orge1b6199" class="outline-3">
+<h3 id="orge1b6199"><span class="section-number-3">1.1</span> the binary version of Bayes theorem</h3>
+<div class="outline-text-3" id="text-1-1">
 <p>
 \[
 p(\theta = 1 | y = 1) = 
@@ -275,16 +284,52 @@ p(y = 1 | \theta  = 0)\times p(\theta = 0)}
 </p>
 
 <p>
-In the above exporession, \(p(\theta = 1)(p(\theta = 0))\) 
-represents the prevalence (1 - prevalence) of a disease.
+In the above exporession, 
 </p>
+
+<ul class="org-ul">
+<li>\(p(\theta = 1)(p(\theta = 0))\) represents the prevalence (1 -
+prevalence) of a disease. But in general it is called the <i>prior</i>
+probability that \(\theta = 1 (\theta = 0)\).</li>
+
+<li>The probability \(p(y = 1 | \theta = 1)\) describes the probability
+that a positive test is obtained, given that \(\theta = 1\). It is the
+<b><b>likelihood</b></b> for \(\theta = 1\) with a positive test.</li>
+
+<li>Finally, \(p(\theta = 1 | y = 1)\) is the probability that an
+individual is diseased given observing a positive test. This
+probability is called the <i>posterior</i> probability that is derived
+from combining the prior information and the observed data.</li>
+</ul>
+
+<p>
+\[
+p(\theta | y) = \frac{p(y | \theta)p(\theta)}{p(y)}
+\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-org570df7d" class="outline-3">
+<h3 id="org570df7d"><span class="section-number-3">1.2</span> Probability in a Bayesian context</h3>
+<div class="outline-text-3" id="text-1-2">
+<ol class="org-ol">
+<li>For an "honest" coin, the classical probablity that a coin will
+show heads when tossed up is 0.5. This <b><b>probability</b></b> has a
+<i>long-run frequency meaning</i>. <b><b>objective</b></b></li>
+<li>Suppose that you don't believe that there exist honest coins then
+you might give it a probability of 0.6. This kind of probability
+expresses your <i>personal belief</i> and is typically an example of
+<i>Bayesian probability</i>. <b><b>subjective</b></b></li>
+</ol>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
 <p class="email">Email: <a href="mailto:chaochen@wangcc.me">chaochen@wangcc.me</a></p>
-<p class="date">Created: 2018-12-07 金 16:38</p>
+<p class="date">Created: 2018-12-07 金 17:39</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
