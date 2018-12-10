@@ -59,10 +59,18 @@ Where $y$ stands for one of the possible values in $\{y_1, \dots, y_L\}$.
 
 ** Bayes theorem --  the continuous version
 
-
 $$
 p(\theta|y) = \frac{L(\theta | y)p(\theta)}{p(y)} = \frac{L(\theta | y)p(\theta)}{\int L(\theta|y)p(\theta)d\theta}
 $$
 
-- Prior opinion about the parameter is expressed as a distribution: $p(\theta)$.
-- Observed data: $L(\theta | y)$
+- Prior opinion about the parameter is expressed as a distribution: $p(\theta)$ ;
+- Observed data: $L(\theta | y)$ ; 
+- The denominator $\int L(\theta|y)p(\theta)d\theta$ ensures that $p(\theta | y)$ is indeed a distribution, and is called /averaged likelihood/.
+
+Therefore, when the prior opinion about the parameter as a distribution is combined with the observed data, the opinion will be updated and is expressed by the posterior distribution. This expression also tells us that when both the prior and the likelihood support a particular $\theta$, then this $\theta$ also supported a posteriori. But if $\theta$ is not supported by either the prior distribution or the likelihood or both, then neither $\theta$ is supported by a posteriori. 
+
+$$
+p(\theta | y) \propto L(\theta | y)p(\theta)
+$$
+
+The denominator is depending only on the observed data which is assumed to be fixed in a Bayesian context. 
