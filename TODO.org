@@ -48,6 +48,6 @@ SCHEDULED: <2018-12-10 月>
 ** TODO Check the data base                                       :parttime:
 1. [ ] looking for some things to do with this database
 ** TODO Write something about the trip in Hokkaido.                :private:
-** TODO Application form for 12.12 Tokyo domestic travel;        :paperwork:
-** TODO Statisitcal review on the paper of stroke;         :research:square:
+** DONE Application form for 12.12 Tokyo domestic travel;        :paperwork:
+** DOING Statisitcal review on the paper of stroke;        :research:square:
 ** TODO The report of studying in LSHTM to AMU;                  :paperwork:
