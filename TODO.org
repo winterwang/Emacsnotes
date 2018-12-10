@@ -14,7 +14,7 @@ plain-text system.
 
 ** DONE Reply email from LP;                                         :LSHTM:
 1. [X] simply reply the email.
-** DOING [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];               :bookdown:books:LSHTM:
+** DONE [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];                :bookdown:books:LSHTM:
 1. [X] To page 82 8.3.4 90%
 ** DONE Learn Emacs and Org-mode mostly done;                        :emacs:
 1. [X] Tried to use org-mode to create a pdf file through LaTeX
