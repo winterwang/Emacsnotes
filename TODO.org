@@ -23,7 +23,7 @@ plain-text system.
 
 * <2018-12-07 金> Tasks
 ** DONE Reply email to RM;                                           :LSHTM:
-** DONE [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];		       :bookdown:books:LSHTM:
+** DONE [[https://wangcc.me/LSHTMlearningnote/section-87.html][Bayesian statistics Chapter 8]];		       :bookdown:books:LSHTM:
 1. [X] finish 8.3.5;
 ** DONE Add description of frailty model, and time-dependent (updated) model for TR; :parttime:
 - [X] time-dependent model description, interpretation, etc. 
@@ -40,7 +40,7 @@ SCHEDULED: <2018-12-10 月>
 2. [ ] try to draw similar figures for men and women
 3. [ ] simply reply the email.
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
-** TODO [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];                :bookdown:books:LSHTM:
+** TODO [[https://wangcc.me/LSHTMlearningnote/section-87.html][Bayesian statistics Chapter 8]];                :bookdown:books:LSHTM:
 1. [ ] Practical part of the chapter
 2. [ ] Start next chapter 
 ** DOING Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                            :interests:
