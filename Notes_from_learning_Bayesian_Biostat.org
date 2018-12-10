@@ -56,3 +56,13 @@ p(\theta_k | y) = \frac{p(y | \theta_k)p(\theta_k)}{\sum_{m = 1}^Kp(y | \theta_m
 $$
 
 Where $y$ stands for one of the possible values in $\{y_1, \dots, y_L\}$.
+
+** Bayes theorem --  the continuous version
+
+
+$$
+p(\theta|y) = \frac{L(\theta | y)p(\theta)}{p(y)} = \frac{L(\theta | y)p(\theta)}{\int L(\theta|y)p(\theta)d\theta}
+$$
+
+- Prior opinion about the parameter is expressed as a distribution: $p(\theta)$.
+- Observed data: $L(\theta | y)$
