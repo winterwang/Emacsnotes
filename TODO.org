@@ -22,28 +22,32 @@ plain-text system.
 ** DONE Comment the 2nd version paper of seaweed;          :research:square:
 
 * <2018-12-07 金> Tasks
+** DONE Reply email to RM;                                           :LSHTM:
+** DONE [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];		       :bookdown:books:LSHTM:
+1. [X] finish 8.3.5;
+** DONE Add description of frailty model, and time-dependent (updated) model for TR; :parttime:
+- [X] time-dependent model description, interpretation, etc. 
+- [X] frailty model description, interpretation, etc. 
+** DONE Check the data base                                       :parttime:
+** DONE Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                             :interests:
+- [X] Chapter 2 P39 
 
+* <2018-12-10 月> Tasks
 ** DOING Reply email from LP;                                        :LSHTM:
 SCHEDULED: <2018-12-10 月>
 1. [ ] summarize about the model fitting indexes by gender
 2. [ ] add table about the day level Latent classes according to gender
 2. [ ] try to draw similar figures for men and women
 3. [ ] simply reply the email.
-** DONE Reply email to RM;                                           :LSHTM:
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
-** DONE [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];		       :bookdown:books:LSHTM:
-1. [X] finish 8.3.5;
-** TODO Learn Python for beginners;                              :interests:
+** TODO [[https://wangcc.me/LSHTMlearningnote/section-86.html][Bayesian statistics Chapter 8]];                :bookdown:books:LSHTM:
+1. [ ] Practical part of the chapter
+2. [ ] Start next chapter 
+** DOING Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                            :interests:
+** TODO Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                              :interests:
+** TODO Check the data base                                       :parttime:
+1. [ ] looking for some things to do with this database
+** TODO Write something about the trip in Hokkaido.                :private:
 ** TODO Application form for 12.12 Tokyo domestic travel;        :paperwork:
 ** TODO Statisitcal review on the paper of stroke;         :research:square:
 ** TODO The report of studying in LSHTM to AMU;                  :paperwork:
-** DONE Add description of frailty model, and time-dependent (updated) model for TR; :parttime:
-- [X] time-dependent model description, interpretation, etc. 
-- [X] frailty model description, interpretation, etc. 
-** DOING Read [[https://www.amazon.com/Evidence-Evolution-Logic-Behind-Science-ebook/dp/B00KILLNIO/ref=mt_kindle?_encoding=UTF8&me=&qid=1543812059][Evidence and Evolution]];                              :reading:
-** TODO Write something about the trip in Hokkaido.                :private:
-** DONE Check the data base                                       :parttime:
-** DOING Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                            :interests:
-- [X] Chapter 2 P39 
-* <2018-12-08 土> Tasks
-
