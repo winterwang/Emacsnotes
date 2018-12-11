@@ -49,16 +49,17 @@ SCHEDULED: <2018-12-10 月>
 ** DONE Application form for 12.12 Tokyo domestic travel;        :paperwork:
 
 * <2018-12-11 火> Tasks
-** DOING Reply email from LP;                                        :LSHTM:
+** DONE Reply email from LP;					      :LSHTM:
 SCHEDULED: <2018-12-11 火>
-1. [ ] summarize about the model fitting indexes by gender
-2. [ ] add table about the day level Latent classes according to gender
-3. [ ] try to draw similar figures for men and women
-4. [ ] simply reply the email.
+1. [X] summarize about the model fitting indexes by gender
+2. [X] add table about the day level Latent classes according to gender
+3. [X] try to draw similar figures for men and women
+4. [X] simply reply the email.
 ** TODO Check the data base                                       :parttime:
 1. [ ] looking for some things to do with this database
 ** TODO Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                              :interests:
-** DOING Statisitcal review on the paper of stroke;        :research:square:
+** HANGUP Statisitcal review on the paper of stroke;	    :research:square:
 ** TODO The report of studying in LSHTM to AMU;                  :paperwork:
 ** TODO Write something about the trip in Hokkaido.                :private:
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
+** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]]; 		       :bookdown:books:LSHTM:
