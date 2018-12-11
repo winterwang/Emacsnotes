@@ -55,6 +55,10 @@ SCHEDULED: <2018-12-11 火>
 2. [X] add table about the day level Latent classes according to gender
 3. [X] try to draw similar figures for men and women
 4. [X] simply reply the email.
+
+
+* <2018-12-12 Wed> Tasks 
+** TODO Domestic travel to Tokyo, National Cancer Center.	     :travel:
 ** TODO Check the data base                                       :parttime:
 1. [ ] looking for some things to do with this database
 ** TODO Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                              :interests:
