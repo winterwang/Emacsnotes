@@ -66,13 +66,14 @@ SCHEDULED: <2018-12-11 火>
 ** HANGUP Write something about the trip in Hokkaido.              :private:
 ** CANCEL Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                     :reading:
 ** DOING [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];               :bookdown:books:LSHTM:
-** DOING Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** DONE Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+- [X] still in 1.2 ABCs of Bayesianism.
 
 * <2018-12-13 木> Tasks
 ** TODO Check the data base                                       :parttime:
 1. [ ] looking for some things to do with this database
 ** TODO Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                              :interests:
-** DOING Statisitcal review on the paper of stroke;        :research:square:
+** DONE Statisitcal review on the paper of stroke;         :research:square:
 ** TODO The report of studying in LSHTM to AMU;                  :paperwork:
 ** TODO Write something about the trip in Hokkaido.                :private:
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
