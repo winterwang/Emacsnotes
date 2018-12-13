@@ -1,0 +1,5 @@
+#+TITLE:    Note of NCC Inoue study group attending
+#+AUTHOR:   [[https://wangcc.me][Chaochen Wang]]
+#+EMAIL:    chaochen@wangcc.me
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
