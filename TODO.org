@@ -82,9 +82,12 @@ SCHEDULED: <2018-12-11 火>
 ** DONE Check the data base                                       :parttime:
 1. [X] looking for some things to do with this database
 2. [X] From TR, "you can try working on the data that I gave you last week to see whether you can implement the method to assess MACE risk."
+3. [X] checked the data for HbA1c, 
+4. [X] checked the data for MACE definitions, 
+5. [ ] Prepare the dataset for preliminary analysis.
 ** TODO Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                              :interests:
 ** TODO The report of studying in LSHTM to AMU;                  :paperwork:
-** TODO Write something about the trip in Hokkaido.                :private:
+** CANCEL Write something about the trip in Hokkaido.              :private:
 ** TODO Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                       :reading:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                  :bookdown:books:LSHTM:
 ** TODO Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
