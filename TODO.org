@@ -132,10 +132,7 @@ SCHEDULED: <2018-12-11 火>
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                  :bookdown:books:LSHTM:
 ** TODO Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
 ** DONE Modify the paper commented from LP, SA                 :LSHTM:paper:
-- [X] reply the email
-- [X] modify the paper according to comments from SA
-- [X] modify the paper according to comments from LP1
-- [X] modify the paper according to comments from LP2
+- [ ] reply the email with the revised version
 ** TODO Check the data base again, do preliminary analysis        :parttime:
 - [ ] preliminary analysis using time dependent model 
 - [ ] looking for other ways/approaches to better use the dataset
