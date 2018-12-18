@@ -33,7 +33,7 @@ plain-text system.
 - [X] Chapter 2 P39 
 
 * <2018-12-10 月> Tasks (it was a low productive day)
-** HANGUP Reply email from LP;                                       :LSHTM:
+** DONE Reply email from LP;                                         :LSHTM:
 SCHEDULED: <2018-12-10 月>
 1. [ ] summarize about the model fitting indexes by gender
 2. [ ] add table about the day level Latent classes according to gender
@@ -45,7 +45,7 @@ SCHEDULED: <2018-12-10 月>
 2. [X] Start next chapter 
 ** DONE Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                             :interests:
 1. Chapter 2 until the 2.6 section
-** HANGUP Write something about the trip in Hokkaido.              :private:
+** CANCEL Write something about the trip in Hokkaido.              :private:
 ** DONE Application form for 12.12 Tokyo domestic travel;        :paperwork:
 
 * <2018-12-11 火> Tasks
@@ -61,22 +61,22 @@ SCHEDULED: <2018-12-11 火>
 ** CANCEL Check the data base                                     :parttime:
 1. [ ] looking for some things to do with this database
 ** CANCEL Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                            :interests:
-** HANGUP Statisitcal review on the paper of stroke;       :research:square:
-** HANGUP The report of studying in LSHTM to AMU;                :paperwork:
-** HANGUP Write something about the trip in Hokkaido.              :private:
+** DONE Statisitcal review on the paper of stroke;         :research:square:
+** CANCEL The report of studying in LSHTM to AMU;                :paperwork:
+** CANCEL Write something about the trip in Hokkaido.              :private:
 ** CANCEL Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                     :reading:
-** DOING [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];               :bookdown:books:LSHTM:
+** DONE [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
 ** DONE Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
 - [X] still in 1.2 ABCs of Bayesianism.
 
 * <2018-12-13 木> Tasks
-** HANGUP Check the data base                                     :parttime:
+** DONE Check the data base                                       :parttime:
 1. [ ] looking for some things to do with this database
-** HANGUP Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                            :interests:
+** CANCEL Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                            :interests:
 ** DONE Statisitcal review on the paper of stroke;         :research:square:
-** DOING Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** HANGUP Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
 ** DONE Print/scan the paper requested by YJK 
-** HANGUP Modify the paper commented from LP, SA               :LSHTM:paper:
+** CANCEL Modify the paper commented from LP, SA               :LSHTM:paper:
 
 * <2018-12-14 金> Tasks
 ** DONE Check the data base                                       :parttime:
@@ -84,16 +84,33 @@ SCHEDULED: <2018-12-11 火>
 2. [X] From TR, "you can try working on the data that I gave you last week to see whether you can implement the method to assess MACE risk."
 3. [X] checked the data for HbA1c, 
 4. [X] checked the data for MACE definitions, 
-5. [ ] Prepare the dataset for preliminary analysis.
+5. [X] Prepare the dataset for preliminary analysis.
 ** CANCEL Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                            :interests:
 ** CANCEL The report of studying in LSHTM to AMU;                :paperwork:
 ** CANCEL Write something about the trip in Hokkaido.              :private:
-** HANGUP Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                     :reading:
-** HANGUP [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];              :bookdown:books:LSHTM:
-** HANGUP Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
-** HANGUP Modify the paper commented from LP, SA               :LSHTM:paper:
+** CANCEL Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                     :reading:
+** CANCEL [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];              :bookdown:books:LSHTM:
+** CANCEL Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** CANCEL Modify the paper commented from LP, SA               :LSHTM:paper:
 
 * <2018-12-17 月> Tasks 
+** CANCEL Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                            :interests:
+** CANCEL The report of studying in LSHTM to AMU;                :paperwork:
+** CANCEL Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                     :reading:
+** CANCEL [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];              :bookdown:books:LSHTM:
+** CANCEL Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** HANGUP Modify the paper commented from LP, SA               :LSHTM:paper:
+- [X] reply the email
+- [ ] modify the paper according to comments from SA
+- [X] modify the paper according to comments from LP1
+- [ ] modify the paper according to comments from LP2
+** DONE Paperwork for bank STS                                   :paperwork:
+** DONE Insurance payment                                        :incurance:
+** HANGUP Check the data base again, do preliminary analysis      :parttime:
+- [ ] preliminary analysis using time dependent model 
+- [ ] looking for other ways/approaches to better use the dataset
+
+* <2018-12-18 火> Tasks
 ** TODO Learn [[https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403][Python for beginners]];                              :interests:
 ** HANGUP The report of studying in LSHTM to AMU;                :paperwork:
 ** HANGUP Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                     :reading:
@@ -104,8 +121,7 @@ SCHEDULED: <2018-12-11 火>
 - [ ] modify the paper according to comments from SA
 - [X] modify the paper according to comments from LP1
 - [ ] modify the paper according to comments from LP2
-** DONE Paperwork for bank STS                                   :paperwork:
-** DONE Insurance payment                                        :incurance:
 ** TODO Check the data base again, do preliminary analysis        :parttime:
 - [ ] preliminary analysis using time dependent model 
 - [ ] looking for other ways/approaches to better use the dataset
+
