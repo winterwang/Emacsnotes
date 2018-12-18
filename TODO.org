@@ -116,11 +116,11 @@ SCHEDULED: <2018-12-11 火>
 ** HANGUP Read the [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]], and keep memo;                     :reading:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                  :bookdown:books:LSHTM:
 ** TODO Read [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
-** DOING Modify the paper commented from LP, SA                :LSHTM:paper:
+** DONE Modify the paper commented from LP, SA                 :LSHTM:paper:
 - [X] reply the email
-- [ ] modify the paper according to comments from SA
+- [X] modify the paper according to comments from SA
 - [X] modify the paper according to comments from LP1
-- [ ] modify the paper according to comments from LP2
+- [X] modify the paper according to comments from LP2
 ** TODO Check the data base again, do preliminary analysis        :parttime:
 - [ ] preliminary analysis using time dependent model 
 - [ ] looking for other ways/approaches to better use the dataset
