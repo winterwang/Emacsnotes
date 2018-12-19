@@ -139,3 +139,4 @@ SCHEDULED: <2018-12-11 火>
 - [ ] preliminary analysis using time dependent model 
 - [ ] looking for other ways/approaches to better use the dataset
 ** TODO Prepare the slides for next Tuesday                         :slides:
+** TODO Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                             :interests:
