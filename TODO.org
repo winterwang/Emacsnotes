@@ -136,3 +136,4 @@ SCHEDULED: <2018-12-11 火>
 ** TODO Check the data base again, do preliminary analysis        :parttime:
 - [ ] preliminary analysis using time dependent model 
 - [ ] looking for other ways/approaches to better use the dataset
+** TODO Prepare the slides for next Tuesday                         :slides:
