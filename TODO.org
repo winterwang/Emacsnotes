@@ -164,6 +164,8 @@ SCHEDULED: <2018-12-11 火>
 ** TODO Check the data base again, do preliminary analysis        :parttime:
 - [ ] preliminary analysis using time dependent model 
 - [ ] looking for other ways/approaches to better use the dataset
-** TODO Prepare the slides for next Tuesday                         :slides:
+** CANCEL Prepare the slides for next Tuesday                       :slides:
 ** TODO Read [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:                             :interests:
-** Prepare the whole clean document for submission		      :LSHTM:
+** DONE Prepare the whole clean document for submission              :LSHTM:
+* <2018-12-28 金> Tasks during the New Year's break
+** DONE Prepare for submission to AJCN.                              :LSHTM:

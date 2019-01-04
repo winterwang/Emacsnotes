@@ -3,23 +3,30 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+<!-- 2019-01-04 金 10:53 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>用Org-mode來做我的日程計劃</title>
-<!-- 2018-12-21 Fri 14:51 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="[[https://wangcc.me][Chaochen Wang]]Chaochen Wang" />
+<meta name="generator" content="Org mode" />
+<meta name="author" content="[[https://wangcc.me][Chaochen Wang]]Chaochen Wang" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
   .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -46,27 +53,111 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
+  .footpara { display: inline; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -86,6 +177,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <script type="text/javascript">
@@ -93,7 +185,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -142,131 +234,136 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt;</span></span> Tasks</a>
+<li><a href="#org062dbde">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-1-1">1.1. <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-1-2">1.2. <span class="done DONE">DONE</span> Bayesian statistics Chapter 8;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-1-3">1.3. <span class="done DONE">DONE</span> Learn Emacs and Org-mode mostly done;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></a></li>
-<li><a href="#sec-1-4">1.4. <span class="done DONE">DONE</span> Comment the 2nd version paper of seaweed;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></a></li>
+<li><a href="#org4309f7c">1.1. <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgdee9916">1.2. <span class="done DONE">DONE</span> Bayesian statistics Chapter 8;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org9eccb8d">1.3. <span class="done DONE">DONE</span> Learn Emacs and Org-mode mostly done;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></a></li>
+<li><a href="#org0b8b70a">1.4. <span class="done DONE">DONE</span> Comment the 2nd version paper of seaweed;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-2">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-07 金&gt;</span></span> Tasks</a>
+<li><a href="#org8d2ca31">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-07 金&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-2-1">2.1. <span class="done DONE">DONE</span> Reply email to RM;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-2-2">2.2. <span class="done DONE">DONE</span> Bayesian statistics Chapter 8;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-2-3">2.3. <span class="done DONE">DONE</span> Add description of frailty model, and time-dependent (updated) model for TR;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-2-4">2.4. <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-2-5">2.5. <span class="done DONE">DONE</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#orge7538b8">2.1. <span class="done DONE">DONE</span> Reply email to RM;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org41b7fc6">2.2. <span class="done DONE">DONE</span> Bayesian statistics Chapter 8;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org78cf94c">2.3. <span class="done DONE">DONE</span> Add description of frailty model, and time-dependent (updated) model for TR;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org3f149f0">2.4. <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org8405060">2.5. <span class="done DONE">DONE</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-3">3. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-10 月&gt;</span></span> Tasks (it was a low productive day)</a>
+<li><a href="#org5489be4">3. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-10 月&gt; </span></span> Tasks (it was a low productive day)</a>
 <ul>
-<li><a href="#sec-3-1">3.1. <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-3-2">3.2. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-3-3">3.3. <span class="done DONE">DONE</span> Bayesian statistics Chapter 8;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-3-4">3.4. <span class="done DONE">DONE</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-3-5">3.5. <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
-<li><a href="#sec-3-6">3.6. <span class="done DONE">DONE</span> Application form for 12.12 Tokyo domestic travel;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#org87615e6">3.1. <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgf171a2c">3.2. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgf71bf8d">3.3. <span class="done DONE">DONE</span> Bayesian statistics Chapter 8;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgde503fe">3.4. <span class="done DONE">DONE</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#orge10fdb2">3.5. <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
+<li><a href="#org8e1a52e">3.6. <span class="done DONE">DONE</span> Application form for 12.12 Tokyo domestic travel;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-4">4. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-11 火&gt;</span></span> Tasks</a>
+<li><a href="#org70b1491">4. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-11 火&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-4-1">4.1. <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgdd73aeb">4.1. <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-5">5. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-12 Wed&gt;</span></span> Tasks</a>
+<li><a href="#orga5a5e4d">5. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-12 水&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-5-1">5.1. <span class="done DONE">DONE</span> Domestic travel to Tokyo, National Cancer Center.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="travel">travel</span></span></a></li>
-<li><a href="#sec-5-2">5.2. <span class="done CANCEL">CANCEL</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-5-3">5.3. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-5-4">5.4. <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></a></li>
-<li><a href="#sec-5-5">5.5. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-5-6">5.6. <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
-<li><a href="#sec-5-7">5.7. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-5-8">5.8. <span class="done DONE">DONE</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-5-9">5.9. <span class="done DONE">DONE</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org05ffa4e">5.1. <span class="done DONE">DONE</span> Domestic travel to Tokyo, National Cancer Center.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="travel">travel</span></span></a></li>
+<li><a href="#org21d116b">5.2. <span class="done CANCEL">CANCEL</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#orgaa5e8a8">5.3. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#org32af444">5.4. <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></a></li>
+<li><a href="#org51f6bb6">5.5. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#org13d28b1">5.6. <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
+<li><a href="#orgd8f7563">5.7. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org1f1114c">5.8. <span class="done DONE">DONE</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgaec3f1d">5.9. <span class="done DONE">DONE</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-6">6. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-13 木&gt;</span></span> Tasks</a>
+<li><a href="#org4a6b1f7">6. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-13 木&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-6-1">6.1. <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-6-2">6.2. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-6-3">6.3. <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></a></li>
-<li><a href="#sec-6-4">6.4. <span class="todo HANGUP">HANGUP</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-6-5">6.5. <span class="done DONE">DONE</span> Print/scan the paper requested by YJK</a></li>
-<li><a href="#sec-6-6">6.6. <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
+<li><a href="#orga1323a8">6.1. <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org00da95f">6.2. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#org3c8b8dc">6.3. <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></a></li>
+<li><a href="#org19d30d9">6.4. <span class="todo HANGUP">HANGUP</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org9e2551e">6.5. <span class="done DONE">DONE</span> Print/scan the paper requested by YJK</a></li>
+<li><a href="#org699155b">6.6. <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-7">7. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-14 金&gt;</span></span> Tasks</a>
+<li><a href="#orgbfcbbb2">7. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-14 金&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-7-1">7.1. <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-7-2">7.2. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-7-3">7.3. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-7-4">7.4. <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
-<li><a href="#sec-7-5">7.5. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-7-6">7.6. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-7-7">7.7. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-7-8">7.8. <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
+<li><a href="#orgfbe3548">7.1. <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org52cb651">7.2. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#org9f92952">7.3. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#orgf7f7c30">7.4. <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
+<li><a href="#org4a0d374">7.5. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org7ff3dfc">7.6. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org9b76c03">7.7. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgab31ea0">7.8. <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-8">8. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-17 月&gt;</span></span> Tasks</a>
+<li><a href="#org1b9cd09">8. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-17 月&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-8-1">8.1. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-8-2">8.2. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-8-3">8.3. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-8-4">8.4. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-8-5">8.5. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-8-6">8.6. <span class="todo HANGUP">HANGUP</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
-<li><a href="#sec-8-7">8.7. <span class="done DONE">DONE</span> Paperwork for bank STS&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-8-8">8.8. <span class="done DONE">DONE</span> Insurance payment&#xa0;&#xa0;&#xa0;<span class="tag"><span class="incurance">incurance</span></span></a></li>
-<li><a href="#sec-8-9">8.9. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org64d2d1c">8.1. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#orgd742e34">8.2. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#org943457d">8.3. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org91fcced">8.4. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org7072e74">8.5. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgad41483">8.6. <span class="todo HANGUP">HANGUP</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
+<li><a href="#org23fcad1">8.7. <span class="done DONE">DONE</span> Paperwork for bank STS&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#org4efa03a">8.8. <span class="done DONE">DONE</span> Insurance payment&#xa0;&#xa0;&#xa0;<span class="tag"><span class="incurance">incurance</span></span></a></li>
+<li><a href="#orgf828a33">8.9. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-9">9. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-18 火&gt;</span></span> Tasks</a>
+<li><a href="#org009f19a">9. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-18 火&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-9-1">9.1. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-9-2">9.2. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-9-3">9.3. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-9-4">9.4. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-9-5">9.5. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-9-6">9.6. <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
-<li><a href="#sec-9-7">9.7. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org520df3b">9.1. <span class="done CANCEL">CANCEL</span> Learn Python for beginners;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#orgfeb1336">9.2. <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#orgcc83d2d">9.3. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orga29d85d">9.4. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org1d9637f">9.5. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org9b75b3e">9.6. <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
+<li><a href="#org1decc67">9.7. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-10">10. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-19 水&gt;</span></span> Tasks</a>
+<li><a href="#org3e08d35">10. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-19 水&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-10-1">10.1. <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-10-2">10.2. <span class="done DONE">DONE</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-10-3">10.3. <span class="done DONE">DONE</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-10-4">10.4. <span class="done DONE">DONE</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-10-5">10.5. <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
-<li><a href="#sec-10-6">10.6. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-10-7">10.7. <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></a></li>
-<li><a href="#sec-10-8">10.8. <span class="done CANCEL">CANCEL</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#org2367d36">10.1. <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#orga6129d3">10.2. <span class="done DONE">DONE</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org96acccd">10.3. <span class="done DONE">DONE</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgd9fa8dd">10.4. <span class="done DONE">DONE</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgbe57229">10.5. <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></a></li>
+<li><a href="#org811f82a">10.6. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org5fe4088">10.7. <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></a></li>
+<li><a href="#org57fca73">10.8. <span class="done CANCEL">CANCEL</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
 </ul>
 </li>
-<li><a href="#sec-11">11. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-20 木&gt;</span></span> Tasks</a>
+<li><a href="#org9c52dbb">11. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-20 木&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-11-1">11.1. <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-11-2">11.2. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-11-3">11.3. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-11-4">11.4. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-11-5">11.5. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-11-6">11.6. <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></a></li>
-<li><a href="#sec-11-7">11.7. <span class="done CANCEL">CANCEL</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-11-8">11.8. Got sick everything was ruined</a></li>
+<li><a href="#org8403eae">11.1. <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#orgb9c081d">11.2. <span class="done CANCEL">CANCEL</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org3a5896f">11.3. <span class="done CANCEL">CANCEL</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orge323855">11.4. <span class="done CANCEL">CANCEL</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgf6848b7">11.5. <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#orgd9c519d">11.6. <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></a></li>
+<li><a href="#orgb6894db">11.7. <span class="done CANCEL">CANCEL</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#org0a5af7a">11.8. Got sick everything was ruined</a></li>
 </ul>
 </li>
-<li><a href="#sec-12">12. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-21 Fri&gt;</span></span> Tasks</a>
+<li><a href="#orgd191716">12. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-21 金&gt; </span></span> Tasks</a>
 <ul>
-<li><a href="#sec-12-1">12.1. <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#sec-12-2">12.2. <span class="todo TODO">TODO</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-12-3">12.3. <span class="todo TODO">TODO</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#sec-12-4">12.4. <span class="todo TODO">TODO</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#sec-12-5">12.5. <span class="todo TODO">TODO</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
-<li><a href="#sec-12-6">12.6. <span class="todo TODO">TODO</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></a></li>
-<li><a href="#sec-12-7">12.7. <span class="todo TODO">TODO</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
-<li><a href="#sec-12-8">12.8. Prepare the whole clean document for submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org172fa55">12.1. <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#org0537506">12.2. <span class="todo TODO">TODO</span> Read the victim book, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgc15dc3b">12.3. <span class="todo TODO">TODO</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org0fa40f2">12.4. <span class="todo TODO">TODO</span> Read Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org2c9be54">12.5. <span class="todo TODO">TODO</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#org260b217">12.6. <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></a></li>
+<li><a href="#org5e25ddd">12.7. <span class="todo TODO">TODO</span> Read Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></a></li>
+<li><a href="#org7529f0d">12.8. <span class="done DONE">DONE</span> Prepare the whole clean document for submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+</ul>
+</li>
+<li><a href="#orge2ea1cb">13. <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-28 金&gt; </span></span> Tasks during the New Year's break</a>
+<ul>
+<li><a href="#org3568857">13.1. <span class="done DONE">DONE</span> Prepare for submission to AJCN.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
 </ul>
 </li>
 </ul>
@@ -278,520 +375,487 @@ and doing project planning with a fast and effective
 plain-text system.
 </pre>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt;</span></span> Tasks</h2>
+<div id="outline-container-org062dbde" class="outline-2">
+<h2 id="org062dbde"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-06 木&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+</div>
+<div id="outline-container-org4309f7c" class="outline-3">
+<h3 id="org4309f7c"><span class="section-number-3">1.1</span> <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 <div class="outline-text-3" id="text-1-1">
 <ol class="org-ol">
-<li><code>[X]</code> simply reply the email.
-</li>
+<li class="on"><code>[X]</code> simply reply the email.</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-86.html">Bayesian statistics Chapter 8</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-orgdee9916" class="outline-3">
+<h3 id="orgdee9916"><span class="section-number-3">1.2</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-86.html">Bayesian statistics Chapter 8</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 <div class="outline-text-3" id="text-1-2">
 <ol class="org-ol">
-<li><code>[X]</code> To page 82 8.3.4 90%
-</li>
+<li class="on"><code>[X]</code> To page 82 8.3.4 90%</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> <span class="done DONE">DONE</span> Learn Emacs and Org-mode mostly done;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></h3>
+<div id="outline-container-org9eccb8d" class="outline-3">
+<h3 id="org9eccb8d"><span class="section-number-3">1.3</span> <span class="done DONE">DONE</span> Learn Emacs and Org-mode mostly done;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></h3>
 <div class="outline-text-3" id="text-1-3">
 <ol class="org-ol">
-<li><code>[X]</code> Tried to use org-mode to create a pdf file through LaTeX
-</li>
-<li><code>[X]</code> Org-mode is interesting. 
-</li>
+<li class="on"><code>[X]</code> Tried to use org-mode to create a pdf file through LaTeX</li>
+<li class="on"><code>[X]</code> Org-mode is interesting.</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-1-4" class="outline-3">
-<h3 id="sec-1-4"><span class="section-number-3">1.4</span> <span class="done DONE">DONE</span> Comment the 2nd version paper of seaweed;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></h3>
+<div id="outline-container-org0b8b70a" class="outline-3">
+<h3 id="org0b8b70a"><span class="section-number-3">1.4</span> <span class="done DONE">DONE</span> Comment the 2nd version paper of seaweed;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-07 金&gt;</span></span> Tasks</h2>
+<div id="outline-container-org8d2ca31" class="outline-2">
+<h2 id="org8d2ca31"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-07 金&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Reply email to RM;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-87.html">Bayesian statistics Chapter 8</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-orge7538b8" class="outline-3">
+<h3 id="orge7538b8"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Reply email to RM;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+</div>
+<div id="outline-container-org41b7fc6" class="outline-3">
+<h3 id="org41b7fc6"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-87.html">Bayesian statistics Chapter 8</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 <div class="outline-text-3" id="text-2-2">
 <ol class="org-ol">
-<li><code>[X]</code> finish 8.3.5;
-</li>
+<li class="on"><code>[X]</code> finish 8.3.5;</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-2-3" class="outline-3">
-<h3 id="sec-2-3"><span class="section-number-3">2.3</span> <span class="done DONE">DONE</span> Add description of frailty model, and time-dependent (updated) model for TR;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-org78cf94c" class="outline-3">
+<h3 id="org78cf94c"><span class="section-number-3">2.3</span> <span class="done DONE">DONE</span> Add description of frailty model, and time-dependent (updated) model for TR;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-2-3">
 <ul class="org-ul">
-<li><code>[X]</code> time-dependent model description, interpretation, etc. 
-</li>
-<li><code>[X]</code> frailty model description, interpretation, etc. 
-</li>
+<li class="on"><code>[X]</code> time-dependent model description, interpretation, etc.</li>
+<li class="on"><code>[X]</code> frailty model description, interpretation, etc.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-2-4" class="outline-3">
-<h3 id="sec-2-4"><span class="section-number-3">2.4</span> <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-org3f149f0" class="outline-3">
+<h3 id="org3f149f0"><span class="section-number-3">2.4</span> <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 </div>
-<div id="outline-container-sec-2-5" class="outline-3">
-<h3 id="sec-2-5"><span class="section-number-3">2.5</span> <span class="done DONE">DONE</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-org8405060" class="outline-3">
+<h3 id="org8405060"><span class="section-number-3">2.5</span> <span class="done DONE">DONE</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 <div class="outline-text-3" id="text-2-5">
 <ul class="org-ul">
-<li><code>[X]</code> Chapter 2 P39 
-</li>
+<li class="on"><code>[X]</code> Chapter 2 P39</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-10 月&gt;</span></span> Tasks (it was a low productive day)</h2>
+<div id="outline-container-org5489be4" class="outline-2">
+<h2 id="org5489be4"><span class="section-number-2">3</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-10 月&gt; </span></span> Tasks (it was a low productive day)</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1"><span class="section-number-3">3.1</span> <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+</div>
+<div id="outline-container-org87615e6" class="outline-3">
+<h3 id="org87615e6"><span class="section-number-3">3.1</span> <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 <div class="outline-text-3" id="text-3-1">
 <ol class="org-ol">
-<li><code>[&#xa0;]</code> summarize about the model fitting indexes by gender
-</li>
-<li><code>[&#xa0;]</code> add table about the day level Latent classes according to gender
-</li>
-<li><code>[&#xa0;]</code> try to draw similar figures for men and women
-</li>
-<li><code>[X]</code> simply reply the email.
-</li>
+<li class="off"><code>[&#xa0;]</code> summarize about the model fitting indexes by gender</li>
+<li class="off"><code>[&#xa0;]</code> add table about the day level Latent classes according to gender</li>
+<li class="off"><code>[&#xa0;]</code> try to draw similar figures for men and women</li>
+<li class="on"><code>[X]</code> simply reply the email.</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-3-2" class="outline-3">
-<h3 id="sec-3-2"><span class="section-number-3">3.2</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-orgf171a2c" class="outline-3">
+<h3 id="orgf171a2c"><span class="section-number-3">3.2</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-3-3" class="outline-3">
-<h3 id="sec-3-3"><span class="section-number-3">3.3</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-87.html">Bayesian statistics Chapter 8</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-orgf71bf8d" class="outline-3">
+<h3 id="orgf71bf8d"><span class="section-number-3">3.3</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-87.html">Bayesian statistics Chapter 8</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 <div class="outline-text-3" id="text-3-3">
 <ol class="org-ol">
-<li><code>[X]</code> Practical part of the chapter
-</li>
-<li><code>[X]</code> Start next chapter 
-</li>
+<li class="on"><code>[X]</code> Practical part of the chapter</li>
+<li class="on"><code>[X]</code> Start next chapter</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-3-4" class="outline-3">
-<h3 id="sec-3-4"><span class="section-number-3">3.4</span> <span class="done DONE">DONE</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-orgde503fe" class="outline-3">
+<h3 id="orgde503fe"><span class="section-number-3">3.4</span> <span class="done DONE">DONE</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 <div class="outline-text-3" id="text-3-4">
 <ol class="org-ol">
-<li>Chapter 2 until the 2.6 section
-</li>
+<li>Chapter 2 until the 2.6 section</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-3-5" class="outline-3">
-<h3 id="sec-3-5"><span class="section-number-3">3.5</span> <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h3>
+<div id="outline-container-orge10fdb2" class="outline-3">
+<h3 id="orge10fdb2"><span class="section-number-3">3.5</span> <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h3>
 </div>
-<div id="outline-container-sec-3-6" class="outline-3">
-<h3 id="sec-3-6"><span class="section-number-3">3.6</span> <span class="done DONE">DONE</span> Application form for 12.12 Tokyo domestic travel;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+<div id="outline-container-org8e1a52e" class="outline-3">
+<h3 id="org8e1a52e"><span class="section-number-3">3.6</span> <span class="done DONE">DONE</span> Application form for 12.12 Tokyo domestic travel;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4"><span class="section-number-2">4</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-11 火&gt;</span></span> Tasks</h2>
+<div id="outline-container-org70b1491" class="outline-2">
+<h2 id="org70b1491"><span class="section-number-2">4</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-11 火&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-4">
-</div><div id="outline-container-sec-4-1" class="outline-3">
-<h3 id="sec-4-1"><span class="section-number-3">4.1</span> <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+</div>
+<div id="outline-container-orgdd73aeb" class="outline-3">
+<h3 id="orgdd73aeb"><span class="section-number-3">4.1</span> <span class="done DONE">DONE</span> Reply email from LP;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 <div class="outline-text-3" id="text-4-1">
 <ol class="org-ol">
-<li><code>[X]</code> summarize about the model fitting indexes by gender
-</li>
-<li><code>[X]</code> add table about the day level Latent classes according to gender
-</li>
-<li><code>[X]</code> try to draw similar figures for men and women
-</li>
-<li><code>[X]</code> simply reply the email.
-</li>
+<li class="on"><code>[X]</code> summarize about the model fitting indexes by gender</li>
+<li class="on"><code>[X]</code> add table about the day level Latent classes according to gender</li>
+<li class="on"><code>[X]</code> try to draw similar figures for men and women</li>
+<li class="on"><code>[X]</code> simply reply the email.</li>
 </ol>
 </div>
 </div>
 </div>
 
-<div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5"><span class="section-number-2">5</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-12 Wed&gt;</span></span> Tasks</h2>
+<div id="outline-container-orga5a5e4d" class="outline-2">
+<h2 id="orga5a5e4d"><span class="section-number-2">5</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-12 水&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-5">
-</div><div id="outline-container-sec-5-1" class="outline-3">
-<h3 id="sec-5-1"><span class="section-number-3">5.1</span> <span class="done DONE">DONE</span> Domestic travel to Tokyo, National Cancer Center.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="travel">travel</span></span></h3>
 </div>
-<div id="outline-container-sec-5-2" class="outline-3">
-<h3 id="sec-5-2"><span class="section-number-3">5.2</span> <span class="done CANCEL">CANCEL</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-org05ffa4e" class="outline-3">
+<h3 id="org05ffa4e"><span class="section-number-3">5.1</span> <span class="done DONE">DONE</span> Domestic travel to Tokyo, National Cancer Center.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="travel">travel</span></span></h3>
+</div>
+<div id="outline-container-org21d116b" class="outline-3">
+<h3 id="org21d116b"><span class="section-number-3">5.2</span> <span class="done CANCEL">CANCEL</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-5-2">
 <ol class="org-ol">
-<li><code>[&#xa0;]</code> looking for some things to do with this database
-</li>
+<li class="off"><code>[&#xa0;]</code> looking for some things to do with this database</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-5-3" class="outline-3">
-<h3 id="sec-5-3"><span class="section-number-3">5.3</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-orgaa5e8a8" class="outline-3">
+<h3 id="orgaa5e8a8"><span class="section-number-3">5.3</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-5-4" class="outline-3">
-<h3 id="sec-5-4"><span class="section-number-3">5.4</span> <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></h3>
+<div id="outline-container-org32af444" class="outline-3">
+<h3 id="org32af444"><span class="section-number-3">5.4</span> <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></h3>
 </div>
-<div id="outline-container-sec-5-5" class="outline-3">
-<h3 id="sec-5-5"><span class="section-number-3">5.5</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+<div id="outline-container-org51f6bb6" class="outline-3">
+<h3 id="org51f6bb6"><span class="section-number-3">5.5</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-5-6" class="outline-3">
-<h3 id="sec-5-6"><span class="section-number-3">5.6</span> <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h3>
+<div id="outline-container-org13d28b1" class="outline-3">
+<h3 id="org13d28b1"><span class="section-number-3">5.6</span> <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h3>
 </div>
-<div id="outline-container-sec-5-7" class="outline-3">
-<h3 id="sec-5-7"><span class="section-number-3">5.7</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-orgd8f7563" class="outline-3">
+<h3 id="orgd8f7563"><span class="section-number-3">5.7</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-5-8" class="outline-3">
-<h3 id="sec-5-8"><span class="section-number-3">5.8</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-org1f1114c" class="outline-3">
+<h3 id="org1f1114c"><span class="section-number-3">5.8</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-sec-5-9" class="outline-3">
-<h3 id="sec-5-9"><span class="section-number-3">5.9</span> <span class="done DONE">DONE</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-orgaec3f1d" class="outline-3">
+<h3 id="orgaec3f1d"><span class="section-number-3">5.9</span> <span class="done DONE">DONE</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-5-9">
 <ul class="org-ul">
-<li><code>[X]</code> still in 1.2 ABCs of Bayesianism.
-</li>
+<li class="on"><code>[X]</code> still in 1.2 ABCs of Bayesianism.</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-sec-6" class="outline-2">
-<h2 id="sec-6"><span class="section-number-2">6</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-13 木&gt;</span></span> Tasks</h2>
+<div id="outline-container-org4a6b1f7" class="outline-2">
+<h2 id="org4a6b1f7"><span class="section-number-2">6</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-13 木&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-6">
-</div><div id="outline-container-sec-6-1" class="outline-3">
-<h3 id="sec-6-1"><span class="section-number-3">6.1</span> <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+</div>
+<div id="outline-container-orga1323a8" class="outline-3">
+<h3 id="orga1323a8"><span class="section-number-3">6.1</span> <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-6-1">
 <ol class="org-ol">
-<li><code>[&#xa0;]</code> looking for some things to do with this database
-</li>
+<li class="off"><code>[&#xa0;]</code> looking for some things to do with this database</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-6-2" class="outline-3">
-<h3 id="sec-6-2"><span class="section-number-3">6.2</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-org00da95f" class="outline-3">
+<h3 id="org00da95f"><span class="section-number-3">6.2</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-6-3" class="outline-3">
-<h3 id="sec-6-3"><span class="section-number-3">6.3</span> <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></h3>
+<div id="outline-container-org3c8b8dc" class="outline-3">
+<h3 id="org3c8b8dc"><span class="section-number-3">6.3</span> <span class="done DONE">DONE</span> Statisitcal review on the paper of stroke;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="research">research</span>&#xa0;<span class="square">square</span></span></h3>
 </div>
-<div id="outline-container-sec-6-4" class="outline-3">
-<h3 id="sec-6-4"><span class="section-number-3">6.4</span> <span class="todo HANGUP">HANGUP</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org19d30d9" class="outline-3">
+<h3 id="org19d30d9"><span class="section-number-3">6.4</span> <span class="todo HANGUP">HANGUP</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-6-5" class="outline-3">
-<h3 id="sec-6-5"><span class="section-number-3">6.5</span> <span class="done DONE">DONE</span> Print/scan the paper requested by YJK</h3>
+<div id="outline-container-org9e2551e" class="outline-3">
+<h3 id="org9e2551e"><span class="section-number-3">6.5</span> <span class="done DONE">DONE</span> Print/scan the paper requested by YJK</h3>
 </div>
-<div id="outline-container-sec-6-6" class="outline-3">
-<h3 id="sec-6-6"><span class="section-number-3">6.6</span> <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
+<div id="outline-container-org699155b" class="outline-3">
+<h3 id="org699155b"><span class="section-number-3">6.6</span> <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-sec-7" class="outline-2">
-<h2 id="sec-7"><span class="section-number-2">7</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-14 金&gt;</span></span> Tasks</h2>
+<div id="outline-container-orgbfcbbb2" class="outline-2">
+<h2 id="orgbfcbbb2"><span class="section-number-2">7</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-14 金&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-7">
-</div><div id="outline-container-sec-7-1" class="outline-3">
-<h3 id="sec-7-1"><span class="section-number-3">7.1</span> <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+</div>
+<div id="outline-container-orgfbe3548" class="outline-3">
+<h3 id="orgfbe3548"><span class="section-number-3">7.1</span> <span class="done DONE">DONE</span> Check the data base&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-7-1">
 <ol class="org-ol">
-<li><code>[X]</code> looking for some things to do with this database
-</li>
-<li><code>[X]</code> From TR, "you can try working on the data that I gave you last week to see whether you can implement the method to assess MACE risk."
-</li>
-<li><code>[X]</code> checked the data for HbA1c, 
-</li>
-<li><code>[X]</code> checked the data for MACE definitions, 
-</li>
-<li><code>[X]</code> Prepare the dataset for preliminary analysis.
-</li>
+<li class="on"><code>[X]</code> looking for some things to do with this database</li>
+<li class="on"><code>[X]</code> From TR, "you can try working on the data that I gave you last week to see whether you can implement the method to assess MACE risk."</li>
+<li class="on"><code>[X]</code> checked the data for HbA1c,</li>
+<li class="on"><code>[X]</code> checked the data for MACE definitions,</li>
+<li class="on"><code>[X]</code> Prepare the dataset for preliminary analysis.</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-7-2" class="outline-3">
-<h3 id="sec-7-2"><span class="section-number-3">7.2</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-org52cb651" class="outline-3">
+<h3 id="org52cb651"><span class="section-number-3">7.2</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-7-3" class="outline-3">
-<h3 id="sec-7-3"><span class="section-number-3">7.3</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+<div id="outline-container-org9f92952" class="outline-3">
+<h3 id="org9f92952"><span class="section-number-3">7.3</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-7-4" class="outline-3">
-<h3 id="sec-7-4"><span class="section-number-3">7.4</span> <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h3>
+<div id="outline-container-orgf7f7c30" class="outline-3">
+<h3 id="orgf7f7c30"><span class="section-number-3">7.4</span> <span class="done CANCEL">CANCEL</span> Write something about the trip in Hokkaido.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h3>
 </div>
-<div id="outline-container-sec-7-5" class="outline-3">
-<h3 id="sec-7-5"><span class="section-number-3">7.5</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org4a0d374" class="outline-3">
+<h3 id="org4a0d374"><span class="section-number-3">7.5</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-7-6" class="outline-3">
-<h3 id="sec-7-6"><span class="section-number-3">7.6</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-org7ff3dfc" class="outline-3">
+<h3 id="org7ff3dfc"><span class="section-number-3">7.6</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-sec-7-7" class="outline-3">
-<h3 id="sec-7-7"><span class="section-number-3">7.7</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org9b76c03" class="outline-3">
+<h3 id="org9b76c03"><span class="section-number-3">7.7</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-7-8" class="outline-3">
-<h3 id="sec-7-8"><span class="section-number-3">7.8</span> <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
+<div id="outline-container-orgab31ea0" class="outline-3">
+<h3 id="orgab31ea0"><span class="section-number-3">7.8</span> <span class="done CANCEL">CANCEL</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-sec-8" class="outline-2">
-<h2 id="sec-8"><span class="section-number-2">8</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-17 月&gt;</span></span> Tasks</h2>
+<div id="outline-container-org1b9cd09" class="outline-2">
+<h2 id="org1b9cd09"><span class="section-number-2">8</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-17 月&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-8">
-</div><div id="outline-container-sec-8-1" class="outline-3">
-<h3 id="sec-8-1"><span class="section-number-3">8.1</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-8-2" class="outline-3">
-<h3 id="sec-8-2"><span class="section-number-3">8.2</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+<div id="outline-container-org64d2d1c" class="outline-3">
+<h3 id="org64d2d1c"><span class="section-number-3">8.1</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-8-3" class="outline-3">
-<h3 id="sec-8-3"><span class="section-number-3">8.3</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-orgd742e34" class="outline-3">
+<h3 id="orgd742e34"><span class="section-number-3">8.2</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-8-4" class="outline-3">
-<h3 id="sec-8-4"><span class="section-number-3">8.4</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-org943457d" class="outline-3">
+<h3 id="org943457d"><span class="section-number-3">8.3</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-8-5" class="outline-3">
-<h3 id="sec-8-5"><span class="section-number-3">8.5</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org91fcced" class="outline-3">
+<h3 id="org91fcced"><span class="section-number-3">8.4</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-sec-8-6" class="outline-3">
-<h3 id="sec-8-6"><span class="section-number-3">8.6</span> <span class="todo HANGUP">HANGUP</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
+<div id="outline-container-org7072e74" class="outline-3">
+<h3 id="org7072e74"><span class="section-number-3">8.5</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div>
+<div id="outline-container-orgad41483" class="outline-3">
+<h3 id="orgad41483"><span class="section-number-3">8.6</span> <span class="todo HANGUP">HANGUP</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
 <div class="outline-text-3" id="text-8-6">
 <ul class="org-ul">
-<li><code>[X]</code> reply the email
-</li>
-<li><code>[&#xa0;]</code> modify the paper according to comments from SA
-</li>
-<li><code>[X]</code> modify the paper according to comments from LP1
-</li>
-<li><code>[&#xa0;]</code> modify the paper according to comments from LP2
-</li>
+<li class="on"><code>[X]</code> reply the email</li>
+<li class="off"><code>[&#xa0;]</code> modify the paper according to comments from SA</li>
+<li class="on"><code>[X]</code> modify the paper according to comments from LP1</li>
+<li class="off"><code>[&#xa0;]</code> modify the paper according to comments from LP2</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-8-7" class="outline-3">
-<h3 id="sec-8-7"><span class="section-number-3">8.7</span> <span class="done DONE">DONE</span> Paperwork for bank STS&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+<div id="outline-container-org23fcad1" class="outline-3">
+<h3 id="org23fcad1"><span class="section-number-3">8.7</span> <span class="done DONE">DONE</span> Paperwork for bank STS&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-8-8" class="outline-3">
-<h3 id="sec-8-8"><span class="section-number-3">8.8</span> <span class="done DONE">DONE</span> Insurance payment&#xa0;&#xa0;&#xa0;<span class="tag"><span class="incurance">incurance</span></span></h3>
+<div id="outline-container-org4efa03a" class="outline-3">
+<h3 id="org4efa03a"><span class="section-number-3">8.8</span> <span class="done DONE">DONE</span> Insurance payment&#xa0;&#xa0;&#xa0;<span class="tag"><span class="incurance">incurance</span></span></h3>
 </div>
-<div id="outline-container-sec-8-9" class="outline-3">
-<h3 id="sec-8-9"><span class="section-number-3">8.9</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-orgf828a33" class="outline-3">
+<h3 id="orgf828a33"><span class="section-number-3">8.9</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-8-9">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> preliminary analysis using time dependent model 
-</li>
-<li><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset
-</li>
+<li class="off"><code>[&#xa0;]</code> preliminary analysis using time dependent model</li>
+<li class="off"><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-sec-9" class="outline-2">
-<h2 id="sec-9"><span class="section-number-2">9</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-18 火&gt;</span></span> Tasks</h2>
+<div id="outline-container-org009f19a" class="outline-2">
+<h2 id="org009f19a"><span class="section-number-2">9</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-18 火&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-9">
-</div><div id="outline-container-sec-9-1" class="outline-3">
-<h3 id="sec-9-1"><span class="section-number-3">9.1</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-9-2" class="outline-3">
-<h3 id="sec-9-2"><span class="section-number-3">9.2</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+<div id="outline-container-org520df3b" class="outline-3">
+<h3 id="org520df3b"><span class="section-number-3">9.1</span> <span class="done CANCEL">CANCEL</span> Learn <a href="https://github.com/winterwang/pydata-notebook/tree/94ab37630b0151293148d127c34b1190c6ace403">Python for beginners</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-9-3" class="outline-3">
-<h3 id="sec-9-3"><span class="section-number-3">9.3</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-orgfeb1336" class="outline-3">
+<h3 id="orgfeb1336"><span class="section-number-3">9.2</span> <span class="done CANCEL">CANCEL</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-9-4" class="outline-3">
-<h3 id="sec-9-4"><span class="section-number-3">9.4</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-orgcc83d2d" class="outline-3">
+<h3 id="orgcc83d2d"><span class="section-number-3">9.3</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-9-5" class="outline-3">
-<h3 id="sec-9-5"><span class="section-number-3">9.5</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-orga29d85d" class="outline-3">
+<h3 id="orga29d85d"><span class="section-number-3">9.4</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-sec-9-6" class="outline-3">
-<h3 id="sec-9-6"><span class="section-number-3">9.6</span> <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
+<div id="outline-container-org1d9637f" class="outline-3">
+<h3 id="org1d9637f"><span class="section-number-3">9.5</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div>
+<div id="outline-container-org9b75b3e" class="outline-3">
+<h3 id="org9b75b3e"><span class="section-number-3">9.6</span> <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
 <div class="outline-text-3" id="text-9-6">
 <ul class="org-ul">
-<li><code>[X]</code> reply the email
-</li>
-<li><code>[X]</code> modify the paper according to comments from SA
-</li>
-<li><code>[X]</code> modify the paper according to comments from LP1
-</li>
-<li><code>[X]</code> modify the paper according to comments from LP2
-</li>
+<li class="on"><code>[X]</code> reply the email</li>
+<li class="on"><code>[X]</code> modify the paper according to comments from SA</li>
+<li class="on"><code>[X]</code> modify the paper according to comments from LP1</li>
+<li class="on"><code>[X]</code> modify the paper according to comments from LP2</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-9-7" class="outline-3">
-<h3 id="sec-9-7"><span class="section-number-3">9.7</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-org1decc67" class="outline-3">
+<h3 id="org1decc67"><span class="section-number-3">9.7</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-9-7">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> preliminary analysis using time dependent model 
-</li>
-<li><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset
-</li>
+<li class="off"><code>[&#xa0;]</code> preliminary analysis using time dependent model</li>
+<li class="off"><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-sec-10" class="outline-2">
-<h2 id="sec-10"><span class="section-number-2">10</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-19 水&gt;</span></span> Tasks</h2>
+<div id="outline-container-org3e08d35" class="outline-2">
+<h2 id="org3e08d35"><span class="section-number-2">10</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-19 水&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-10">
-</div><div id="outline-container-sec-10-1" class="outline-3">
-<h3 id="sec-10-1"><span class="section-number-3">10.1</span> <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-10-2" class="outline-3">
-<h3 id="sec-10-2"><span class="section-number-3">10.2</span> <span class="done DONE">DONE</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org2367d36" class="outline-3">
+<h3 id="org2367d36"><span class="section-number-3">10.1</span> <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+</div>
+<div id="outline-container-orga6129d3" class="outline-3">
+<h3 id="orga6129d3"><span class="section-number-3">10.2</span> <span class="done DONE">DONE</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-10-2">
 <ul class="org-ul">
-<li><code>[X]</code> Until Page 169
-</li>
+<li class="on"><code>[X]</code> Until Page 169</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-10-3" class="outline-3">
-<h3 id="sec-10-3"><span class="section-number-3">10.3</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-org96acccd" class="outline-3">
+<h3 id="org96acccd"><span class="section-number-3">10.3</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-sec-10-4" class="outline-3">
-<h3 id="sec-10-4"><span class="section-number-3">10.4</span> <span class="done DONE">DONE</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-orgd9fa8dd" class="outline-3">
+<h3 id="orgd9fa8dd"><span class="section-number-3">10.4</span> <span class="done DONE">DONE</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-10-4">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> Until Page ..
-</li>
+<li class="off"><code>[&#xa0;]</code> Until Page ..</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-10-5" class="outline-3">
-<h3 id="sec-10-5"><span class="section-number-3">10.5</span> <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
+<div id="outline-container-orgbe57229" class="outline-3">
+<h3 id="orgbe57229"><span class="section-number-3">10.5</span> <span class="done DONE">DONE</span> Modify the paper commented from LP, SA&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span>&#xa0;<span class="paper">paper</span></span></h3>
 <div class="outline-text-3" id="text-10-5">
 <ul class="org-ul">
-<li><code>[X]</code> reply the email with the revised version
-</li>
-<li><code>[X]</code> Prepare the cover letter
-</li>
+<li class="on"><code>[X]</code> reply the email with the revised version</li>
+<li class="on"><code>[X]</code> Prepare the cover letter</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-10-6" class="outline-3">
-<h3 id="sec-10-6"><span class="section-number-3">10.6</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-org811f82a" class="outline-3">
+<h3 id="org811f82a"><span class="section-number-3">10.6</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-10-6">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> preliminary analysis using time dependent model 
-</li>
-<li><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset
-</li>
+<li class="off"><code>[&#xa0;]</code> preliminary analysis using time dependent model</li>
+<li class="off"><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-10-7" class="outline-3">
-<h3 id="sec-10-7"><span class="section-number-3">10.7</span> <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></h3>
+<div id="outline-container-org5fe4088" class="outline-3">
+<h3 id="org5fe4088"><span class="section-number-3">10.7</span> <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></h3>
 </div>
-<div id="outline-container-sec-10-8" class="outline-3">
-<h3 id="sec-10-8"><span class="section-number-3">10.8</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-org57fca73" class="outline-3">
+<h3 id="org57fca73"><span class="section-number-3">10.8</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-sec-11" class="outline-2">
-<h2 id="sec-11"><span class="section-number-2">11</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-20 木&gt;</span></span> Tasks</h2>
+<div id="outline-container-org9c52dbb" class="outline-2">
+<h2 id="org9c52dbb"><span class="section-number-2">11</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-20 木&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-11">
-</div><div id="outline-container-sec-11-1" class="outline-3">
-<h3 id="sec-11-1"><span class="section-number-3">11.1</span> <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-11-2" class="outline-3">
-<h3 id="sec-11-2"><span class="section-number-3">11.2</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org8403eae" class="outline-3">
+<h3 id="org8403eae"><span class="section-number-3">11.1</span> <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-11-3" class="outline-3">
-<h3 id="sec-11-3"><span class="section-number-3">11.3</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-orgb9c081d" class="outline-3">
+<h3 id="orgb9c081d"><span class="section-number-3">11.2</span> <span class="done CANCEL">CANCEL</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-sec-11-4" class="outline-3">
-<h3 id="sec-11-4"><span class="section-number-3">11.4</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org3a5896f" class="outline-3">
+<h3 id="org3a5896f"><span class="section-number-3">11.3</span> <span class="done CANCEL">CANCEL</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+</div>
+<div id="outline-container-orge323855" class="outline-3">
+<h3 id="orge323855"><span class="section-number-3">11.4</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-11-4">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> Until Page ..
-</li>
+<li class="off"><code>[&#xa0;]</code> Until Page ..</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-11-5" class="outline-3">
-<h3 id="sec-11-5"><span class="section-number-3">11.5</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-orgf6848b7" class="outline-3">
+<h3 id="orgf6848b7"><span class="section-number-3">11.5</span> <span class="done CANCEL">CANCEL</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-11-5">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> preliminary analysis using time dependent model 
-</li>
-<li><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset
-</li>
+<li class="off"><code>[&#xa0;]</code> preliminary analysis using time dependent model</li>
+<li class="off"><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-11-6" class="outline-3">
-<h3 id="sec-11-6"><span class="section-number-3">11.6</span> <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></h3>
+<div id="outline-container-orgd9c519d" class="outline-3">
+<h3 id="orgd9c519d"><span class="section-number-3">11.6</span> <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></h3>
 </div>
-<div id="outline-container-sec-11-7" class="outline-3">
-<h3 id="sec-11-7"><span class="section-number-3">11.7</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-orgb6894db" class="outline-3">
+<h3 id="orgb6894db"><span class="section-number-3">11.7</span> <span class="done CANCEL">CANCEL</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-11-8" class="outline-3">
-<h3 id="sec-11-8"><span class="section-number-3">11.8</span> Got sick everything was ruined</h3>
+<div id="outline-container-org0a5af7a" class="outline-3">
+<h3 id="org0a5af7a"><span class="section-number-3">11.8</span> Got sick everything was ruined</h3>
 </div>
 </div>
 
-<div id="outline-container-sec-12" class="outline-2">
-<h2 id="sec-12"><span class="section-number-2">12</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-21 Fri&gt;</span></span> Tasks</h2>
+<div id="outline-container-orgd191716" class="outline-2">
+<h2 id="orgd191716"><span class="section-number-2">12</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-21 金&gt; </span></span> Tasks</h2>
 <div class="outline-text-2" id="text-12">
-</div><div id="outline-container-sec-12-1" class="outline-3">
-<h3 id="sec-12-1"><span class="section-number-3">12.1</span> <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-sec-12-2" class="outline-3">
-<h3 id="sec-12-2"><span class="section-number-3">12.2</span> <span class="todo TODO">TODO</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org172fa55" class="outline-3">
+<h3 id="org172fa55"><span class="section-number-3">12.1</span> <span class="todo HANGUP">HANGUP</span> The report of studying in LSHTM to AMU;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+</div>
+<div id="outline-container-org0537506" class="outline-3">
+<h3 id="org0537506"><span class="section-number-3">12.2</span> <span class="todo TODO">TODO</span> Read the <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>, and keep memo;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-12-2">
 <ul class="org-ul">
-<li><code>[X]</code> Until Page 169
-</li>
+<li class="on"><code>[X]</code> Until Page 169</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-12-3" class="outline-3">
-<h3 id="sec-12-3"><span class="section-number-3">12.3</span> <span class="todo TODO">TODO</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-orgc15dc3b" class="outline-3">
+<h3 id="orgc15dc3b"><span class="section-number-3">12.3</span> <span class="todo TODO">TODO</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-sec-12-4" class="outline-3">
-<h3 id="sec-12-4"><span class="section-number-3">12.4</span> <span class="todo TODO">TODO</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+<div id="outline-container-org0fa40f2" class="outline-3">
+<h3 id="org0fa40f2"><span class="section-number-3">12.4</span> <span class="todo TODO">TODO</span> Read <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-12-4">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> Until Page ..
-</li>
+<li class="off"><code>[&#xa0;]</code> Until Page ..</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-12-5" class="outline-3">
-<h3 id="sec-12-5"><span class="section-number-3">12.5</span> <span class="todo TODO">TODO</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-org2c9be54" class="outline-3">
+<h3 id="org2c9be54"><span class="section-number-3">12.5</span> <span class="todo TODO">TODO</span> Check the data base again, do preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
 <div class="outline-text-3" id="text-12-5">
 <ul class="org-ul">
-<li><code>[&#xa0;]</code> preliminary analysis using time dependent model 
-</li>
-<li><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset
-</li>
+<li class="off"><code>[&#xa0;]</code> preliminary analysis using time dependent model</li>
+<li class="off"><code>[&#xa0;]</code> looking for other ways/approaches to better use the dataset</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-12-6" class="outline-3">
-<h3 id="sec-12-6"><span class="section-number-3">12.6</span> <span class="todo TODO">TODO</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></h3>
+<div id="outline-container-org260b217" class="outline-3">
+<h3 id="org260b217"><span class="section-number-3">12.6</span> <span class="done CANCEL">CANCEL</span> Prepare the slides for next Tuesday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="slides">slides</span></span></h3>
 </div>
-<div id="outline-container-sec-12-7" class="outline-3">
-<h3 id="sec-12-7"><span class="section-number-3">12.7</span> <span class="todo TODO">TODO</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
+<div id="outline-container-org5e25ddd" class="outline-3">
+<h3 id="org5e25ddd"><span class="section-number-3">12.7</span> <span class="todo TODO">TODO</span> Read <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span></span></h3>
 </div>
-<div id="outline-container-sec-12-8" class="outline-3">
-<h3 id="sec-12-8"><span class="section-number-3">12.8</span> Prepare the whole clean document for submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-org7529f0d" class="outline-3">
+<h3 id="org7529f0d"><span class="section-number-3">12.8</span> <span class="done DONE">DONE</span> Prepare the whole clean document for submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+</div>
+</div>
+<div id="outline-container-orge2ea1cb" class="outline-2">
+<h2 id="orge2ea1cb"><span class="section-number-2">13</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2018-12-28 金&gt; </span></span> Tasks during the New Year's break</h2>
+<div class="outline-text-2" id="text-13">
+</div>
+<div id="outline-container-org3568857" class="outline-3">
+<h3 id="org3568857"><span class="section-number-3">13.1</span> <span class="done DONE">DONE</span> Prepare for submission to AJCN.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
 <p class="email">Email: <a href="mailto:chaochen@wangcc.me">chaochen@wangcc.me</a></p>
-<p class="date">Created: 2018-12-21 Fri 14:51</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="date">Created: 2019-01-04 金 10:53</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
