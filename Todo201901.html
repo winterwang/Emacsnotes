@@ -3,30 +3,23 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-11 金 10:34 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Org-mode todo 2019-01</title>
-<meta name="generator" content="Org mode" />
-<meta name="author" content="[[https://wangcc.me][Chaochen Wang]]Chaochen Wang" />
+<!-- 2019-01-12 Sat 13:23 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="[[https://wangcc.me][Chaochen Wang]]Chaochen Wang" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
+  .title  { text-align: center; }
   .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
+  .done   { color: green; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -53,111 +46,27 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara { display: inline; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -177,7 +86,6 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <script type="text/javascript">
@@ -185,7 +93,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -234,63 +142,72 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org9cfc541">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-04 金&gt; </span></span> Tasks</a>
+<li><a href="#sec-1">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-04 金&gt;</span></span> Tasks</a>
 <ul>
-<li><a href="#org15df8d2">1.1. <span class="done DONE">DONE</span> 書類作成 to Mr. Naruse&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#sec-1-1">1.1. <span class="done DONE">DONE</span> 書類作成 to Mr. Naruse&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org1af5b95">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-07 月&gt; </span></span> Tasks</a>
+<li><a href="#sec-2">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-07 月&gt;</span></span> Tasks</a>
 <ul>
-<li><a href="#org307b1ed">2.1. <span class="done DONE">DONE</span> Read book 1: victim book&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a>
+<li><a href="#sec-2-1">2.1. <span class="done DONE">DONE</span> Read book 1: victim book&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a>
 <ul>
-<li><a href="#org0d49c6c">2.1.1. until page 172</a></li>
+<li><a href="#sec-2-1-1">2.1.1. until page 172</a></li>
 </ul>
 </li>
-<li><a href="#org2f1928b">2.2. <span class="done DONE">DONE</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a>
+<li><a href="#sec-2-2">2.2. <span class="done DONE">DONE</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a>
 <ul>
-<li><a href="#org3195766">2.2.1. until Page 88</a></li>
+<li><a href="#sec-2-2-1">2.2.1. until Page 88</a></li>
 </ul>
 </li>
-<li><a href="#orgaf5c54f">2.3. <span class="done DONE">DONE</span> Prepare submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#sec-2-3">2.3. <span class="done DONE">DONE</span> Prepare submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org2afcd2a">3. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-08 火&gt; </span></span> Tasks:</a>
+<li><a href="#sec-3">3. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-08 火&gt;</span></span> Tasks:</a>
 <ul>
-<li><a href="#org6097dfe">3.1. <span class="done DONE">DONE</span> 留学記作成 to AMU&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#orgf70b477">3.2. <span class="done DONE">DONE</span> Complete submission (change the figures into pdf files)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#sec-3-1">3.1. <span class="done DONE">DONE</span> 留学記作成 to AMU&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#sec-3-2">3.2. <span class="done DONE">DONE</span> Complete submission (change the figures into pdf files)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org043c8b0">4. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-09 水&gt; </span></span> Tasks</a>
+<li><a href="#sec-4">4. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-09 水&gt;</span></span> Tasks</a>
 <ul>
-<li><a href="#org44dd863">4.1. <span class="done DONE">DONE</span> Read book 1: victim book&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a>
+<li><a href="#sec-4-1">4.1. <span class="done DONE">DONE</span> Read book 1: victim book&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a>
 <ul>
-<li><a href="#org35b7425">4.1.1. until P189</a></li>
+<li><a href="#sec-4-1-1">4.1.1. until P189</a></li>
 </ul>
 </li>
-<li><a href="#org45f6edd">4.2. <span class="done DONE">DONE</span> Request the transcript&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#orge476ab4">4.3. <span class="done DONE">DONE</span> Poster print reservation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="JapanEpiConfe">JapanEpiConfe</span></span></a></li>
+<li><a href="#sec-4-2">4.2. <span class="done DONE">DONE</span> Request the transcript&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#sec-4-3">4.3. <span class="done DONE">DONE</span> Poster print reservation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="JapanEpiConfe">JapanEpiConfe</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org8257d26">5. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-10 木&gt; </span></span> Tasks:</a>
+<li><a href="#sec-5">5. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-10 木&gt;</span></span> Tasks:</a>
 <ul>
-<li><a href="#orga987b06">5.1. <span class="todo TODO">TODO</span> 留学記作成 to Wada&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
-<li><a href="#orgb6f258f">5.2. <span class="done CANCEL">CANCEL</span> Read book 2: stats nishiuchi&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#org56f265e">5.3. <span class="todo TODO">TODO</span> Read book 3: Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span>&#xa0;<span class="reading">reading</span></span></a></li>
-<li><a href="#org86a469f">5.4. <span class="todo TODO">TODO</span> Read book 4: Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#orgb41bef4">5.5. <span class="todo HANGUP">HANGUP</span> Prepare files for Sumitomo&#xa0;&#xa0;&#xa0;<span class="tag"><span class="home">home</span></span></a></li>
-<li><a href="#org00d6daa">5.6. <span class="todo TODO">TODO</span> Read book 5: Wonderful R&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
-<li><a href="#org840fa48">5.7. <span class="done DONE">DONE</span> Survival analysis chapter 8: time dependent variables&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a>
-<ul>
-<li><a href="#org08a66fe">5.7.1. until P122</a></li>
+<li><a href="#sec-5-1">5.1. <span class="done CANCEL">CANCEL</span> Read book 2: stats nishiuchi&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#sec-5-2">5.2. <span class="todo HANGUP">HANGUP</span> Prepare files for Sumitomo&#xa0;&#xa0;&#xa0;<span class="tag"><span class="home">home</span></span></a></li>
 </ul>
 </li>
-<li><a href="#org2b307e0">5.8. <span class="todo TODO">TODO</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
-<li><a href="#orgb3ca185">5.9. <span class="todo TODO">TODO</span> Read book 1: victim book&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#sec-6">6. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-11 金&gt;</span></span> Tasks:</a>
+<ul>
+<li><a href="#sec-6-1">6.1. <span class="todo TODO">TODO</span> Preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a>
+<ul>
+<li><a href="#sec-6-1-1">6.1.1. <span class="done DONE">DONE</span> data cleaning &amp; processing</a></li>
+<li><a href="#sec-6-1-2">6.1.2. <span class="todo TODO">TODO</span> Time-dependent analysis</a></li>
 </ul>
 </li>
-<li><a href="#org23a9a7f">6. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-11 金&gt; </span></span> Tasks:</a>
+</ul>
+</li>
+<li><a href="#sec-7">7. <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-12 Sat&gt;</span></span> Tasks:</a>
 <ul>
-<li><a href="#orge75fd3a">6.1. <span class="todo TODO">TODO</span> Preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a></li>
+<li><a href="#sec-7-1">7.1. <span class="todo TODO">TODO</span> 留学記作成 to Wada&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></a></li>
+<li><a href="#sec-7-2">7.2. <span class="todo TODO">TODO</span> Read book 3: Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span>&#xa0;<span class="reading">reading</span></span></a></li>
+<li><a href="#sec-7-3">7.3. <span class="todo TODO">TODO</span> Read book 4: Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#sec-7-4">7.4. <span class="todo TODO">TODO</span> Read book 5: Wonderful R&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#sec-7-5">7.5. <span class="done DONE">DONE</span> Survival analysis chapter 8: time dependent variables&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a>
+<ul>
+<li><a href="#sec-7-5-1">7.5.1. until P122</a></li>
+</ul>
+</li>
+<li><a href="#sec-7-6">7.6. <span class="todo TODO">TODO</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#sec-7-7">7.7. <span class="todo TODO">TODO</span> Read book 1: victim book&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
 </ul>
 </li>
 </ul>
@@ -302,122 +219,124 @@ and doing project planning with a fast and effective
 plain-text system.
 </pre>
 
-<div id="outline-container-org9cfc541" class="outline-2">
-<h2 id="org9cfc541"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-04 金&gt; </span></span> Tasks</h2>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-04 金&gt;</span></span> Tasks</h2>
 <div class="outline-text-2" id="text-1">
-</div>
-<div id="outline-container-org15df8d2" class="outline-3">
-<h3 id="org15df8d2"><span class="section-number-3">1.1</span> <span class="done DONE">DONE</span> 書類作成 to Mr. Naruse&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> <span class="done DONE">DONE</span> 書類作成 to Mr. Naruse&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-org1af5b95" class="outline-2">
-<h2 id="org1af5b95"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-07 月&gt; </span></span> Tasks</h2>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-07 月&gt;</span></span> Tasks</h2>
 <div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-org307b1ed" class="outline-3">
-<h3 id="org307b1ed"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Read book 1: <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Read book 1: <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1"><span class="section-number-4">2.1.1</span> until page 172</h4>
 </div>
-<div id="outline-container-org0d49c6c" class="outline-4">
-<h4 id="org0d49c6c"><span class="section-number-4">2.1.1</span> until page 172</h4>
 </div>
-</div>
-<div id="outline-container-org2f1928b" class="outline-3">
-<h3 id="org2f1928b"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
 <div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> until Page 88</h4>
 </div>
-<div id="outline-container-org3195766" class="outline-4">
-<h4 id="org3195766"><span class="section-number-4">2.2.1</span> until Page 88</h4>
 </div>
-</div>
-<div id="outline-container-orgaf5c54f" class="outline-3">
-<h3 id="orgaf5c54f"><span class="section-number-3">2.3</span> <span class="done DONE">DONE</span> Prepare submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> <span class="done DONE">DONE</span> Prepare submission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-org2afcd2a" class="outline-2">
-<h2 id="org2afcd2a"><span class="section-number-2">3</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-08 火&gt; </span></span> Tasks:</h2>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-08 火&gt;</span></span> Tasks:</h2>
 <div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> <span class="done DONE">DONE</span> 留学記作成 to AMU&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
 </div>
-<div id="outline-container-org6097dfe" class="outline-3">
-<h3 id="org6097dfe"><span class="section-number-3">3.1</span> <span class="done DONE">DONE</span> 留学記作成 to AMU&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
-</div>
-<div id="outline-container-orgf70b477" class="outline-3">
-<h3 id="orgf70b477"><span class="section-number-3">3.2</span> <span class="done DONE">DONE</span> Complete submission (change the figures into pdf files)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> <span class="done DONE">DONE</span> Complete submission (change the figures into pdf files)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-org043c8b0" class="outline-2">
-<h2 id="org043c8b0"><span class="section-number-2">4</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-09 水&gt; </span></span> Tasks</h2>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-09 水&gt;</span></span> Tasks</h2>
 <div class="outline-text-2" id="text-4">
-</div>
-<div id="outline-container-org44dd863" class="outline-3">
-<h3 id="org44dd863"><span class="section-number-3">4.1</span> <span class="done DONE">DONE</span> Read book 1: <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> <span class="done DONE">DONE</span> Read book 1: <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 <div class="outline-text-3" id="text-4-1">
+</div><div id="outline-container-sec-4-1-1" class="outline-4">
+<h4 id="sec-4-1-1"><span class="section-number-4">4.1.1</span> until P189</h4>
 </div>
-<div id="outline-container-org35b7425" class="outline-4">
-<h4 id="org35b7425"><span class="section-number-4">4.1.1</span> until P189</h4>
 </div>
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> <span class="done DONE">DONE</span> Request the transcript&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
 </div>
-<div id="outline-container-org45f6edd" class="outline-3">
-<h3 id="org45f6edd"><span class="section-number-3">4.2</span> <span class="done DONE">DONE</span> Request the transcript&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h3>
-</div>
-<div id="outline-container-orge476ab4" class="outline-3">
-<h3 id="orge476ab4"><span class="section-number-3">4.3</span> <span class="done DONE">DONE</span> Poster print reservation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="JapanEpiConfe">JapanEpiConfe</span></span></h3>
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> <span class="done DONE">DONE</span> Poster print reservation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="JapanEpiConfe">JapanEpiConfe</span></span></h3>
 </div>
 </div>
 
-<div id="outline-container-org8257d26" class="outline-2">
-<h2 id="org8257d26"><span class="section-number-2">5</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-10 木&gt; </span></span> Tasks:</h2>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-10 木&gt;</span></span> Tasks:</h2>
 <div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> <span class="done CANCEL">CANCEL</span> Read book 2: <a href="https://www.amazon.co.jp/%E7%B5%B1%E8%A8%88%E5%AD%A6%E3%81%8C%E6%9C%80%E5%BC%B7%E3%81%AE%E5%AD%A6%E5%95%8F%E3%81%A7%E3%81%82%E3%82%8B-%E8%A5%BF%E5%86%85-%E5%95%93/dp/4478022216/ref=sr_1_1?ie=UTF8&qid=1546568463&sr=8-1&keywords=%E7%B5%B1%E8%A8%88%E5%AD%A6%E3%81%8C%E6%9C%80%E5%BC%B7%E3%81%AE%E5%AD%A6%E5%95%8F%E3%81%A7%E3%81%82%E3%82%8B">stats nishiuchi</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
-<div id="outline-container-orga987b06" class="outline-3">
-<h3 id="orga987b06"><span class="section-number-3">5.1</span> <span class="todo TODO">TODO</span> 留学記作成 to Wada&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
-</div>
-<div id="outline-container-orgb6f258f" class="outline-3">
-<h3 id="orgb6f258f"><span class="section-number-3">5.2</span> <span class="done CANCEL">CANCEL</span> Read book 2: <a href="https://www.amazon.co.jp/%E7%B5%B1%E8%A8%88%E5%AD%A6%E3%81%8C%E6%9C%80%E5%BC%B7%E3%81%AE%E5%AD%A6%E5%95%8F%E3%81%A7%E3%81%82%E3%82%8B-%E8%A5%BF%E5%86%85-%E5%95%93/dp/4478022216/ref=sr_1_1?ie=UTF8&amp;qid=1546568463&amp;sr=8-1&amp;keywords=%E7%B5%B1%E8%A8%88%E5%AD%A6%E3%81%8C%E6%9C%80%E5%BC%B7%E3%81%AE%E5%AD%A6%E5%95%8F%E3%81%A7%E3%81%82%E3%82%8B">stats nishiuchi</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
-</div>
-<div id="outline-container-org56f265e" class="outline-3">
-<h3 id="org56f265e"><span class="section-number-3">5.3</span> <span class="todo TODO">TODO</span> Read book 3: <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span>&#xa0;<span class="reading">reading</span></span></h3>
-</div>
-<div id="outline-container-org86a469f" class="outline-3">
-<h3 id="org86a469f"><span class="section-number-3">5.4</span> <span class="todo TODO">TODO</span> Read book 4: <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
-</div>
-<div id="outline-container-orgb41bef4" class="outline-3">
-<h3 id="orgb41bef4"><span class="section-number-3">5.5</span> <span class="todo HANGUP">HANGUP</span> Prepare files for Sumitomo&#xa0;&#xa0;&#xa0;<span class="tag"><span class="home">home</span></span></h3>
-</div>
-<div id="outline-container-org00d6daa" class="outline-3">
-<h3 id="org00d6daa"><span class="section-number-3">5.6</span> <span class="todo TODO">TODO</span> Read book 5: <a href="https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&amp;qid=1546839385&amp;sr=8-1&amp;keywords=wonderful+R">Wonderful R</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
-</div>
-<div id="outline-container-org840fa48" class="outline-3">
-<h3 id="org840fa48"><span class="section-number-3">5.7</span> <span class="done DONE">DONE</span> Survival analysis <a href="https://wangcc.me/LSHTMlearningnote/-time-dependent-variables.html">chapter 8: time dependent variables</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
-<div class="outline-text-3" id="text-5-7">
-</div>
-<div id="outline-container-org08a66fe" class="outline-4">
-<h4 id="org08a66fe"><span class="section-number-4">5.7.1</span> until P122</h4>
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> <span class="todo HANGUP">HANGUP</span> Prepare files for Sumitomo&#xa0;&#xa0;&#xa0;<span class="tag"><span class="home">home</span></span></h3>
 </div>
 </div>
-<div id="outline-container-org2b307e0" class="outline-3">
-<h3 id="org2b307e0"><span class="section-number-3">5.8</span> <span class="todo TODO">TODO</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
-</div>
-<div id="outline-container-orgb3ca185" class="outline-3">
-<h3 id="orgb3ca185"><span class="section-number-3">5.9</span> <span class="todo TODO">TODO</span> Read book 1: <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
-</div>
-</div>
-<div id="outline-container-org23a9a7f" class="outline-2">
-<h2 id="org23a9a7f"><span class="section-number-2">6</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-11 金&gt; </span></span> Tasks:</h2>
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-11 金&gt;</span></span> Tasks:</h2>
 <div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> <span class="todo TODO">TODO</span> Preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div class="outline-text-3" id="text-6-1">
+</div><div id="outline-container-sec-6-1-1" class="outline-4">
+<h4 id="sec-6-1-1"><span class="section-number-4">6.1.1</span> <span class="done DONE">DONE</span> data cleaning &amp; processing</h4>
 </div>
-<div id="outline-container-orge75fd3a" class="outline-3">
-<h3 id="orge75fd3a"><span class="section-number-3">6.1</span> <span class="todo TODO">TODO</span> Preliminary analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h3>
+<div id="outline-container-sec-6-1-2" class="outline-4">
+<h4 id="sec-6-1-2"><span class="section-number-4">6.1.2</span> <span class="todo TODO">TODO</span> Time-dependent analysis</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-01-12 Sat&gt;</span></span> Tasks:</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> <span class="todo TODO">TODO</span> 留学記作成 to Wada&#xa0;&#xa0;&#xa0;<span class="tag"><span class="paperwork">paperwork</span></span></h3>
+</div>
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> <span class="todo TODO">TODO</span> Read book 3: <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span>&#xa0;<span class="reading">reading</span></span></h3>
+</div>
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> <span class="todo TODO">TODO</span> Read book 4: <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div>
+<div id="outline-container-sec-7-4" class="outline-3">
+<h3 id="sec-7-4"><span class="section-number-3">7.4</span> <span class="todo TODO">TODO</span> Read book 5: <a href="https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R">Wonderful R</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
+</div>
+<div id="outline-container-sec-7-5" class="outline-3">
+<h3 id="sec-7-5"><span class="section-number-3">7.5</span> <span class="done DONE">DONE</span> Survival analysis <a href="https://wangcc.me/LSHTMlearningnote/-time-dependent-variables.html">chapter 8: time dependent variables</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+<div class="outline-text-3" id="text-7-5">
+</div><div id="outline-container-sec-7-5-1" class="outline-4">
+<h4 id="sec-7-5-1"><span class="section-number-4">7.5.1</span> until P122</h4>
+</div>
+</div>
+<div id="outline-container-sec-7-6" class="outline-3">
+<h3 id="sec-7-6"><span class="section-number-3">7.6</span> <span class="todo TODO">TODO</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h3>
+</div>
+<div id="outline-container-sec-7-7" class="outline-3">
+<h3 id="sec-7-7"><span class="section-number-3">7.7</span> <span class="todo TODO">TODO</span> Read book 1: <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
 <p class="email">Email: <a href="mailto:chaochen@wangcc.me">chaochen@wangcc.me</a></p>
-<p class="date">Created: 2019-01-11 金 10:34</p>
+<p class="date">Created: 2019-01-12 Sat 13:23</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
