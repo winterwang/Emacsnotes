@@ -37,7 +37,8 @@ plain-text system.
 ** TODO Preliminary analysis                                      :parttime:
 *** DONE data cleaning & processing
 *** TODO Time-dependent analysis 
-* <2019-01-12 Sat> Tasks:
+
+* <2019-01-15 火> Tasks:
 ** TODO 留学記作成 to Wada                                       :paperwork:
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:		  :interests:reading:
 ** TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
@@ -45,4 +46,5 @@ plain-text system.
 ** DONE Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables.html][chapter 8: time dependent variables]] :bookdown:books:LSHTM:
 *** until P122
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
-** TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
+** DONE Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
+*** until P199
