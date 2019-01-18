@@ -64,3 +64,8 @@ CLOCK: [2019-01-17 木 09:54]--[2019-01-17 木 11:57] =>  2:03
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
 ** TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
 *** until P199
+* <2019-01-18 金> Tasks: 
+** TODO Preliminary analysis                                      :parttime:
+*** DONE data cleaning & processing
+*** TODO Time-dependent analysis 
+
