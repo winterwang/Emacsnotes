@@ -76,8 +76,8 @@ SCHEDULED: <2019-01-31 木>
 
 * <2019-01-24 木> Tasks: 
 ** TODO Pylori seminar lecture                                       :Aichi:
-** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables.html][chapter 8: time dependent variables]] :bookdown:books:LSHTM:
-*** until P122
+** DONE Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables.html][chapter 8: time dependent variables]] :bookdown:books:LSHTM:
+*** until P125
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
 ** TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
 *** until P199
