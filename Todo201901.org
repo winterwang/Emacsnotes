@@ -94,4 +94,4 @@ CLOCK: [2019-01-24 木 13:50]--[2019-01-24 木 15:39] =>  1:49
 ** TODO Preliminary analysis                                      :parttime:
 *** DONE data cleaning & processing
 *** TODO Time-dependent analysis 
-** TODO Esai meeting                                              :parttime:
+** DONE Esai meeting                                              :parttime:
