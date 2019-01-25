@@ -60,6 +60,7 @@ CLOCK: [2019-01-17 木 09:54]--[2019-01-17 木 11:57] =>  2:03
 ** TODO Preliminary analysis                                      :parttime:
 *** DONE data cleaning & processing
 *** TODO Time-dependent analysis 
+** DONE talk with TK                                              :parttime:
 * <2019-01-21 月> Tasks: 
 ** DONE paperwork JC                                              :parttime:
 ** DONE 留学記作成 to Wada                                       :paperwork:
@@ -88,4 +89,9 @@ SCHEDULED: <2019-01-31 木>
 CLOCK: [2019-01-24 木 13:50]--[2019-01-24 木 15:39] =>  1:49
 :END:
 ** TODO Kakutei confirm                                            :private:
-** TODO print the poster in color                               :conference:
+** DONE print the poster in color                               :conference:
+* <2019-01-25 金> Tasks: 
+** TODO Preliminary analysis                                      :parttime:
+*** DONE data cleaning & processing
+*** TODO Time-dependent analysis 
+** TODO Esai meeting                                              :parttime:
