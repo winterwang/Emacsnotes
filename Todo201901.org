@@ -95,3 +95,9 @@ CLOCK: [2019-01-24 木 13:50]--[2019-01-24 木 15:39] =>  1:49
 *** DONE data cleaning & processing
 *** TODO Time-dependent analysis 
 ** DONE Esai meeting                                              :parttime:
+* <2019-01-28 月> Tasks:                                                 :pt:
+** TODO meeting ededed 
+** TODO confirm the report to Wada and send to the office        :paperwork:
+** TODO Preliminary analysis 
+*** confirm the diagnosis date of each participant 
+*** translate codes into SAS program
