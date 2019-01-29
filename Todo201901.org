@@ -106,3 +106,4 @@ CLOCK: [2019-01-24 木 13:50]--[2019-01-24 木 15:39] =>  1:49
 ** TODO Kakutei confirm                                            :private:
 ** DONE confirm the report to Wada and send to the office        :paperwork:
 ** TODO confirm the JACC data set                                     :JACC:
+** TODO confirm the paper for review researchsquare               :parttime:
