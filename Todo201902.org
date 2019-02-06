@@ -15,7 +15,13 @@ plain-text system.
 ** DONE JACC data set confirm                                         :JACC:
 ** DONE 練習硬筆書法 蘭亭集序                                      :private:
 
+
 * <2019-02-05 火> Tasks: 
+** DONE Pylori seminar lecture                                       :Aichi:
+** DONE JACC data analysis breast cancer                              :JACC:
+
+* <2019-02-06 水> Tasks: 
+** TODO take my baby to health screening                           :private:
 ** TODO Review the paper from research square                       :review:
 ** TODO Pylori seminar lecture                                       :Aichi:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
