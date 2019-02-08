@@ -1,0 +1,12 @@
+#+TITLE: Random notes by Org-mode 2019-02
+#+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
+#+EMAIL: chaochen@wangcc.me
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+
+* Therneau, Terry, Cynthia CrowsonとElizabeth Atkinson. 「Using Time Dependent Covariates and Time Dependent Coeﬃcients in the Cox Model」, 日付なし, 27.
+
+1. Page 4: One common question with this data setup is whether we need to worry about correlated data, since a given subject has multiple observations. The answer is no, we do not. The reason is that this representation is simply a programming trick. The likelihood equations at any time point use only one copy of any subject, the program picks out the correct row of data at each times. There are two exceptions to this rule: 
+
+*** When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed. 
+*** When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party. 

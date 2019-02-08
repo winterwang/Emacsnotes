@@ -40,4 +40,5 @@ plain-text system.
 * <2019-02-08 金> Tasks: 
 ** TODO Preliminary analysis                                      :parttime:
 *** DONE data cleaning & processing
-*** TODO Time-dependent analysis 
+*** DONE Time-dependent analysis 
+
