@@ -15,7 +15,6 @@ plain-text system.
 ** DONE JACC data set confirm                                         :JACC:
 ** DONE 練習硬筆書法 蘭亭集序                                      :private:
 
-
 * <2019-02-05 火> Tasks: 
 ** DONE Pylori seminar lecture                                       :Aichi:
 ** DONE JACC data analysis breast cancer                              :JACC:
@@ -26,9 +25,9 @@ plain-text system.
 ** DONE JACC data analysis breast cancer                              :JACC:
 
 * <2019-02-07 木> Tasks: 
-** TODO take my baby to hospital                                   :private:
+** DONE take my baby to hospital                                   :private:
 ** TODO Review the paper from research square                       :review:
-** TODO Pylori seminar lecture                                       :Aichi:
+** DONE Pylori seminar lecture                                       :Aichi:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
 ** TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
@@ -38,3 +37,7 @@ plain-text system.
 *** until P199
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO 練習硬筆書法 蘭亭集序                                      :private:
+* <2019-02-08 金> Tasks: 
+** TODO Preliminary analysis                                      :parttime:
+*** DONE data cleaning & processing
+*** TODO Time-dependent analysis 
