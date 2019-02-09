@@ -26,7 +26,7 @@ plain-text system.
 
 * <2019-02-07 木> Tasks: 
 ** DONE take my baby to hospital                                   :private:
-** TODO Review the paper from research square                       :review:
+** DONE Review the paper from research square                       :review:
 ** DONE Pylori seminar lecture                                       :Aichi:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
