@@ -29,10 +29,17 @@ $$
 p(\theta | y) = \frac{p(y | \theta)p(\theta)}{p(y)}
 $$
 
+
+
+
 ** Probability in a Bayesian context 
 
 1) For an "honest" coin, the classical probablity that a coin will show heads when tossed up is 0.5. This **probability** has a /long-run frequency meaning/. **"objective"**
 2) Suppose that you don't believe that there exist honest coins the you might give it a probability of 0.6. This kind of probability expresses your /personal belief/ and is typically an example of /Bayesian probability/. **"subjective"**
+
+- We can be uncertain about basically all things in life, but typically these uncertainties exhibit a great range, may change in time and vary with the individual.
+
+- Lindley(2006) argues that probability is a totally different concept from, say, distance. The distance between two points is the same for all of us, but that is not the case with probability of events since it depends on the person looking at the world. 
 
 ** Bayes theorem -- the categorical version
 
@@ -60,4 +67,6 @@ $$
 p(\theta | y) \propto L(\theta | y)p(\theta)
 $$
 
-The denominator is depending only on the observed data which is assumed to be fixed in a Bayesian context. 
+- The denominator is depending only on the observed data which is assumed to be fixed in a Bayesian context. 
+- The denominator in the above expression is called the /averaged likelihood/ because it is the weighted average of $L(\theta|y)$ over the possible values of $\theta$ with a weight function given by the prior distribution $p(\theta)$.
+ 
