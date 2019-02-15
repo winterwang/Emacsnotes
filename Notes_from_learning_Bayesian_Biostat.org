@@ -69,4 +69,10 @@ $$
 
 - The denominator is depending only on the observed data which is assumed to be fixed in a Bayesian context. 
 - The denominator in the above expression is called the /averaged likelihood/ because it is the weighted average of $L(\theta|y)$ over the possible values of $\theta$ with a weight function given by the prior distribution $p(\theta)$.
- 
+- It can also be assumed in the Bayesian paradigm that there is a true parameter value $\theta_0$. Indeed, we regard $\theta_0$ as stochastic because we do not know its true value, and therefore, express our belief on $\theta_0$ 
+
+- The most plausible value for a posteriori is a weighted average of the most plausible value from a priori and the most plausible value calculated from the data. 
+
+- The posterior contains more information about the parameter of interest than the prior and the likelihood function separately since the posterior is more concentrated than the prior and the likelihood function.
+
+- Consequently, an a posteriori statement about the parameter $\theta$ will be more precise than the prior statement and the information presented by the likelihood function.

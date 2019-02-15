@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-02-15 金 15:51 -->
+<!-- 2019-02-15 金 17:42 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Bayesian Biostatistics Learning note</title>
@@ -256,12 +256,12 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org93e16f3">1. Chapter 2 Bayes theorem: computing the posterior distribution</a>
+<li><a href="#org3d3c3d0">1. Chapter 2 Bayes theorem: computing the posterior distribution</a>
 <ul>
-<li><a href="#orgb36f953">1.1. The binary version of Bayes theorem</a></li>
-<li><a href="#orgec26f54">1.2. Probability in a Bayesian context</a></li>
-<li><a href="#org386dfe3">1.3. Bayes theorem &#x2013; the categorical version</a></li>
-<li><a href="#org1b1b39a">1.4. Bayes theorem &#x2013;  the continuous version</a></li>
+<li><a href="#org19a116d">1.1. The binary version of Bayes theorem</a></li>
+<li><a href="#orgc9857d9">1.2. Probability in a Bayesian context</a></li>
+<li><a href="#org6a7b9e3">1.3. Bayes theorem &#x2013; the categorical version</a></li>
+<li><a href="#org8035d3c">1.4. Bayes theorem &#x2013;  the continuous version</a></li>
 </ul>
 </li>
 </ul>
@@ -269,12 +269,12 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-org93e16f3" class="outline-2">
-<h2 id="org93e16f3"><span class="section-number-2">1</span> Chapter 2 Bayes theorem: computing the posterior distribution</h2>
+<div id="outline-container-org3d3c3d0" class="outline-2">
+<h2 id="org3d3c3d0"><span class="section-number-2">1</span> Chapter 2 Bayes theorem: computing the posterior distribution</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgb36f953" class="outline-3">
-<h3 id="orgb36f953"><span class="section-number-3">1.1</span> The binary version of Bayes theorem</h3>
+<div id="outline-container-org19a116d" class="outline-3">
+<h3 id="org19a116d"><span class="section-number-3">1.1</span> The binary version of Bayes theorem</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 \[
@@ -309,8 +309,8 @@ p(\theta | y) = \frac{p(y | \theta)p(\theta)}{p(y)}
 
 
 
-<div id="outline-container-orgec26f54" class="outline-3">
-<h3 id="orgec26f54"><span class="section-number-3">1.2</span> Probability in a Bayesian context</h3>
+<div id="outline-container-orgc9857d9" class="outline-3">
+<h3 id="orgc9857d9"><span class="section-number-3">1.2</span> Probability in a Bayesian context</h3>
 <div class="outline-text-3" id="text-1-2">
 <ol class="org-ol">
 <li>For an "honest" coin, the classical probablity that a coin will show heads when tossed up is 0.5. This <b><b>probability</b></b> has a <i>long-run frequency meaning</i>. <b><b>"objective"</b></b></li>
@@ -323,8 +323,8 @@ p(\theta | y) = \frac{p(y | \theta)p(\theta)}{p(y)}
 </div>
 </div>
 
-<div id="outline-container-org386dfe3" class="outline-3">
-<h3 id="org386dfe3"><span class="section-number-3">1.3</span> Bayes theorem &#x2013; the categorical version</h3>
+<div id="outline-container-org6a7b9e3" class="outline-3">
+<h3 id="org6a7b9e3"><span class="section-number-3">1.3</span> Bayes theorem &#x2013; the categorical version</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 Suppose a subject can belong to \(K > 2\) diagnostic classes corresponding to \(K\) values for \(\theta: \theta_1, \theta_2, \dots, \theta_K\). Assuming that \(y\) can take on \(L\) different values: \(y_1, \dots, y_L\),then Bayes theorem generalizes to: 
@@ -342,8 +342,8 @@ Where \(y\) stands for one of the possible values in \(\{y_1, \dots, y_L\}\).
 </div>
 </div>
 
-<div id="outline-container-org1b1b39a" class="outline-3">
-<h3 id="org1b1b39a"><span class="section-number-3">1.4</span> Bayes theorem &#x2013;  the continuous version</h3>
+<div id="outline-container-org8035d3c" class="outline-3">
+<h3 id="org8035d3c"><span class="section-number-3">1.4</span> Bayes theorem &#x2013;  the continuous version</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
 \[
@@ -370,6 +370,13 @@ p(\theta | y) \propto L(\theta | y)p(\theta)
 <ul class="org-ul">
 <li>The denominator is depending only on the observed data which is assumed to be fixed in a Bayesian context.</li>
 <li>The denominator in the above expression is called the <i>averaged likelihood</i> because it is the weighted average of \(L(\theta|y)\) over the possible values of \(\theta\) with a weight function given by the prior distribution \(p(\theta)\).</li>
+<li>It can also be assumed in the Bayesian paradigm that there is a true parameter value \(\theta_0\). Indeed, we regard \(\theta_0\) as stochastic because we do not know its true value, and therefore, express our belief on \(\theta_0\)</li>
+
+<li>The most plausible value for a posteriori is a weighted average of the most plausible value from a priori and the most plausible value calculated from the data.</li>
+
+<li>The posterior contains more information about the parameter of interest than the prior and the likelihood function separately since the posterior is more concentrated than the prior and the likelihood function.</li>
+
+<li>Consequently, an a posteriori statement about the parameter \(\theta\) will be more precise than the prior statement and the information presented by the likelihood function.</li>
 </ul>
 </div>
 </div>
@@ -378,7 +385,7 @@ p(\theta | y) \propto L(\theta | y)p(\theta)
 <div id="postamble" class="status">
 <p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
 <p class="email">Email: <a href="mailto:chaochen@wangcc.me">chaochen@wangcc.me</a></p>
-<p class="date">Created: 2019-02-15 金 15:51</p>
+<p class="date">Created: 2019-02-15 金 17:42</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
