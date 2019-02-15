@@ -38,7 +38,10 @@ plain-text system.
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO 練習硬筆書法 蘭亭集序                                      :private:
 * <2019-02-08 金> Tasks: 
-** TODO Preliminary analysis                                      :parttime:
+** DONE Preliminary analysis                                      :parttime:
 *** DONE data cleaning & processing
-*** DONE Time-dependent analysis 
+*** DONE Time-dependent analysis
+* <2019-02-11 月> ~ <2019-02-14 木> Tasks: Seminars with students       :AMU:
+* <2019-02-15 金> Tasks: 
+** TODO Preliminary analysis with the Consistency of HbA1c testing :parttime:
 
