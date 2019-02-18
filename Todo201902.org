@@ -41,7 +41,11 @@ plain-text system.
 ** DONE Preliminary analysis                                      :parttime:
 *** DONE data cleaning & processing
 *** DONE Time-dependent analysis
-* <2019-02-11 月> ~ <2019-02-14 木> Tasks: Seminars with students       :AMU:
+* DONE <2019-02-11 月> ~ <2019-02-14 木> Tasks: Seminars with students  :AMU:
 * <2019-02-15 金> Tasks: 
-** TODO Preliminary analysis with the Consistency of HbA1c testing :parttime:
+** DONE Preliminary analysis with the Consistency of HbA1c testing :parttime:
 ** TODO Research square stats evaluation                          :parttime:
+* DOING <2019-02-18 月> ~ <2019-02-21 木> Tasks: Seminars with students 
+** TODO Research square stats evaluation                          :parttime:
+** DONE Email Tamakoshi about JACC                                      :UK:
+** DONE Kakutei submission initiation                              :private:
