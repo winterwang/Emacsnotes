@@ -49,3 +49,4 @@ plain-text system.
 ** TODO Research square stats evaluation                          :parttime:
 ** DONE Email Tamakoshi about JACC                                      :UK:
 ** DONE Kakutei submission initiation                              :private:
+** DONE Cancer epi genkou confirm                                    :LSHTM:
