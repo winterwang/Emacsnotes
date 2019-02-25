@@ -37,11 +37,13 @@ plain-text system.
 * <2019-02-15 金> Tasks: 
 ** DONE Preliminary analysis with the Consistency of HbA1c testing :parttime:
 ** TODO Research square stats evaluation                          :parttime:
-* DOING <2019-02-18 月> ~ <2019-02-21 木> Tasks: Seminars with students 
+* DONE <2019-02-18 月> ~ <2019-02-21 木> Tasks: Seminars with students 
 ** DONE Research square stats evaluation                          :parttime:
 ** DONE Email Tamakoshi about JACC                                      :UK:
 ** DONE Kakutei submission initiation                              :private:
 ** DONE Cancer epi genkou confirm                                    :LSHTM:
+
+* <2019-02-25 月> Tasks: 
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -52,3 +54,4 @@ plain-text system.
 *** until P199
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO 練習硬筆書法 蘭亭集序                                      :private:
+** DONE 報名交大青年學者論壇                                          :SJTU:
