@@ -48,8 +48,9 @@ plain-text system.
 20%
 ** DONE 報名交大青年學者論壇                                          :SJTU:
 * <2019-02-26 火> Tasks: 
-** TODO JACC data analysis breast cancer                              :JACC:
-** TODO Ikemoto meeting                                                :AMU:
+** DONE JACC data analysis breast cancer                              :JACC:
+40%
+** DONE Ikemoto meeting                                                :AMU:
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
