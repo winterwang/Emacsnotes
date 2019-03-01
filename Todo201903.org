@@ -14,5 +14,5 @@ plain-text system.
 * <2019-03-01 ‹à> Tasks: 
 ** TODO Preliminary analysis                                      :parttime:
 *** DONE data cleaning & processing
-*** TODO 
+*** TODO Frequency of HbA1c tests 
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
