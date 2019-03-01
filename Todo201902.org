@@ -36,7 +36,7 @@ plain-text system.
 * DONE <2019-02-11 月> ~ <2019-02-14 木> Tasks: Seminars with students  :AMU:
 * <2019-02-15 金> Tasks: 
 ** DONE Preliminary analysis with the Consistency of HbA1c testing :parttime:
-** TODO Research square stats evaluation                          :parttime:
+** DONE Research square stats evaluation                          :parttime:
 * DONE <2019-02-18 月> ~ <2019-02-21 木> Tasks: Seminars with students 
 ** DONE Research square stats evaluation                          :parttime:
 ** DONE Email Tamakoshi about JACC                                      :UK:
@@ -64,4 +64,4 @@ chapter 5.3
 *** until P199
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO 練習硬筆書法 蘭亭集序                                      :private:
-** TODO Stats review for research square <2019-02-26 火>           :private:
+** DONE Stats review for research square <2019-02-26 火>           :private:
