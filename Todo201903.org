@@ -22,8 +22,12 @@ plain-text system.
 ** DONE JACC data analysis breast cancer                              :JACC:
 *** DONE until Analysis C
 * <2019-03-05 »ð> Tasks: 
-** TODO JACC data analysis breast cancer                              :JACC:
-*** TODO confirm data set from Li.
+** DONE JACC data analysis breast cancer                              :JACC:
+*** DONE confirm data set from Li.
+*** DONE complete ABCD analyses
+* <2019-03-06 Ë®> Tasks: 
+** DONE JACC data analysis breast cancer incidence                    :JACC:
+*** DONE complete sensitivity analyses
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
