@@ -32,6 +32,7 @@ plain-text system.
 *** DONE 95% completed
 
 * <2019-03-07 ľ> Tasks:
+** TODO Learn how to use magit                                       :emacs:
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
