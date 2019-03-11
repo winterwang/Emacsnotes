@@ -33,6 +33,11 @@ plain-text system.
 
 * <2019-03-07 Ä¾> Tasks:
 ** DONE Learn how to use magit                                       :emacs:
+** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 2 tasks                              :private:
+*** DONE 20% completed
+
+** DONE Application form from TingS                                  :Study:
+* <2019-03-11 ÔÂ> Tasks: 
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -42,7 +47,6 @@ plain-text system.
 *** until P199
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO ¾šÁ•Ó²¹P•ø·¨ ÌmÍ¤¼¯Ðò                                      :private:
-** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 2 tasks                              :private:
-*** DONE 20% completed
-
-** DONE Application form from TingS                                  :Study:
+** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 3 tasks                              :private:
+** TODO Application form from TingS                                  :Study:
+** TODO Research Square stat review                               :parttime:
