@@ -47,7 +47,7 @@ plain-text system.
 *** until P199
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO ¾šÁ•Ó²¹P•ø·¨ ÌmÍ¤¼¯Ðò                                      :private:
-** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 3 tasks                              :private:
+** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 3 tasks                              :private:
 ** TODO Application form from TingS                                  :Study:
 ** TODO Research Square stat review                               :parttime:
 ** DONE confirm ŒWˆó                                                   :AMU:
