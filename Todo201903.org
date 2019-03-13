@@ -43,6 +43,9 @@ plain-text system.
 ** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 3 tasks                              :private:
 ** DONE confirm ŒWˆó                                                   :AMU:
 * <2019-03-12 »ð> Tasks: 
+** DONE Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** DONE Prepare for Nishiyama meeting                                  :NCU:
+* <2019-03-13 Ë®> Tasks: 
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -55,4 +58,3 @@ plain-text system.
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 4 tasks                              :private:
 ** TODO Application form from TingS                                  :Study:
 ** TODO Research Square stat review                               :parttime:
-** DONE Prepare for Nishiyama meeting                                  :NCU:
