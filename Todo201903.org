@@ -78,6 +78,7 @@ plain-text system.
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO ¾šÁ•Ó²¹P•ø·¨ ÌmÍ¤¼¯Ðò                                      :private:
 ** TODO Deep learning Week 1                                       :private:
-** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 5 tasks                              :private:
+** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 5 tasks                              :private:
+30%
 ** DONE Stat review Research square                         :Researchsquare:
-
+** DONE Ikemoto CFA and EFA tried, results sent                        :AMU:
