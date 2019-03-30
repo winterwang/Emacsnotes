@@ -10,5 +10,5 @@ and doing project planning with a fast and effective
 plain-text system.
 #+END_EXAMPLE
 
-* <2019-03-29 ‹à> Tasks: 
-** TODO Database analysis time-dep                                :parttime:
+* <2019-03-30 >                Tasks: 
+** DONE Database analysis time-dep                                :parttime:
