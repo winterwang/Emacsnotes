@@ -10,3 +10,26 @@
 
 *** When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed. 
 *** When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party. 
+
+* pdf-tools (https://github.com/politza/pdf-tools) within the Emacs is good for annoation and reading pdf files
+* CFA
+** Factor Rotation (P27-)
+*** Once the appropriate number of factors has been determined, the extracted factors are rotated, to foster their **intepretaibility**.
+
+*** For any given multiple-factor model, there exist an infinite number of equally good-fitting solutions (each represented by a different factor loading matrix)
+
+*** In applied research, factor loadings greater than or equal to 0.30 or 0.40 are often interpreted as salient (i.e. the indicator is meaningfully related to a primary or secondary factor). 
+
+*** For models that contain two or more factors, rotation is conducted to produce a solution with **the best simple structure.** 
+
+*** It is important to emphasize that rotation does not alter the fit of the solution. Rather, factor rotation is a mathematical transformation that is undertaken to foster interpretability by maximizing larger factor loadings closer to one and minimizing smaller factor loadings closer to zero. 
+
+*** Constraining factors to be uncorrelated in CFA will typically result in poor model fit. 
+
+*** Conceptually, a factor score is the score that would have been observed for a person if it had been possible to measure the factor directly. 
+
+*** Specifically, a correlation matrix is used as input in EFA, and both the factors and indicators are completely standardized regression coefficients. 
+
+*** Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables. 
+
+*** A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., $COV_{xy} = r_{xy}SD_xSD_y$

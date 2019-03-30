@@ -1,0 +1,14 @@
+#+TITLE: Org-mode todo 2019-04
+#+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
+#+EMAIL: chaochen@wangcc.me
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+
+#+BEGIN_EXAMPLE 
+Org is a mode for keeping notes, maintaining TODO lists,
+and doing project planning with a fast and effective 
+plain-text system.
+#+END_EXAMPLE
+
+* <2019-03-29 ‹à> Tasks: 
+** TODO Database analysis time-dep                                :parttime:
