@@ -33,3 +33,9 @@
 *** Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables. 
 
 *** A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., $COV_{xy} = r_{xy}SD_xSD_y$
+
+
+* Onyx: A graphical interface for Structural Equation Modeling
+ http://onyx.brandmaier.de/what-is-onyx/
+
+* Org-mode-tutorials: http://pragmaticemacs.com/org-mode-tutorials/
