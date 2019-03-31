@@ -34,6 +34,16 @@
 
 *** A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., $COV_{xy} = r_{xy}SD_xSD_y$
 
+*** SEM methodogolists often express a strong preference for reporting unstandardized solutions because the analysis itself is based on unstandardized variables, and completely standardized values are potentially misleading. 
+
+
+*** For instance, the true nature of the variance and relationships among indicators and factors can be masked when these variables have been standardized; when the original matric of variables is expressed in meaningful units, unstandardized estimates more clearly convey the importance or substantive significance of the effects. 
+
+*** All indicators in EFA freely load on all factors, and the solution is rotated to maximize the magnitude of primary loadings and minimize the magnitude of cross-loadings. 
+
+*** Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by **fixing most or all indicator cross-loadings to zero**.
+
+*** The communality is the sum of squared factor loadings for a given indicator across all factors. 
 
 * Onyx: A graphical interface for Structural Equation Modeling
  http://onyx.brandmaier.de/what-is-onyx/
