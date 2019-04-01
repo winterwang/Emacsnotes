@@ -44,6 +44,9 @@
 *** Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by **fixing most or all indicator cross-loadings to zero**.
 
 *** The communality is the sum of squared factor loadings for a given indicator across all factors. 
+** Parameters of a CFA model
+Factor loadings are the regression slopes for predicting the indicators from the latent variable. 
+
 
 * Onyx: A graphical interface for Structural Equation Modeling
  http://onyx.brandmaier.de/what-is-onyx/
