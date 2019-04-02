@@ -12,7 +12,10 @@ plain-text system.
 
 * <2019-03-30 Sat> Tasks: 
 ** DONE Database analysis time-dep                                :parttime:
-* <2019-04-01 Mon> Tasks :
+* <2019-04-01 Mon> Tasks:
+** DONE some database analysis                                    :parttime:
+** DONE Too excited about the funding secured.                         :AMU:
+* <2019-04-02 Tue> Tasks:
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -27,4 +30,3 @@ plain-text system.
 ** TODO Confirm the correct way of conducting CFA                      :AMU:
 ** TODO Write down the analysis plan for Ikemoto                       :AMU:
 ** TODO Stat review research square                                :private:
-** DONE some database analysis                                    :parttime:
