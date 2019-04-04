@@ -20,6 +20,10 @@ plain-text system.
 ** DONE Deep Learning 2nd course Week 2                            :private:
 
 * <2019-04-03 Wed> Tasks: 
+** DONE Deep learning 2nd course Week 2 (homework)                 :private:
+** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 7 tasks                              :private:
+
+* <2019-04-04 Thu> Tasks:
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -29,8 +33,8 @@ plain-text system.
 *** until P224
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
-** DONE Deep learning 2nd course Week 2 (homework)                 :private:
-** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 7 tasks                              :private:
+** TODO Deep learning 2nd course Week 3                            :private:
+** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 7 tasks                              :private:
 ** TODO Confirm the correct way of conducting CFA                      :AMU:
 ** TODO Write down the analysis plan for Ikemoto                       :AMU:
 ** TODO Stat review research square                                :private:
