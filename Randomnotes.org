@@ -67,4 +67,6 @@ By accounting for the time-varying nature of the covariates, the result should b
 
 ... 
 
-** $n$ = the total sample size
+**** $n$ = the total sample size
+**** $Y_i$ = the follow-up time
+**** $\delta_i$ = an event indicator (1 if the patient had an event at time $Y_i$)
