@@ -70,3 +70,13 @@ By accounting for the time-varying nature of the covariates, the result should b
 **** $n$ = the total sample size
 **** $Y_i$ = the follow-up time
 **** $\delta_i$ = an event indicator (1 if the patient had an event at time $Y_i$)
+**** $i$ is a patient indicator (patient ID)
+
+...
+
+Approach 1. The Final Covariate Value (comes from the Heart Outcomes Prevention Evaluation, HOPE study). This approach is clearly inconsistent with the Cox regression model, since the Cox model makes use of the patients' covariate value at each event time. 
+
+... 
+
+
+The extended Kaplan-Meier estimator recommended here simply updates the cohorts at each event time. 
