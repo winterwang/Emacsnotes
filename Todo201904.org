@@ -38,3 +38,5 @@ plain-text system.
 ** TODO Confirm the correct way of conducting CFA                      :AMU:
 ** TODO Write down the analysis plan for Ikemoto                       :AMU:
 ** DONE Stat review research square                                :private:
+* <2019-04-05 Fri> CSS day Tasks: 
+** TODO Database analysis                                         :parttime:
