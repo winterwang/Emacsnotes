@@ -39,4 +39,4 @@ plain-text system.
 ** TODO Write down the analysis plan for Ikemoto                       :AMU:
 ** DONE Stat review research square                                :private:
 * <2019-04-05 Fri> CSS day Tasks: 
-** TODO Database analysis                                         :parttime:
+** TODO Database analysis-time dep with comorbitidy               :parttime:
