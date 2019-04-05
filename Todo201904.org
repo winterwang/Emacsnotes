@@ -39,4 +39,5 @@ plain-text system.
 ** TODO Write down the analysis plan for Ikemoto                       :AMU:
 ** DONE Stat review research square                                :private:
 * <2019-04-05 Fri> CSS day Tasks: 
-** TODO Database analysis-time dep with comorbitidy               :parttime:
+** DONE Database analysis-time dep with comorbitidy               :parttime:
+** TODO Database analysis how to graphically show a time-varying covariate in survival analysis
