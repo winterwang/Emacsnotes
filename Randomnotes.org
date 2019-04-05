@@ -52,3 +52,19 @@ Factor loadings are the regression slopes for predicting the indicators from the
  http://onyx.brandmaier.de/what-is-onyx/
 
 * Org-mode-tutorials: http://pragmaticemacs.com/org-mode-tutorials/
+
+* Illustrating the impact of a time-varying covarate with and extended Kaplan-Meier Estimator
+
+For example it may be reasonable to assume that the risk of ESRD (end stage renal disease) is a function of the patient's current value of serum creatinine and, conditional on that value, is not related to any previous values. 
+
+... 
+
+One special type of time-varying covariate deserves attention. During follow-up certain intervening events may occur which can irreversibly alter the patient's risk of the endpoint of interest. For example, the patient might suffer a stroke or permanently discontinue study medication. The covariates representing these intervening events can only take the value 0 or 1, and an individual's covariate value cannot change from 1 to 0 during the course of the trial. 
+
+... 
+
+By accounting for the time-varying nature of the covariates, the result should be an illustration of the expected probability of having had an event, as a function of time, for hypothetical cohorts of patients with constant covariate values over time. 
+
+... 
+
+** $n$ = the total sample size
