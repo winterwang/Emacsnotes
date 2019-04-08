@@ -47,6 +47,20 @@
 ** Parameters of a CFA model
 Factor loadings are the regression slopes for predicting the indicators from the latent variable. 
 
+** CFA model indentification (P53)
+In order to estimate the parameters in CFA, the measurement model must be identified. A model is identified if, on the basis of known information (i.e., the variances and covariances in the sample input matrix).
+
+In the first and by far the more popular method, the researcher fixes the metric of the latent variable to be the same as one of its indicators "marker or reference indicator".
+
+In the seconde method, the variance of the latent variable is fixed to a specific value, usually 1.00. However, this method is used less often than the marker indicator approach. 
+
+The former strategy produces an unstandardized solution (in addition to a completely standardized solution), which is useful for several purposes, such as tests of measurement invariance across groups and evaluations of scale reliability.
+
+Unlike just-identified models, overidentified models rarely fit the data perfectly (i.e., a perfectly fitting model is one whose parameter estimates recreate the data perfectly). 
+
+Specification of a model to have at least 0 df is a necessary but not sufficient condition for indentification.
+
+For these and other reasons, methodologists recommend that latent variables be defined by a minimum of three indicators to avoid this possible source of underidentification. 
 
 * Onyx: A graphical interface for Structural Equation Modeling
  http://onyx.brandmaier.de/what-is-onyx/
@@ -80,3 +94,5 @@ Approach 1. The Final Covariate Value (comes from the Heart Outcomes Prevention 
 
 
 The extended Kaplan-Meier estimator recommended here simply updates the cohorts at each event time. 
+* Rajkomar, Alvin, Jeffrey DeanとIsaac Kohane. 「Machine Learning in Medicine」. New England Journal of Medicine 380, no. 14 (2019年4月4日): 1347–58. https://doi.org/10.1056/NEJMra1814259.
+Machine learning is not just a new tool, such as a new drug or medical device. Rather, it is the fundamental technology required to meaningfully process data that exceed the capacity of the human brain to comprehend. 

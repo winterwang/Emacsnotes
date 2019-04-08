@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-04-05 Fri 18:47 -->
+<!-- 2019-04-08 Mon 18:07 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Random notes by Org-mode 2019-02</title>
@@ -256,149 +256,183 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org23414c3">1. Therneau, Terry, Cynthia CrowsonとElizabeth Atkinson. 「Using Time Dependent Covariates and Time Dependent Coeﬃcients in the Cox Model」, 日付なし, 27.</a>
+<li><a href="#orgd3ddc29">1. Therneau, Terry, Cynthia CrowsonとElizabeth Atkinson. 「Using Time Dependent Covariates and Time Dependent Coeﬃcients in the Cox Model」, 日付なし, 27.</a>
 <ul>
 <li>
 <ul>
-<li><a href="#orga067989">1.0.1. When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed.</a></li>
-<li><a href="#org8649f04">1.0.2. When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party.</a></li>
+<li><a href="#org518d387">1.0.1. When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed.</a></li>
+<li><a href="#org9f337b1">1.0.2. When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party.</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org2e10edb">2. pdf-tools (https://github.com/politza/pdf-tools) within the Emacs is good for annoation and reading pdf files</a></li>
-<li><a href="#orgaf6fad2">3. CFA</a>
+<li><a href="#org16a2097">2. pdf-tools (https://github.com/politza/pdf-tools) within the Emacs is good for annoation and reading pdf files</a></li>
+<li><a href="#org16a483d">3. CFA</a>
 <ul>
-<li><a href="#org8b76bd2">3.1. Factor Rotation (P27-)</a>
+<li><a href="#org048e2f4">3.1. Factor Rotation (P27-)</a>
 <ul>
-<li><a href="#org9e6f5bc">3.1.1. Once the appropriate number of factors has been determined, the extracted factors are rotated, to foster their <b><b>intepretaibility</b></b>.</a></li>
-<li><a href="#org6a4d967">3.1.2. For any given multiple-factor model, there exist an infinite number of equally good-fitting solutions (each represented by a different factor loading matrix)</a></li>
-<li><a href="#org73cca40">3.1.3. In applied research, factor loadings greater than or equal to 0.30 or 0.40 are often interpreted as salient (i.e. the indicator is meaningfully related to a primary or secondary factor).</a></li>
-<li><a href="#orgb443919">3.1.4. For models that contain two or more factors, rotation is conducted to produce a solution with <b><b>the best simple structure.</b></b></a></li>
-<li><a href="#orgd0a992a">3.1.5. It is important to emphasize that rotation does not alter the fit of the solution. Rather, factor rotation is a mathematical transformation that is undertaken to foster interpretability by maximizing larger factor loadings closer to one and minimizing smaller factor loadings closer to zero.</a></li>
-<li><a href="#org06557b1">3.1.6. Constraining factors to be uncorrelated in CFA will typically result in poor model fit.</a></li>
-<li><a href="#orgd65a070">3.1.7. Conceptually, a factor score is the score that would have been observed for a person if it had been possible to measure the factor directly.</a></li>
-<li><a href="#org526da2e">3.1.8. Specifically, a correlation matrix is used as input in EFA, and both the factors and indicators are completely standardized regression coefficients.</a></li>
-<li><a href="#org2227e13">3.1.9. Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables.</a></li>
-<li><a href="#org6bd1aba">3.1.10. A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., \(COV_{xy} = r_{xy}SD_xSD_y\)</a></li>
-<li><a href="#org9309903">3.1.11. SEM methodogolists often express a strong preference for reporting unstandardized solutions because the analysis itself is based on unstandardized variables, and completely standardized values are potentially misleading.</a></li>
-<li><a href="#org2116b0d">3.1.12. For instance, the true nature of the variance and relationships among indicators and factors can be masked when these variables have been standardized; when the original matric of variables is expressed in meaningful units, unstandardized estimates more clearly convey the importance or substantive significance of the effects.</a></li>
-<li><a href="#orgf7c01ee">3.1.13. All indicators in EFA freely load on all factors, and the solution is rotated to maximize the magnitude of primary loadings and minimize the magnitude of cross-loadings.</a></li>
-<li><a href="#org1eeabaa">3.1.14. Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by <b><b>fixing most or all indicator cross-loadings to zero</b></b>.</a></li>
-<li><a href="#org311b4ca">3.1.15. The communality is the sum of squared factor loadings for a given indicator across all factors.</a></li>
+<li><a href="#org6d7f9bd">3.1.1. Once the appropriate number of factors has been determined, the extracted factors are rotated, to foster their <b><b>intepretaibility</b></b>.</a></li>
+<li><a href="#org946b282">3.1.2. For any given multiple-factor model, there exist an infinite number of equally good-fitting solutions (each represented by a different factor loading matrix)</a></li>
+<li><a href="#orge8f3a98">3.1.3. In applied research, factor loadings greater than or equal to 0.30 or 0.40 are often interpreted as salient (i.e. the indicator is meaningfully related to a primary or secondary factor).</a></li>
+<li><a href="#org56fba67">3.1.4. For models that contain two or more factors, rotation is conducted to produce a solution with <b><b>the best simple structure.</b></b></a></li>
+<li><a href="#org0f6939d">3.1.5. It is important to emphasize that rotation does not alter the fit of the solution. Rather, factor rotation is a mathematical transformation that is undertaken to foster interpretability by maximizing larger factor loadings closer to one and minimizing smaller factor loadings closer to zero.</a></li>
+<li><a href="#org4628023">3.1.6. Constraining factors to be uncorrelated in CFA will typically result in poor model fit.</a></li>
+<li><a href="#org9511768">3.1.7. Conceptually, a factor score is the score that would have been observed for a person if it had been possible to measure the factor directly.</a></li>
+<li><a href="#org8d3f4f0">3.1.8. Specifically, a correlation matrix is used as input in EFA, and both the factors and indicators are completely standardized regression coefficients.</a></li>
+<li><a href="#org0bd7447">3.1.9. Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables.</a></li>
+<li><a href="#orgff7dcf7">3.1.10. A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., \(COV_{xy} = r_{xy}SD_xSD_y\)</a></li>
+<li><a href="#org0ed53fe">3.1.11. SEM methodogolists often express a strong preference for reporting unstandardized solutions because the analysis itself is based on unstandardized variables, and completely standardized values are potentially misleading.</a></li>
+<li><a href="#org57ffbf6">3.1.12. For instance, the true nature of the variance and relationships among indicators and factors can be masked when these variables have been standardized; when the original matric of variables is expressed in meaningful units, unstandardized estimates more clearly convey the importance or substantive significance of the effects.</a></li>
+<li><a href="#orge634c57">3.1.13. All indicators in EFA freely load on all factors, and the solution is rotated to maximize the magnitude of primary loadings and minimize the magnitude of cross-loadings.</a></li>
+<li><a href="#orge2ea291">3.1.14. Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by <b><b>fixing most or all indicator cross-loadings to zero</b></b>.</a></li>
+<li><a href="#org4ded3ea">3.1.15. The communality is the sum of squared factor loadings for a given indicator across all factors.</a></li>
 </ul>
 </li>
-<li><a href="#orga06320d">3.2. Parameters of a CFA model</a></li>
+<li><a href="#orgfba025a">3.2. Parameters of a CFA model</a></li>
+<li><a href="#orgdb8d5fa">3.3. CFA model indentification (P53)</a></li>
 </ul>
 </li>
-<li><a href="#org0e4ad16">4. Onyx: A graphical interface for Structural Equation Modeling</a></li>
-<li><a href="#org3e5449d">5. Org-mode-tutorials: http://pragmaticemacs.com/org-mode-tutorials/</a></li>
-<li><a href="#org86adaaf">6. Illustrating the impact of a time-varying covarate with and extended Kaplan-Meier Estimator</a></li>
+<li><a href="#orgf4f19e8">4. Onyx: A graphical interface for Structural Equation Modeling</a></li>
+<li><a href="#org56d3165">5. Org-mode-tutorials: http://pragmaticemacs.com/org-mode-tutorials/</a></li>
+<li><a href="#org05021bd">6. Illustrating the impact of a time-varying covarate with and extended Kaplan-Meier Estimator</a></li>
+<li><a href="#org2f4fd5f">7. Rajkomar, Alvin, Jeffrey DeanとIsaac Kohane. 「Machine Learning in Medicine」. New England Journal of Medicine 380, no. 14 (2019年4月4日): 1347–58. https://doi.org/10.1056/NEJMra1814259.</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org23414c3" class="outline-2">
-<h2 id="org23414c3"><span class="section-number-2">1</span> Therneau, Terry, Cynthia CrowsonとElizabeth Atkinson. 「Using Time Dependent Covariates and Time Dependent Coeﬃcients in the Cox Model」, 日付なし, 27.</h2>
+<div id="outline-container-orgd3ddc29" class="outline-2">
+<h2 id="orgd3ddc29"><span class="section-number-2">1</span> Therneau, Terry, Cynthia CrowsonとElizabeth Atkinson. 「Using Time Dependent Covariates and Time Dependent Coeﬃcients in the Cox Model」, 日付なし, 27.</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>Page 4: One common question with this data setup is whether we need to worry about correlated data, since a given subject has multiple observations. The answer is no, we do not. The reason is that this representation is simply a programming trick. The likelihood equations at any time point use only one copy of any subject, the program picks out the correct row of data at each times. There are two exceptions to this rule:</li>
 </ol>
 </div>
 
-<div id="outline-container-orga067989" class="outline-4">
-<h4 id="orga067989"><span class="section-number-4">1.0.1</span> When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed.</h4>
+<div id="outline-container-org518d387" class="outline-4">
+<h4 id="org518d387"><span class="section-number-4">1.0.1</span> When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed.</h4>
 </div>
-<div id="outline-container-org8649f04" class="outline-4">
-<h4 id="org8649f04"><span class="section-number-4">1.0.2</span> When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party.</h4>
+<div id="outline-container-org9f337b1" class="outline-4">
+<h4 id="org9f337b1"><span class="section-number-4">1.0.2</span> When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party.</h4>
 </div>
 </div>
 
-<div id="outline-container-org2e10edb" class="outline-2">
-<h2 id="org2e10edb"><span class="section-number-2">2</span> pdf-tools (<a href="https://github.com/politza/pdf-tools">https://github.com/politza/pdf-tools</a>) within the Emacs is good for annoation and reading pdf files</h2>
+<div id="outline-container-org16a2097" class="outline-2">
+<h2 id="org16a2097"><span class="section-number-2">2</span> pdf-tools (<a href="https://github.com/politza/pdf-tools">https://github.com/politza/pdf-tools</a>) within the Emacs is good for annoation and reading pdf files</h2>
 </div>
-<div id="outline-container-orgaf6fad2" class="outline-2">
-<h2 id="orgaf6fad2"><span class="section-number-2">3</span> CFA</h2>
+<div id="outline-container-org16a483d" class="outline-2">
+<h2 id="org16a483d"><span class="section-number-2">3</span> CFA</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org8b76bd2" class="outline-3">
-<h3 id="org8b76bd2"><span class="section-number-3">3.1</span> Factor Rotation (P27-)</h3>
+<div id="outline-container-org048e2f4" class="outline-3">
+<h3 id="org048e2f4"><span class="section-number-3">3.1</span> Factor Rotation (P27-)</h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org9e6f5bc" class="outline-4">
-<h4 id="org9e6f5bc"><span class="section-number-4">3.1.1</span> Once the appropriate number of factors has been determined, the extracted factors are rotated, to foster their <b><b>intepretaibility</b></b>.</h4>
+<div id="outline-container-org6d7f9bd" class="outline-4">
+<h4 id="org6d7f9bd"><span class="section-number-4">3.1.1</span> Once the appropriate number of factors has been determined, the extracted factors are rotated, to foster their <b><b>intepretaibility</b></b>.</h4>
 </div>
 
-<div id="outline-container-org6a4d967" class="outline-4">
-<h4 id="org6a4d967"><span class="section-number-4">3.1.2</span> For any given multiple-factor model, there exist an infinite number of equally good-fitting solutions (each represented by a different factor loading matrix)</h4>
+<div id="outline-container-org946b282" class="outline-4">
+<h4 id="org946b282"><span class="section-number-4">3.1.2</span> For any given multiple-factor model, there exist an infinite number of equally good-fitting solutions (each represented by a different factor loading matrix)</h4>
 </div>
 
-<div id="outline-container-org73cca40" class="outline-4">
-<h4 id="org73cca40"><span class="section-number-4">3.1.3</span> In applied research, factor loadings greater than or equal to 0.30 or 0.40 are often interpreted as salient (i.e. the indicator is meaningfully related to a primary or secondary factor).</h4>
+<div id="outline-container-orge8f3a98" class="outline-4">
+<h4 id="orge8f3a98"><span class="section-number-4">3.1.3</span> In applied research, factor loadings greater than or equal to 0.30 or 0.40 are often interpreted as salient (i.e. the indicator is meaningfully related to a primary or secondary factor).</h4>
 </div>
 
-<div id="outline-container-orgb443919" class="outline-4">
-<h4 id="orgb443919"><span class="section-number-4">3.1.4</span> For models that contain two or more factors, rotation is conducted to produce a solution with <b><b>the best simple structure.</b></b></h4>
+<div id="outline-container-org56fba67" class="outline-4">
+<h4 id="org56fba67"><span class="section-number-4">3.1.4</span> For models that contain two or more factors, rotation is conducted to produce a solution with <b><b>the best simple structure.</b></b></h4>
 </div>
 
-<div id="outline-container-orgd0a992a" class="outline-4">
-<h4 id="orgd0a992a"><span class="section-number-4">3.1.5</span> It is important to emphasize that rotation does not alter the fit of the solution. Rather, factor rotation is a mathematical transformation that is undertaken to foster interpretability by maximizing larger factor loadings closer to one and minimizing smaller factor loadings closer to zero.</h4>
+<div id="outline-container-org0f6939d" class="outline-4">
+<h4 id="org0f6939d"><span class="section-number-4">3.1.5</span> It is important to emphasize that rotation does not alter the fit of the solution. Rather, factor rotation is a mathematical transformation that is undertaken to foster interpretability by maximizing larger factor loadings closer to one and minimizing smaller factor loadings closer to zero.</h4>
 </div>
 
-<div id="outline-container-org06557b1" class="outline-4">
-<h4 id="org06557b1"><span class="section-number-4">3.1.6</span> Constraining factors to be uncorrelated in CFA will typically result in poor model fit.</h4>
+<div id="outline-container-org4628023" class="outline-4">
+<h4 id="org4628023"><span class="section-number-4">3.1.6</span> Constraining factors to be uncorrelated in CFA will typically result in poor model fit.</h4>
 </div>
 
-<div id="outline-container-orgd65a070" class="outline-4">
-<h4 id="orgd65a070"><span class="section-number-4">3.1.7</span> Conceptually, a factor score is the score that would have been observed for a person if it had been possible to measure the factor directly.</h4>
+<div id="outline-container-org9511768" class="outline-4">
+<h4 id="org9511768"><span class="section-number-4">3.1.7</span> Conceptually, a factor score is the score that would have been observed for a person if it had been possible to measure the factor directly.</h4>
 </div>
 
-<div id="outline-container-org526da2e" class="outline-4">
-<h4 id="org526da2e"><span class="section-number-4">3.1.8</span> Specifically, a correlation matrix is used as input in EFA, and both the factors and indicators are completely standardized regression coefficients.</h4>
+<div id="outline-container-org8d3f4f0" class="outline-4">
+<h4 id="org8d3f4f0"><span class="section-number-4">3.1.8</span> Specifically, a correlation matrix is used as input in EFA, and both the factors and indicators are completely standardized regression coefficients.</h4>
 </div>
 
-<div id="outline-container-org2227e13" class="outline-4">
-<h4 id="org2227e13"><span class="section-number-4">3.1.9</span> Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables.</h4>
+<div id="outline-container-org0bd7447" class="outline-4">
+<h4 id="org0bd7447"><span class="section-number-4">3.1.9</span> Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables.</h4>
 </div>
 
-<div id="outline-container-org6bd1aba" class="outline-4">
-<h4 id="org6bd1aba"><span class="section-number-4">3.1.10</span> A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., \(COV_{xy} = r_{xy}SD_xSD_y\)</h4>
+<div id="outline-container-orgff7dcf7" class="outline-4">
+<h4 id="orgff7dcf7"><span class="section-number-4">3.1.10</span> A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., \(COV_{xy} = r_{xy}SD_xSD_y\)</h4>
 </div>
 
-<div id="outline-container-org9309903" class="outline-4">
-<h4 id="org9309903"><span class="section-number-4">3.1.11</span> SEM methodogolists often express a strong preference for reporting unstandardized solutions because the analysis itself is based on unstandardized variables, and completely standardized values are potentially misleading.</h4>
+<div id="outline-container-org0ed53fe" class="outline-4">
+<h4 id="org0ed53fe"><span class="section-number-4">3.1.11</span> SEM methodogolists often express a strong preference for reporting unstandardized solutions because the analysis itself is based on unstandardized variables, and completely standardized values are potentially misleading.</h4>
 </div>
 
 
-<div id="outline-container-org2116b0d" class="outline-4">
-<h4 id="org2116b0d"><span class="section-number-4">3.1.12</span> For instance, the true nature of the variance and relationships among indicators and factors can be masked when these variables have been standardized; when the original matric of variables is expressed in meaningful units, unstandardized estimates more clearly convey the importance or substantive significance of the effects.</h4>
+<div id="outline-container-org57ffbf6" class="outline-4">
+<h4 id="org57ffbf6"><span class="section-number-4">3.1.12</span> For instance, the true nature of the variance and relationships among indicators and factors can be masked when these variables have been standardized; when the original matric of variables is expressed in meaningful units, unstandardized estimates more clearly convey the importance or substantive significance of the effects.</h4>
 </div>
 
-<div id="outline-container-orgf7c01ee" class="outline-4">
-<h4 id="orgf7c01ee"><span class="section-number-4">3.1.13</span> All indicators in EFA freely load on all factors, and the solution is rotated to maximize the magnitude of primary loadings and minimize the magnitude of cross-loadings.</h4>
+<div id="outline-container-orge634c57" class="outline-4">
+<h4 id="orge634c57"><span class="section-number-4">3.1.13</span> All indicators in EFA freely load on all factors, and the solution is rotated to maximize the magnitude of primary loadings and minimize the magnitude of cross-loadings.</h4>
 </div>
 
-<div id="outline-container-org1eeabaa" class="outline-4">
-<h4 id="org1eeabaa"><span class="section-number-4">3.1.14</span> Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by <b><b>fixing most or all indicator cross-loadings to zero</b></b>.</h4>
+<div id="outline-container-orge2ea291" class="outline-4">
+<h4 id="orge2ea291"><span class="section-number-4">3.1.14</span> Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by <b><b>fixing most or all indicator cross-loadings to zero</b></b>.</h4>
 </div>
 
-<div id="outline-container-org311b4ca" class="outline-4">
-<h4 id="org311b4ca"><span class="section-number-4">3.1.15</span> The communality is the sum of squared factor loadings for a given indicator across all factors.</h4>
+<div id="outline-container-org4ded3ea" class="outline-4">
+<h4 id="org4ded3ea"><span class="section-number-4">3.1.15</span> The communality is the sum of squared factor loadings for a given indicator across all factors.</h4>
 </div>
 </div>
-<div id="outline-container-orga06320d" class="outline-3">
-<h3 id="orga06320d"><span class="section-number-3">3.2</span> Parameters of a CFA model</h3>
+<div id="outline-container-orgfba025a" class="outline-3">
+<h3 id="orgfba025a"><span class="section-number-3">3.2</span> Parameters of a CFA model</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 Factor loadings are the regression slopes for predicting the indicators from the latent variable. 
 </p>
 </div>
 </div>
+
+<div id="outline-container-orgdb8d5fa" class="outline-3">
+<h3 id="orgdb8d5fa"><span class="section-number-3">3.3</span> CFA model indentification (P53)</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+In order to estimate the parameters in CFA, the measurement model must be identified. A model is identified if, on the basis of known information (i.e., the variances and covariances in the sample input matrix).
+</p>
+
+<p>
+In the first and by far the more popular method, the researcher fixes the metric of the latent variable to be the same as one of its indicators "marker or reference indicator".
+</p>
+
+<p>
+In the seconde method, the variance of the latent variable is fixed to a specific value, usually 1.00. However, this method is used less often than the marker indicator approach. 
+</p>
+
+<p>
+The former strategy produces an unstandardized solution (in addition to a completely standardized solution), which is useful for several purposes, such as tests of measurement invariance across groups and evaluations of scale reliability.
+</p>
+
+<p>
+Unlike just-identified models, overidentified models rarely fit the data perfectly (i.e., a perfectly fitting model is one whose parameter estimates recreate the data perfectly). 
+</p>
+
+<p>
+Specification of a model to have at least 0 df is a necessary but not sufficient condition for indentification.
+</p>
+
+<p>
+For these and other reasons, methodologists recommend that latent variables be defined by a minimum of three indicators to avoid this possible source of underidentification. 
+</p>
+</div>
+</div>
 </div>
 
-
-<div id="outline-container-org0e4ad16" class="outline-2">
-<h2 id="org0e4ad16"><span class="section-number-2">4</span> Onyx: A graphical interface for Structural Equation Modeling</h2>
+<div id="outline-container-orgf4f19e8" class="outline-2">
+<h2 id="orgf4f19e8"><span class="section-number-2">4</span> Onyx: A graphical interface for Structural Equation Modeling</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 <a href="http://onyx.brandmaier.de/what-is-onyx/">http://onyx.brandmaier.de/what-is-onyx/</a>
@@ -406,12 +440,12 @@ Factor loadings are the regression slopes for predicting the indicators from the
 </div>
 </div>
 
-<div id="outline-container-org3e5449d" class="outline-2">
-<h2 id="org3e5449d"><span class="section-number-2">5</span> Org-mode-tutorials: <a href="http://pragmaticemacs.com/org-mode-tutorials/">http://pragmaticemacs.com/org-mode-tutorials/</a></h2>
+<div id="outline-container-org56d3165" class="outline-2">
+<h2 id="org56d3165"><span class="section-number-2">5</span> Org-mode-tutorials: <a href="http://pragmaticemacs.com/org-mode-tutorials/">http://pragmaticemacs.com/org-mode-tutorials/</a></h2>
 </div>
 
-<div id="outline-container-org86adaaf" class="outline-2">
-<h2 id="org86adaaf"><span class="section-number-2">6</span> Illustrating the impact of a time-varying covarate with and extended Kaplan-Meier Estimator</h2>
+<div id="outline-container-org05021bd" class="outline-2">
+<h2 id="org05021bd"><span class="section-number-2">6</span> Illustrating the impact of a time-varying covarate with and extended Kaplan-Meier Estimator</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 For example it may be reasonable to assume that the risk of ESRD (end stage renal disease) is a function of the patient's current value of serum creatinine and, conditional on that value, is not related to any previous values. 
@@ -439,10 +473,10 @@ By accounting for the time-varying nature of the covariates, the result should b
 </div>
 
 <ol class="org-ol">
-<li><a id="org753922e"></a>\(n\) = the total sample size<br /></li>
-<li><a id="org3eb4fef"></a>\(Y_i\) = the follow-up time<br /></li>
-<li><a id="org8cb7482"></a>\(\delta_i\) = an event indicator (1 if the patient had an event at time \(Y_i\))<br /></li>
-<li><a id="orgc7b8ae4"></a>\(i\) is a patient indicator (patient ID)<br />
+<li><a id="org448cbd0"></a>\(n\) = the total sample size<br /></li>
+<li><a id="org752ef96"></a>\(Y_i\) = the follow-up time<br /></li>
+<li><a id="org1e219c0"></a>\(\delta_i\) = an event indicator (1 if the patient had an event at time \(Y_i\))<br /></li>
+<li><a id="orgb2f072a"></a>\(i\) is a patient indicator (patient ID)<br />
 <div class="outline-text-5" id="text-6-0-0-4">
 <p>
 &#x2026;
@@ -464,11 +498,19 @@ The extended Kaplan-Meier estimator recommended here simply updates the cohorts 
 </li>
 </ol>
 </div>
+<div id="outline-container-org2f4fd5f" class="outline-2">
+<h2 id="org2f4fd5f"><span class="section-number-2">7</span> Rajkomar, Alvin, Jeffrey DeanとIsaac Kohane. 「Machine Learning in Medicine」. New England Journal of Medicine 380, no. 14 (2019年4月4日): 1347–58. <a href="https://doi.org/10.1056/NEJMra1814259">https://doi.org/10.1056/NEJMra1814259</a>.</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Machine learning is not just a new tool, such as a new drug or medical device. Rather, it is the fundamental technology required to meaningfully process data that exceed the capacity of the human brain to comprehend. 
+</p>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
 <p class="email">Email: <a href="mailto:chaochen@wangcc.me">chaochen@wangcc.me</a></p>
-<p class="date">Created: 2019-04-05 Fri 18:47</p>
+<p class="date">Created: 2019-04-08 Mon 18:07</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
