@@ -41,7 +41,7 @@ plain-text system.
 * <2019-04-05 Fri> CSS day Tasks: 
 ** DONE Database analysis-time dep with comorbitidy               :parttime:
 ** TODO Database analysis how to graphically show a time-varying covariate in survival analysis
-* <2019-04-07 Sun> Tasks: 
+* <2019-04-08 Mon> Tasks: 
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
