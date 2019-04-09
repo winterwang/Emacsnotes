@@ -68,7 +68,19 @@ $$
 F_{\text{ML}} = ln|S| - ln|\Sigma| + \text{trace}[(S)(\Sigma^{-1})] - p
 $$
 
+where, $|S|$ is the determinant of the input variance-covariance matrix, $|\Sigma|$ is the predicted variance-covariance matrix, $p$ is the order of the input matrix (i.e. the number of input indicators); and $ln$ is the natural logarithm.
+
 The underlying principle of ML estimation in CFA is to find the model parameter estimates that maximize the probability of observing the available data if the data are collected from the same population again.
+
+Some key assumption of ML are that 
+
+(1) The sample size is large (asymptotic); 
+(2) The indicators have been measured on continuous scales (i.e., approximate interval-level data);
+(3) The distribution of the indicators is multivariate normal. 
+
+The latter two assumptions apply to indicators of latent variables, not to other observed measures that may exist in the analysis, such as nominal variables that serve as covariates. Although the actual parameter estimates (factor loadings) may not be affected, non-normality in ML analysis can result in biased standard errors (and hence faulty significance tests) and a poorly behaved $\chi^2$ test of overall model fit. 
+
+Thus in the case of non-normal, continuous indicators, it is better to use a different estimator, such as ML with robust standard errors and $\chi^2$ (MLM) or the MLR estimator in the Mplus program. MLM and MLR provide the same parameter estimates as ML, but both the model $\chi^2$ and standard errors of the parameter estimates are corrected for non-normality in large samples. 
 
 * Onyx: A graphical interface for Structural Equation Modeling
  http://onyx.brandmaier.de/what-is-onyx/
