@@ -65,7 +65,7 @@ For these and other reasons, methodologists recommend that latent variables be d
 By far, the fitting function most widely used in applied CFA research (and SEM in general) is ML (maximum likelihood). The fitting function that is minimized in ML is:
 
 $$
-F_{\text{ML}} = ln|S| - ln|\sigma|
+F_{\text{ML}} = ln|S| - ln|\Sigma| + \text{trace}[(S)(\Sigma^{-1})] - p
 $$
 
 The underlying principle of ML estimation in CFA is to find the model parameter estimates that maximize the probability of observing the available data if the data are collected from the same population again.
