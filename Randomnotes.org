@@ -62,6 +62,14 @@ Specification of a model to have at least 0 df is a necessary but not sufficient
 
 For these and other reasons, methodologists recommend that latent variables be defined by a minimum of three indicators to avoid this possible source of underidentification. 
 
+By far, the fitting function most widely used in applied CFA research (and SEM in general) is ML (maximum likelihood). The fitting function that is minimized in ML is:
+
+$$
+F_{\text{ML}} = ln|S| - ln|\sigma|
+$$
+
+The underlying principle of ML estimation in CFA is to find the model parameter estimates that maximize the probability of observing the available data if the data are collected from the same population again.
+
 * Onyx: A graphical interface for Structural Equation Modeling
  http://onyx.brandmaier.de/what-is-onyx/
 
