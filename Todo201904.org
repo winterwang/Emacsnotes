@@ -42,6 +42,8 @@ plain-text system.
 ** DONE Database analysis-time dep with comorbitidy               :parttime:
 ** TODO Database analysis how to graphically show a time-varying covariate in survival analysis
 * <2019-04-08 Mon> Tasks: 
+** DONE [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 8 lectures (unsupervised learning)   :private:
+* <2019-04-09 Tue> Tasks:
 ** TODO Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -59,3 +61,17 @@ plain-text system.
 DEADLINE: <2019-04-19 Fri>
 ** TODO Funding budget plan for FY2019                                 :AMU:
 DEADLINE: <2019-04-12 Fri>
+
+** TODO Stats review for Research square                           :private:
+DEADLINE: <2019-04-13 Sat>
+** TODO Paper review for hypertension research                         :AMU:
+DEADLINE: <2019-04-22 Mon>
+** TODO Breast cancer and alcohol drinking redo (new definition of followup) :JACC:
+DEADLINE: <2019-04-12 Fri>
+** TODO Low-dose smoking and cancer mortality                         :JACC:
+DEADLINE: <2019-04-25 Thu>
+** TODO Smoking and colon cancer mortality                            :JACC:
+DEADLINE: <2019-05-17 Fri>
+** TODO Breast cancer and reproduction                                :JACC:
+DEADLINE: <2019-04-25 Thu>
+** TODO Breast cancer and reproduction data preparation for Naito     :JACC:
