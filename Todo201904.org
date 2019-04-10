@@ -49,7 +49,7 @@ plain-text system.
 ** DONE Funding budget plan for FY2019                                 :AMU:
 DEADLINE: <2019-04-12 Fri>
 * <2019-04-10 Wed> Tasks
-** TODO Cluster analysis & Principal component analysis              :LSHTM:
+** DONE Cluster analysis & Principal component analysis              :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
 ** TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
