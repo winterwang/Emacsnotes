@@ -50,6 +50,11 @@ plain-text system.
 DEADLINE: <2019-04-12 Fri>
 * <2019-04-10 Wed> Tasks
 ** DONE Cluster analysis & Principal component analysis              :LSHTM:
+** DONE Deep learning 2nd course Week 3                            :private:
+** DONE Confirm the marta project report                             :LSHTM:
+
+* <2019-04-11 Thu> Tasks:
+** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
 ** TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
@@ -58,7 +63,7 @@ DEADLINE: <2019-04-12 Fri>
 *** until P224
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
-** TODO Deep learning 2nd course Week 3                            :private:
+** TODO Deep learning 2nd course Week 3 assignment                 :private:
 ** TODO Confirm the correct way of conducting CFA                      :AMU:
 ** TODO Write down the analysis plan for Ikemoto                       :AMU:
 ** TODO Shinsain touroku                                               :AMU:
@@ -67,7 +72,7 @@ DEADLINE: <2019-04-19 Fri>
 DEADLINE: <2019-04-13 Sat>
 ** TODO Paper review for hypertension research                         :AMU:
 DEADLINE: <2019-04-22 Mon>
-** TODO Breast cancer and alcohol drinking redo (new definition of followup) :JACC:
+** DONE Breast cancer and alcohol drinking redo (new definition of followup) :JACC:
 DEADLINE: <2019-04-12 Fri>
 ** TODO Low-dose smoking and cancer mortality                         :JACC:
 DEADLINE: <2019-04-25 Thu>
@@ -76,5 +81,4 @@ DEADLINE: <2019-05-17 Fri>
 ** TODO Breast cancer and reproduction                                :JACC:
 DEADLINE: <2019-04-25 Thu>
 ** TODO Breast cancer and reproduction data preparation for Naito     :JACC:
-** TODO Confirm the marta project report                             :LSHTM:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
