@@ -83,8 +83,8 @@ The latter two assumptions apply to indicators of latent variables, not to other
 Thus in the case of non-normal, continuous indicators, it is better to use a different estimator, such as ML with robust standard errors and $\chi^2$ (MLM) or the MLR estimator in the Mplus program. MLM and MLR provide the same parameter estimates as ML, but both the model $\chi^2$ and standard errors of the parameter estimates are corrected for non-normality in large samples. 
 
 ** Specification and interpretation of CFA models (P115)
-In CFA models where there are no cross-loading indicators, the complete standardized factor loading can be interpreted as the correlation between the indicator and the factor. Accordingly, squaring the 
-completed standardized factor loading provides the proportion of **variance of the indicator** that is explained by the factor -- that is a communality. 
+In CFA models where there are no cross-loading indicators, the complete standardized factor loading can be interpreted as the correlation between the indicator and the factor. Accordingly, squaring the completed standardized factor loading provides the proportion of **variance of the indicator** that is explained by the factor -- that is a communality. 
+
 * Onyx: A graphical interface for Structural Equation Modeling
  http://onyx.brandmaier.de/what-is-onyx/
 

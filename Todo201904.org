@@ -85,3 +85,4 @@ DEADLINE: <2019-05-17 Fri>
 DEADLINE: <2019-04-25 Thu>
 ***  Breast cancer and reproduction data preparation for Naito       :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
+** DOING SAS programming on selecting the blood testing results for each patient :parttime:
