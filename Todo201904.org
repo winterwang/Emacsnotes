@@ -73,7 +73,7 @@ DEADLINE: <2019-04-12 Fri>
 ** DOING Write down the analysis plan for Ikemoto                      :AMU:
 ** TODO Shinsain touroku                                               :AMU:
 DEADLINE: <2019-04-19 Fri>
-** DOING Stats review for Research square                          :private:
+** DONE Stats review for Research square                           :private:
 DEADLINE: <2019-04-13 Sat>
 ** DOING Paper review for hypertension research                        :AMU:
 DEADLINE: <2019-04-22 Mon>
