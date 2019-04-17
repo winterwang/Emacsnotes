@@ -78,8 +78,8 @@ DEADLINE: <2019-04-13 Sat>
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
 ** TODO Deep learning 3nd course Week 1 assignment                 :private:
-** DOING Confirm the correct way of conducting CFA                     :AMU:
-** DOING Write down the analysis plan for Ikemoto                      :AMU:
+** DONE Confirm the correct way of conducting CFA                      :AMU:
+** DONE Write down the analysis plan for Ikemoto                       :AMU:
 ** TODO Shinsain touroku                                               :AMU:
 DEADLINE: <2019-04-19 Fri>
 ** DOING Paper review for hypertension research                        :AMU:
