@@ -64,6 +64,10 @@ DEADLINE: <2019-04-12 Fri>
 DEADLINE: <2019-04-13 Sat>
 ** DONE SAS programming on selecting the blood testing results for each patient :parttime:
 * <2019-04-16 Tue> Tasks: 
+** DONE Confirm the correct way of conducting CFA                      :AMU:
+** DONE Write down the analysis plan for Ikemoto                       :AMU:
+** DONE NCU cancel membership                                          :NCU:
+* <2019-04-17 Wed> Tasks: 
 ** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -90,4 +94,3 @@ DEADLINE: <2019-04-25 Thu>
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Testing questions (4 Q)                                        :AMU:
 DEADLINE: <2019-04-25 Thu>
-** DONE NCU cancel membership                                          :NCU:
