@@ -85,7 +85,7 @@ DEADLINE: <2019-04-19 Fri>
 ** DONE Deep learning 3nd course Week 1 assignment                 :private:
 ** TODO Paper review for hypertension research                         :AMU:
 DEADLINE: <2019-04-19 Fri>
-** TODO Low-dose smoking and cancer mortality                         :JACC:
+** DOING Low-dose smoking and cancer mortality                        :JACC:
 DEADLINE: <2019-04-25 Thu>
 ** TODO Smoking and colon cancer mortality                            :JACC:
 DEADLINE: <2019-05-17 Fri>
@@ -95,4 +95,4 @@ DEADLINE: <2019-04-25 Thu>
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Testing questions (4 Q)                                        :AMU:
 DEADLINE: <2019-04-25 Thu>
-** TODO Database SAS programming for time-dep                     :parttime:
+** DONE Database SAS programming for time-dep                     :parttime:
