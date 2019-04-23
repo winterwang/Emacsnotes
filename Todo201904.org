@@ -79,6 +79,12 @@ DEADLINE: <2019-04-25 Thu>
 ** DONE Database SAS programming for time-dep                     :parttime:
 
 * <2019-04-22 Mon> CSS Tasks:
+** DONE Low-dose smoking and cancer mortality                         :JACC:
+DEADLINE: <2019-04-25 Thu>
+** DONE SAS data extraction from the whole dataset                :parttime:
+** DONE Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
+*** until Page P11
+* <2019-04-23 Tue> Tasks:
 ** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -87,13 +93,11 @@ DEADLINE: <2019-04-25 Thu>
 ** TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
 *** until P224
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
-** TODO Read book 4: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
+** TODO Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
 ** TODO Deep learning 3nd course Week 2 assignment                 :private:
 ** TODO Paper review for hypertension research                         :AMU:
 DEADLINE: <2019-04-19 Fri>
-** DONE Low-dose smoking and cancer mortality                         :JACC:
-DEADLINE: <2019-04-25 Thu>
 ** TODO Smoking and colon cancer mortality                            :JACC:
 DEADLINE: <2019-05-17 Fri>
 ** TODO Breast cancer and reproduction (confirm the SAP)              :JACC:
@@ -102,4 +106,7 @@ DEADLINE: <2019-04-25 Thu>
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Testing questions (4 Q)                                        :AMU:
 DEADLINE: <2019-04-25 Thu>
-** DONE SAS data extraction from the whole dataset                :parttime:
+*** TODO Q1 
+*** TODO Q2
+*** TODO Q3
+*** TODO Q4
