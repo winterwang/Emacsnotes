@@ -84,7 +84,7 @@ DEADLINE: <2019-04-25 Thu>
 ** DONE SAS data extraction from the whole dataset                :parttime:
 ** DONE Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
 *** until Page P11
-* <2019-04-23 Tue> Tasks:
+* <2019-04-23 Tue>~<2019-04-24 Wed> Tasks:
 ** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -106,7 +106,7 @@ DEADLINE: <2019-04-25 Thu>
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Testing questions (4 Q)                                        :AMU:
 DEADLINE: <2019-04-25 Thu>
-*** TODO Q1 
-*** TODO Q2
-*** TODO Q3
-*** TODO Q4
+*** DONE Q1 
+*** DONE Q2
+*** DONE Q3
+*** DONE Q4
