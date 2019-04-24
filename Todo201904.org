@@ -95,9 +95,9 @@ DEADLINE: <2019-04-25 Thu>
 ** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 ** TODO Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
-** TODO Deep learning 3nd course Week 2 assignment                 :private:
-** TODO Paper review for hypertension research                         :AMU:
-DEADLINE: <2019-04-19 Fri>
+** DOING Deep learning 3nd course Week 2 assignment                :private:
+** DOING Paper review for hypertension research                        :AMU:
+DEADLINE: <2019-04-29 Mon>
 ** TODO Smoking and colon cancer mortality                            :JACC:
 DEADLINE: <2019-05-17 Fri>
 ** TODO Breast cancer and reproduction (confirm the SAP)              :JACC:
