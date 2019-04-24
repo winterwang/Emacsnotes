@@ -104,9 +104,9 @@ DEADLINE: <2019-05-17 Fri>
 DEADLINE: <2019-04-25 Thu>
 ***  Breast cancer and reproduction data preparation for Naito       :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
-** TODO Testing questions (4 Q)                                        :AMU:
+** DONE Testing questions (4 Q)                                        :AMU:
 DEADLINE: <2019-04-25 Thu>
 *** DONE Q1 
 *** DONE Q2
 *** DONE Q3
-*** DONE Q4
+*** Q4
