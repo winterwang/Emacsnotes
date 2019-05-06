@@ -33,4 +33,4 @@ DEADLINE: <2019-04-25 Thu>
 ** DONE Research square stat review task 1                         :private:
 ** DONE Research square stat review task 2                         :private:
 ** TODO draft for ikemoto lets aim to finish during the holiday        :AMU:
-** TODO Redo NDNS RP MLCA separately                                 :LSHTM:
+** DONE Redo NDNS RP MLCA separately                                 :LSHTM:
