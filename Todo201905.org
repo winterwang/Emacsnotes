@@ -11,6 +11,11 @@ plain-text system.
 #+END_EXAMPLE
 
 * <2019-05-04 Sat> Golden week tasks:
+** DONE Research square stat review task 1                         :private:
+** DONE Research square stat review task 2                         :private:
+** DONE Redo NDNS RP MLCA separately                                 :LSHTM:
+
+* <2019-05-07 Tue> First working day of Reiwa tasks: 
 ** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -30,7 +35,5 @@ DEADLINE: <2019-05-17 Fri>
 DEADLINE: <2019-04-25 Thu>
 ***  Breast cancer and reproduction data preparation for Naito       :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
-** DONE Research square stat review task 1                         :private:
-** DONE Research square stat review task 2                         :private:
-** TODO draft for ikemoto lets aim to finish during the holiday        :AMU:
-** DONE Redo NDNS RP MLCA separately                                 :LSHTM:
+** TODO draft for ikemoto lets aim to finish during the holiday(failed then work this week for this draft) :AMU:
+** TODO send the updated results to LP and SA                         :LSHTM:
