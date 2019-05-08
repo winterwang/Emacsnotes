@@ -16,6 +16,14 @@ plain-text system.
 ** DONE Redo NDNS RP MLCA separately                                 :LSHTM:
 
 * <2019-05-07 Tue> First working day of Reiwa tasks: 
+** DONE Deep learning 3nd course Week 2 assignment                 :private:
+** DONE Breast cancer and reproduction (confirm the SAP)               :JACC:
+DEADLINE: <2019-04-25 Thu>
+** DONE Upload the questions                                            :AMU:
+** DONE Buy food for my kids                                        :private:
+** DONE Pick up the family from the airport                        :private:
+*** picked up at midnight <2019-05-08 Wed> 1am at the airport bad sleep
+* <2019-05-08 Wed> Tasks:
 ** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -28,7 +36,7 @@ plain-text system.
 ** TODO Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
 *** Chapter 5
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
-** TODO Deep learning 3nd course Week 2 assignment                 :private:
+** DONE Deep learning 3nd course Week 2 assignment                 :private:
 ** TODO Smoking and colon cancer mortality                            :JACC:
 DEADLINE: <2019-05-17 Fri>
 ** DONE Breast cancer and reproduction (confirm the SAP)               :JACC:
