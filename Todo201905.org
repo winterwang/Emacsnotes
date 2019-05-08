@@ -36,15 +36,10 @@ DEADLINE: <2019-04-25 Thu>
 ** TODO Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
 *** Chapter 5
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
-** DONE Deep learning 3nd course Week 2 assignment                 :private:
 ** TODO Smoking and colon cancer mortality                            :JACC:
 DEADLINE: <2019-05-17 Fri>
-** DONE Breast cancer and reproduction (confirm the SAP)               :JACC:
-DEADLINE: <2019-04-25 Thu>
 ** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO draft for ikemoto lets aim to finish during the holiday(failed then work this week for this draft) :AMU:
 ** TODO send the updated results to LP and SA                         :LSHTM:
-** DONE Upload the questions                                            :AMU:
-** DONE Buy food for my kids                                        :private:
-** TODO Pick up the family from the airport                         :private:
+
