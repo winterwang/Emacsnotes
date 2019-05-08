@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-05-08 Wed 19:00 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NDNS MLCA tables for participants during years 1-4 and 5-8 years separately</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="[[https://wangcc.me][Chaochen Wang]]Chaochen Wang" />
+<meta name="description" content="This is the tables for MLCA analysis conducted using NDNS RP data among participants during years 1-4 and 5-8"
+ />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">NDNS MLCA tables for participants during years 1-4 and 5-8 years separately
+<br />
+<span class="subtitle">Summary tables for MLCA analysis conducted among participants during years 1-4 and 5-8</span>
+</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgcdc3ee7">1. Gender distributions in years 1-4 and 5-8</a>
+<ul>
+<li><a href="#org8d71e50">1.1. Year 1-4</a></li>
+<li><a href="#org0dafe1d">1.2. Year 5-8</a></li>
+</ul>
+</li>
+<li><a href="#orgd364052">2. Day level LCA model fitting information</a></li>
+<li><a href="#org5414e4c">3. MLCA model fitting information in MEN</a></li>
+<li><a href="#org4a12aa9">4. MLCA model fitting information in WOMEN</a></li>
+<li><a href="#org00b2108">5. Day level solution in MEN</a>
+<ul>
+<li><a href="#org317315c">5.1. 2 day types</a></li>
+<li><a href="#orgdd36cae">5.2. 3 day types</a></li>
+</ul>
+</li>
+<li><a href="#orge0da5ea">6. Day level solution in Women</a>
+<ul>
+<li><a href="#org7158d94">6.1. 2 day types</a></li>
+<li><a href="#org5533e7f">6.2. 3 day types</a></li>
+</ul>
+</li>
+<li><a href="#orgda763b3">7. Individual level solution in MEN</a>
+<ul>
+<li><a href="#org8e8b820">7.1. 2 \(\times\) 5 solution (the best one in terms of model fitting)</a></li>
+<li><a href="#orgb5f8d22">7.2. 3 \(\times\) 3 solution (the best one in terms of interpretation)</a></li>
+</ul>
+</li>
+<li><a href="#org9e37cd1">8. Individual level solution in Women</a>
+<ul>
+<li><a href="#orgc52e314">8.1. 2 \(\times\) 5 solution (the best one in terms of model fitting)</a></li>
+<li><a href="#orgd1824e6">8.2. 3 \(\times\) 3 solution (the best one in terms of interpretation)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcdc3ee7" class="outline-2">
+<h2 id="orgcdc3ee7"><span class="section-number-2">1</span> Gender distributions in years 1-4 and 5-8</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org8d71e50" class="outline-3">
+<h3 id="org8d71e50"><span class="section-number-3">1.1</span> Year 1-4</h3>
+<div class="outline-text-3" id="text-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Sex :</td>
+<td class="org-right">Frequency</td>
+<td class="org-right">Percent (%)</td>
+<td class="org-right">Cum. percent (%)</td>
+</tr>
+
+<tr>
+<td class="org-left">1 = men</td>
+<td class="org-right">1443</td>
+<td class="org-right">41.83</td>
+<td class="org-right">41.83</td>
+</tr>
+
+<tr>
+<td class="org-left">2 = women</td>
+<td class="org-right">2007</td>
+<td class="org-right">58.17</td>
+<td class="org-right">100.00</td>
+</tr>
+
+<tr>
+<td class="org-left">Total</td>
+<td class="org-right">3450</td>
+<td class="org-right">100.00</td>
+<td class="org-right">100.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-org0dafe1d" class="outline-3">
+<h3 id="org0dafe1d"><span class="section-number-3">1.2</span> Year 5-8</h3>
+<div class="outline-text-3" id="text-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Sex :</td>
+<td class="org-right">Frequency</td>
+<td class="org-right">Percent (%)</td>
+<td class="org-right">Cum. percent (%)</td>
+</tr>
+
+<tr>
+<td class="org-left">1 = men</td>
+<td class="org-right">1094</td>
+<td class="org-right">40.44</td>
+<td class="org-right">40.44</td>
+</tr>
+
+<tr>
+<td class="org-left">2 = women</td>
+<td class="org-right">1611</td>
+<td class="org-right">59.56</td>
+<td class="org-right">100.00</td>
+</tr>
+
+<tr>
+<td class="org-left">Total</td>
+<td class="org-right">2705</td>
+<td class="org-right">100.00</td>
+<td class="org-right">100.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgd364052" class="outline-2">
+<h2 id="orgd364052"><span class="section-number-2">2</span> Day level LCA model fitting information</h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">N OF CLASSES</th>
+<th scope="col" class="org-right">N OF FREE PARAMETERS</th>
+<th scope="col" class="org-right">Loglikelihood</th>
+<th scope="col" class="org-right">AIC</th>
+<th scope="col" class="org-right">BIC</th>
+<th scope="col" class="org-right">ABIC</th>
+<th scope="col" class="org-right">ENTROPY</th>
+<th scope="col" class="org-left">Lo-Mendell-Rubin LRT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">Year 1-4</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">14</td>
+<td class="org-right">-97640.708</td>
+<td class="org-right">195309.415</td>
+<td class="org-right">195414.798</td>
+<td class="org-right">195370.307</td>
+<td class="org-right">--</td>
+<td class="org-left">--</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">29</td>
+<td class="org-right">-96989.381</td>
+<td class="org-right">194036.762</td>
+<td class="org-right">194255.055</td>
+<td class="org-right">194162.896</td>
+<td class="org-right">0.330</td>
+<td class="org-left">&lt; 0.0001</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-right">44</td>
+<td class="org-right">-96639.714</td>
+<td class="org-right">193367.428</td>
+<td class="org-right">193698.631</td>
+<td class="org-right">193558.803</td>
+<td class="org-right">0.395</td>
+<td class="org-left">0.0001</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-right">59</td>
+<td class="org-right">-96414.188</td>
+<td class="org-right">192946.376</td>
+<td class="org-right">193390.489</td>
+<td class="org-right">193202.992</td>
+<td class="org-right">0.565</td>
+<td class="org-left">0.8069</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-right">74</td>
+<td class="org-right">-96249.825</td>
+<td class="org-right">192647.651</td>
+<td class="org-right">193204.674</td>
+<td class="org-right">192969.508</td>
+<td class="org-right">0.471</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-right">89</td>
+<td class="org-right">-71186.405</td>
+<td class="org-right">142550.811</td>
+<td class="org-right">143193.399</td>
+<td class="org-right">142910.57</td>
+<td class="org-right">0.532</td>
+<td class="org-left">0.2734</td>
+</tr>
+
+<tr>
+<td class="org-right">Year 5-8</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">14</td>
+<td class="org-right">-101251.74</td>
+<td class="org-right">202531.48</td>
+<td class="org-right">202637.515</td>
+<td class="org-right">202593.024</td>
+<td class="org-right">--</td>
+<td class="org-left">--</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">29</td>
+<td class="org-right">-100624.768</td>
+<td class="org-right">201307.536</td>
+<td class="org-right">201527.181</td>
+<td class="org-right">201435.021</td>
+<td class="org-right">0.307</td>
+<td class="org-left">&lt; 0.0001</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-right">44</td>
+<td class="org-right">-100220.366</td>
+<td class="org-right">200528.733</td>
+<td class="org-right">200861.986</td>
+<td class="org-right">200722.158</td>
+<td class="org-right">0.453</td>
+<td class="org-left">&lt; 0.0001</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-right">59</td>
+<td class="org-right">-99998.534</td>
+<td class="org-right">200115.068</td>
+<td class="org-right">200561.93</td>
+<td class="org-right">200374.433</td>
+<td class="org-right">0.575</td>
+<td class="org-left">0.0001</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-right">74</td>
+<td class="org-right">-99837.924</td>
+<td class="org-right">199823.848</td>
+<td class="org-right">200384.319</td>
+<td class="org-right">200149.153</td>
+<td class="org-right">0.49</td>
+<td class="org-left">&lt; 0.0001</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-right">89</td>
+<td class="org-right">-99740.544</td>
+<td class="org-right">199659.088</td>
+<td class="org-right">200333.169</td>
+<td class="org-right">200050.335</td>
+<td class="org-right">0.559</td>
+<td class="org-left">0.1189</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org5414e4c" class="outline-2">
+<h2 id="org5414e4c"><span class="section-number-2">3</span> MLCA model fitting information in MEN</h2>
+<div class="outline-text-2" id="text-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Model</th>
+<th scope="col" class="org-left">1 class</th>
+<th scope="col" class="org-right">2 classes</th>
+<th scope="col" class="org-right">3 classes</th>
+<th scope="col" class="org-right">4 classes</th>
+<th scope="col" class="org-right">5 classes</th>
+<th scope="col" class="org-right">6 classes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><b><b>Random effect model</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>2 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">59</td>
+<td class="org-right">89</td>
+<td class="org-right">119</td>
+<td class="org-right">149</td>
+<td class="org-right">179</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-70341.733</td>
+<td class="org-right">-70106.251</td>
+<td class="org-right">-69951.734</td>
+<td class="org-right">-69847.988</td>
+<td class="org-right">-69729.977</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">140801.465</td>
+<td class="org-right">140390.502</td>
+<td class="org-right">140141.467</td>
+<td class="org-right">139993.976</td>
+<td class="org-right">139817.955</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">141227.451</td>
+<td class="org-right">141033.09</td>
+<td class="org-right">141000.658</td>
+<td class="org-right">141069.77</td>
+<td class="org-right">141110.351</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">141039.957</td>
+<td class="org-right">140750.261</td>
+<td class="org-right">140622.494</td>
+<td class="org-right">140596.269</td>
+<td class="org-right">140541.515</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.572</td>
+<td class="org-right">0.581</td>
+<td class="org-right">0.593</td>
+<td class="org-right">0.582</td>
+<td class="org-right">0.595</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>3 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">89</td>
+<td class="org-right">134</td>
+<td class="org-right">179</td>
+<td class="org-right">224</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-69303.923</td>
+<td class="org-right">-69067.311</td>
+<td class="org-right">-68920.521</td>
+<td class="org-right">-68801.981</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">138785.846</td>
+<td class="org-right">138402.623</td>
+<td class="org-right">138199.042</td>
+<td class="org-right">138051.962</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">139428.435</td>
+<td class="org-right">139370.115</td>
+<td class="org-right">139491.439</td>
+<td class="org-right">139669.263</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">139145.605</td>
+<td class="org-right">138944.283</td>
+<td class="org-right">138922.603</td>
+<td class="org-right">138957.424</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.678</td>
+<td class="org-right">0.65</td>
+<td class="org-right">0.657</td>
+<td class="org-right">0.641</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>4 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">119</td>
+<td class="org-right">179</td>
+<td class="org-right">239</td>
+<td class="org-right">299</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-68608.08</td>
+<td class="org-right">-68338.832</td>
+<td class="org-right">-68187.307</td>
+<td class="org-right">-68141.896</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">137454.16</td>
+<td class="org-right">137035.663</td>
+<td class="org-right">136852.615</td>
+<td class="org-right">136881.792</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">138313.351</td>
+<td class="org-right">138328.06</td>
+<td class="org-right">138578.217</td>
+<td class="org-right">139040.6</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">137935.186</td>
+<td class="org-right">137759.223</td>
+<td class="org-right">137818.709</td>
+<td class="org-right">138090.421</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.679</td>
+<td class="org-right">0.692</td>
+<td class="org-right">0.673</td>
+<td class="org-right">0.706</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>5 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">149</td>
+<td class="org-right">224</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-68152.822</td>
+<td class="org-right">-67864.992</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">136603.644</td>
+<td class="org-right">136177.985</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">137679.438</td>
+<td class="org-right">137795.285</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">137205.937</td>
+<td class="org-right">137083.446</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.721</td>
+<td class="org-right">0.698</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org4a12aa9" class="outline-2">
+<h2 id="org4a12aa9"><span class="section-number-2">4</span> MLCA model fitting information in WOMEN</h2>
+<div class="outline-text-2" id="text-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Model</th>
+<th scope="col" class="org-left">1 class</th>
+<th scope="col" class="org-right">2 classes</th>
+<th scope="col" class="org-right">3 classes</th>
+<th scope="col" class="org-right">4 classes</th>
+<th scope="col" class="org-right">5 classes</th>
+<th scope="col" class="org-left">6 classes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><b><b>Random effect model</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>2 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">59</td>
+<td class="org-right">89</td>
+<td class="org-right">119</td>
+<td class="org-right">149</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-98677.596</td>
+<td class="org-right">-98307.721</td>
+<td class="org-right">-98089.746</td>
+<td class="org-right">-97976.833</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">197473.192</td>
+<td class="org-right">196793.442</td>
+<td class="org-right">196417.492</td>
+<td class="org-right">196251.666</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">197920.055</td>
+<td class="org-right">197467.523</td>
+<td class="org-right">197318.791</td>
+<td class="org-right">197380.183</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">197732.558</td>
+<td class="org-right">197184.689</td>
+<td class="org-right">196940.619</td>
+<td class="org-right">196906.674</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.636</td>
+<td class="org-right">0.592</td>
+<td class="org-right">0.568</td>
+<td class="org-right">0.601</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>3 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">89</td>
+<td class="org-right">134</td>
+<td class="org-right">179</td>
+<td class="org-right">224</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-97306.189</td>
+<td class="org-right">-96937.629</td>
+<td class="org-right">-96755.371</td>
+<td class="org-right">-96641.607</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">194790.379</td>
+<td class="org-right">194143.257</td>
+<td class="org-right">193868.743</td>
+<td class="org-right">193731.214</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">195464.46</td>
+<td class="org-right">195158.165</td>
+<td class="org-right">195224.478</td>
+<td class="org-right">195427.777</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">195181.625</td>
+<td class="org-right">194732.325</td>
+<td class="org-right">194655.631</td>
+<td class="org-right">194715.924</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.678</td>
+<td class="org-right">0.662</td>
+<td class="org-right">0.654</td>
+<td class="org-right">0.65</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>4 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">119</td>
+<td class="org-right">179</td>
+<td class="org-right">239</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-96509.667</td>
+<td class="org-right">-96104.664</td>
+<td class="org-right">-95897.655</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">193257.335</td>
+<td class="org-right">192567.329</td>
+<td class="org-right">192273.311</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">194158.634</td>
+<td class="org-right">193923.064</td>
+<td class="org-right">194083.483</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">193780.462</td>
+<td class="org-right">193354.218</td>
+<td class="org-right">193323.961</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.697</td>
+<td class="org-right">0.684</td>
+<td class="org-right">0.69</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><b><b>5 individual level</b></b></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">N of free parameters</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">149</td>
+<td class="org-right">224</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">log-likelihood</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-95909.202</td>
+<td class="org-right">-95523.534</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">192116.404</td>
+<td class="org-right">191495.069</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">193244.922</td>
+<td class="org-right">193191.632</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">aBIC</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">192771.412</td>
+<td class="org-right">192479.779</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Entropy</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0.698</td>
+<td class="org-right">0.697</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org00b2108" class="outline-2">
+<h2 id="org00b2108"><span class="section-number-2">5</span> Day level solution in MEN</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org317315c" class="outline-3">
+<h3 id="org317315c"><span class="section-number-3">5.1</span> 2 day types</h3>
+<div class="outline-text-3" id="text-5-1">
+
+<div id="org58e71c4" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Men/2daytypes.png" alt="2daytypes.png" />
+</p>
+<p><span class="figure-number">Figure 1: </span>2 Classes in day level (men)</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdd36cae" class="outline-3">
+<h3 id="orgdd36cae"><span class="section-number-3">5.2</span> 3 day types</h3>
+<div class="outline-text-3" id="text-5-2">
+
+<div id="orge1fba7d" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Men/3daytypes.png" alt="3daytypes.png" />
+</p>
+<p><span class="figure-number">Figure 2: </span>3 Classes in day level (men)</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge0da5ea" class="outline-2">
+<h2 id="orge0da5ea"><span class="section-number-2">6</span> Day level solution in Women</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org7158d94" class="outline-3">
+<h3 id="org7158d94"><span class="section-number-3">6.1</span> 2 day types</h3>
+<div class="outline-text-3" id="text-6-1">
+
+<div id="org28d52e7" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Women/2daytypes.png" alt="2daytypes.png" />
+</p>
+<p><span class="figure-number">Figure 3: </span>2 Classes in day level (women)</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5533e7f" class="outline-3">
+<h3 id="org5533e7f"><span class="section-number-3">6.2</span> 3 day types</h3>
+<div class="outline-text-3" id="text-6-2">
+
+<div id="orgcea48c5" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Women/3daytypes.png" alt="3daytypes.png" />
+</p>
+<p><span class="figure-number">Figure 4: </span>3 Classes in day level (women)</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgda763b3" class="outline-2">
+<h2 id="orgda763b3"><span class="section-number-2">7</span> Individual level solution in MEN</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org8e8b820" class="outline-3">
+<h3 id="org8e8b820"><span class="section-number-3">7.1</span> 2 \(\times\) 5 solution (the best one in terms of model fitting)</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+<b><b>Here individual class 1 and class 5 are very similar (i.e. not separated).</b></b>
+</p>
+
+
+<div id="orgefc5c3c" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Men/CW2CB5.png" alt="CW2CB5.png" />
+</p>
+<p><span class="figure-number">Figure 5: </span>2 classes in day level, 5 classes in individual level (men)</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgb5f8d22" class="outline-3">
+<h3 id="orgb5f8d22"><span class="section-number-3">7.2</span> 3 \(\times\) 3 solution (the best one in terms of interpretation)</h3>
+<div class="outline-text-3" id="text-7-2">
+
+<div id="orgb7f04f9" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Men/3times3.png" alt="3times3.png" />
+</p>
+<p><span class="figure-number">Figure 6: </span>3 classes in day level, 3 classes in individual level (men)</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9e37cd1" class="outline-2">
+<h2 id="org9e37cd1"><span class="section-number-2">8</span> Individual level solution in Women</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-orgc52e314" class="outline-3">
+<h3 id="orgc52e314"><span class="section-number-3">8.1</span> 2 \(\times\) 5 solution (the best one in terms of model fitting)</h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+<b><b>AGAIN, here individual class 1 and class 5 are very similar (i.e. not separated).</b></b>
+</p>
+
+
+<div id="orgc270e3c" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Women/CW2CB5.png" alt="CW2CB5.png" />
+</p>
+<p><span class="figure-number">Figure 7: </span>2 classes in day level, 5 classes in individual level (women)</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd1824e6" class="outline-3">
+<h3 id="orgd1824e6"><span class="section-number-3">8.2</span> 3 \(\times\) 3 solution (the best one in terms of interpretation)</h3>
+<div class="outline-text-3" id="text-8-2">
+
+<div id="org76308dd" class="figure">
+<p><img src="https://wangcc.me/AJCN_temp_NDNS/Women/CW3CB3.png" alt="CW3CB3.png" />
+</p>
+<p><span class="figure-number">Figure 8: </span>3 classes in day level, 3 classes in individual level (women)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
+<p class="date">Created: 2019-05-08 Wed 19:00</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
