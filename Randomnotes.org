@@ -119,3 +119,6 @@ Approach 1. The Final Covariate Value (comes from the Heart Outcomes Prevention 
 The extended Kaplan-Meier estimator recommended here simply updates the cohorts at each event time. 
 * Rajkomar, Alvin, Jeffrey DeanとIsaac Kohane. 「Machine Learning in Medicine」. New England Journal of Medicine 380, no. 14 (2019年4月4日): 1347–58. https://doi.org/10.1056/NEJMra1814259.
 Machine learning is not just a new tool, such as a new drug or medical device. Rather, it is the fundamental technology required to meaningfully process data that exceed the capacity of the human brain to comprehend. 
+
+* Joint Models for Longitudinal and Time-to-Event Data with Applications in R
+** An important inherent characteristic of these medical conditions is their dynamic nature. That is, the rate of progression is not only different from patient to patient but also dynamically changes in time for the same patient. 

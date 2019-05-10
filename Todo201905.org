@@ -23,7 +23,7 @@ DEADLINE: <2019-04-25 Thu>
 ** DONE Buy food for my kids                                        :private:
 ** DONE Pick up the family from the airport                        :private:
 *** picked up at midnight <2019-05-08 Wed> 1am at the airport bad sleep
-* <2019-05-08 Wed> Tasks:
+* <2019-05-08 Wed>~<2019-05-10 Fri> Tasks:
 ** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
 ** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
@@ -40,6 +40,8 @@ DEADLINE: <2019-04-25 Thu>
 DEADLINE: <2019-05-17 Fri>
 ** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
-** TODO draft for ikemoto lets aim to finish during the holiday(failed then work this week for this draft) :AMU:
-** TODO send the updated results to LP and SA                         :LSHTM:
-
+** TODO Deep learning Course 4 week 1                              :private:
+** TODO draft for ikemoto lets aim to finish during the holiday(failed then work during the next 2 weeks for this draft) :AMU:
+** DOING Update results from MLCA NDNS RP  to LP and SA              :LSHTM:
+** TODO Send the updated NDNS RP results to LP and SA                :LSHTM:
+** TODO modify the manuscript for IJE                                :LSHTM:

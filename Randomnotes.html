@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-05-10 Fri 18:07 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Random notes by Org-mode 2019-02</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="[[https://wangcc.me][Chaochen Wang]]Chaochen Wang" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Random notes by Org-mode 2019-02</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgf2441a6">1. Therneau, Terry, Cynthia CrowsonとElizabeth Atkinson. 「Using Time Dependent Covariates and Time Dependent Coeﬃcients in the Cox Model」, 日付なし, 27.</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org6abb3e5">1.0.1. When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed.</a></li>
+<li><a href="#orgdecec86">1.0.2. When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org61e54c1">2. pdf-tools (https://github.com/politza/pdf-tools) within the Emacs is good for annoation and reading pdf files</a></li>
+<li><a href="#orgd8ab658">3. CFA</a>
+<ul>
+<li><a href="#orge2d523a">3.1. Factor Rotation (P27-)</a>
+<ul>
+<li><a href="#org25101c9">3.1.1. Once the appropriate number of factors has been determined, the extracted factors are rotated, to foster their <b><b>intepretaibility</b></b>.</a></li>
+<li><a href="#org2c3ad5d">3.1.2. For any given multiple-factor model, there exist an infinite number of equally good-fitting solutions (each represented by a different factor loading matrix)</a></li>
+<li><a href="#org8b8fc5a">3.1.3. In applied research, factor loadings greater than or equal to 0.30 or 0.40 are often interpreted as salient (i.e. the indicator is meaningfully related to a primary or secondary factor).</a></li>
+<li><a href="#org8e05f8d">3.1.4. For models that contain two or more factors, rotation is conducted to produce a solution with <b><b>the best simple structure.</b></b></a></li>
+<li><a href="#org933b8cf">3.1.5. It is important to emphasize that rotation does not alter the fit of the solution. Rather, factor rotation is a mathematical transformation that is undertaken to foster interpretability by maximizing larger factor loadings closer to one and minimizing smaller factor loadings closer to zero.</a></li>
+<li><a href="#orge1f957e">3.1.6. Constraining factors to be uncorrelated in CFA will typically result in poor model fit.</a></li>
+<li><a href="#org225f384">3.1.7. Conceptually, a factor score is the score that would have been observed for a person if it had been possible to measure the factor directly.</a></li>
+<li><a href="#org2dc6dd2">3.1.8. Specifically, a correlation matrix is used as input in EFA, and both the factors and indicators are completely standardized regression coefficients.</a></li>
+<li><a href="#org738b049">3.1.9. Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables.</a></li>
+<li><a href="#org9441916">3.1.10. A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., \(COV_{xy} = r_{xy}SD_xSD_y\)</a></li>
+<li><a href="#org6804cf3">3.1.11. SEM methodogolists often express a strong preference for reporting unstandardized solutions because the analysis itself is based on unstandardized variables, and completely standardized values are potentially misleading.</a></li>
+<li><a href="#org280ad2f">3.1.12. For instance, the true nature of the variance and relationships among indicators and factors can be masked when these variables have been standardized; when the original matric of variables is expressed in meaningful units, unstandardized estimates more clearly convey the importance or substantive significance of the effects.</a></li>
+<li><a href="#org9e216c5">3.1.13. All indicators in EFA freely load on all factors, and the solution is rotated to maximize the magnitude of primary loadings and minimize the magnitude of cross-loadings.</a></li>
+<li><a href="#org11448fa">3.1.14. Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by <b><b>fixing most or all indicator cross-loadings to zero</b></b>.</a></li>
+<li><a href="#org874de65">3.1.15. The communality is the sum of squared factor loadings for a given indicator across all factors.</a></li>
+</ul>
+</li>
+<li><a href="#orgc0e2c3b">3.2. Parameters of a CFA model</a></li>
+<li><a href="#org571992f">3.3. CFA model indentification (P53)</a></li>
+<li><a href="#orgb9f97b5">3.4. Specification and interpretation of CFA models (P115)</a></li>
+</ul>
+</li>
+<li><a href="#org1918ee2">4. Onyx: A graphical interface for Structural Equation Modeling</a></li>
+<li><a href="#org90cb26a">5. Org-mode-tutorials: http://pragmaticemacs.com/org-mode-tutorials/</a></li>
+<li><a href="#orgd152815">6. Illustrating the impact of a time-varying covarate with and extended Kaplan-Meier Estimator</a></li>
+<li><a href="#org4821dab">7. Rajkomar, Alvin, Jeffrey DeanとIsaac Kohane. 「Machine Learning in Medicine」. New England Journal of Medicine 380, no. 14 (2019年4月4日): 1347–58. https://doi.org/10.1056/NEJMra1814259.</a></li>
+<li><a href="#org64c7605">8. Joint Models for Longitudinal and Time-to-Event Data with Applications in R</a>
+<ul>
+<li><a href="#org079ce50">8.1. An important inherent characteristic of these medical conditions is their dynamic nature. That is, the rate of progression is not only different from patient to patient but also dynamically changes in time for the same patient.</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf2441a6" class="outline-2">
+<h2 id="orgf2441a6"><span class="section-number-2">1</span> Therneau, Terry, Cynthia CrowsonとElizabeth Atkinson. 「Using Time Dependent Covariates and Time Dependent Coeﬃcients in the Cox Model」, 日付なし, 27.</h2>
+<div class="outline-text-2" id="text-1">
+<ol class="org-ol">
+<li>Page 4: One common question with this data setup is whether we need to worry about correlated data, since a given subject has multiple observations. The answer is no, we do not. The reason is that this representation is simply a programming trick. The likelihood equations at any time point use only one copy of any subject, the program picks out the correct row of data at each times. There are two exceptions to this rule:</li>
+</ol>
+</div>
+
+<div id="outline-container-org6abb3e5" class="outline-4">
+<h4 id="org6abb3e5"><span class="section-number-4">1.0.1</span> When subjects have multiple events, then the rows for the events are correlated within subject and a cluster variance is needed.</h4>
+</div>
+<div id="outline-container-orgdecec86" class="outline-4">
+<h4 id="orgdecec86"><span class="section-number-4">1.0.2</span> When a subject appears in overlapping intervals. This however is almost always a data error, since it corresponds to two copies of the subject being present in the same strata at the same time, e.g. she could meet herself at a party.</h4>
+</div>
+</div>
+
+<div id="outline-container-org61e54c1" class="outline-2">
+<h2 id="org61e54c1"><span class="section-number-2">2</span> pdf-tools (<a href="https://github.com/politza/pdf-tools">https://github.com/politza/pdf-tools</a>) within the Emacs is good for annoation and reading pdf files</h2>
+</div>
+<div id="outline-container-orgd8ab658" class="outline-2">
+<h2 id="orgd8ab658"><span class="section-number-2">3</span> CFA</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orge2d523a" class="outline-3">
+<h3 id="orge2d523a"><span class="section-number-3">3.1</span> Factor Rotation (P27-)</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org25101c9" class="outline-4">
+<h4 id="org25101c9"><span class="section-number-4">3.1.1</span> Once the appropriate number of factors has been determined, the extracted factors are rotated, to foster their <b><b>intepretaibility</b></b>.</h4>
+</div>
+
+<div id="outline-container-org2c3ad5d" class="outline-4">
+<h4 id="org2c3ad5d"><span class="section-number-4">3.1.2</span> For any given multiple-factor model, there exist an infinite number of equally good-fitting solutions (each represented by a different factor loading matrix)</h4>
+</div>
+
+<div id="outline-container-org8b8fc5a" class="outline-4">
+<h4 id="org8b8fc5a"><span class="section-number-4">3.1.3</span> In applied research, factor loadings greater than or equal to 0.30 or 0.40 are often interpreted as salient (i.e. the indicator is meaningfully related to a primary or secondary factor).</h4>
+</div>
+
+<div id="outline-container-org8e05f8d" class="outline-4">
+<h4 id="org8e05f8d"><span class="section-number-4">3.1.4</span> For models that contain two or more factors, rotation is conducted to produce a solution with <b><b>the best simple structure.</b></b></h4>
+</div>
+
+<div id="outline-container-org933b8cf" class="outline-4">
+<h4 id="org933b8cf"><span class="section-number-4">3.1.5</span> It is important to emphasize that rotation does not alter the fit of the solution. Rather, factor rotation is a mathematical transformation that is undertaken to foster interpretability by maximizing larger factor loadings closer to one and minimizing smaller factor loadings closer to zero.</h4>
+</div>
+
+<div id="outline-container-orge1f957e" class="outline-4">
+<h4 id="orge1f957e"><span class="section-number-4">3.1.6</span> Constraining factors to be uncorrelated in CFA will typically result in poor model fit.</h4>
+</div>
+
+<div id="outline-container-org225f384" class="outline-4">
+<h4 id="org225f384"><span class="section-number-4">3.1.7</span> Conceptually, a factor score is the score that would have been observed for a person if it had been possible to measure the factor directly.</h4>
+</div>
+
+<div id="outline-container-org2dc6dd2" class="outline-4">
+<h4 id="org2dc6dd2"><span class="section-number-4">3.1.8</span> Specifically, a correlation matrix is used as input in EFA, and both the factors and indicators are completely standardized regression coefficients.</h4>
+</div>
+
+<div id="outline-container-org738b049" class="outline-4">
+<h4 id="org738b049"><span class="section-number-4">3.1.9</span> Although CFA also produces a completely standardized solution, much of the analysis does not standardize the latent or observed variables.</h4>
+</div>
+
+<div id="outline-container-org9441916" class="outline-4">
+<h4 id="org9441916"><span class="section-number-4">3.1.10</span> A covariance can be calculated by multiplying the correlation of the two indicators by their standard deviations, i.e., \(COV_{xy} = r_{xy}SD_xSD_y\)</h4>
+</div>
+
+<div id="outline-container-org6804cf3" class="outline-4">
+<h4 id="org6804cf3"><span class="section-number-4">3.1.11</span> SEM methodogolists often express a strong preference for reporting unstandardized solutions because the analysis itself is based on unstandardized variables, and completely standardized values are potentially misleading.</h4>
+</div>
+
+
+<div id="outline-container-org280ad2f" class="outline-4">
+<h4 id="org280ad2f"><span class="section-number-4">3.1.12</span> For instance, the true nature of the variance and relationships among indicators and factors can be masked when these variables have been standardized; when the original matric of variables is expressed in meaningful units, unstandardized estimates more clearly convey the importance or substantive significance of the effects.</h4>
+</div>
+
+<div id="outline-container-org9e216c5" class="outline-4">
+<h4 id="org9e216c5"><span class="section-number-4">3.1.13</span> All indicators in EFA freely load on all factors, and the solution is rotated to maximize the magnitude of primary loadings and minimize the magnitude of cross-loadings.</h4>
+</div>
+
+<div id="outline-container-org11448fa" class="outline-4">
+<h4 id="org11448fa"><span class="section-number-4">3.1.14</span> Factor rotation does not apply to CFA. This is because the identification restrictions associated with CFA are achieved in part by <b><b>fixing most or all indicator cross-loadings to zero</b></b>.</h4>
+</div>
+
+<div id="outline-container-org874de65" class="outline-4">
+<h4 id="org874de65"><span class="section-number-4">3.1.15</span> The communality is the sum of squared factor loadings for a given indicator across all factors.</h4>
+</div>
+</div>
+<div id="outline-container-orgc0e2c3b" class="outline-3">
+<h3 id="orgc0e2c3b"><span class="section-number-3">3.2</span> Parameters of a CFA model</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Factor loadings are the regression slopes for predicting the indicators from the latent variable. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org571992f" class="outline-3">
+<h3 id="org571992f"><span class="section-number-3">3.3</span> CFA model indentification (P53)</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+In order to estimate the parameters in CFA, the measurement model must be identified. A model is identified if, on the basis of known information (i.e., the variances and covariances in the sample input matrix).
+</p>
+
+<p>
+In the first and by far the more popular method, the researcher fixes the metric of the latent variable to be the same as one of its indicators "marker or reference indicator".
+</p>
+
+<p>
+In the seconde method, the variance of the latent variable is fixed to a specific value, usually 1.00. However, this method is used less often than the marker indicator approach. 
+</p>
+
+<p>
+The former strategy produces an unstandardized solution (in addition to a completely standardized solution), which is useful for several purposes, such as tests of measurement invariance across groups and evaluations of scale reliability.
+</p>
+
+<p>
+Unlike just-identified models, overidentified models rarely fit the data perfectly (i.e., a perfectly fitting model is one whose parameter estimates recreate the data perfectly). 
+</p>
+
+<p>
+Specification of a model to have at least 0 df is a necessary but not sufficient condition for indentification.
+</p>
+
+<p>
+For these and other reasons, methodologists recommend that latent variables be defined by a minimum of three indicators to avoid this possible source of underidentification. 
+</p>
+
+<p>
+By far, the fitting function most widely used in applied CFA research (and SEM in general) is ML (maximum likelihood). The fitting function that is minimized in ML is:
+</p>
+
+<p>
+\[
+F_{\text{ML}} = ln|S| - ln|\Sigma| + \text{trace}[(S)(\Sigma^{-1})] - p
+\]
+</p>
+
+<p>
+where, \(|S|\) is the determinant of the input variance-covariance matrix, \(|\Sigma|\) is the predicted variance-covariance matrix, \(p\) is the order of the input matrix (i.e. the number of input indicators); and \(ln\) is the natural logarithm.
+</p>
+
+<p>
+The underlying principle of ML estimation in CFA is to find the model parameter estimates that maximize the probability of observing the available data if the data are collected from the same population again.
+</p>
+
+<p>
+Some key assumption of ML are that 
+</p>
+
+<p>
+(1) The sample size is large (asymptotic); 
+(2) The indicators have been measured on continuous scales (i.e., approximate interval-level data);
+(3) The distribution of the indicators is multivariate normal. 
+</p>
+
+<p>
+The latter two assumptions apply to indicators of latent variables, not to other observed measures that may exist in the analysis, such as nominal variables that serve as covariates. Although the actual parameter estimates (factor loadings) may not be affected, non-normality in ML analysis can result in biased standard errors (and hence faulty significance tests) and a poorly behaved \(\chi^2\) test of overall model fit. 
+</p>
+
+<p>
+Thus in the case of non-normal, continuous indicators, it is better to use a different estimator, such as ML with robust standard errors and \(\chi^2\) (MLM) or the MLR estimator in the Mplus program. MLM and MLR provide the same parameter estimates as ML, but both the model \(\chi^2\) and standard errors of the parameter estimates are corrected for non-normality in large samples. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb9f97b5" class="outline-3">
+<h3 id="orgb9f97b5"><span class="section-number-3">3.4</span> Specification and interpretation of CFA models (P115)</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+In CFA models where there are no cross-loading indicators, the complete standardized factor loading can be interpreted as the correlation between the indicator and the factor. Accordingly, squaring the completed standardized factor loading provides the proportion of <b><b>variance of the indicator</b></b> that is explained by the factor &#x2013; that is a communality. 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1918ee2" class="outline-2">
+<h2 id="org1918ee2"><span class="section-number-2">4</span> Onyx: A graphical interface for Structural Equation Modeling</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+<a href="http://onyx.brandmaier.de/what-is-onyx/">http://onyx.brandmaier.de/what-is-onyx/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org90cb26a" class="outline-2">
+<h2 id="org90cb26a"><span class="section-number-2">5</span> Org-mode-tutorials: <a href="http://pragmaticemacs.com/org-mode-tutorials/">http://pragmaticemacs.com/org-mode-tutorials/</a></h2>
+</div>
+
+<div id="outline-container-orgd152815" class="outline-2">
+<h2 id="orgd152815"><span class="section-number-2">6</span> Illustrating the impact of a time-varying covarate with and extended Kaplan-Meier Estimator</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+For example it may be reasonable to assume that the risk of ESRD (end stage renal disease) is a function of the patient's current value of serum creatinine and, conditional on that value, is not related to any previous values. 
+</p>
+
+<p>
+&#x2026; 
+</p>
+
+<p>
+One special type of time-varying covariate deserves attention. During follow-up certain intervening events may occur which can irreversibly alter the patient's risk of the endpoint of interest. For example, the patient might suffer a stroke or permanently discontinue study medication. The covariates representing these intervening events can only take the value 0 or 1, and an individual's covariate value cannot change from 1 to 0 during the course of the trial. 
+</p>
+
+<p>
+&#x2026; 
+</p>
+
+<p>
+By accounting for the time-varying nature of the covariates, the result should be an illustration of the expected probability of having had an event, as a function of time, for hypothetical cohorts of patients with constant covariate values over time. 
+</p>
+
+<p>
+&#x2026; 
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="org65aa4dc"></a>\(n\) = the total sample size<br /></li>
+<li><a id="orgd9a01c8"></a>\(Y_i\) = the follow-up time<br /></li>
+<li><a id="orgc8f9ed4"></a>\(\delta_i\) = an event indicator (1 if the patient had an event at time \(Y_i\))<br /></li>
+<li><a id="org5de5b20"></a>\(i\) is a patient indicator (patient ID)<br />
+<div class="outline-text-5" id="text-6-0-0-4">
+<p>
+&#x2026;
+</p>
+
+<p>
+Approach 1. The Final Covariate Value (comes from the Heart Outcomes Prevention Evaluation, HOPE study). This approach is clearly inconsistent with the Cox regression model, since the Cox model makes use of the patients' covariate value at each event time. 
+</p>
+
+<p>
+&#x2026; 
+</p>
+
+
+<p>
+The extended Kaplan-Meier estimator recommended here simply updates the cohorts at each event time. 
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org4821dab" class="outline-2">
+<h2 id="org4821dab"><span class="section-number-2">7</span> Rajkomar, Alvin, Jeffrey DeanとIsaac Kohane. 「Machine Learning in Medicine」. New England Journal of Medicine 380, no. 14 (2019年4月4日): 1347–58. <a href="https://doi.org/10.1056/NEJMra1814259">https://doi.org/10.1056/NEJMra1814259</a>.</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Machine learning is not just a new tool, such as a new drug or medical device. Rather, it is the fundamental technology required to meaningfully process data that exceed the capacity of the human brain to comprehend. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org64c7605" class="outline-2">
+<h2 id="org64c7605"><span class="section-number-2">8</span> Joint Models for Longitudinal and Time-to-Event Data with Applications in R</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org079ce50" class="outline-3">
+<h3 id="org079ce50"><span class="section-number-3">8.1</span> An important inherent characteristic of these medical conditions is their dynamic nature. That is, the rate of progression is not only different from patient to patient but also dynamically changes in time for the same patient.</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
+<p class="email">Email: <a href="mailto:chaochen@wangcc.me">chaochen@wangcc.me</a></p>
+<p class="date">Created: 2019-05-10 Fri 18:07</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
