@@ -147,9 +147,9 @@
 #+NAME:   fig:2daytypes
 [[https://wangcc.me/Emacsnotes/Pic/Y14_2daytypes809_739.png][https://wangcc.me/Emacsnotes/Pic/Y14_2daytypes809_739.png]]
 ** 3 day types 
-#+CAPTION: 3 Classes in day level (men)
+#+CAPTION: 3 Classes in day level (Participants recruited between Year 1-4)
 #+NAME:   fig:3daytypes
-[[https://wangcc.me/AJCN_temp_NDNS/Men/3daytypes.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png][https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png]]
 
 
 * Day level solution in Women
