@@ -152,7 +152,7 @@
 [[https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png][https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png]]
 
 
-#+ATTR_HTML: :align center :height 300
+#+ATTR_HTML: :align center
 [[https://wangcc.me/Emacsnotes/Pic/Y14_2daytypes809_739.png]]
 [[https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png][https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png]]
 
