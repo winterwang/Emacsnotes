@@ -44,8 +44,8 @@
 |                2 |                   29 |    -96989.381 | 194036.762 | 194255.055 | 194162.896 |   0.330 | < 0.0001             |
 |                3 |                   44 |    -96639.714 | 193367.428 | 193698.631 | 193558.803 |   0.395 | 0.0001               |
 |                4 |                   59 |    -96414.188 | 192946.376 | 193390.489 | 193202.992 |   0.565 | 0.8069               |
-|                5 |                   74 |    -96249.825 | 192647.651 | 193204.674 | 192969.508 |   0.471 | under calculation    |
-|                6 |                   89 |    -96156.698 | 192491.395 | 193161.328 | 192878.495 |   0.484 | 0.0277               |
+|                5 |                   74 |    -96249.825 | 192647.651 | 193204.674 | 192969.508 |   0.471 | 0.7681               |
+|                6 |                   89 |    -96156.698 | 192491.395 | 193161.328 | 192878.495 |   0.484 | 0.2770              |
 |         Year 5-8 |                      |               |            |            |            |         |                      |
 |                1 |                   14 |    -76054.871 | 152137.742 | 152239.703 | 152195.213 |      -- | --                   |
 |                2 |                   29 |    -75555.053 | 151168.107 | 151379.312 | 151287.154 |   0.325 | < 0.0001             |
@@ -56,7 +56,7 @@
 
 
 
-* MLCA model fitting information for participants Year 1-4
+* MLCA model fitting information for participants Year 1-4 (best fitting in bold)
 
 | N of Day level classes  | 1 class |      2 classes |  3 classes |  4 classes |  5 classes |  6 classes |
 |-------------------------+---------+----------------+------------+------------+------------+------------|
@@ -98,7 +98,7 @@
 | Entropy                 |         |          0.702 |      0.705 |            |            |            |
 
 
-* MLCA model fitting information for participants Year 5-8
+* MLCA model fitting information for participants Year 5-8 (best fitting in bold)
 
 | Model                   | 1 class |      2 classes |  3 classes |  4 classes |  5 classes |  6 classes |
 |-------------------------+---------+----------------+------------+------------+------------+------------|
@@ -152,32 +152,33 @@
 [[https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png][https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png]]
 
 
-* Day level solution in Women
+* Day level solution for participants Year 5-8 
 ** 2 day types
-#+CAPTION: 2 Classes in day level (women)
+#+CAPTION: 2 Classes in day level (Participants recruited between Year 5-8)
 #+NAME:   fig:2daytypes
-[[https://wangcc.me/AJCN_temp_NDNS/Women/2daytypes.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png][https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png]]
 ** 3 day types 
-#+CAPTION: 3 Classes in day level (women)
+**(First day class looks quite different from the one from Year 1-4 and the whole sample, and may not be appropriate to be called as "high percentage carb day")**
+#+CAPTION: 3 Classes in day level  (Participants recruited between Year 5-8)
 #+NAME:   fig:3daytypes
-[[https://wangcc.me/AJCN_temp_NDNS/Women/3daytypes.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y58_3daytypes809_809.png][https://wangcc.me/Emacsnotes/Pic/Y58_3daytypes809_809.png]]
 
-* Individual level solution in MEN
+* Individual level solution for participants Year 1-4
 
-** 2 $\times$ 5 solution (the best one in terms of model fitting)
-**Here individual class 1 and class 5 are very similar (i.e. not separated).**
+** 2 $\times$ 4 solution (the best one in terms of model fitting)
+**Here individual class 1 and class 3 are very similar (i.e. not separated).**
 
-#+CAPTION:  2 classes in day level, 5 classes in individual level (men)
-#+NAME:   fig:2(day)x5(individual) types
-[[https://wangcc.me/AJCN_temp_NDNS/Men/CW2CB5.png]]
+#+CAPTION:  2 classes in day level, 4 classes in individual level (Year 1-4)
+#+NAME:   fig:2(day)x4(individual) types
+[[https://wangcc.me/Emacsnotes/Pic/Y14_2by4_721_544.png][https://wangcc.me/Emacsnotes/Pic/Y14_2by4_721_544.png]]
 
 
 ** 3 $\times$ 3 solution (the best one in terms of interpretation)
-#+CAPTION:  3 classes in day level, 3 classes in individual level (men)
+#+CAPTION:  3 classes in day level, 3 classes in individual level (Year 1-4)
 #+NAME:   fig:3(day)x3(individual) types
-[[https://wangcc.me/AJCN_temp_NDNS/Men/3times3.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y14_3by3_721_544.png][https://wangcc.me/Emacsnotes/Pic/Y14_3by3_721_544.png]]
 
-* Individual level solution in Women
+* Individual level solution for participants Year 5-8
 ** 2 $\times$ 5 solution (the best one in terms of model fitting)
 **AGAIN, here individual class 1 and class 5 are very similar (i.e. not separated).**
 
