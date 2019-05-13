@@ -47,5 +47,7 @@ DEADLINE: <2019-05-17 Fri>
 Done on <2019-05-13 Mon> 
 ** TODO Send the updated NDNS RP results to LP and SA                :LSHTM:
 ** TODO modify the manuscript for IJE                                :LSHTM:
-** TODO Develop an initial report for time-dependent analysis using database :parttime:
+** DONE Develop an initial report for time-dependent analysis using database :parttime:
+Done on <2019-05-13 Mon 15:34>
 ** TODO Learn how to do Joint models to analysis the above data   :parttime:
+
