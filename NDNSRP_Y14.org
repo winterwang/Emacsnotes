@@ -152,11 +152,15 @@
 [[https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png][https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png]]
 
 
-* Day level solution in Women
+#+ATTR_HTML: :align center :height 300
+[[https://wangcc.me/Emacsnotes/Pic/Y14_2daytypes809_739.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png][https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png]]
+
+* Day level solution for participants Year 5-8 
 ** 2 day types
-#+CAPTION: 2 Classes in day level (women)
+#+CAPTION: 2 Classes in day level (Participants recruited between Year 5-8)
 #+NAME:   fig:2daytypes
-[[https://wangcc.me/AJCN_temp_NDNS/Women/2daytypes.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png][https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png]]
 ** 3 day types 
 #+CAPTION: 3 Classes in day level (women)
 #+NAME:   fig:3daytypes
