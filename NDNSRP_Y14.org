@@ -180,13 +180,15 @@
 
 * Individual level solution for participants Year 5-8
 ** 2 $\times$ 6 solution (the best one in terms of model fitting)
-**AGAIN, here individual class 3, 4 and class 5 are very similar (i.e. not separated).**
+**AGAIN, here individual class 2, 4 and class 5 look very similar; 1 and 3 also seems not separated well as we thought.**
 
 #+CAPTION:  2 classes in day level, 6 classes in individual level (Year 5-8)
-#+NAME:   fig:2(day)x5(individual) types
+#+NAME:   fig:2(day)x6(individual) types
 [[https://wangcc.me/Emacsnotes/Pic/Y58_2by6_898_600.png][https://wangcc.me/Emacsnotes/Pic/Y58_2by6_898_600.png]]
 
 ** 3 $\times$ 3 solution (the best one in terms of interpretation)
-#+CAPTION:  3 classes in day level, 3 classes in individual level (women)
+**Note that in years 5-8, even high carbohydrate eaters had less than 30% days with high percentages of carbohydrates**
+
+#+CAPTION:  3 classes in day level, 3 classes in individual level (Year 5-8)
 #+NAME:   fig:3(day)x3(individual) types
-[[https://wangcc.me/AJCN_temp_NDNS/Women/CW3CB3.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y58_3by3_721_544.png][https://wangcc.me/Emacsnotes/Pic/Y58_3by3_721_544.png]]
