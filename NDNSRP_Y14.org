@@ -152,21 +152,17 @@
 [[https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png][https://wangcc.me/Emacsnotes/Pic/Y14_3daytypes809_809.png]]
 
 
-#+ATTR_HTML: :align center
-[[https://wangcc.me/Emacsnotes/Pic/Y14_2daytypes809_739.png]]
-[[https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png][https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png]]
-
 * Day level solution for participants Year 5-8 
 ** 2 day types
 #+CAPTION: 2 Classes in day level (Participants recruited between Year 5-8)
 #+NAME:   fig:2daytypes
 [[https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png][https://wangcc.me/Emacsnotes/Pic/Y58_2daytypes809_739.png]]
 ** 3 day types 
-#+CAPTION: 3 Classes in day level (women)
+#+CAPTION: 3 Classes in day level  (Participants recruited between Year 5-8)
 #+NAME:   fig:3daytypes
-[[https://wangcc.me/AJCN_temp_NDNS/Women/3daytypes.png]]
+[[https://wangcc.me/Emacsnotes/Pic/Y58_3daytypes809_809.png][https://wangcc.me/Emacsnotes/Pic/Y58_3daytypes809_809.png]]
 
-* Individual level solution in MEN
+* Individual level solution for participants Year 1-4
 
 ** 2 $\times$ 5 solution (the best one in terms of model fitting)
 **Here individual class 1 and class 5 are very similar (i.e. not separated).**
@@ -181,7 +177,7 @@
 #+NAME:   fig:3(day)x3(individual) types
 [[https://wangcc.me/AJCN_temp_NDNS/Men/3times3.png]]
 
-* Individual level solution in Women
+* Individual level solution for participants Year 1-4
 ** 2 $\times$ 5 solution (the best one in terms of model fitting)
 **AGAIN, here individual class 1 and class 5 are very similar (i.e. not separated).**
 
