@@ -42,6 +42,7 @@ DEADLINE: <2019-05-17 Fri>
 *** data csv prepared on <2019-05-14 Tue 14:54>
 *** ready to initiate data analysis <2019-05-14 Tue 18:53>
 *** person year calculation done on <2019-05-15 Wed 20:19>
+*** covariate arrangement done on <2019-05-16 Thu 18:16>
 ** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Deep learning Course 4 week 1                              :private:
