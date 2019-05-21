@@ -45,6 +45,7 @@ DEADLINE: <2019-05-17 Fri>
 *** covariate arrangement done on <2019-05-16 Thu 18:16>
 *** start survival analysis on men and women <2019-05-17 Fri 11:43>
 *** summary table completed <2019-05-20 Mon 12:26>
+*** one mistake found in smoke duration analysis (women) and fixed <2019-05-21 Tue 17:34>
 ** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Deep learning Course 4 week 1                              :private:
@@ -59,7 +60,7 @@ Done on <2019-05-13 Mon 23:20>
 Done on <2019-05-13 Mon 15:34>
 ** DONE Learn how to do Joint models to analysis the above data   :parttime:
 Done on <2019-05-13 Mon 17:18>
-*** TODO Learn how to present the dynamic hazards                :parttime:
+*** DONE Learn how to present the dynamic hazards <2019-05-17 Fri 17:34>               :parttime:
 ** DONE Pay car annual tax                                         :private:
 Done on <2019-05-14 Tue 10:41>
 ** DONE Confirm rakuten edy payment list                           :private:
