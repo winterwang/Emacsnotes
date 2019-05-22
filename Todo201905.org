@@ -61,6 +61,7 @@ Done on <2019-05-13 Mon 15:34>
 ** DONE Learn how to do Joint models to analysis the above data   :parttime:
 Done on <2019-05-13 Mon 17:18>
 *** DONE Learn how to present the dynamic hazards <2019-05-17 Fri 17:34>               :parttime:
+*** TODO Try what JM author said on github (https://github.com/drizopoulos/JM/issues/13) :parttime:
 ** DONE Pay car annual tax                                         :private:
 Done on <2019-05-14 Tue 10:41>
 ** DONE Confirm rakuten edy payment list                           :private:
@@ -71,3 +72,5 @@ Done on <2019-05-14 Tue 11:12>
 start on <2019-05-22 Wed>
 ** TODO JAL okinawa agenda confirm                                 :private:
 start on <2019-05-22 Wed>
+** TODO Prepare the materials for students.                            :AMU:
+DEADLINE: <2019-05-30 Thu>
