@@ -54,7 +54,7 @@ DEADLINE: <2019-05-17 Fri>
 Done on <2019-05-13 Mon> 
 ** DONE Send the updated NDNS RP results to LP and SA                :LSHTM:
 Done on <2019-05-13 Mon 23:20>
-** TODO confirm guidance for IJE submission                          :LSHTM:
+** DONE confirm guidance for IJE submission                          :LSHTM:
 ** DONE modify the manuscript for IJE                                :LSHTM:
 done on <2019-05-22 Wed 13:28>
 ** DONE Develop an initial report for time-dependent analysis using database :parttime:
@@ -71,7 +71,7 @@ Done on <2019-05-14 Tue 11:03>
 Done on <2019-05-14 Tue 11:12>
 ** DONE JAL mileage register                                       :private:
 start on <2019-05-22 Wed>
-** TODO JAL okinawa agenda confirm                                 :private:
+** DONE JAL okinawa agenda confirm                                 :private:
 start on <2019-05-22 Wed> done on <2019-05-23 Thu 11:27>
 ** TODO Prepare the materials for students.                            :AMU:
 DEADLINE: <2019-05-30 Thu>
