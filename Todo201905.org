@@ -49,7 +49,7 @@ DEADLINE: <2019-05-17 Fri>
 ** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Deep learning Course 4 week 1                              :private:
-** TODO draft for ikemoto lets aim to finish during the holiday(failed then work during the next 2 weeks for this draft) :AMU:
+
 ** DONE Update results from MLCA NDNS RP  to LP and SA               :LSHTM:
 Done on <2019-05-13 Mon> 
 ** DONE Send the updated NDNS RP results to LP and SA                :LSHTM:
@@ -62,7 +62,7 @@ Done on <2019-05-13 Mon 15:34>
 ** DONE Learn how to do Joint models to analysis the above data   :parttime:
 Done on <2019-05-13 Mon 17:18>
 *** DONE Learn how to present the dynamic hazards <2019-05-17 Fri 17:34>               :parttime:
-*** TODO Try what JM author said on github (https://github.com/drizopoulos/JM/issues/13) :parttime:
+*** DOING Try what JM author said on github (https://github.com/drizopoulos/JM/issues/13) :parttime:
 ** DONE Pay car annual tax                                         :private:
 Done on <2019-05-14 Tue 10:41>
 ** DONE Confirm rakuten edy payment list                           :private:
@@ -73,7 +73,7 @@ Done on <2019-05-14 Tue 11:12>
 start on <2019-05-22 Wed>
 ** DONE JAL okinawa agenda confirm                                 :private:
 start on <2019-05-22 Wed> done on <2019-05-23 Thu 11:27>
-*** Okinawa schedule and hotel to be confirmed 
+*** TODO Okinawa schedule and hotel to be confirmed 
 ** DOING Prepare the materials for students.                           :AMU:
 DEADLINE: <2019-05-30 Thu>
 *** Q1 done on <2019-05-22 Wed 18:44>
@@ -81,3 +81,4 @@ DEADLINE: <2019-05-30 Thu>
 *** Q2 done on <2019-05-23 Thu 19:06>
 *** Q3 Q4 dataset decided <2019-05-24 Fri 12:10>
 
+** TODO draft for ikemoto lets aim to finish during the holiday(failed then work during the next 2 weeks for this draft) :AMU:
