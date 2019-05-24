@@ -73,8 +73,11 @@ Done on <2019-05-14 Tue 11:12>
 start on <2019-05-22 Wed>
 ** DONE JAL okinawa agenda confirm                                 :private:
 start on <2019-05-22 Wed> done on <2019-05-23 Thu 11:27>
-** TODO Prepare the materials for students.                            :AMU:
+*** Okinawa schedule and hotel to be confirmed 
+** DOING Prepare the materials for students.                           :AMU:
 DEADLINE: <2019-05-30 Thu>
 *** Q1 done on <2019-05-22 Wed 18:44>
 *** Q2 60% on <2019-05-23 Thu 16:27>
 *** Q2 done on <2019-05-23 Thu 19:06>
+*** Q3 Q4 dataset decided <2019-05-24 Fri 12:10>
+
