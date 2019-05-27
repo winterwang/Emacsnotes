@@ -81,4 +81,5 @@ DEADLINE: <2019-05-30 Thu>
 *** Q2 done on <2019-05-23 Thu 19:06>
 *** Q3 Q4 dataset decided <2019-05-24 Fri 12:10>
 *** Q3 done on <2019-05-26 Sun 16:14>
+*** Q4 mostly done on <2019-05-27 Mon 12:06>
 ** TODO draft for ikemoto lets aim to finish during the holiday(failed then work during the next 2 weeks for this draft) :AMU:
