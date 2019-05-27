@@ -1,3 +1,4 @@
+
 #+TITLE: Org-mode todo 2019-05
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
@@ -74,7 +75,7 @@ start on <2019-05-22 Wed>
 ** DONE JAL okinawa agenda confirm                                 :private:
 start on <2019-05-22 Wed> done on <2019-05-23 Thu 11:27>
 *** TODO Okinawa schedule and hotel to be confirmed 
-** DOING Prepare the materials for students.                           :AMU:
+** DONE Prepare the materials for students.                            :AMU:
 DEADLINE: <2019-05-30 Thu>
 *** Q1 done on <2019-05-22 Wed 18:44>
 *** Q2 60% on <2019-05-23 Thu 16:27>
@@ -82,4 +83,5 @@ DEADLINE: <2019-05-30 Thu>
 *** Q3 Q4 dataset decided <2019-05-24 Fri 12:10>
 *** Q3 done on <2019-05-26 Sun 16:14>
 *** Q4 mostly done on <2019-05-27 Mon 12:06>
+*** Q4 done on <2019-05-27 Mon 18:04>
 ** TODO draft for ikemoto lets aim to finish during the holiday(failed then work during the next 2 weeks for this draft) :AMU:
