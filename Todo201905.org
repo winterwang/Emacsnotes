@@ -35,9 +35,6 @@ DEADLINE: <2019-05-17 Fri>
 *** start survival analysis on men and women <2019-05-17 Fri 11:43>
 *** summary table completed <2019-05-20 Mon 12:26>
 *** one mistake found in smoke duration analysis (women) and fixed <2019-05-21 Tue 17:34>
-** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
-** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
-** TODO Deep learning Course 4 week 1                              :private:
 ** DONE Update results from MLCA NDNS RP  to LP and SA               :LSHTM:
 Done on <2019-05-13 Mon> 
 ** DONE Send the updated NDNS RP results to LP and SA                :LSHTM:
@@ -97,3 +94,8 @@ DEADLINE: <2019-06-24 Mon>
 ** TODO Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
 *** Chapter 5
 ** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
+** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
+** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
+** TODO Deep learning Course 4 week 1                              :private:
+** TODO Research square stat review                                :private:
+DEADLINE: <2019-06-03 Mon>
