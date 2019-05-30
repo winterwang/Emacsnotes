@@ -25,19 +25,7 @@ DEADLINE: <2019-04-25 Thu>
 ** DONE Pick up the family from the airport                        :private:
 *** picked up at midnight <2019-05-08 Wed> 1am at the airport bad sleep
 * Other Tasks:
-** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
-** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
-** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
-** TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
-*** until P224
-** TODO Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Strategies-Probability-Statistics/dp/1119953243/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=correspondence+analysis&qid=1557206502&s=gateway&sr=8-5][Correspondence analysis]]                    :LSHTM:
-** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
-** TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
-** TODO Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                   :reading:
-** TODO Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
-*** Chapter 5
 ** DONE Read book 7: [[http://jmr.r-forge.r-project.org/index.html][Joint Models for Longitudinal and Time-to-Event Data with Applications in R]] :parttime:
-** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
 ** DONE Smoking and colon cancer mortality                            :JACC:
 DEADLINE: <2019-05-17 Fri>
 *** data csv prepared on <2019-05-14 Tue 14:54>
@@ -50,7 +38,6 @@ DEADLINE: <2019-05-17 Fri>
 ** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Deep learning Course 4 week 1                              :private:
-
 ** DONE Update results from MLCA NDNS RP  to LP and SA               :LSHTM:
 Done on <2019-05-13 Mon> 
 ** DONE Send the updated NDNS RP results to LP and SA                :LSHTM:
@@ -63,7 +50,7 @@ Done on <2019-05-13 Mon 15:34>
 ** DONE Learn how to do Joint models to analysis the above data   :parttime:
 Done on <2019-05-13 Mon 17:18>
 *** DONE Learn how to present the dynamic hazards <2019-05-17 Fri 17:34>               :parttime:
-*** DOING Try what JM author said on github (https://github.com/drizopoulos/JM/issues/13) :parttime:
+*** DONE Try what JM author said on github (https://github.com/drizopoulos/JM/issues/13) :parttime: <2019-05-24 Fri 17:59>
 ** DONE Pay car annual tax                                         :private:
 Done on <2019-05-14 Tue 10:41>
 ** DONE Confirm rakuten edy payment list                           :private:
@@ -77,11 +64,36 @@ start on <2019-05-22 Wed> done on <2019-05-23 Thu 11:27>
 *** TODO Okinawa schedule and hotel to be confirmed 
 ** DONE Prepare the materials for students.                            :AMU:
 DEADLINE: <2019-05-30 Thu>
-*** Q1 done on <2019-05-22 Wed 18:44>
-*** Q2 60% on <2019-05-23 Thu 16:27>
-*** Q2 done on <2019-05-23 Thu 19:06>
-*** Q3 Q4 dataset decided <2019-05-24 Fri 12:10>
-*** Q3 done on <2019-05-26 Sun 16:14>
-*** Q4 mostly done on <2019-05-27 Mon 12:06>
-*** Q4 done on <2019-05-27 Mon 18:04>
-** TODO draft for ikemoto lets aim to finish during the holiday(failed then work during the next 2 weeks for this draft) :AMU:
+*** DONE Q1 done on <2019-05-22 Wed 18:44>
+*** DONE Q2 60% on <2019-05-23 Thu 16:27>
+*** DONE Q2 done on <2019-05-23 Thu 19:06>
+*** DONE Q3 Q4 dataset decided <2019-05-24 Fri 12:10>
+*** DONE Q3 done on <2019-05-26 Sun 16:14>
+*** DONE Q4 mostly done on <2019-05-27 Mon 12:06>
+*** DONE Q4 done on <2019-05-29 Wed 18:04>
+*** DONE typo fixed on <2019-05-30 Thu 09:49> for material with answers
+*** DONE typo fixed on <2019-05-30 Thu 12:05> for material without answers
+*** DONE typo fixed comments from Sasakabe sensei <2019-05-30 Thu 17:33> 
+*** DONE paper for submit prepared on <2019-05-30 Thu 17:34>
+** TODO draft for ikemoto lets aim to finish during the holiday :AMU:
+DEADLINE: <2019-06-24 Mon>
+*** DONE refit CFA with modified models <2019-05-29 Wed 17:55> 
+*** DONE meeting with Dr. Ikemoto, final model confirmed <2019-05-30 Thu 17:35>
+*** DOING summarise refitted results 
+** DONE confirm the comments and modifications from LP and SAM       :LSHTM:
+*** DONE done on <2019-05-28 Tue 16:02>
+*** TODO prepare cover letter 
+*** TODO ask LP to type in the requested forms 
+*** TODO other things needed to submission
+** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
+** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
+** TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
+** TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
+*** until P224
+** TODO Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Strategies-Probability-Statistics/dp/1119953243/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=correspondence+analysis&qid=1557206502&s=gateway&sr=8-5][Correspondence analysis]]                    :LSHTM:
+** TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
+** TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** TODO Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                   :reading:
+** TODO Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
+*** Chapter 5
+** TODO Chinese Calligraphy(Lantingji Xu)                          :private:
