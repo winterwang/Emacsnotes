@@ -101,3 +101,9 @@ DEADLINE: <2019-06-24 Mon>
 ** TODO Research square stat review                                :private:
 DEADLINE: <2019-06-03 Mon>
 ** TODO Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC :parttime:
+*** TODO CRP time-dep 
+*** TODO TG time-dep 
+*** TODO TC time-dep
+*** TODO BNP time-dep
+*** TODO LDLC time-dep
+*** TODO HDLC time-dep
