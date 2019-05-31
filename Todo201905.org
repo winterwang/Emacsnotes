@@ -72,6 +72,7 @@ DEADLINE: <2019-05-30 Thu>
 *** DONE typo fixed on <2019-05-30 Thu 12:05> for material without answers
 *** DONE typo fixed comments from Sasakabe sensei <2019-05-30 Thu 17:33> 
 *** DONE paper for submit prepared on <2019-05-30 Thu 17:34>
+*** DONE typo fixed again on <2019-05-31 Fri 14:22> 
 ** TODO draft for ikemoto lets aim to finish during the holiday :AMU:
 DEADLINE: <2019-06-24 Mon>
 *** DONE refit CFA with modified models <2019-05-29 Wed 17:55> 
