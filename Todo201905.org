@@ -99,3 +99,4 @@ DEADLINE: <2019-06-24 Mon>
 ** TODO Deep learning Course 4 week 1                              :private:
 ** TODO Research square stat review                                :private:
 DEADLINE: <2019-06-03 Mon>
+** TODO Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC :parttime:
