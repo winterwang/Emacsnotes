@@ -73,6 +73,7 @@ DEADLINE: <2019-05-30 Thu>
 *** DONE typo fixed comments from Sasakabe sensei <2019-05-30 Thu 17:33> 
 *** DONE paper for submit prepared on <2019-05-30 Thu 17:34>
 *** DONE typo fixed again on <2019-05-31 Fri 14:22> 
+*** DONE final version printed <2019-06-03 Mon 12:07>
 ** TODO draft for ikemoto lets aim to finish during the holiday :AMU:
 DEADLINE: <2019-06-24 Mon>
 *** DONE refit CFA with modified models <2019-05-29 Wed 17:55> 
@@ -80,8 +81,8 @@ DEADLINE: <2019-06-24 Mon>
 *** DOING summarise refitted results 
 ** DONE confirm the comments and modifications from LP and SAM       :LSHTM:
 *** DONE done on <2019-05-28 Tue 16:02>
-*** TODO prepare cover letter 
-*** TODO ask LP to type in the requested forms 
+*** DONE prepare cover letter 
+*** DONE ask LP to type in the requested forms 
 *** TODO other things needed to submission
 ** TODO Cluster analysis & Principal component analysis practical part :LSHTM:
 ** TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
@@ -98,8 +99,9 @@ DEADLINE: <2019-06-24 Mon>
 ** TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 ** TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 ** TODO Deep learning Course 4 week 1                              :private:
-** TODO Research square stat review                                :private:
+** DONE Research square stat review                                :private:
 DEADLINE: <2019-06-03 Mon>
+*** done on <2019-06-03 Mon 12:06> 
 ** TODO Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC :parttime:
 *** TODO CRP time-dep 
 *** TODO TG time-dep 
