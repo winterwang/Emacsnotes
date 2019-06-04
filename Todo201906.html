@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-06-04 Tue 14:49 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Org-mode todo 2019-06</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="[[https://wangcc.me][Chaochen Wang]]Chaochen Wang" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Org-mode todo 2019-06</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgbcd4a6b">1. <span class="todo TODO">TODO</span> draft for ikemoto lets aim to finish during the holiday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="AMU">AMU</span></span></a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgc38bf7f">1.0.1. <span class="done DONE">DONE</span> refit CFA with modified models <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-05-29 Wed 17:55&gt;</span></span></a></li>
+<li><a href="#org4a1f28f">1.0.2. <span class="done DONE">DONE</span> meeting with Dr. Ikemoto, final model confirmed <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-05-30 Thu 17:35&gt;</span></span></a></li>
+<li><a href="#orgfc95be1">1.0.3. <span class="todo DOING">DOING</span> summarise refitted results</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga99b5c1">2. <span class="done DONE">DONE</span> confirm the comments and modifications from LP and SAM&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgbd98e0a">2.0.1. <span class="done DONE">DONE</span> done on <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-05-28 Tue 16:02&gt;</span></span></a></li>
+<li><a href="#orgafa9257">2.0.2. <span class="done DONE">DONE</span> prepare cover letter</a></li>
+<li><a href="#org8c6a241">2.0.3. <span class="done DONE">DONE</span> ask LP to type in the requested forms</a></li>
+<li><a href="#orgbb460b4">2.0.4. <span class="todo TODO">TODO</span> other things needed to submission</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org471e753">3. <span class="todo TODO">TODO</span> Cluster analysis &amp; Principal component analysis practical part&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgb4bc051">4. <span class="todo TODO">TODO</span> Survival analysis Frailty models&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#org87b0900">5. <span class="todo TODO">TODO</span> Bayesian statistics Chapter 9;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgb8f3323">6. <span class="todo TODO">TODO</span> Read book 1: victim book&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a>
+<ul>
+<li>
+<ul>
+<li><a href="#org3dc7a3d">6.0.1. until P224</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgcc1ad98">7. <span class="todo TODO">TODO</span> Read book 2: Correspondence analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a></li>
+<li><a href="#orgc42a091">8. <span class="todo TODO">TODO</span> Read book 3: Bayesian biostatistics:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span>&#xa0;<span class="reading">reading</span></span></a></li>
+<li><a href="#org4c1a49c">9. <span class="todo TODO">TODO</span> Read book 4: Evidence and Evolution: The logic behind the science.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#orgb6df146">10. <span class="todo TODO">TODO</span> Read book 5: Wonderful R&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></a></li>
+<li><a href="#org64ede55">11. <span class="todo TODO">TODO</span> Read book 6: Correspondence analysis&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></a>
+<ul>
+<li>
+<ul>
+<li><a href="#org3ab40e7">11.0.1. Chapter 5</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org63d0e97">12. <span class="todo TODO">TODO</span> Chinese Calligraphy(Lantingji Xu)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
+<li><a href="#orgd44a27d">13. <span class="todo TODO">TODO</span> Breast cancer and reproduction data preparation for Naito&#xa0;&#xa0;&#xa0;<span class="tag"><span class="JACC">JACC</span></span></a></li>
+<li><a href="#org4ec5a54">14. <span class="todo TODO">TODO</span> Machine Learning Week 9 tasks&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
+<li><a href="#orgce9fb64">15. <span class="todo TODO">TODO</span> Deep learning Course 4 week 1&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></a></li>
+<li><a href="#orgc3e14f3">16. <span class="todo TODO">TODO</span> Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></a>
+<ul>
+<li>
+<ul>
+<li><a href="#org0028ce4">16.0.1. <span class="todo TODO">TODO</span> CRP time-dep</a></li>
+<li><a href="#orgdb588d7">16.0.2. <span class="todo TODO">TODO</span> TG time-dep</a></li>
+<li><a href="#orge06bc9e">16.0.3. <span class="todo TODO">TODO</span> TC time-dep</a></li>
+<li><a href="#org680e7ef">16.0.4. <span class="todo TODO">TODO</span> BNP time-dep</a></li>
+<li><a href="#org2d72ce9">16.0.5. <span class="todo TODO">TODO</span> LDLC time-dep</a></li>
+<li><a href="#org3ef2979">16.0.6. <span class="todo TODO">TODO</span> HDLC time-dep</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7870e76">17. <span class="done DONE">DONE</span> Files for Students upload to AIDL-K</a>
+<ul>
+<li><a href="#orga3e4fe2">17.1. done on <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-06-04 Tue 14:49&gt;</span></span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<pre class="example">
+Org is a mode for keeping notes, maintaining TODO lists,
+and doing project planning with a fast and effective 
+plain-text system.
+</pre>
+
+
+<div id="outline-container-orgbcd4a6b" class="outline-2">
+<h2 id="orgbcd4a6b"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> draft for ikemoto lets aim to finish during the holiday&#xa0;&#xa0;&#xa0;<span class="tag"><span class="AMU">AMU</span></span></h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgc38bf7f" class="outline-4">
+<h4 id="orgc38bf7f"><span class="section-number-4">1.0.1</span> <span class="done DONE">DONE</span> refit CFA with modified models <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-05-29 Wed 17:55&gt;</span></span></h4>
+</div>
+<div id="outline-container-org4a1f28f" class="outline-4">
+<h4 id="org4a1f28f"><span class="section-number-4">1.0.2</span> <span class="done DONE">DONE</span> meeting with Dr. Ikemoto, final model confirmed <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-05-30 Thu 17:35&gt;</span></span></h4>
+</div>
+<div id="outline-container-orgfc95be1" class="outline-4">
+<h4 id="orgfc95be1"><span class="section-number-4">1.0.3</span> <span class="todo DOING">DOING</span> summarise refitted results</h4>
+</div>
+</div>
+<div id="outline-container-orga99b5c1" class="outline-2">
+<h2 id="orga99b5c1"><span class="section-number-2">2</span> <span class="done DONE">DONE</span> confirm the comments and modifications from LP and SAM&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgbd98e0a" class="outline-4">
+<h4 id="orgbd98e0a"><span class="section-number-4">2.0.1</span> <span class="done DONE">DONE</span> done on <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-05-28 Tue 16:02&gt;</span></span></h4>
+</div>
+<div id="outline-container-orgafa9257" class="outline-4">
+<h4 id="orgafa9257"><span class="section-number-4">2.0.2</span> <span class="done DONE">DONE</span> prepare cover letter</h4>
+</div>
+<div id="outline-container-org8c6a241" class="outline-4">
+<h4 id="org8c6a241"><span class="section-number-4">2.0.3</span> <span class="done DONE">DONE</span> ask LP to type in the requested forms</h4>
+</div>
+<div id="outline-container-orgbb460b4" class="outline-4">
+<h4 id="orgbb460b4"><span class="section-number-4">2.0.4</span> <span class="todo TODO">TODO</span> other things needed to submission</h4>
+</div>
+</div>
+<div id="outline-container-org471e753" class="outline-2">
+<h2 id="org471e753"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Cluster analysis &amp; Principal component analysis practical part&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h2>
+</div>
+<div id="outline-container-orgb4bc051" class="outline-2">
+<h2 id="orgb4bc051"><span class="section-number-2">4</span> <span class="todo TODO">TODO</span> Survival analysis <a href="https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html">Frailty models</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h2>
+</div>
+<div id="outline-container-org87b0900" class="outline-2">
+<h2 id="org87b0900"><span class="section-number-2">5</span> <span class="todo TODO">TODO</span> <a href="https://wangcc.me/LSHTMlearningnote/section-88.html">Bayesian statistics Chapter 9</a>;&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookdown">bookdown</span>&#xa0;<span class="books">books</span>&#xa0;<span class="LSHTM">LSHTM</span></span></h2>
+</div>
+<div id="outline-container-orgb8f3323" class="outline-2">
+<h2 id="orgb8f3323"><span class="section-number-2">6</span> <span class="todo TODO">TODO</span> Read book 1: <a href="http://ywang.uchicago.edu/history/victim_ebook_070505.pdf">victim book</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org3dc7a3d" class="outline-4">
+<h4 id="org3dc7a3d"><span class="section-number-4">6.0.1</span> until P224</h4>
+</div>
+</div>
+<div id="outline-container-orgcc1ad98" class="outline-2">
+<h2 id="orgcc1ad98"><span class="section-number-2">7</span> <span class="todo TODO">TODO</span> Read book 2: <a href="https://www.amazon.co.jp/Correspondence-Analysis-Strategies-Probability-Statistics/dp/1119953243/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;keywords=correspondence+analysis&amp;qid=1557206502&amp;s=gateway&amp;sr=8-5">Correspondence analysis</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h2>
+</div>
+<div id="outline-container-orgc42a091" class="outline-2">
+<h2 id="orgc42a091"><span class="section-number-2">8</span> <span class="todo TODO">TODO</span> Read book 3: <a href="https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231">Bayesian biostatistics</a>:&#xa0;&#xa0;&#xa0;<span class="tag"><span class="interests">interests</span>&#xa0;<span class="reading">reading</span></span></h2>
+</div>
+<div id="outline-container-org4c1a49c" class="outline-2">
+<h2 id="org4c1a49c"><span class="section-number-2">9</span> <span class="todo TODO">TODO</span> Read book 4: <a href="https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&amp;isbn=9780521871884">Evidence and Evolution: The logic behind the science.</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h2>
+</div>
+<div id="outline-container-orgb6df146" class="outline-2">
+<h2 id="orgb6df146"><span class="section-number-2">10</span> <span class="todo TODO">TODO</span> Read book 5: <a href="https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&amp;qid=1546839385&amp;sr=8-1&amp;keywords=wonderful+R">Wonderful R</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="reading">reading</span></span></h2>
+</div>
+<div id="outline-container-org64ede55" class="outline-2">
+<h2 id="org64ede55"><span class="section-number-2">11</span> <span class="todo TODO">TODO</span> Read book 6: <a href="https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775">Correspondence analysis</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="LSHTM">LSHTM</span></span></h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-org3ab40e7" class="outline-4">
+<h4 id="org3ab40e7"><span class="section-number-4">11.0.1</span> Chapter 5</h4>
+</div>
+</div>
+<div id="outline-container-org63d0e97" class="outline-2">
+<h2 id="org63d0e97"><span class="section-number-2">12</span> <span class="todo TODO">TODO</span> Chinese Calligraphy(Lantingji Xu)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h2>
+</div>
+<div id="outline-container-orgd44a27d" class="outline-2">
+<h2 id="orgd44a27d"><span class="section-number-2">13</span> <span class="todo TODO">TODO</span> Breast cancer and reproduction data preparation for Naito&#xa0;&#xa0;&#xa0;<span class="tag"><span class="JACC">JACC</span></span></h2>
+</div>
+<div id="outline-container-org4ec5a54" class="outline-2">
+<h2 id="org4ec5a54"><span class="section-number-2">14</span> <span class="todo TODO">TODO</span> <a href="https://www.coursera.org/learn/machine-learning/home/welcome">Machine Learning</a> Week 9 tasks&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h2>
+</div>
+<div id="outline-container-orgce9fb64" class="outline-2">
+<h2 id="orgce9fb64"><span class="section-number-2">15</span> <span class="todo TODO">TODO</span> Deep learning Course 4 week 1&#xa0;&#xa0;&#xa0;<span class="tag"><span class="private">private</span></span></h2>
+</div>
+<div id="outline-container-orgc3e14f3" class="outline-2">
+<h2 id="orgc3e14f3"><span class="section-number-2">16</span> <span class="todo TODO">TODO</span> Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parttime">parttime</span></span></h2>
+<div class="outline-text-2" id="text-16">
+</div>
+<div id="outline-container-org0028ce4" class="outline-4">
+<h4 id="org0028ce4"><span class="section-number-4">16.0.1</span> <span class="todo TODO">TODO</span> CRP time-dep</h4>
+</div>
+<div id="outline-container-orgdb588d7" class="outline-4">
+<h4 id="orgdb588d7"><span class="section-number-4">16.0.2</span> <span class="todo TODO">TODO</span> TG time-dep</h4>
+</div>
+<div id="outline-container-orge06bc9e" class="outline-4">
+<h4 id="orge06bc9e"><span class="section-number-4">16.0.3</span> <span class="todo TODO">TODO</span> TC time-dep</h4>
+</div>
+<div id="outline-container-org680e7ef" class="outline-4">
+<h4 id="org680e7ef"><span class="section-number-4">16.0.4</span> <span class="todo TODO">TODO</span> BNP time-dep</h4>
+</div>
+<div id="outline-container-org2d72ce9" class="outline-4">
+<h4 id="org2d72ce9"><span class="section-number-4">16.0.5</span> <span class="todo TODO">TODO</span> LDLC time-dep</h4>
+</div>
+<div id="outline-container-org3ef2979" class="outline-4">
+<h4 id="org3ef2979"><span class="section-number-4">16.0.6</span> <span class="todo TODO">TODO</span> HDLC time-dep</h4>
+</div>
+</div>
+<div id="outline-container-org7870e76" class="outline-2">
+<h2 id="org7870e76"><span class="section-number-2">17</span> <span class="done DONE">DONE</span> Files for Students upload to AIDL-K</h2>
+<div class="outline-text-2" id="text-17">
+</div>
+<div id="outline-container-orga3e4fe2" class="outline-3">
+<h3 id="orga3e4fe2"><span class="section-number-3">17.1</span> done on <span class="timestamp-wrapper"><span class="timestamp">&lt;2019-06-04 Tue 14:49&gt;</span></span></h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: <a href="https://wangcc.me">Chaochen Wang</a></p>
+<p class="email">Email: <a href="mailto:chaochen@wangcc.me">chaochen@wangcc.me</a></p>
+<p class="date">Created: 2019-06-04 Tue 14:49</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

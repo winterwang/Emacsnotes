@@ -1,0 +1,48 @@
+
+#+TITLE: Org-mode todo 2019-06
+#+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
+#+EMAIL: chaochen@wangcc.me
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+
+#+BEGIN_EXAMPLE 
+Org is a mode for keeping notes, maintaining TODO lists,
+and doing project planning with a fast and effective 
+plain-text system.
+#+END_EXAMPLE
+
+
+* TODO draft for ikemoto lets aim to finish during the holiday :AMU:
+DEADLINE: <2019-06-24 Mon>
+*** DONE refit CFA with modified models <2019-05-29 Wed 17:55> 
+*** DONE meeting with Dr. Ikemoto, final model confirmed <2019-05-30 Thu 17:35>
+*** DOING summarise refitted results 
+* DONE confirm the comments and modifications from LP and SAM       :LSHTM:
+*** DONE done on <2019-05-28 Tue 16:02>
+*** DONE prepare cover letter 
+*** DONE ask LP to type in the requested forms 
+*** TODO other things needed to submission
+* TODO Cluster analysis & Principal component analysis practical part :LSHTM:
+* TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
+* TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
+* TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
+*** until P224
+* TODO Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Strategies-Probability-Statistics/dp/1119953243/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=correspondence+analysis&qid=1557206502&s=gateway&sr=8-5][Correspondence analysis]]                    :LSHTM:
+* TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
+* TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+* TODO Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                   :reading:
+* TODO Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                         :LSHTM:
+*** Chapter 5
+* TODO Chinese Calligraphy(Lantingji Xu)                          :private:
+* TODO Breast cancer and reproduction data preparation for Naito      :JACC:
+* TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
+* TODO Deep learning Course 4 week 1                              :private:
+* TODO Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC :parttime:
+*** TODO CRP time-dep 
+*** TODO TG time-dep 
+*** TODO TC time-dep
+*** TODO BNP time-dep
+*** TODO LDLC time-dep
+*** TODO HDLC time-dep
+* DONE Files for Students upload to AIDL-K  
+** done on <2019-06-04 Tue 14:49>
