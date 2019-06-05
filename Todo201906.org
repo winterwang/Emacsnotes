@@ -12,7 +12,7 @@ plain-text system.
 #+END_EXAMPLE
 
 
-* TODO draft for ikemoto lets aim to finish during the holiday :AMU:
+* TODO draft for ikemoto lets aim to finish writing after student seminar :AMU:
 DEADLINE: <2019-06-24 Mon>
 *** DONE refit CFA with modified models <2019-05-29 Wed 17:55> 
 *** DONE meeting with Dr. Ikemoto, final model confirmed <2019-05-30 Thu 17:35>
@@ -46,3 +46,5 @@ DEADLINE: <2019-06-24 Mon>
 *** TODO HDLC time-dep
 * DONE Files for Students upload to AIDL-K  
 ** done on <2019-06-04 Tue 14:49>
+* DONE hand in files for babies subsidies from gov                  :private:
+** done on <2019-06-04 Tue 13:23>
