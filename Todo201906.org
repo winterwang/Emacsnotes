@@ -48,4 +48,5 @@ DEADLINE: <2019-06-24 Mon>
 ** done on <2019-06-04 Tue 14:49>
 * DONE hand in files for babies subsidies from gov                  :private:
 ** done on <2019-06-04 Tue 13:23>
-* TODO prepare questions for test for 3rd grade students                :AMU:
+* DONE prepare questions for test for 3rd grade students                :AMU:
+** Q64-Q73 first draft done on <2019-06-06 Thu 16:16>
