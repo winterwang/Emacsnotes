@@ -17,6 +17,8 @@ DEADLINE: <2019-06-24 Mon>
 *** DONE refit CFA with modified models <2019-05-29 Wed 17:55> 
 *** DONE meeting with Dr. Ikemoto, final model confirmed <2019-05-30 Thu 17:35>
 *** DOING summarise refitted results 
+*** DONE draw the graph <2019-06-07 Fri 11:57>
+*** DONE Table 2 summary <2019-06-07 Fri 11:58>
 * DONE confirm the comments and modifications from LP and SAM       :LSHTM:
 *** DONE done on <2019-05-28 Tue 16:02>
 *** DONE prepare cover letter 
