@@ -19,6 +19,7 @@ DEADLINE: <2019-06-24 Mon>
 *** DOING summarise refitted results 
 *** DONE draw the graph <2019-06-07 Fri 11:57>
 *** DONE Table 2 summary <2019-06-07 Fri 11:58>
+*** DOING Paper done 30% <2019-06-08 Sat 17:56>
 * DONE confirm the comments and modifications from LP and SAM       :LSHTM:
 *** DONE done on <2019-05-28 Tue 16:02>
 *** DONE prepare cover letter 
@@ -39,6 +40,8 @@ DEADLINE: <2019-06-24 Mon>
 ** Chapter 7 optimal scaling <2019-06-06 Thu 22:15>
 * TODO Chinese Calligraphy(Lantingji Xu)                          :private:
 * TODO Breast cancer and reproduction data preparation for Naito      :JACC:
+* TODO Low-dose smoking and mortality                                  :JACC:
+DEADLINE: <2019-07-08 Wed>
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
 * TODO Deep learning Course 4 week 1                              :private:
 * TODO Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC :parttime:
