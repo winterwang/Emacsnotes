@@ -24,7 +24,8 @@ DEADLINE: <2019-06-24 Mon>
 *** DONE done on <2019-05-28 Tue 16:02>
 *** DONE prepare cover letter 
 *** DONE ask LP to type in the requested forms 
-*** TODO other things needed to submission
+*** DONE other things needed to submission <2019-06-11 Tue 16:30>
+*** TODO click submit 
 * DOING Cluster analysis & Principal component analysis practical part :LSHTM:
 ** DONE practical q 6 done on <2019-06-05 Wed 22:09>
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
@@ -59,3 +60,5 @@ DEADLINE: <2019-07-08 Wed>
 ** DONE Q64-Q73 first draft done on <2019-06-06 Thu 16:16>
 ** DONE confirmed and send to everyone <2019-06-11 Tue 10:34>
 * DONE JEA voting                                                        :JE:
+* DONE Buy Mplus two more licenses                                    :LSHTM:
+** done one <2019-06-11 Tue 16:59>
