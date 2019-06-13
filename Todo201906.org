@@ -51,6 +51,7 @@ DEADLINE: <2019-06-24 Mon>
 * DOING Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                          :LSHTM:
 ** Chapter 5
 ** Chapter 7 optimal scaling <2019-06-06 Thu 22:15>
+** Chapter 9 Two dimensional display <2019-06-13 Thu 16:10>
 
 * TODO Chinese Calligraphy(Lantingji Xu)                          :private:
 
