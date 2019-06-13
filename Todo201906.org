@@ -20,32 +20,50 @@ DEADLINE: <2019-06-24 Mon>
 *** DONE draw the graph <2019-06-07 Fri 11:57>
 *** DONE Table 2 summary <2019-06-07 Fri 11:58>
 *** DOING Paper done 30% <2019-06-08 Sat 17:56>
+
 * DONE confirm the comments and modifications from LP and SAM       :LSHTM:
 *** DONE done on <2019-05-28 Tue 16:02>
 *** DONE prepare cover letter 
 *** DONE ask LP to type in the requested forms 
 *** DONE other things needed to submission <2019-06-11 Tue 16:30>
-*** TODO click submit 
+*** DONE click submit <2019-06-11 Tue 21:52>
+
+
 * DOING Cluster analysis & Principal component analysis practical part :LSHTM:
 ** DONE practical q 6 done on <2019-06-05 Wed 22:09>
+
+
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]              :bookdown:books:LSHTM:
+
 * TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                :bookdown:books:LSHTM:
+
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                   :reading:
-*** until P224
+*** until P226
+
 * TODO Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Strategies-Probability-Statistics/dp/1119953243/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=correspondence+analysis&qid=1557206502&s=gateway&sr=8-5][Correspondence analysis]]                    :LSHTM:
+
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
-* TODO Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+
+* DOING Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** rereading, now till Page 12<2019-06-13 Thu 11:07>
 * TODO Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                   :reading:
+
 * DOING Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                          :LSHTM:
 ** Chapter 5
 ** Chapter 7 optimal scaling <2019-06-06 Thu 22:15>
+
 * TODO Chinese Calligraphy(Lantingji Xu)                          :private:
+
 * TODO Breast cancer and reproduction data preparation for Naito      :JACC:
+
 * TODO Low-dose smoking and mortality                                  :JACC:
 DEADLINE: <2019-07-08 Wed>
+
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                              :private:
+
 * TODO Deep learning Course 4 week 1                              :private:
-* TODO Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC :parttime:
+
+* DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
 *** TODO TG time-dep 
 *** TODO TC time-dep
@@ -54,11 +72,22 @@ DEADLINE: <2019-07-08 Wed>
 *** TODO HDLC time-dep
 * DONE Files for Students upload to AIDL-K  
 ** done on <2019-06-04 Tue 14:49>
+
+
 * DONE hand in files for babies subsidies from gov                  :private:
 ** done on <2019-06-04 Tue 13:23>
+
+
 * DONE prepare questions for test for 3rd grade students                :AMU:
 ** DONE Q64-Q73 first draft done on <2019-06-06 Thu 16:16>
 ** DONE confirmed and send to everyone <2019-06-11 Tue 10:34>
+** DONE send revised version <2019-06-13 Thu 10:48>
+
 * DONE JEA voting                                                        :JE:
+
 * DONE Buy Mplus two more licenses                                    :LSHTM:
+
 ** done one <2019-06-11 Tue 16:59>
+
+* TODO Regular review for Research Square                           :private:
+
