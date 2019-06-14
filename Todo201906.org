@@ -70,7 +70,7 @@ DEADLINE: <2019-07-08 Wed>
 *** TODO TC time-dep
 *** DONE BNP time-dep <2019-06-10 Mon 17:17>
 *** DONE LDLC time-dep <2019-06-10 Mon 18:17>
-*** TODO HDLC time-dep
+*** DONE HDLC time-dep <2019-06-14 Fri 18:20>
 * DONE Files for Students upload to AIDL-K  
 ** done on <2019-06-04 Tue 14:49>
 
