@@ -137,3 +137,4 @@ Confirmation does not mean proving true and disconfirmation does not mean provin
 Bayesian confirmation and disconfirmation involve comparisons of probabilities; they say nothing about the **absolute values** of any probability.
 
 likelihoods are often independent of priors. (P18)
+
