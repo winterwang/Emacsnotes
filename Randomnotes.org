@@ -135,3 +135,5 @@ With out a difference in likelihood, the posterior probability must have the sam
 Confirmation does not mean proving true and disconfirmation does not mean proving false; confirmation and disconfirmation does mean only that an observation should increase or reduce your confidence that H is true. 
 
 Bayesian confirmation and disconfirmation involve comparisons of probabilities; they say nothing about the **absolute values** of any probability.
+
+likelihoods are often independent of priors. (P18)
