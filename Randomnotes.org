@@ -126,3 +126,12 @@ Machine learning is not just a new tool, such as a new drug or medical device. R
 ** However, despite this flexibility the extended Cox model is not appropriate when the time-dependent covariates are of endogenous nature. This is because the extended Cox model assume that time-dependent covariates are predictable processes, measured without error, and have their complete path fully specified. 
 
 ** It is not reasonable to assume that the biomarker remains constant between follow-up visits, especially because these can be several months apart. 
+
+
+* Evidence and evolution
+
+With out a difference in likelihood, the posterior probability must have the same value as the prior; the observation has not affected your degree of belief. (P15)
+
+Confirmation does not mean proving true and disconfirmation does not mean proving false; confirmation and disconfirmation does mean only that an observation should increase or reduce your confidence that H is true. 
+
+Bayesian confirmation and disconfirmation involve comparisons of probabilities; they say nothing about the **absolute values** of any probability.
