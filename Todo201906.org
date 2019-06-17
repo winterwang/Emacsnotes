@@ -91,5 +91,7 @@ DEADLINE: <2019-07-08 Wed>
 
 ** done one <2019-06-11 Tue 16:59>
 
-* TODO Regular review for Research Square                           :private:
+* DONE Regular review for Research Square                           :private:
+** done on <2019-06-17 Mon 23:21> 
+
 
