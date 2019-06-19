@@ -53,6 +53,7 @@ DEADLINE: <2019-06-24 Mon>
 ** rereading, now till Page 12<2019-06-13 Thu 11:07>
 ** now till page 15 <2019-06-15 Sat 16:49>
 
+
 * TODO Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                   :reading:
 
 
@@ -67,6 +68,7 @@ DEADLINE: <2019-06-24 Mon>
 
 * TODO Breast cancer and reproduction data preparation for Naito      :JACC:
 
+
 * TODO Low-dose smoking and mortality                                  :JACC:
 DEADLINE: <2019-07-08 Wed>
 
@@ -74,7 +76,10 @@ DEADLINE: <2019-07-08 Wed>
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
 
-* TODO Deep learning Course 4 week 1                              :private:
+* DONE Deep learning Course 4 week 1                                :private:
+** DONE done on <2019-06-19 Wed 18:24>
+
+* TODO Deep learning Course 4 week 2                                :private:
 
 * DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
@@ -83,6 +88,7 @@ DEADLINE: <2019-07-08 Wed>
 *** DONE BNP time-dep <2019-06-10 Mon 17:17>
 *** DONE LDLC time-dep <2019-06-10 Mon 18:17> <- checked again <2019-06-17 Mon 17:26>
 *** DONE HDLC time-dep <2019-06-14 Fri 18:20>
+
 
 * DONE Files for Students upload to AIDL-K  
 ** done on <2019-06-04 Tue 14:49>
