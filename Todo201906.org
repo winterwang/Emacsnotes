@@ -48,7 +48,6 @@ DEADLINE: <2019-06-24 Mon>
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 
-
 * DOING Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
 ** rereading, now till Page 12<2019-06-13 Thu 11:07>
 ** now till page 15 <2019-06-15 Sat 16:49>
@@ -67,6 +66,7 @@ DEADLINE: <2019-06-24 Mon>
 
 
 * TODO Breast cancer and reproduction data preparation for Naito      :JACC:
+DEADLINE: <2019-07-24 Wed>
 
 
 * TODO Low-dose smoking and mortality                                  :JACC:
@@ -81,6 +81,7 @@ DEADLINE: <2019-07-08 Wed>
 
 * TODO Deep learning Course 4 week 2                                :private:
 
+
 * DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
 *** TODO TG time-dep 
@@ -88,6 +89,9 @@ DEADLINE: <2019-07-08 Wed>
 *** DONE BNP time-dep <2019-06-10 Mon 17:17>
 *** DONE LDLC time-dep <2019-06-10 Mon 18:17> <- checked again <2019-06-17 Mon 17:26>
 *** DONE HDLC time-dep <2019-06-14 Fri 18:20>
+*** WITH COVARIATES about comorbidity 
+**** DONE LDLC dataset completed <2019-06-24 Mon 16:30>
+**** DONE models with covariates <2019-06-24 Mon 18:10>
 
 
 * DONE Files for Students upload to AIDL-K  
