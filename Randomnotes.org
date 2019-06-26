@@ -138,3 +138,4 @@ Bayesian confirmation and disconfirmation involve comparisons of probabilities; 
 
 likelihoods are often independent of priors. (P18)
 
+A central thesis of Bayesianism is: **no propabilities out without any probabilities in.** 
