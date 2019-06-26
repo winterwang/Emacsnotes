@@ -31,6 +31,8 @@ DEADLINE: <2019-06-24 Mon>
 
 
 * DOING Cluster analysis & Principal component analysis practical part :LSHTM:
+** DONE Lecture notes Page 4 <2019-06-23 Sun 11:43>
+
 ** DONE practical q 6 done on <2019-06-05 Wed 22:09>
 
 
@@ -61,7 +63,7 @@ DEADLINE: <2019-06-24 Mon>
 ** Chapter 5
 ** Chapter 7 optimal scaling <2019-06-06 Thu 22:15>
 ** Chapter 9 Two dimensional display <2019-06-13 Thu 16:10>
-
+** Try to work on the NDNS RP report before. <2019-06-26 Wed 17:40>
 
 * TODO Chinese Calligraphy(Lantingji Xu)                          :private:
 
