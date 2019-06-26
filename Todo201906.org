@@ -19,7 +19,7 @@ DEADLINE: <2019-06-24 Mon>
 *** DOING summarise refitted results 
 *** DONE draw the graph <2019-06-07 Fri 11:57>
 *** DONE Table 2 summary <2019-06-07 Fri 11:58>
-*** DOING Paper done 30% <2019-06-08 Sat 17:56>
+*** DONE Paper done 40% <2019-06-26 Wed 09:39>
 
 
 * DONE confirm the comments and modifications from LP and SAM       :LSHTM:
@@ -55,7 +55,7 @@ DEADLINE: <2019-06-24 Mon>
 
 * TODO Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                   :reading:
 
-
+  
 * DOING Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                          :LSHTM:
 ** Chapter 5
 ** Chapter 7 optimal scaling <2019-06-06 Thu 22:15>
@@ -120,3 +120,4 @@ DEADLINE: <2019-07-08 Wed>
 ** done on <2019-06-17 Mon 23:21> 
 
 
+* DONE Kyouin Hyouka table send to school <2019-06-26 Wed 09:53>                              :AMU:
