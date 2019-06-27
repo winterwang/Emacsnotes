@@ -139,3 +139,5 @@ Bayesian confirmation and disconfirmation involve comparisons of probabilities; 
 likelihoods are often independent of priors. (P18)
 
 A central thesis of Bayesianism is: **no propabilities out without any probabilities in.** 
+
+The effect of assigning equal priors is that all the real work is done by the likelihoods; if the priors are equal, the hypothesis of greatest likelihood must also be the hypothesis that has the greatest posterior probability. 
