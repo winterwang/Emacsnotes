@@ -1,4 +1,3 @@
-
 #+TITLE: Org-mode todo 2019-06
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
@@ -124,3 +123,10 @@ DEADLINE: <2019-07-08 Wed>
 
 
 * DONE Kyouin Hyouka table send to school <2019-06-26 Wed 09:53>                              :AMU:
+
+* DONE Spend a lot of time on setting up the new Macbook Pro 13 inch mostly done :private:
+** DONE latex printing with Japanese 
+** DONE Install OpenBUGS using WINE 
+** DONE Emacs configuration 
+** TODO Some packages for building bookdown book on Mac 
+** TODO Also try to figure out ways of using Stata from comman on Mac
