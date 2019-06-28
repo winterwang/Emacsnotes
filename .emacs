@@ -1,29 +1,17 @@
 ; Put this in your .emacs
 
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-
-(package-initialize)
+;(package-initialize)
 
 (require 'org-install)
 (org-babel-do-load-languages
  'org-babel-load-languages
- '((shell . true) (python . true)) 
+ '((shell . true) (python . true))
 )
-(global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-ca" 'org-agenda)
-(global-set-key "\C-cc" 'org-capture)
-(global-set-key "\C-cb" 'org-iswitchb)
 
-(add-hook 'org-mode-hook
-          (lambda ()
-            (org-bullets-mode t)))
-(setq org-ellipsis "⤵")
-
-(global-unset-key (kbd "M-<down-mouse-1>")) (global-set-key (kbd "M-<mouse-1>") 'mc/add-cursor-on-click)
 
 ;可以将 todo list 的状态增加为五种：TODO，DOING，HANGUP，DONE，CANCEL。
 ;注意，在 HANGUP 和 DONE 之间有一条竖线 “|”，在竖线之前的状态和之后的状态使用的是不同的face。
@@ -38,59 +26,59 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(custom-safe-themes
-   (quote
-    ("2540689fd0bc5d74c4682764ff6c94057ba8061a98be5dd21116bf7bf301acfb" "bd51a329aa9b8e29c6cf2c8a8cf136e0d2960947dfa5c1f82b29c9178ad89a27" default)))
+ '(display-battery-mode t)
  '(display-time-mode t)
  '(font-use-system-font t)
- '(global-display-line-numbers-mode t)
+ '(line-number-mode nil)
  '(package-selected-packages
-   (quote
-    (magit auctex-latexmk auctex ace-window ack 2048-game circadian farmhouse-theme use-package ess afternoon-theme forest-blue-theme multi-term mc-extras pinyin-search pinyin pyim bing-dict ace-pinyin egg e2wm-R yatemplate poly-R ess-view ess-R-data-view ac-mozc markdownfmt markdown-toc markdown-preview-mode markdown-preview-eww markdown-mode+ mkdown ox-hugo auto-complete org-ac))))
+   '(pdf-tools bing-dict pubmed 0xc ac-octave auctex-lua auctex-latexmk auctex org-edit-latex 0blayout ac-mozc px powerline @ farmhouse-theme circadian flymd autopair ample-zen-theme e2wm-R e2wm markdown-toc mkdown poly-R magithub org-ac opencc ess-R-data-view ess))
+ '(size-indication-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Noto Sans Mono CJK SC" :foundry "GOOG" :slant normal :weight normal :height 128 :width normal)))))
+ )
 
- ; hide password when typing
+;disable control space for highlight 
+;(global-set-key (kbd "C-SPC") nil)
 
-(add-hook 'shell-mode-hook
-          #'(lambda ()
-              (setq comint-password-prompt-regexp
-                    (replace-regexp-in-string "for \\[\\^.+?\\]\\+" "for .+"
-                                              comint-password-prompt-regexp t t))))
 
-; automatically get the correct mode 
-;auto-mode-alist (append (list '("\\.c$" . c-mode)
-;			      '("\\.tex$" . latex-mode)
-;			      '("\\.S$" . S-mode)
-;			      '("\\.s$" . S-mode)
-;			      '("\\.R$" . R-mode)
-;			      '("\\.r$" . R-mode)
-;			      '("\\.html$" . html-mode)
- ;                             '("\\.emacs" . emacs-lisp-mode)
-;	                )
-;		      auto-mode-alist)
-; comment out the following if you are not using R/S-Plus on ACPUB
-; add a ";" in front of each line 
-;(load "/usr/pkg/ess/lisp/ess-site")
-;(setq-default inferior-S+6-program-name "Splus")
-;(setq-default inferior-R-program-name "R")
+; add MELPA package installation
+(require 'package)
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (proto (if no-ssl "http" "https")))
+  (when no-ssl
+    (warn "\
+Your version of Emacs does not support SSL connections,
+which is unsafe because it allows man-in-the-middle attacks.
+There are two things you can do about this warning:
+1. Install an Emacs version that does support SSL and be safe.
+2. Remove this warning from your init file so you won't see it again."))
+  ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
+  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+  ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
+  (when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+    (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
+(package-initialize)
 
-;; -- for ess-mode
-(setq auto-mode-alist
-      (append '(("\\.r$" . R-mode)
- 		("\\.R$" . R-mode)
- 		) auto-mode-alist))
-(autoload 'R-mode "ess-site" "Emacs Speaks Statistics mode" t)
-(add-hook 'ess-mode-hook
- 	  '(lambda ()
- 	     (define-key ess-mode-map [f1] 'ess-help)
- 	     (define-key ess-mode-map [f5] 'ess-eval-buffer)
- 	     (define-key ess-mode-map [f7] 'ess-eval-region-or-function-or-paragraph-and-step)
- 	     ))
+; set up keybind with magit
+    (require 'magit)
+(global-set-key (kbd "C-x g") 'magit-status)
+
+; use rmarkdown with R chunk and render with knitr					;
+(defun rmd-mode ()
+  "ESS Markdown mode for rmd files"
+  (interactive)
+  (setq load-path 
+    (append (list "path/to/polymode/" "path/to/polymode/modes/")
+        load-path))
+  (require 'poly-R)
+  (require 'poly-markdown)     
+  (poly-markdown+r-mode))
+
 ;; ---------------------------------------------------------
 ;; auto-complete の設定
 ;; ---------------------------------------------------------
@@ -225,66 +213,6 @@
 ;;      (autopair-fallback))
 
 
-;; ;; チャンク挿入
-;; (defun tws-insert-r-chunk (header)
-;;   "Insert an r-chunk in markdown mode.
-;; Necessary due to interactions between polymode and yas snippet"
-;;   (interactive "sHeader: ")
-;;   (insert (concat "```{r " header "}\n\n```"))
-;;   (forward-line -1))
-
-;; (define-key poly-markdown+r-mode-map (kbd "M-n M-r") 'tws-insert-r-chunk)
-
-;; (defun tws-insert-py-chunk (header)
-;;   "Insert a python-chunk in markdown mode.
-;; Necessary due to interactions between polymode and yas snippet"
-;;   (interactive "sHeader: ")
-;;   (insert (concat "```{python " header "}\n\n```"))
-;;   (forward-line -1))
-
-;; (define-key poly-markdown+r-mode-map (kbd "M-n M-p") 'tws-insert-py-chunk)
-
-;; (defun tws-insert-norm-chunk (header)
-;;   "Insert a chunk in markdown mode.
-;; Necessary due to interactions between polymode and yas snippet"
-;;   (interactive "sHeader: ")
-;;   (insert (concat "```{" header "}\n\n```"))
-;;   (forward-line -1))
-
-;; (define-key poly-markdown+r-mode-map (kbd "M-n M-c") 'tws-insert-norm-chunk)
-
-;; load emacs 24's package system. Add MELPA repository.
-(when (>= emacs-major-version 24)
-  (require 'package)
-  (add-to-list
-   'package-archives
-   ;; '("melpa" . "http://stable.melpa.org/packages/") ; many packages won't show if using stable
-   '("melpa" . "http://melpa.milkbox.net/packages/")
-   t))
-(defun rmd-mode ()
-  "ESS Markdown mode for rmd files"
-  (interactive)
-  (setq load-path 
-    (append (list "path/to/polymode/" "path/to/polymode/modes/")
-        load-path))
-  (require 'poly-R)
-  (require 'poly-markdown)     
-  (poly-markdown+r-mode))
-
-; make all org file started with indent format
-(setq org-startup-indented t)
-
-(add-hook 'ess-noweb-mode-hook 'my-noweb-hook)
-
-(defun my-noweb-hook ()
-  (define-key ess-noweb-mode-prefix-map "b"
-    #'(lambda () (interactive) (TeX-command "BibTeX" 'TeX-master-file)))
-  (define-key ess-noweb-mode-prefix-map "P"
-    #'(lambda () (interactive)
-        (ess-swv-PDF "texi2pdf"))))
-; load theme on startup
-;(load-theme 'afternoon t)		
-
 ; load markdown preview
 (autoload 'markdown-preview-mode "markdown-preview-mode.el" t)
 
@@ -292,10 +220,6 @@
 ;; m-x package-list-package, install markdown-mode | once
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.Rmd" . markdown-mode) auto-mode-alist))
-;; (setq auto-mode-alist
-;;       (append '(("\\.md$" . yatex-mode)
-;;                 ("\\.txt$" . yatex-mode)) auto-mode-alist))
-
 
 ;; Install additinal themes from melpa
 ;; make sure to use :defer keyword
@@ -317,22 +241,58 @@
 
 ; use C-; to insert assign arrows like R
 (global-set-key (kbd "C--")  (lambda () (interactive) (insert " <- ")))
-;(ess-toggle-underscore nil)
+(ess-toggle-underscore nil)
+
+
+; powerline setting
+(require 'powerline)
+(powerline-default-theme)
+
+; hide my pass word when using the shell
+;(setq comint-password-prompt-regexp
+;      (concat comint-password-prompt-regexp
+;              "\\|^Enter passphrase for .*:\\s *\\'"))
+
+ ; hide password when typing
+
+(add-hook 'shell-mode-hook
+          #'(lambda ()
+              (setq comint-password-prompt-regexp
+                    (replace-regexp-in-string "for \\[\\^.+?\\]\\+" "for .+"
+                                              comint-password-prompt-regexp t t))))
+
 
 ; display the math upon saving in ogr-mode
-(defun my/org-render-latex-fragments ()
-  (if (org--list-latex-overlays)
-      (progn (org-toggle-latex-fragment)
-             (org-toggle-latex-fragment))
-    (org-toggle-latex-fragment)))
+;(defun my/org-render-latex-fragments ()
+;  (if (org--list-latex-overlays)
+;      (progn (org-toggle-latex-fragment)
+;             (org-toggle-latex-fragment))
+;    (org-toggle-latex-fragment)))
 
-(add-hook 'org-mode-hook
-          (lambda ()
-            (add-hook 'after-save-hook 'my/org-render-latex-fragments 'make-it-local)))
+;(add-hook 'org-mode-hook
+;          (lambda ()
+;            (add-hook 'after-save-hook 'my/org-render-latex-fragments 'make-it-local)))
 ; wrap the lines
 (global-visual-line-mode t)
 
-;; custom binding for magit-status
-(use-package magit
-  :config
-  (global-set-key (kbd "C-c m") 'magit-status))
+;(setq global-linum-mode t)
+
+(global-linum-mode 1)
+(add-hook 'term-mode-hook (lambda () (linum-mode))) 
+
+(ess-set-style 'RStudio)
+
+;; octave mode runing
+(autoload 'run-octave "octave-inf" nil t)
+
+;; bing dictionary setting
+    (global-set-key (kbd "C-c d") 'bing-dict-brief)
+(setq bing-dict-show-thesaurus 'both)
+(setq bing-dict-pronunciation-style 'uk)
+(setq bing-dict-save-search-result t)
+;;(eww-browse-url
+;;  (concat "http://www.bing.com/dict/search?mkt=zh-cn&q="
+;;          (url-hexify-string
+;;           (read-string "Query: "))))
+
+
