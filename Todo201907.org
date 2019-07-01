@@ -79,7 +79,8 @@ DEADLINE: <2019-07-08 Mon>
 *** try to look for the difference why low LDLC related with higher hazard of MACE events
 
 
-* TODO Prepare the 採点基準 for 疫学演習                                :AMU:
+* DONE Prepare the 採点基準 for 疫学演習                                :AMU:
+** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
 
 * TODO Prepare feedback from Google Bigdata                             :CSS:
 
