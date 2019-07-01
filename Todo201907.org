@@ -89,4 +89,5 @@ DEADLINE: <2019-07-08 Mon>
 
 * TODO Help student prepare the debating event                          :AMU:
 
-* TODO Prepare log-reg for CSS medical writers                          :CSS:
+* DOING Prepare log-reg for CSS medical writers                         :CSS:
+** DONE to page 9 of slides <2019-07-01 Mon 16:32> 
