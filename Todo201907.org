@@ -85,9 +85,9 @@ DEADLINE: <2019-07-08 Mon>
 
 * TODO Buy vitamin B for mom                                        :private:
 
-* DOING Regular review for Research Square                          :private:
+* DONE Regular review for Research Square                           :private:
 ** DONE 60% completed with some small details left for tonight <2019-07-01 Mon 18:18>
-
+** DONE submitted with fully completed comments. <2019-07-01 Mon 23:42>
 * TODO Help student prepare the debating event                          :AMU:
 
 * DOING Prepare log-reg for CSS medical writers                         :CSS:
