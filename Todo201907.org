@@ -81,15 +81,19 @@ DEADLINE: <2019-07-08 Mon>
 
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
+** DONE Q3 and Q4 done <2019-07-02 Tue 14:59>
+** Q3 採点
 
 * TODO Prepare feedback from Google Bigdata                             :CSS:
 
-* TODO Buy vitamin B for mom                                        :private:
+* DONE Buy vitamin B for mom                                        :private:
+** bought from drug store <2019-07-01 Mon 18:45>
 
 * DONE Regular review for Research Square                           :private:
 ** DONE 60% completed with some small details left for tonight <2019-07-01 Mon 18:18>
 ** DONE submitted with fully completed comments. <2019-07-01 Mon 23:42>
-* TODO Help student prepare the debating event                          :AMU:
+
+* DOING Help student prepare the debating event                         :AMU:
 
 * DOING Prepare log-reg for CSS medical writers                         :CSS:
 ** DONE to page 9 of slides <2019-07-01 Mon 16:32> 
