@@ -60,6 +60,7 @@ DEADLINE: <2019-07-24 Wed>
 
 * TODO Low-dose smoking and mortality                                  :JACC:
 DEADLINE: <2019-07-08 Mon>
+** DONE Table 1 20% <2019-07-03 Wed 18:43>
 
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
