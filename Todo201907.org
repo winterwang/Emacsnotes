@@ -65,8 +65,8 @@ DEADLINE: <2019-07-08 Mon>
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
-* TODO Deep learning Course 4 week 2                                :private:
-
+* DOING Deep learning Course 4 week 2                               :private:
+** 40% done <2019-07-04 Thu 00:28>
 
 * DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
