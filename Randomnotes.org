@@ -145,3 +145,5 @@ The effect of assigning equal priors is that all the real work is done by the li
 
 Bayesian philophers often see Bayesianism as analogous to deductive logic in this respect. Deductive logic does not tell you what you should take your premises to be; logic is solely in the business of giving advice on what follows from them. **So the fact that priors and likelihoods are sometimes subjective is just a fact of life in which we all have to deal.** 
 
+
+(P37) ... we just need to recognize that the ordinary words "support" and "favouring" sometimes need to be understood within a Bayesian framework in which it is the probabilities of hypotheses that are under discussion;...
