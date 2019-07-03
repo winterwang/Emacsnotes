@@ -82,7 +82,9 @@ DEADLINE: <2019-07-08 Mon>
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
 ** DONE Q3 and Q4 done <2019-07-02 Tue 14:59>
-** DONE Q3 Q4 採点 25% done <2019-07-02 Tue 17:41>
+** DONE Q3 Q4 採点 20% done <2019-07-02 Tue 17:41>
+** DONE 採点 40% done <2019-07-02 Tue 23:06>
+** DONE 採点 60% done <2019-07-03 Wed 12:07>
 
 * TODO Prepare feedback from Google Bigdata                             :CSS:
 
