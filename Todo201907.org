@@ -85,6 +85,8 @@ DEADLINE: <2019-07-08 Mon>
 ** DONE Q3 Q4 採点 20% done <2019-07-02 Tue 17:41>
 ** DONE 採点 40% done <2019-07-02 Tue 23:06>
 ** DONE 採点 60% done <2019-07-03 Wed 12:07>
+** DONE 採点 80% done <2019-07-03 Wed 13:55>
+** DONE 採点 100% done <2019-07-03 Wed 14:32>
 
 * TODO Prepare feedback from Google Bigdata                             :CSS:
 
