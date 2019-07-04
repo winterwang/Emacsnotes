@@ -20,7 +20,9 @@ DEADLINE: <2019-07-05 Fri>
 *** DONE summarise refitted results <2019-06-30 Sun 13:52>
 *** TODO send list of summarsing the discussion 
 
-
+* TODO Prepare manuscript using MDPI template                         :LSHTM:
+** TODO prepare cover letter
+** TODO paper submission
 
 * DOING Cluster analysis & Principal component analysis practical part :LSHTM:
 *** lecture notes 
