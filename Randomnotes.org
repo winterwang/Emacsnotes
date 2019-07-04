@@ -147,3 +147,5 @@ Bayesian philophers often see Bayesianism as analogous to deductive logic in thi
 
 
 (P37) ... we just need to recognize that the ordinary words "support" and "favouring" sometimes need to be understood within a Bayesian framework in which it is the probabilities of hypotheses that are under discussion;...
+
+(P43) ... As simple and familiar as this fact about multiple independent testimonies is, it is important to bear in mind that there is no rule written in Heaven that separate pieces of evidence must be independent.
