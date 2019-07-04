@@ -101,9 +101,11 @@ DEADLINE: <2019-07-08 Mon>
 ** DONE 60% completed with some small details left for tonight <2019-07-01 Mon 18:18>
 ** DONE submitted with fully completed comments. <2019-07-01 Mon 23:42>
 
-* DOING Help student prepare the debating event                         :AMU:
+* DONE Help student prepare the debating event                          :AMU:
 ** DONE Midterm presentation slides commented. <2019-07-02 Tue 19:27>
 ** DONE Agree group slides commented <2019-07-03 Wed 16:22>
+** DONE rehearsal finished <2019-07-04 Thu 16:10>
+** TODO Presentation on Monday Morning 
 
 * DOING Prepare log-reg for CSS medical writers                         :CSS:
 ** DONE to page 9 of slides <2019-07-01 Mon 16:32> 
