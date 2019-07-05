@@ -113,7 +113,7 @@ DEADLINE: <2019-07-08 Mon>
 
 * DOING Prepare log-reg for CSS medical writers                         :CSS:
 ** DONE to page 9 of slides <2019-07-01 Mon 16:32> 
-
+** DONE to page 24 of slides <2019-07-05 Fri 18:16>
 
 * DONE modify 定期試験問題 <2019-07-02 Tue 17:41>                                             :AMU:
 ** DONE 最終確認　<2019-07-03 Wed 17:12>
