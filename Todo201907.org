@@ -15,10 +15,10 @@ plain-text system.
 
 
 
-* TODO draft for ikemoto lets aim to finish writing after student seminar :AMU:
+* DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
 DEADLINE: <2019-07-05 Fri>
 *** DONE summarise refitted results <2019-06-30 Sun 13:52>
-*** TODO send list of summarsing the discussion 
+*** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
 
 * DOING Prepare manuscript using MDPI template                        :LSHTM:
 ** DONE prepare cover letter<2019-07-06 Sat 15:02>
