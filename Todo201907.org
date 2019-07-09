@@ -41,7 +41,7 @@ DEADLINE: <2019-07-05 Fri>
 
 
 * DOING Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
-** 
+** DONE Tried the course on line <2019-07-09 Tue 19:00>
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
 
@@ -118,9 +118,9 @@ DEADLINE: <2019-07-08 Mon>
 ** DONE rehearsal finished <2019-07-04 Thu 16:10>
 ** TODO Presentation on Monday Morning 
 
-* DOING Prepare log-reg for CSS medical writers                         :CSS:
+* DONE Prepare log-reg for CSS medical writers                          :CSS:
 ** DONE to page 9 of slides <2019-07-01 Mon 16:32> 
 ** DONE to page 24 of slides <2019-07-05 Fri 18:16>
-
+** DONE Study group first time <2019-07-08 Mon 18:01>
 * DONE modify 定期試験問題 <2019-07-02 Tue 17:41>                                             :AMU:
 ** DONE 最終確認　<2019-07-03 Wed 17:12>
