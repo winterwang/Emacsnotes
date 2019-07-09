@@ -149,3 +149,9 @@ Bayesian philophers often see Bayesianism as analogous to deductive logic in thi
 (P37) ... we just need to recognize that the ordinary words "support" and "favouring" sometimes need to be understood within a Bayesian framework in which it is the probabilities of hypotheses that are under discussion;...
 
 (P43) ... As simple and familiar as this fact about multiple independent testimonies is, it is important to bear in mind that there is no rule written in Heaven that separate pieces of evidence must be independent.
+
+(P48) ... I said that Bayesians hold that science is in the business of determining which theories are probably true while frequentists hold that this is not at all what science is about. 
+
+(P51) Dawkins, Dembski, and Morris have all made the same mistake. It isn't that they have glommed on to the wrong cutoff. The problem is deeper: *There is no such cutoff.* Probabilistic modus tollens is an incorrect form of inference. 
+
+(P52) ... a central idea in the likelihoodist theory of evidence: judgements about evidential meaning are essentially constrastive. To decide whether an observation is evidence against H, you need to know what the alternative hypotheses are; to test a hypothesis requires testing it against alternatives. 
