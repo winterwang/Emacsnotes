@@ -40,7 +40,8 @@ DEADLINE: <2019-07-05 Fri>
 *** until P226
 
 
-* DOING Read book 2: [[https://www.amazon.co.jp/Correspondence-Analysis-Strategies-Probability-Statistics/dp/1119953243/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=correspondence+analysis&qid=1557206502&s=gateway&sr=8-5][Correspondence analysis]]                          :LSHTM:
+* DOING Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
+** 
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
 
