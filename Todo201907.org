@@ -116,7 +116,7 @@ DEADLINE: <2019-07-08 Mon>
 ** DONE Midterm presentation slides commented. <2019-07-02 Tue 19:27>
 ** DONE Agree group slides commented <2019-07-03 Wed 16:22>
 ** DONE rehearsal finished <2019-07-04 Thu 16:10>
-** TODO Presentation on Monday Morning 
+** DONE Presentation on Monday Morning <2019-07-08 Mon 12:01>
 
 * DONE Prepare log-reg for CSS medical writers                          :CSS:
 ** DONE to page 9 of slides <2019-07-01 Mon 16:32> 
