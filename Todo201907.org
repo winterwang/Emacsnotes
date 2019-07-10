@@ -102,6 +102,8 @@ DEADLINE: <2019-07-08 Mon>
 ** DONE 採点 80% done <2019-07-03 Wed 13:55>
 ** DONE 採点 100% done <2019-07-03 Wed 14:32>
 
+* DONE 採点　医療と倫理
+<2019-07-09 Tue 23:57>
 * DONE Prepare feedback from Google Bigdata                             :CSS:
 ** DONE sent to Shiga-san <2019-07-04 Thu 10:27>
 
