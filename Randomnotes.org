@@ -155,3 +155,5 @@ Bayesian philophers often see Bayesianism as analogous to deductive logic in thi
 (P51) Dawkins, Dembski, and Morris have all made the same mistake. It isn't that they have glommed on to the wrong cutoff. The problem is deeper: *There is no such cutoff.* Probabilistic modus tollens is an incorrect form of inference. 
 
 (P52) ... a central idea in the likelihoodist theory of evidence: judgements about evidential meaning are essentially constrastive. To decide whether an observation is evidence against H, you need to know what the alternative hypotheses are; to test a hypothesis requires testing it against alternatives. 
+
+(P57) ... This is the patterns of reasoning that Sherlock Holmes endorses in *The Sign of Four* where Sir Arthur Conan Doyle has his hero say that "when you have eliminated the impossible, whatever remains, however improbable, mush be the truth."
