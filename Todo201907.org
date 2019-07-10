@@ -73,12 +73,12 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 DEADLINE: <2019-07-24 Wed>
 
 
-* TODO Low-dose smoking and mortality                                  :JACC:
-DEADLINE: <2019-07-08 Mon>
+* DOING Low-dose smoking and mortality                                 :JACC:
+DEADLINE: <2019-07-22 Mon>
 ** DONE Table 1 20% <2019-07-03 Wed 18:43>
 ** DONE Table 1 100% <2019-07-04 Thu 16:38>
 ** DONE Table 2 20% <2019-07-04 Thu 17:47>
-
+** DONE Table 2 30%<2019-07-10 Wed 22:49>
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
