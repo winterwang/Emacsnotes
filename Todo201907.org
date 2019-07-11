@@ -90,6 +90,12 @@ CLOCK: [2019-07-10 Wed 15:39]--[2019-07-10 Wed 18:20] =>  2:41
 :END:
 
 ** week 2 quiz done <2019-07-11 Thu 11:58>
+** DONE week 2 programe homework Part 1 Keras tutorial done <2019-07-11 Thu 15:43>
+:LOGBOOK:
+CLOCK: [2019-07-11 Thu 14:20]--[2019-07-11 Thu 15:43] =>  1:23
+:END:
+** TODO week 2 programe homework part 2 Residual Network 
+
 
 * DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
@@ -137,3 +143,4 @@ CLOCK: [2019-07-10 Wed 15:39]--[2019-07-10 Wed 18:20] =>  2:41
 ** DONE Study group first time <2019-07-08 Mon 18:01>
 * DONE modify 定期試験問題 <2019-07-02 Tue 17:41>                                             :AMU:
 ** DONE 最終確認　<2019-07-03 Wed 17:12>
+* DONE トライアルスポッツキャンセル体操クラス連絡済み               :private:
