@@ -20,11 +20,13 @@ DEADLINE: <2019-07-05 Fri>
 *** DONE summarise refitted results <2019-06-30 Sun 13:52>
 *** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
 
+
 * DONE Prepare manuscript using MDPI template                         :LSHTM:
 ** DONE prepare cover letter<2019-07-06 Sat 15:02>
 ** DONE paper submission<2019-07-07 Sun 10:43>
 ** DONE manuscript upto Result <2019-07-04 Thu 23:28>
 ** DONE manuscript tables supplementary files, figures prepared <2019-07-06 Sat 15:03>
+
 
 * DOING Cluster analysis & Principal component analysis practical part :LSHTM:
 *** lecture notes 
@@ -42,6 +44,7 @@ DEADLINE: <2019-07-05 Fri>
 
 * DOING Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
 ** DONE Tried the course on line <2019-07-09 Tue 19:00>
+
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
 
@@ -82,7 +85,8 @@ DEADLINE: <2019-07-22 Mon>
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
-* DOING Deep learning Course 4 week 2                               :private:
+
+* DONE Deep learning Course 4 Week 2                                :private:
 ** 40% done <2019-07-04 Thu 00:28>
 ** week 2 start again [2019-07-10 Wed 18:20]
 :LOGBOOK:
@@ -94,11 +98,14 @@ CLOCK: [2019-07-10 Wed 15:39]--[2019-07-10 Wed 18:20] =>  2:41
 :LOGBOOK:
 CLOCK: [2019-07-11 Thu 14:20]--[2019-07-11 Thu 15:43] =>  1:23
 :END:
-** TODO week 2 programe homework part 2 Residual Network 
+** DONE week 2 programe homework part 2 Residual Network <2019-07-11 Thu 18:15>
 :LOGBOOK:
-CLOCK: [2019-07-11 Thu 15:44]
+CLOCK: [2019-07-11 Thu 15:44]--[2019-07-11 Thu 18:15] =>  2:31
 :END:
 
+
+* DOING Deep Learning Course 4 Week 3                               :private:
+** DONE Videos 1-2 <2019-07-11 Thu 18:50>
 
 * DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
