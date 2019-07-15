@@ -30,7 +30,8 @@ DEADLINE: <2019-07-05 Fri>
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
 *** lecture notes 
-** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53>
+** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
+** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
 
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
 
