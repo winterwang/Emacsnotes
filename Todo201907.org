@@ -33,6 +33,7 @@ DEADLINE: <2019-07-05 Fri>
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
 ** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
 
+
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
 
 
@@ -43,10 +44,11 @@ DEADLINE: <2019-07-05 Fri>
 *** until P226
 
 
-* DOING Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
+* DONE Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
 ** DONE Tried the course on line <2019-07-09 Tue 19:00>
 
 ** DONE PCA done <2019-07-15 Mon 11:30>
+
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
 
@@ -90,6 +92,7 @@ DEADLINE: <2019-07-22 Mon>
 ** DONE Table 2 30%<2019-07-10 Wed 22:49>
 
 
+** DONE Alcohol definition done <2019-07-15 Mon 18:20>
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
