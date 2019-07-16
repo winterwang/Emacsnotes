@@ -92,6 +92,7 @@ DEADLINE: <2019-07-22 Mon>
 ** DONE Table 2 30%<2019-07-10 Wed 22:49>
 ** DONE Alcohol definition done <2019-07-15 Mon 18:20>
 ** DONE table 2 40%<2019-07-16 Tue 13:22>
+** DONE table 2 finished <2019-07-16 Tue 15:33>
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
