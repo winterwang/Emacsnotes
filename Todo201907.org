@@ -62,7 +62,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 
 * DOING Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                          :LSHTM:
-*** TODO prepare the NDNS RP database analysis done by Marta
+
+* TODO prepare the NDNS RP database analysis done by Marta            :LSHTM:
 
 
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
@@ -82,7 +83,8 @@ DEADLINE: <2019-07-22 Mon>
 ** DONE table 2 40%<2019-07-16 Tue 13:22>
 ** DONE table 2 finished <2019-07-16 Tue 15:33>
 ** DONE Table 3 25% done <2019-07-16 Tue 17:54>
-
+** DONE Table 3 50% done <2019-07-17 Wed 11:10>
+** DONE Table 3 100% done <2019-07-17 Wed 14:12>
 
 
 
@@ -110,8 +112,12 @@ CLOCK: [2019-07-12 Fri 10:40]
 *** try to look for the difference why low LDLC related with higher hazard of MACE events
 
 
-* TODO Registration of FENS 2019                                      :LSHTM:
+* DOING Registration of FENS 2019                                     :LSHTM:
+** DONE my part <2019-07-17 Wed 12:17>
+** TODO Apply for FENS 2019 Ireland visa
 
+* TODO Resit question (1 q for answers)
+DEADLINE: <2019-08-20 Tue>
 
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
