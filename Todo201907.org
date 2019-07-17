@@ -21,12 +21,6 @@ DEADLINE: <2019-07-05 Fri>
 *** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
 
 
-* DONE Prepare manuscript using MDPI template                         :LSHTM:
-** DONE prepare cover letter<2019-07-06 Sat 15:02>
-** DONE paper submission<2019-07-07 Sun 10:43>
-** DONE manuscript upto Result <2019-07-04 Thu 23:28>
-** DONE manuscript tables supplementary files, figures prepared <2019-07-06 Sat 15:03>
-
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
 *** lecture notes 
@@ -42,12 +36,6 @@ DEADLINE: <2019-07-05 Fri>
 
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
 *** until P226
-
-
-* DONE Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
-** DONE Tried the course on line <2019-07-09 Tue 19:00>
-
-** DONE PCA done <2019-07-15 Mon 11:30>
 
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
@@ -95,25 +83,10 @@ DEADLINE: <2019-07-22 Mon>
 ** DONE table 2 finished <2019-07-16 Tue 15:33>
 ** DONE Table 3 25% done <2019-07-16 Tue 17:54>
 
+
+
+
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
-
-
-* DONE Deep learning Course 4 Week 2                                :private:
-** 40% done <2019-07-04 Thu 00:28>
-** week 2 start again [2019-07-10 Wed 18:20]
-:LOGBOOK:
-CLOCK: [2019-07-10 Wed 15:39]--[2019-07-10 Wed 18:20] =>  2:41
-:END:
-
-** week 2 quiz done <2019-07-11 Thu 11:58>
-** DONE week 2 programe homework Part 1 Keras tutorial done <2019-07-11 Thu 15:43>
-:LOGBOOK:
-CLOCK: [2019-07-11 Thu 14:20]--[2019-07-11 Thu 15:43] =>  1:23
-:END:
-** DONE week 2 programe homework part 2 Residual Network <2019-07-11 Thu 18:15>
-:LOGBOOK:
-CLOCK: [2019-07-11 Thu 15:44]--[2019-07-11 Thu 18:15] =>  2:31
-:END:
 
 
 * DOING Deep Learning Course 4 Week 3                               :private:
@@ -135,6 +108,9 @@ CLOCK: [2019-07-12 Fri 10:40]
 **** DONE LDLC dataset completed <2019-06-24 Mon 16:30>
 **** DONE models with covariates <2019-06-24 Mon 18:10>
 *** try to look for the difference why low LDLC related with higher hazard of MACE events
+
+
+* TODO Registration of FENS 2019                                      :LSHTM:
 
 
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
@@ -171,3 +147,31 @@ CLOCK: [2019-07-12 Fri 10:40]
 * DONE modify 定期試験問題 <2019-07-02 Tue 17:41>                                             :AMU:
 ** DONE 最終確認　<2019-07-03 Wed 17:12>
 * DONE トライアルスポッツキャンセル体操クラス連絡済み <2019-07-11 Thu 12:45> :private:
+* DONE Deep learning Course 4 Week 2                                :private:
+** 40% done <2019-07-04 Thu 00:28>
+** week 2 start again [2019-07-10 Wed 18:20]
+:LOGBOOK:
+CLOCK: [2019-07-10 Wed 15:39]--[2019-07-10 Wed 18:20] =>  2:41
+:END:
+
+** week 2 quiz done <2019-07-11 Thu 11:58>
+** DONE week 2 programe homework Part 1 Keras tutorial done <2019-07-11 Thu 15:43>
+:LOGBOOK:
+CLOCK: [2019-07-11 Thu 14:20]--[2019-07-11 Thu 15:43] =>  1:23
+:END:
+** DONE week 2 programe homework part 2 Residual Network <2019-07-11 Thu 18:15>
+:LOGBOOK:
+CLOCK: [2019-07-11 Thu 15:44]--[2019-07-11 Thu 18:15] =>  2:31
+:END:
+
+
+* DONE Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
+** DONE Tried the course on line <2019-07-09 Tue 19:00>
+
+** DONE PCA done <2019-07-15 Mon 11:30>
+* DONE Prepare manuscript using MDPI template                         :LSHTM:
+** DONE prepare cover letter<2019-07-06 Sat 15:02>
+** DONE paper submission<2019-07-07 Sun 10:43>
+** DONE manuscript upto Result <2019-07-04 Thu 23:28>
+** DONE manuscript tables supplementary files, figures prepared <2019-07-06 Sat 15:03>
+
