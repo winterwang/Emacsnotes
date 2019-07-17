@@ -115,6 +115,7 @@ CLOCK: [2019-07-12 Fri 10:40]
 * DOING Registration of FENS 2019                                     :LSHTM:
 ** DONE my part <2019-07-17 Wed 12:17>
 ** TODO Apply for FENS 2019 Ireland visa
+** DONE Luigi part done <2019-07-17 Wed 17:57>
 
 * TODO Resit question (1 q for answers)
 DEADLINE: <2019-08-20 Tue>
