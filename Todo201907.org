@@ -91,6 +91,7 @@ DEADLINE: <2019-07-22 Mon>
 ** DONE Table 6 100% done <2019-07-18 Thu 12:10>
 ** DONE Table 7 CVD death done<2019-07-18 Thu 14:10>
 ** DONE Table 8 done <2019-07-18 Thu 15:07>
+** DONE table 9 done <2019-07-18 Thu 17:33>
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
