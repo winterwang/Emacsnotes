@@ -87,6 +87,7 @@ DEADLINE: <2019-07-22 Mon>
 ** DONE Table 3 100% done <2019-07-17 Wed 14:12>
 ** DONE Table 4 75% done <2019-07-17 Wed 15:22>
 ** DONE table 4 100% done <2019-07-17 Wed 18:37>
+** DONE Table 5 100% done <2019-07-18 Thu 11:21>
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
