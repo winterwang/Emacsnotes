@@ -19,6 +19,7 @@ plain-text system.
 DEADLINE: <2019-07-05 Fri>
 *** DONE summarise refitted results <2019-06-30 Sun 13:52>
 *** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
+*** He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. 
 
 
 
@@ -96,6 +97,7 @@ DEADLINE: <2019-07-22 Mon>
 ** DONE Table 11 done <2019-07-19 Fri 11:18>
 ** DONE Table 12 done 20%<2019-07-19 Fri 12:17>
 ** DONE Table 13 done 100%<2019-07-19 Fri 17:19>
+
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
