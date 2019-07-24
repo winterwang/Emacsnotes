@@ -134,6 +134,7 @@ DEADLINE: <2019-08-20 Tue>
 * TODO Stat review for research square                              :private:
 DEADLINE: <2019-07-29 Mon>
 
+* TODO Prepare DAG material for August CSS training                     :CSS:
 
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
