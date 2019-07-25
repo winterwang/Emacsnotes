@@ -19,8 +19,8 @@ plain-text system.
 DEADLINE: <2019-07-05 Fri>
 *** DONE summarise refitted results <2019-06-30 Sun 13:52>
 *** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
-*** He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. 
-
+*** DONE He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. <2019-07-24 Wed 14:18>
+*** DONE comment on his abstract for conference <2019-07-25 Thu 23:18>
 
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
