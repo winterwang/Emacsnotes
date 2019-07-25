@@ -128,7 +128,23 @@ CLOCK: [2019-07-12 Fri 10:40]
 
 * DOING Registration of FENS 2019                                     :LSHTM:
 ** DONE my part <2019-07-17 Wed 12:17>
-** TODO Apply for FENS 2019 Ireland visa
+** DOING Apply for FENS 2019 Ireland visa 
+*** DONE online form completed <2019-07-25 Thu 17:45>
+*** TODO Send documents to the ambassy 
+**** TODO letter for the ambassy 
+**** DONE Letter from the conference organiser <2019-07-25 Thu 17:50>
+**** DONE Accomodation plan <2019-07-25 Thu 17:51>
+**** TODO 7900 Yen as 現金書留
+**** TODO current Passport original
+**** TODO previous passport copies 
+**** TODO copy of my 在留カード
+**** TODO 2 Photos (45-50mm times 35-38)
+**** TODO Bank statement 
+**** TODO copy of the flight tickets 
+**** TODO 給与明細最近3ヶ月分
+**** TODO Letter from the UNIV (details online)
+**** TODO 住民票翻訳
+
 ** DONE Luigi part done <2019-07-17 Wed 17:57>
 
 * TODO Resit question (1 q for answers)
