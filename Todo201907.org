@@ -70,10 +70,11 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
 
-* TODO Breast cancer and reproduction data preparation for Naito       :JACC:
+* DONE Breast cancer and reproduction data preparation for Naito       :JACC:
 DEADLINE: <2019-07-24 Wed>
 ** DONE 30% done, raw file extracted <2019-07-24 Wed 15:49>
 ** DONE 60% done, C data set almost <2019-07-24 Wed 18:20>
+** DONE 100% done. <2019-07-25 Thu 12:17>
 
 
 * DONE Low-dose smoking and mortality <2019-07-19 Fri 17:20>           :JACC:
