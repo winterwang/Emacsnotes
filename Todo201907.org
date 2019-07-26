@@ -137,13 +137,14 @@ CLOCK: [2019-07-12 Fri 10:40]
 **** DONE Accomodation plan <2019-07-25 Thu 17:51>
 **** TODO 7900 Yen as 現金書留
 **** TODO current Passport original
-**** TODO previous passport copies (of each page)
+**** DONE previous passport copies (of each page)  all pages scanned <2019-07-26 Fri 22:06>
 **** TODO copy of my 在留カード
 **** TODO 2 Photos (45-50mm times 35-38)
 **** TODO Bank statement from the Tsurumai branch 
 **** DONE copy of the flight tickets <2019-07-26 Fri 11:51> booked
 **** DOING 給与明細最近3ヶ月分 <2019-07-26 Fri 11:36> applied
 **** DOING Letter from the UNIV (details online) <2019-07-26 Fri 11:36> applied
+**** DONE 戸籍謄本発行<2019-07-26 Fri 21:21>
 **** TODO 戸籍謄本翻訳依頼
 **** TODO 銀行通帳明細翻訳依頼
 
