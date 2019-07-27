@@ -132,7 +132,7 @@ CLOCK: [2019-07-12 Fri 10:40]
 ** DOING Apply for FENS 2019 Ireland visa 
 *** DONE online form completed <2019-07-25 Thu 17:45>
 *** TODO Send documents to the ambassy 
-**** TODO letter to the ambassy 
+**** DONE letter to the ambassy <2019-07-27 Sat 11:46>
 **** DONE Letter from the conference organiser <2019-07-25 Thu 17:50>
 **** DONE Accomodation plan <2019-07-25 Thu 17:51>
 **** TODO 7900 Yen as 現金書留
