@@ -16,11 +16,12 @@ plain-text system.
 
 
 * DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
-DEADLINE: <2019-07-05 Fri>
+DEADLINE: <2019-08-05 Mon>
 *** DONE summarise refitted results <2019-06-30 Sun 13:52>
 *** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
 *** DONE He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. <2019-07-24 Wed 14:18>
 *** DONE comment on his abstract for conference <2019-07-25 Thu 23:18>
+*** TODO Try to work out the graph, (confirm whether it is appropriate) asked by Dr. Ikemoto
 
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
@@ -40,8 +41,6 @@ DEADLINE: <2019-07-05 Fri>
 
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
-
-
 
 * DOING Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
 ** till page 30 <2019-06-26 Wed>
@@ -71,48 +70,10 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
 
-* DONE Breast cancer and reproduction data preparation for Naito       :JACC:
-DEADLINE: <2019-07-24 Wed>
-** DONE 30% done, raw file extracted <2019-07-24 Wed 15:49>
-** DONE 60% done, C data set almost <2019-07-24 Wed 18:20>
-** DONE 100% done. <2019-07-25 Thu 12:17>
-
-
-* DONE Low-dose smoking and mortality <2019-07-19 Fri 17:20>           :JACC:
-DEADLINE: <2019-07-22 Mon>
-** DONE Table 1 20% <2019-07-03 Wed 18:43>
-** DONE Table 1 100% <2019-07-04 Thu 16:38>
-** DONE Table 2 20% <2019-07-04 Thu 17:47>
-** DONE Table 2 30%<2019-07-10 Wed 22:49>
-** DONE Alcohol definition done <2019-07-15 Mon 18:20>
-** DONE table 2 40%<2019-07-16 Tue 13:22>
-** DONE table 2 finished <2019-07-16 Tue 15:33>
-** DONE Table 3 25% done <2019-07-16 Tue 17:54>
-** DONE Table 3 50% done <2019-07-17 Wed 11:10>
-** DONE Table 3 100% done <2019-07-17 Wed 14:12>
-** DONE Table 4 75% done <2019-07-17 Wed 15:22>
-** DONE table 4 100% done <2019-07-17 Wed 18:37>
-** DONE Table 5 100% done <2019-07-18 Thu 11:21>
-** DONE Table 6 100% done <2019-07-18 Thu 12:10>
-** DONE Table 7 CVD death done<2019-07-18 Thu 14:10>
-** DONE Table 8 done <2019-07-18 Thu 15:07>
-** DONE table 9 done <2019-07-18 Thu 17:33>
-** DONE Table 10 done <2019-07-19 Fri 10:47>
-** DONE Table 11 done <2019-07-19 Fri 11:18>
-** DONE Table 12 done 20%<2019-07-19 Fri 12:17>
-** DONE Table 13 done 100%<2019-07-19 Fri 17:19>
-
-
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
 
-* DOING Deep Learning Course 4 Week 3                               :private:
-** DONE Videos 1-5 <2019-07-11 Thu 18:50>
-** DOING Videos 6-8  
-:LOGBOOK:
-CLOCK: [2019-07-12 Fri 10:40]
-:END:
-
+* TODO Deep learning Course 4 week 4                                :private:
 
 * DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
@@ -124,7 +85,8 @@ CLOCK: [2019-07-12 Fri 10:40]
 *** WITH COVARIATES about comorbidity 
 **** DONE LDLC dataset completed <2019-06-24 Mon 16:30>
 **** DONE models with covariates <2019-06-24 Mon 18:10>
-*** try to look for the difference why low LDLC related with higher hazard of MACE events
+*** DONE try to look for the difference why low LDLC related with higher hazard of MACE events 
+<2019-07-29 Mon 15:59> MCA done
 
 
 * DOING Registration of FENS 2019                                     :LSHTM:
@@ -132,21 +94,38 @@ CLOCK: [2019-07-12 Fri 10:40]
 ** DOING Apply for FENS 2019 Ireland visa 
 *** DONE online form completed <2019-07-25 Thu 17:45>
 *** TODO Send documents to the ambassy 
-**** DONE letter to the ambassy <2019-07-27 Sat 11:46>
-**** DONE Letter from the conference organiser <2019-07-25 Thu 17:50>
-**** DONE Accomodation plan <2019-07-25 Thu 17:51>
+**** DONE [[http://wangcc.me/letter-for-Ireland-Ambassy/][letter to the ambassy]] 
+<2019-07-27 Sat 11:46> written
+<2019-07-28 Sun 15:50> printed
+**** DONE Letter from the conference organiser
+<2019-07-25 Thu 17:50> recieved
+<2019-07-28 Sun 15:54> printed
+**** DONE Accomodation plan 
+<2019-07-25 Thu 17:51> booked 
+<2019-07-28 Sun 15:54> changed and printed
 **** TODO 7900 Yen as 現金書留
-**** TODO current Passport original
-**** DONE previous passport copies (of each page)  all pages scanned <2019-07-26 Fri 22:06>
-**** TODO copy of my 在留カード
+**** DONE current Passport original
+**** DONE previous passport copies (of each page)  all pages  
+<2019-07-26 Fri 22:06> scanned 
+<2019-07-28 Sun 15:52> printed 
+**** DONE copy of my 在留カード
+<2019-07-28 Sun 15:52> printed
 **** TODO 2 Photos (45-50mm times 35-38)
-**** TODO Bank statement from the Tsurumai branch 
-**** DONE copy of the flight tickets <2019-07-26 Fri 11:51> booked
-**** DOING 給与明細最近3ヶ月分 <2019-07-26 Fri 11:36> applied
-**** DOING Letter from the UNIV (details online) <2019-07-26 Fri 11:36> applied
-**** DONE 戸籍謄本発行<2019-07-26 Fri 21:21>
-**** TODO 戸籍謄本翻訳依頼
-**** TODO 銀行通帳明細翻訳依頼
+**** DONE Bank statement from the Tsurumai branch 
+<2019-07-29 Mon 11:48> issued
+**** DONE copy of the flight tickets 
+<2019-07-26 Fri 11:51> booked
+<2019-07-28 Sun 15:55> printed
+**** DOING 給与明細最近3ヶ月分 
+<2019-07-26 Fri 11:36> applied
+**** DOING Letter from the UNIV (details online) 
+<2019-07-26 Fri 11:36> applied
+**** DONE 戸籍謄本発行 
+<2019-07-26 Fri 21:21> issued 
+**** DOING 戸籍謄本翻訳 
+<2019-07-29 Mon 15:48> ordered
+**** DOING 銀行通帳明細翻訳 
+<2019-07-29 Mon 15:48> ordered
 
 ** DONE Luigi part done <2019-07-17 Wed 17:57>
 
@@ -160,7 +139,7 @@ DEADLINE: <2019-07-29 Mon>
 
 
 * TODO Prepare DAG material for August CSS training                     :CSS:
-
+** DONE Started page 1&2 <2019-07-26 Fri 15:46>
 
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
@@ -213,7 +192,6 @@ CLOCK: [2019-07-11 Thu 14:20]--[2019-07-11 Thu 15:43] =>  1:23
 CLOCK: [2019-07-11 Thu 15:44]--[2019-07-11 Thu 18:15] =>  2:31
 :END:
 
-
 * DONE Read book 2: [[https://www.crcpress.com/Exploratory-Multivariate-Analysis-by-Example-Using-R/Husson-Le-Pages/p/book/9781138196346][Exploratory Multivariate Analysis by Example Using R]] :LSHTM:
 ** DONE Tried the course on line <2019-07-09 Tue 19:00>
 
@@ -223,4 +201,34 @@ CLOCK: [2019-07-11 Thu 15:44]--[2019-07-11 Thu 18:15] =>  2:31
 ** DONE paper submission<2019-07-07 Sun 10:43>
 ** DONE manuscript upto Result <2019-07-04 Thu 23:28>
 ** DONE manuscript tables supplementary files, figures prepared <2019-07-06 Sat 15:03>
-
+* DONE Low-dose smoking and mortality <2019-07-19 Fri 17:20>           :JACC:
+DEADLINE: <2019-07-22 Mon>
+** DONE Table 1 20% <2019-07-03 Wed 18:43>
+** DONE Table 1 100% <2019-07-04 Thu 16:38>
+** DONE Table 2 20% <2019-07-04 Thu 17:47>
+** DONE Table 2 30%<2019-07-10 Wed 22:49>
+** DONE Alcohol definition done <2019-07-15 Mon 18:20>
+** DONE table 2 40%<2019-07-16 Tue 13:22>
+** DONE table 2 finished <2019-07-16 Tue 15:33>
+** DONE Table 3 25% done <2019-07-16 Tue 17:54>
+** DONE Table 3 50% done <2019-07-17 Wed 11:10>
+** DONE Table 3 100% done <2019-07-17 Wed 14:12>
+** DONE Table 4 75% done <2019-07-17 Wed 15:22>
+** DONE table 4 100% done <2019-07-17 Wed 18:37>
+** DONE Table 5 100% done <2019-07-18 Thu 11:21>
+** DONE Table 6 100% done <2019-07-18 Thu 12:10>
+** DONE Table 7 CVD death done<2019-07-18 Thu 14:10>
+** DONE Table 8 done <2019-07-18 Thu 15:07>
+** DONE table 9 done <2019-07-18 Thu 17:33>
+** DONE Table 10 done <2019-07-19 Fri 10:47>
+** DONE Table 11 done <2019-07-19 Fri 11:18>
+** DONE Table 12 done 20%<2019-07-19 Fri 12:17>
+** DONE Table 13 done 100%<2019-07-19 Fri 17:19>
+* DONE Breast cancer and reproduction data preparation for Naito       :JACC:
+DEADLINE: <2019-07-24 Wed>
+** DONE 30% done, raw file extracted <2019-07-24 Wed 15:49>
+** DONE 60% done, C data set almost <2019-07-24 Wed 18:20>
+** DONE 100% done. <2019-07-25 Thu 12:17>
+* DONE Deep Learning Course 4 Week 3                                :private:
+** DONE Videos 1-5 <2019-07-11 Thu 18:50>
+** DONE Videos 6-8  <2019-07-28 Sun 23:57>
