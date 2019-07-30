@@ -121,7 +121,9 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 **** DOING Letter from the UNIV (details online) 
 <2019-07-26 Fri 11:36> applied
  -> should apply for 海外出張申請 first to 庶務課
-**** TODO 海外出張申請 to 庶務課
+<2019-07-30 Tue 16:26> applied to 庶務課
+**** DONE 海外出張申請 to 庶務課 
+<2019-07-30 Tue 16:26> applied
 **** DONE 戸籍謄本発行 
 <2019-07-26 Fri 21:21> issued 
 **** DOING 戸籍謄本翻訳 
