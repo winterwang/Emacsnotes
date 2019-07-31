@@ -73,23 +73,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
 
-* TODO Deep learning Course 4 week 4                                :private:
-*** DONE Video completed <2019-07-30 Tue 23:46>
-*** DONE Assignment 1 done <2019-07-30 Tue 24:46>
-*** TODO Assignment 2 
-
-* DONE Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC   :parttime:
-*** DONE CRP time-dep <2019-06-10 Mon 15:17>
-*** TODO TG time-dep 
-*** TODO TC time-dep
-*** DONE BNP time-dep <2019-06-10 Mon 17:17>
-*** DONE LDLC time-dep <2019-06-10 Mon 18:17> <- checked again <2019-06-17 Mon 17:26>
-*** DONE HDLC time-dep <2019-06-14 Fri 18:20>
-*** WITH COVARIATES about comorbidity 
-**** DONE LDLC dataset completed <2019-06-24 Mon 16:30>
-**** DONE models with covariates <2019-06-24 Mon 18:10>
-*** DONE try to look for the difference why low LDLC related with higher hazard of MACE events 
-<2019-07-29 Mon 15:59> MCA done
 
 
 * DOING Registration of FENS 2019                                     :LSHTM:
@@ -239,3 +222,19 @@ DEADLINE: <2019-07-24 Wed>
 * DONE Deep Learning Course 4 Week 3                                :private:
 ** DONE Videos 1-5 <2019-07-11 Thu 18:50>
 ** DONE Videos 6-8  <2019-07-28 Sun 23:57>
+* DONE Deep learning Course 4 week 4                                :private:
+*** DONE Video completed <2019-07-30 Tue 23:46>
+*** DONE Assignment 1 done <2019-07-30 Tue 24:46>
+*** DONE Assignment 2 <2019-07-31 Wed 23:45>
+* DONE Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC   :parttime:
+*** DONE CRP time-dep <2019-06-10 Mon 15:17>
+*** TODO TG time-dep 
+*** TODO TC time-dep
+*** DONE BNP time-dep <2019-06-10 Mon 17:17>
+*** DONE LDLC time-dep <2019-06-10 Mon 18:17> <- checked again <2019-06-17 Mon 17:26>
+*** DONE HDLC time-dep <2019-06-14 Fri 18:20>
+*** WITH COVARIATES about comorbidity 
+**** DONE LDLC dataset completed <2019-06-24 Mon 16:30>
+**** DONE models with covariates <2019-06-24 Mon 18:10>
+*** DONE try to look for the difference why low LDLC related with higher hazard of MACE events 
+<2019-07-29 Mon 15:59> MCA done
