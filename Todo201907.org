@@ -21,7 +21,7 @@ DEADLINE: <2019-08-05 Mon>
 *** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
 *** DONE He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. <2019-07-24 Wed 14:18>
 *** DONE comment on his abstract for conference <2019-07-25 Thu 23:18>
-*** TODO Try to work out the graph, (confirm whether it is appropriate) asked by Dr. Ikemoto
+*** DONE Try to work out the graph, (confirm whether it is appropriate) asked by Dr. Ikemoto <2019-07-31 Wed 16:51>
 
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
@@ -74,8 +74,11 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 
 * TODO Deep learning Course 4 week 4                                :private:
+*** DONE Video completed <2019-07-30 Tue 23:46>
+*** DONE Assignment 1 done <2019-07-30 Tue 24:46>
+*** TODO Assignment 2 
 
-* DOING Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC  :parttime:
+* DONE Try time-dependent models on CRP, TG, TC, BNP, LDLC, HDLC   :parttime:
 *** DONE CRP time-dep <2019-06-10 Mon 15:17>
 *** TODO TG time-dep 
 *** TODO TC time-dep
