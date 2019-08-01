@@ -64,6 +64,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * DOING Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                          :LSHTM:
 
 
+* TODO Read book 7: Learn Python the hard way                       :private:
+
 * TODO prepare the NDNS RP database analysis done by Marta            :LSHTM:
 
 
@@ -96,7 +98,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 <2019-07-28 Sun 15:52> printed 
 **** DONE copy of my 在留カード
 <2019-07-28 Sun 15:52> printed
-**** TODO 2 Photos (45-50mm times 35-38)
+**** DONE 2 Photos (45-50mm times 35-38)
+<2019-08-01 Thu 10:25> done 
 **** DONE Bank statement from the Tsurumai branch 
 <2019-07-29 Mon 11:48> issued
 **** DONE copy of the flight tickets 
@@ -116,6 +119,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 <2019-07-29 Mon 15:48> ordered
 **** DOING 銀行通帳明細翻訳 
 <2019-07-29 Mon 15:48> ordered
+**** TODO 海外旅行保険
 
 ** DONE Luigi part done <2019-07-17 Wed 17:57>
 
