@@ -136,6 +136,12 @@ DEADLINE: <2019-07-29 Mon>
 * TODO Prepare DAG material for August CSS training                     :CSS:
 ** DONE Started page 1&2 <2019-07-26 Fri 15:46>
 
+
+
+* TODO Prepare for next 疫学懇話会                                      :AMU:
+** DONE title to be detemined <2019-08-01 Thu 10:59>
+Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
+
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
 ** DONE Q3 and Q4 done <2019-07-02 Tue 14:59>
