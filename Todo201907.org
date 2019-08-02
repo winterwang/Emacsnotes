@@ -66,6 +66,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 * TODO Read book 7: Learn Python the hard way                       :private:
 
+
 * TODO prepare the NDNS RP database analysis done by Marta            :LSHTM:
 
 
@@ -140,9 +141,12 @@ DEADLINE: <2019-07-29 Mon>
 
 
 
+* TODO Try to look for interesting dimensions from the MCA analysis of LDLC data :CSS:
+
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
+
 
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
