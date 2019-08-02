@@ -143,6 +143,8 @@ DEADLINE: <2019-07-29 Mon>
 
 * TODO Try to look for interesting dimensions from the MCA analysis of LDLC data :CSS:
 
+* TODO Read the results for TL and comment (backpain and QOL)           :CSS:
+
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
