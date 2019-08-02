@@ -141,7 +141,8 @@ DEADLINE: <2019-07-29 Mon>
 
 
 
-* TODO Try to look for interesting dimensions from the MCA analysis of LDLC data :CSS:
+* DONE Try to look for interesting dimensions from the MCA analysis of LDLC data :CSS:
+** dimension paris of 5 and 8 or 6 and 8 might be interesting -> model may be wrong, sad.
 
 * TODO Read the results for TL and comment (backpain and QOL)           :CSS:
 
