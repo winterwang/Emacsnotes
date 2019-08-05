@@ -42,6 +42,7 @@ DEADLINE: <2019-08-05 Mon>
 
 * TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
 
+
 * DOING Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
 ** till page 30 <2019-06-26 Wed>
 ** till page 37 <2019-07-03 Wed 17:40>
@@ -67,8 +68,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO Read book 7: Learn Python the hard way                       :private:
 
 
-* TODO prepare the NDNS RP database analysis done by Marta            :LSHTM:
-
+* DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
+** DONE Data clean <2019-08-02 Fri 16:45>
 
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
@@ -77,6 +78,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 
 
+
+* TODO Deep learning Course 5 Week 1                                :private:
 
 * DOING Registration of FENS 2019                                     :LSHTM:
 ** DONE my part <2019-07-17 Wed 12:17>
@@ -130,10 +133,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 * TODO Resit question (1 q for answers)
 DEADLINE: <2019-08-20 Tue>
-
-
-* TODO Stat review for research square                              :private:
-DEADLINE: <2019-07-29 Mon>
 
 
 * TODO Prepare DAG material for August CSS training                     :CSS:
@@ -258,3 +257,6 @@ DEADLINE: <2019-07-24 Wed>
 **** DONE models with covariates <2019-06-24 Mon 18:10>
 *** DONE try to look for the difference why low LDLC related with higher hazard of MACE events 
 <2019-07-29 Mon 15:59> MCA done
+* DONE Stat review for research square                              :private:
+DEADLINE: <2019-07-29 Mon>
+<2019-08-04 Sun 23:43> submitted
