@@ -13,6 +13,8 @@ plain-text system.
 
 
 
+* DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
+** DONE Data clean <2019-08-02 Fri 16:45>
 
 
 * DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
@@ -69,8 +71,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 ** DONE Page 38 <2019-08-05 Mon 12:01>
 
-* DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
-** DONE Data clean <2019-08-02 Fri 16:45>
 
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
@@ -141,11 +141,10 @@ DEADLINE: <2019-08-20 Tue>
 
 * TODO Comment on the report of Pregabalin analysis                     :CSS:
 
-* TODO Read the results for TL and comment (backpain and QOL)           :CSS:
-
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
+
 
 * TODO Send the contract of car insurance cancellation back asap    :private:
 
@@ -261,3 +260,5 @@ DEADLINE: <2019-07-29 Mon>
 <2019-08-04 Sun 23:43> submitted
 * DONE Try to look for interesting dimensions from the MCA analysis of LDLC data :CSS:
 ** dimension paris of 5 and 8 or 6 and 8 might be interesting -> model may be wrong, sad.
+* DONE Read the results for TL and comment (backpain and QOL)           :CSS:
+** DONE comments shared with google docs <2019-08-05 Mon 17:59>
