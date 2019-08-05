@@ -147,6 +147,7 @@ DEADLINE: <2019-08-20 Tue>
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
 
+* TODO Send the contract of car insurance cancellation back asap    :private:
 
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
