@@ -15,6 +15,7 @@ plain-text system.
 
 * DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
 ** DONE Data clean <2019-08-02 Fri 16:45>
+** TODO unweighted CA analysis 
 
 
 * DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
