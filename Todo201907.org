@@ -69,7 +69,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 
 * DOING Read book 7: Learn Python the hard way                      :private:
-
 ** DONE Page 38 <2019-08-05 Mon 12:01>
 
 
@@ -113,10 +112,12 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 <2019-07-28 Sun 15:55> printed
 **** DOING 給与明細最近3ヶ月分 
 <2019-07-26 Fri 11:36> applied
-**** DOING Letter from the UNIV (details online) 
+<2019-08-06 Tue 11:27> ordered 
+**** DONE Letter from the UNIV (details online) 
 <2019-07-26 Fri 11:36> applied
  -> should apply for 海外出張申請 first to 庶務課
 <2019-07-30 Tue 16:26> applied to 庶務課
+<2019-08-06 Tue 09:27> 庶務課からもらった
 **** DONE 海外出張申請 to 庶務課 
 <2019-07-30 Tue 16:26> applied
 **** DONE 戸籍謄本発行 
@@ -140,15 +141,13 @@ DEADLINE: <2019-08-20 Tue>
 * TODO Prepare DAG material for August CSS training                     :CSS:
 ** DONE Started page 1&2 <2019-07-26 Fri 15:46>
 
-* TODO Comment on the report of Pregabalin analysis                     :CSS:
-
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
 
 
-* TODO Send the contract of car insurance cancellation back asap    :private:
-
+* DONE Send the contract of car insurance cancellation back asap    :private:
+<2019-08-06 Tue 13:39> send
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
 ** DONE Q1 and Q2 done <2019-07-01 Mon 23:43>
 ** DONE Q3 and Q4 done <2019-07-02 Tue 14:59>
@@ -263,3 +262,5 @@ DEADLINE: <2019-07-29 Mon>
 ** dimension paris of 5 and 8 or 6 and 8 might be interesting -> model may be wrong, sad.
 * DONE Read the results for TL and comment (backpain and QOL)           :CSS:
 ** DONE comments shared with google docs <2019-08-05 Mon 17:59>
+* DONE Comment on the report of Pregabalin analysis                     :CSS:
+comments shared <2019-08-05 Mon 17:28>
