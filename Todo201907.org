@@ -15,17 +15,18 @@ plain-text system.
 
 * DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
 ** DONE Data clean <2019-08-02 Fri 16:45>
-** TODO unweighted CA analysis 
+** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
+** TODO confirm hypothese and complete the confirmations
 
 
 * DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
-DEADLINE: <2019-08-05 Mon>
+DEADLINE: <2019-08-21 Wed>
 *** DONE summarise refitted results <2019-06-30 Sun 13:52>
 *** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
 *** DONE He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. <2019-07-24 Wed 14:18>
 *** DONE comment on his abstract for conference <2019-07-25 Thu 23:18>
 *** DONE Try to work out the graph, (confirm whether it is appropriate) asked by Dr. Ikemoto <2019-07-31 Wed 16:51>
-
+*** TODO try to add some comments to the discussion part 
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
 *** lecture notes 
@@ -65,7 +66,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
 
-* DOING Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                          :LSHTM:
+* DONE Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                           :LSHTM:
 
 
 * DOING Read book 7: Learn Python the hard way                      :private:
@@ -82,64 +83,16 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 * TODO Deep learning Course 5 Week 1                                :private:
 
-* DOING Registration of FENS 2019                                     :LSHTM:
-** DONE my part <2019-07-17 Wed 12:17>
-** DOING Apply for FENS 2019 Ireland visa 
-*** DONE online form completed <2019-07-25 Thu 17:45>
-*** TODO Send documents to the ambassy 
-**** DONE [[http://wangcc.me/letter-for-Ireland-Ambassy/][letter to the ambassy]] 
-<2019-07-27 Sat 11:46> written
-<2019-07-28 Sun 15:50> printed
-**** DONE Letter from the conference organiser
-<2019-07-25 Thu 17:50> recieved
-<2019-07-28 Sun 15:54> printed
-**** DONE Accomodation plan 
-<2019-07-25 Thu 17:51> booked 
-<2019-07-28 Sun 15:54> changed and printed
-**** TODO 7900 Yen as 現金書留
-**** DONE current Passport original
-**** DONE previous passport copies (of each page)  all pages  
-<2019-07-26 Fri 22:06> scanned 
-<2019-07-28 Sun 15:52> printed 
-**** DONE copy of my 在留カード
-<2019-07-28 Sun 15:52> printed
-**** DONE 2 Photos (45-50mm times 35-38)
-<2019-08-01 Thu 10:25> done 
-**** DONE Bank statement from the Tsurumai branch 
-<2019-07-29 Mon 11:48> issued
-**** DONE copy of the flight tickets 
-<2019-07-26 Fri 11:51> booked
-<2019-07-28 Sun 15:55> printed
-**** DOING 給与明細最近3ヶ月分 
-<2019-07-26 Fri 11:36> applied
-<2019-08-06 Tue 11:27> ordered 
-**** DONE Letter from the UNIV (details online) 
-<2019-07-26 Fri 11:36> applied
- -> should apply for 海外出張申請 first to 庶務課
-<2019-07-30 Tue 16:26> applied to 庶務課
-<2019-08-06 Tue 09:27> 庶務課からもらった
-**** DONE 海外出張申請 to 庶務課 
-<2019-07-30 Tue 16:26> applied
-**** DONE 戸籍謄本発行 
-<2019-07-26 Fri 21:21> issued 
-**** DONE 戸籍謄本翻訳 
-<2019-07-29 Mon 15:48> ordered
-<2019-08-01 Thu 13:55> recieved
-**** DONE 銀行通帳明細翻訳 
-<2019-07-29 Mon 15:48> ordered
-<2019-08-01 Thu 13:54> recieved
-**** DONE 海外旅行保険
-<2019-08-01 Thu 10:47> sony 損保
-
-** DONE Luigi part done <2019-07-17 Wed 17:57>
-
 
 * TODO Resit question (1 q for answers)
 DEADLINE: <2019-08-20 Tue>
 
+* TODO New task from Research Square                                :private:
+DEADLINE: <2019-08-12 Mon>
 
 * TODO Prepare DAG material for August CSS training                     :CSS:
 ** DONE Started page 1&2 <2019-07-26 Fri 15:46>
+
 
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
@@ -264,3 +217,56 @@ DEADLINE: <2019-07-29 Mon>
 ** DONE comments shared with google docs <2019-08-05 Mon 17:59>
 * DONE Comment on the report of Pregabalin analysis                     :CSS:
 comments shared <2019-08-05 Mon 17:28>
+* DONE Registration of FENS 2019                                      :LSHTM:
+** DONE my part <2019-07-17 Wed 12:17>
+** DONE Apply for FENS 2019 Ireland visa 
+*** DONE online form completed <2019-07-25 Thu 17:45>
+*** DONE Send documents to the ambassy 
+**** DONE [[http://wangcc.me/letter-for-Ireland-Ambassy/][letter to the ambassy]] 
+<2019-07-27 Sat 11:46> written
+<2019-07-28 Sun 15:50> printed
+**** DONE Letter from the conference organiser
+<2019-07-25 Thu 17:50> recieved
+<2019-07-28 Sun 15:54> printed
+**** DONE Accomodation plan 
+<2019-07-25 Thu 17:51> booked 
+<2019-07-28 Sun 15:54> changed and printed
+**** DONE 7900 Yen as 現金書留
+<2019-08-08 Thu 14:13> sent 
+**** DONE current Passport original
+**** DONE previous passport copies (of each page)  all pages  
+<2019-07-26 Fri 22:06> scanned 
+<2019-07-28 Sun 15:52> printed 
+**** DONE copy of my 在留カード
+<2019-07-28 Sun 15:52> printed
+**** DONE 2 Photos (45-50mm times 35-38)
+<2019-08-01 Thu 10:25> done 
+**** DONE Bank statement from the Tsurumai branch 
+<2019-07-29 Mon 11:48> issued
+**** DONE copy of the flight tickets 
+<2019-07-26 Fri 11:51> booked
+<2019-07-28 Sun 15:55> printed
+**** DONE 給与明細最近3ヶ月分 
+<2019-07-26 Fri 11:36> applied
+<2019-08-06 Tue 11:27> ordered 
+<2019-08-08 Thu 14:16> recieved and sent with others to the embassy
+**** DONE Letter from the UNIV (details online) 
+<2019-07-26 Fri 11:36> applied
+ -> should apply for 海外出張申請 first to 庶務課
+<2019-07-30 Tue 16:26> applied to 庶務課
+<2019-08-06 Tue 09:27> 庶務課からもらった
+**** DONE 海外出張申請 to 庶務課 
+<2019-07-30 Tue 16:26> applied
+**** DONE 戸籍謄本発行 
+<2019-07-26 Fri 21:21> issued 
+**** DONE 戸籍謄本翻訳 
+<2019-07-29 Mon 15:48> ordered
+<2019-08-01 Thu 13:55> recieved
+**** DONE 銀行通帳明細翻訳 
+<2019-07-29 Mon 15:48> ordered
+<2019-08-01 Thu 13:54> recieved
+**** DONE 海外旅行保険
+<2019-08-01 Thu 10:47> sony 損保 no. RA00881916
+
+** DONE Luigi part done <2019-07-17 Wed 17:57>
+
