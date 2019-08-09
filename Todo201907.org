@@ -70,7 +70,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 * DOING Read book 7: Learn Python the hard way                      :private:
 ** DONE Page 38 <2019-08-05 Mon 12:01>
-** TODO Ex6
+** DONE Ex6 <2019-08-09 Fri 21:19>
+** DONE Ex7 <2019-08-09 Fri 21:32>
 
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
