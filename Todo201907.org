@@ -17,7 +17,7 @@ plain-text system.
 ** DONE Data clean <2019-08-02 Fri 16:45>
 ** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
 ** TODO confirm hypothese and complete the confirmations
-
+** Send out the email about the discussion and what todo next.
 
 * DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
 DEADLINE: <2019-08-21 Wed>
@@ -27,6 +27,7 @@ DEADLINE: <2019-08-21 Wed>
 *** DONE comment on his abstract for conference <2019-07-25 Thu 23:18>
 *** DONE Try to work out the graph, (confirm whether it is appropriate) asked by Dr. Ikemoto <2019-07-31 Wed 16:51>
 *** TODO try to add some comments to the discussion part 
+
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
 *** lecture notes 
@@ -66,12 +67,10 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
 
-* DONE Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                           :LSHTM:
-
 
 * DOING Read book 7: Learn Python the hard way                      :private:
 ** DONE Page 38 <2019-08-05 Mon 12:01>
-
+** TODO Ex6
 
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
@@ -87,8 +86,10 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO Resit question (1 q for answers)
 DEADLINE: <2019-08-20 Tue>
 
+
 * TODO New task from Research Square                                :private:
 DEADLINE: <2019-08-12 Mon>
+
 
 * TODO Prepare DAG material for August CSS training                     :CSS:
 ** DONE Started page 1&2 <2019-07-26 Fri 15:46>
@@ -269,4 +270,5 @@ comments shared <2019-08-05 Mon 17:28>
 <2019-08-01 Thu 10:47> sony 損保 no. RA00881916
 
 ** DONE Luigi part done <2019-07-17 Wed 17:57>
+* DONE Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                           :LSHTM:
 
