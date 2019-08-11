@@ -81,9 +81,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 
 
-* TODO Deep learning Course 5 Week 1                                :private:
-
-
 * TODO Resit question (1 q for answers)
 DEADLINE: <2019-08-20 Tue>
 
@@ -272,4 +269,7 @@ comments shared <2019-08-05 Mon 17:28>
 
 ** DONE Luigi part done <2019-07-17 Wed 17:57>
 * DONE Read book 6: [[https://www.amazon.co.jp/Correspondence-Analysis-Practice-Interdisciplinary-Statistics/dp/1498731775][Correspondence analysis]]                           :LSHTM:
+* DONE Deep learning Course 5 Week 1                                :private:
+** DONE Videos <2019-08-10 Sat 16:08>
+** DONE Assignments <2019-08-11 Sun 16:08>
 
