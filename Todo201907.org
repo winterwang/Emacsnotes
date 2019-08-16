@@ -17,8 +17,8 @@ plain-text system.
 ** DONE Data clean <2019-08-02 Fri 16:45>
 ** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
 ** TODO confirm hypothese and complete the confirmations
-** Send out the email about the discussion and what todo next.
-
+** DONE Send out the email about the discussion and what todo next.
+** TODO Try Bayesian Multilevel model and see the results using the test data
 
 * DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
 DEADLINE: <2019-08-21 Wed>
@@ -87,10 +87,10 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 DEADLINE: <2019-08-20 Tue>
 
 
-* TODO Prepare DAG material for August CSS training                     :CSS:
+* DOING Prepare DAG material for August CSS training                    :CSS:
 ** DONE Started page 1&2 <2019-07-26 Fri 15:46>
 
-
+** DONE until page 17
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
