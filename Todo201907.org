@@ -18,7 +18,9 @@ plain-text system.
 ** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
 ** TODO confirm hypothese and complete the confirmations
 ** DONE Send out the email about the discussion and what todo next.
-** TODO Try Bayesian Multilevel model and see the results using the test data
+** DONE Try Bayesian Multilevel model and see the results using the test data <2019-08-19 Mon 10:09>
+*** the one of pudding hypothesis was tested. <2019-08-17 Sat 20:10>
+*** the one of pudding hypothesis with interaction between DM and time slots was tried but failed in SAS <2019-08-18 Sun 19:10>
 
 * DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
 DEADLINE: <2019-08-21 Wed>
