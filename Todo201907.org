@@ -22,15 +22,6 @@ plain-text system.
 *** the one of pudding hypothesis was tested. <2019-08-17 Sat 20:10>
 *** the one of pudding hypothesis with interaction between DM and time slots was tried but failed in SAS <2019-08-18 Sun 19:10>
 
-* DOING draft for ikemoto lets aim to finish writing after student seminar :AMU:
-DEADLINE: <2019-08-21 Wed>
-*** DONE summarise refitted results <2019-06-30 Sun 13:52>
-*** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
-*** DONE He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. <2019-07-24 Wed 14:18>
-*** DONE comment on his abstract for conference <2019-07-25 Thu 23:18>
-*** DONE Try to work out the graph, (confirm whether it is appropriate) asked by Dr. Ikemoto <2019-07-31 Wed 16:51>
-*** TODO try to add some comments to the discussion part 
-
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
 *** lecture notes 
@@ -85,15 +76,12 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 
 
-* DONE Resit question (1 q for answers)
-DEADLINE: <2019-08-20 Tue>
-** completed and sent <2019-08-19 Mon 15:16>
-
 * DOING Prepare DAG material for August CSS training                    :CSS:
 ** DONE Started page 1&2 <2019-07-26 Fri 15:46>
 
 ** DONE until page 17
 ** until page 22 <2019-08-19 Mon 18:04>
+
 
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be detemined <2019-08-01 Thu 10:59>
@@ -101,6 +89,7 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 
 
 * TODO Paper review from Nutrients                                  :private:
+
 
 * DONE Send the contract of car insurance cancellation back asap    :private:
 <2019-08-06 Tue 13:39> send
@@ -279,3 +268,14 @@ comments shared <2019-08-05 Mon 17:28>
 * DONE New task from Research Square                                :private:
 DEADLINE: <2019-08-12 Mon>
 ** submitted <2019-08-15 Thu 22:14>
+* DONE draft for ikemoto lets aim to finish writing after student seminar :AMU:
+DEADLINE: <2019-08-21 Wed>
+*** DONE summarise refitted results <2019-06-30 Sun 13:52>
+*** DONE send list of summarsing the discussion (v01) <2019-07-07 Sun 12:24>
+*** DONE He is obsessive about the cronbach alpha coefficient. if he insists, I will quit. <2019-07-24 Wed 14:18>
+*** DONE comment on his abstract for conference <2019-07-25 Thu 23:18>
+*** DONE Try to work out the graph, (confirm whether it is appropriate) asked by Dr. Ikemoto <2019-07-31 Wed 16:51>
+*** DONE try to add some comments to the discussion part <2019-08-20 Tue 18:42>
+* DONE Resit question (1 q for answers)
+DEADLINE: <2019-08-20 Tue>
+** completed and sent <2019-08-19 Mon 15:16>
