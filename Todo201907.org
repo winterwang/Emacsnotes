@@ -84,6 +84,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE until page 17
 ** until page 22 <2019-08-19 Mon 18:04>
 ** until page 27 <2019-08-23 Fri 16:10>
+** until page 37 <2019-08-23 Fri 18:18>
 
 
 * TODO Prepare for next 疫学懇話会                                      :AMU:
