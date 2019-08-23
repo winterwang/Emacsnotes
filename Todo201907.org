@@ -1,4 +1,4 @@
-#+TITLE: Org-mode todo 2019-07
+#+TITLE: Org-mode todo 2019-07/08
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
@@ -21,7 +21,9 @@ plain-text system.
 ** DONE Try Bayesian Multilevel model and see the results using the test data <2019-08-19 Mon 10:09>
 *** the one of pudding hypothesis was tested. <2019-08-17 Sat 20:10>
 *** the one of pudding hypothesis with interaction between DM and time slots was tried but failed in SAS <2019-08-18 Sun 19:10>
-
+*** age to be used as continuous variable. 
+*** nssec8 need to be collapsed into 3 categories. 
+** TODO focus on looking for new hypothesis. 
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
 *** lecture notes 
@@ -81,6 +83,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 ** DONE until page 17
 ** until page 22 <2019-08-19 Mon 18:04>
+** until page 27 <2019-08-23 Fri 16:10>
 
 
 * TODO Prepare for next 疫学懇話会                                      :AMU:
@@ -89,6 +92,7 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 
 
 * TODO Paper review from Nutrients                                  :private:
+DEADLINE: <2019-08-25 Sun>
 
 
 * DONE Send the contract of car insurance cancellation back asap    :private:
