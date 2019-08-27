@@ -23,7 +23,11 @@ plain-text system.
 *** the one of pudding hypothesis with interaction between DM and time slots was tried but failed in SAS <2019-08-18 Sun 19:10>
 *** age to be used as continuous variable. 
 *** nssec8 need to be collapsed into 3 categories. 
-** TODO focus on looking for new hypothesis. 
+** DONE focus on looking for new hypothesis. <2019-08-27 Tue 17:14>
+*** hypotheses provided by chao uploaded
+
+
+
 
 * DOING Cluster analysis & Principal component analysis               :LSHTM:
 *** lecture notes 
