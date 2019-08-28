@@ -25,7 +25,7 @@ plain-text system.
 *** nssec8 need to be collapsed into 3 categories. 
 ** DONE focus on looking for new hypothesis. <2019-08-27 Tue 17:14>
 *** hypotheses provided by chao uploaded
-
+** DONE hypotheses sent to coauthors <2019-08-28 Wed 16:53>
 
 
 
@@ -90,7 +90,6 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 * DONE Paper review from Nutrients                                  :private:
 DEADLINE: <2019-08-25 Sun>
 ** DONE comments completed <2019-08-28 Wed 14:52>
-
 * DONE Send the contract of car insurance cancellation back asap    :private:
 <2019-08-06 Tue 13:39> send
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
