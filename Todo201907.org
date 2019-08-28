@@ -277,7 +277,8 @@ DEADLINE: <2019-08-21 Wed>
 *** DONE try to add some comments to the discussion part <2019-08-20 Tue 18:42>
 * DONE Resit question (1 q for answers)
 DEADLINE: <2019-08-20 Tue>
-** completed and sent <2019-08-19 Mon 15:16>
+** DONE completed and sent <2019-08-19 Mon 15:16>
+** DONE resit question saiten completed <2019-08-28 Wed 15:18>
 * DONE Prepare DAG material for August CSS training                     :CSS:
 ** DONE Started page 1&2 <2019-07-26 Fri 15:46>
 
