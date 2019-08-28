@@ -87,9 +87,9 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
 
 
-* TODO Paper review from Nutrients                                  :private:
+* DONE Paper review from Nutrients                                  :private:
 DEADLINE: <2019-08-25 Sun>
-
+** DONE comments completed <2019-08-28 Wed 14:52>
 
 * DONE Send the contract of car insurance cancellation back asap    :private:
 <2019-08-06 Tue 13:39> send
