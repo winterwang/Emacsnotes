@@ -16,7 +16,7 @@ plain-text system.
 * DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
 ** DONE Data clean <2019-08-02 Fri 16:45>
 ** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
-** TODO confirm hypothese and complete the confirmations
+** DONE confirm hypothese and complete the confirmations <2019-09-01 Sun 23:28>
 ** DONE Send out the email about the discussion and what todo next.
 ** DONE Try Bayesian Multilevel model and see the results using the test data <2019-08-19 Mon 10:09>
 *** the one of pudding hypothesis was tested. <2019-08-17 Sat 20:10>
@@ -26,6 +26,9 @@ plain-text system.
 ** DONE focus on looking for new hypothesis. <2019-08-27 Tue 17:14>
 *** hypotheses provided by chao uploaded
 ** DONE hypotheses sent to coauthors <2019-08-28 Wed 16:53>
+** TODO Complete the analyses, using the four hypotheses and alcohols. 
+** TODO Prepare the poster 
+DEADLINE: <2019-09-23 Mon>
 
 
 
@@ -86,13 +89,22 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE title to be determined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
 
+
 * TODO Understand the idea of categorical data sequence analysis        :css:
+** TODO Try example using the package TraMineR
 
-* TODO Prepare the manuscript for PeerJ (Ikemoto Paper)                 :AMU:
 
-* DONE Paper review from Nutrients                                  :private:
+* DOING Prepare the manuscript for PeerJ (Ikemoto Paper)                :AMU:
+** DONE figures using tikz package in LaTeX <2019-09-02 Mon 11:25>
+** TODO finish the part of disucssion about cronbach's alpha 
+** DONE finish abstract <2019-09-02 Mon 18:11>
+** TODO send the paper pdf to dr ikemoto
+
+* TODO Paper review from Nutrients                                  :private:
 DEADLINE: <2019-08-25 Sun>
 ** DONE comments completed <2019-08-28 Wed 14:52>
+** TODO reply to the revision 
+
 * DONE Send the contract of car insurance cancellation back asap    :private:
 <2019-08-06 Tue 13:39> send
 * DONE Prepare the 採点基準 for 疫学演習                                :AMU:
