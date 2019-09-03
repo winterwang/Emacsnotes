@@ -94,11 +94,13 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 ** TODO Try example using the package TraMineR
 
 
-* DOING Prepare the manuscript for PeerJ (Ikemoto Paper)                :AMU:
+* DONE Prepare the manuscript for PeerJ (Ikemoto Paper)                 :AMU:
 ** DONE figures using tikz package in LaTeX <2019-09-02 Mon 11:25>
-** TODO finish the part of disucssion about cronbach's alpha 
+** DONE finish the part of disucssion about cronbach's alpha <2019-09-03 Tue 11:27>
 ** DONE finish abstract <2019-09-02 Mon 18:11>
-** TODO send the paper pdf to dr ikemoto
+** DONE send the paper pdf to dr ikemoto <2019-09-03 Tue 15:28>
+** TODO wait for English check 
+** TODO PeerJ submission
 
 * TODO Paper review from Nutrients                                  :private:
 DEADLINE: <2019-08-25 Sun>
