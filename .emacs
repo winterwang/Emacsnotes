@@ -272,7 +272,9 @@ There are two things you can do about this warning:
 ;(add-hook 'org-mode-hook
 ;          (lambda ()
 ;            (add-hook 'after-save-hook 'my/org-render-latex-fragments 'make-it-local)))
-; wrap the lines
+					; wrap the lines
+(add-hook 'org-mode-hook 'org-indent-mode)
+
 (global-visual-line-mode t)
 
 ;(setq global-linum-mode t)
