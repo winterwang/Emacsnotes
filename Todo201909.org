@@ -16,14 +16,16 @@ plain-text system.
 * TODO Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be determined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
+** DOING Slides preparation 
+*** page 20 <2019-09-10 Tue 09:40>
 
 * TODO Prepare response to the reviewers by Nutrients                :NDNSRP:
-** reviewer #1 
-** reviewer #2 
-** reviewer #3 
-DEADLINE: <2019-09-13 Fri>
-** Revise the paper 
-** Resubmit with another submission ID (new submission)
+** DONE reviewer #1 <2019-09-10 Tue 23:29>
+** DONE reviewer #2 <2019-09-10 Tue 23:29>
+** TODO reviewer #3 
+DEADLINE: <2019-09-19 Thu>
+** HANGUP Revise the paper 
+** TODO Resubmit with another submission ID (new submission)
 
 * DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
 ** DONE Data clean <2019-08-02 Fri 16:45>
