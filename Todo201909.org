@@ -27,7 +27,7 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 ** DONE reviewer #2 <2019-09-10 Tue 23:29>
 ** TODO reviewer #3 
 DEADLINE: <2019-09-19 Thu>
-** HANGUP Revise the paper 
+** DOING Revise the paper 
 ** TODO Resubmit with another submission ID (new submission)
 
 * DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
@@ -43,8 +43,8 @@ DEADLINE: <2019-09-19 Thu>
 ** DONE focus on looking for new hypothesis. <2019-08-27 Tue 17:14>
 *** hypotheses provided by chao uploaded
 ** DONE hypotheses sent to coauthors <2019-08-28 Wed 16:53>
-** TODO Complete the analyses, using the four hypotheses and alcohols. 
-** TODO Prepare the poster 
+** DOING Complete the analyses, using the four hypotheses and alcohols. 
+** DOING Prepare the poster 
 DEADLINE: <2019-09-23 Mon>
 
 
