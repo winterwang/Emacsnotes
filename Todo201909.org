@@ -21,6 +21,7 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 *** Page 28 <2019-09-11 Wed 15:02>
 *** Page 45 <2019-09-11 Wed 21:05>
 *** Page 56 <2019-09-12 Thu 01:35>
+*** Page 64 <2019-09-12 Thu 15:54>
 
 * TODO Prepare response to the reviewers by Nutrients                :NDNSRP:
 ** DONE reviewer #1 <2019-09-10 Tue 23:29>
@@ -45,6 +46,7 @@ DEADLINE: <2019-09-19 Thu>
 ** DONE hypotheses sent to coauthors <2019-08-28 Wed 16:53>
 ** DOING Complete the analyses, using the four hypotheses and alcohols. 
 ** DOING Prepare the poster 
+*** 4 figures completed <2019-09-12 Thu 15:55>
 DEADLINE: <2019-09-23 Mon>
 
 
