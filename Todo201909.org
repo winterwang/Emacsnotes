@@ -13,15 +13,20 @@ plain-text system.
 
 
 
-* TODO Prepare for next 疫学懇話会                                      :AMU:
+* DONE Prepare for next 疫学懇話会                                      :AMU:
 ** DONE title to be determined <2019-08-01 Thu 10:59>
 Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
-** DOING Slides preparation 
+** DONE Slides preparation 
 *** page 20 <2019-09-10 Tue 09:40>
 *** Page 28 <2019-09-11 Wed 15:02>
 *** Page 45 <2019-09-11 Wed 21:05>
 *** Page 56 <2019-09-12 Thu 01:35>
 *** Page 64 <2019-09-12 Thu 15:54>
+*** Page 67 <2019-09-13 Fri 11:28>
+*** Page 71 <2019-09-13 Fri 23:28>
+
+* DONE Proposal of call for papers edit for LP                        :LSHTM:
+<2019-09-12 Thu 22:21>
 
 * TODO Prepare response to the reviewers by Nutrients                :NDNSRP:
 ** DONE reviewer #1 <2019-09-10 Tue 23:29>
@@ -31,7 +36,7 @@ DEADLINE: <2019-09-19 Thu>
 ** DOING Revise the paper 
 ** TODO Resubmit with another submission ID (new submission)
 
-* DOING prepare the NDNS RP database analysis done by Marta           :LSHTM:
+* DONE prepare the NDNS RP database analysis done by Marta            :LSHTM:
 ** DONE Data clean <2019-08-02 Fri 16:45>
 ** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
 ** DONE confirm hypothese and complete the confirmations <2019-09-01 Sun 23:28>
@@ -44,14 +49,15 @@ DEADLINE: <2019-09-19 Thu>
 ** DONE focus on looking for new hypothesis. <2019-08-27 Tue 17:14>
 *** hypotheses provided by chao uploaded
 ** DONE hypotheses sent to coauthors <2019-08-28 Wed 16:53>
-** DOING Complete the analyses, using the four hypotheses and alcohols. 
-** DOING Prepare the poster 
+** DONE Complete the analyses, using the four hypotheses and alcohols. 
+** DONE Prepare the poster 
 *** 4 figures completed <2019-09-12 Thu 15:55>
+*** discussion completed 1st draft <2019-09-13 Fri 23:29>
 DEADLINE: <2019-09-23 Mon>
 
 
-* TODO Understand the idea of categorical data sequence analysis        :css:
-** TODO Try example using the package TraMineR
+* DONE Understand the idea of categorical data sequence analysis        :css:
+** DOING Try example using the package TraMineR
 
 
 * DONE Prepare the manuscript for PeerJ (Ikemoto Paper)                 :AMU:
