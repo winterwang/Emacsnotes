@@ -12,22 +12,6 @@ plain-text system.
 
 
 
-
-* DONE Prepare for next 疫学懇話会                                      :AMU:
-** DONE title to be determined <2019-08-01 Thu 10:59>
-Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
-** DONE Slides preparation 
-*** page 20 <2019-09-10 Tue 09:40>
-*** Page 28 <2019-09-11 Wed 15:02>
-*** Page 45 <2019-09-11 Wed 21:05>
-*** Page 56 <2019-09-12 Thu 01:35>
-*** Page 64 <2019-09-12 Thu 15:54>
-*** Page 67 <2019-09-13 Fri 11:28>
-*** Page 71 <2019-09-13 Fri 23:28>
-
-* DONE Proposal of call for papers edit for LP                        :LSHTM:
-<2019-09-12 Thu 22:21>
-
 * TODO Prepare response to the reviewers by Nutrients                :NDNSRP:
 ** DONE reviewer #1 <2019-09-10 Tue 23:29>
 ** DONE reviewer #2 <2019-09-10 Tue 23:29>
@@ -36,43 +20,20 @@ DEADLINE: <2019-09-19 Thu>
 ** DOING Revise the paper 
 ** TODO Resubmit with another submission ID (new submission)
 
-* DONE prepare the NDNS RP database analysis done by Marta            :LSHTM:
-** DONE Data clean <2019-08-02 Fri 16:45>
-** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
-** DONE confirm hypothese and complete the confirmations <2019-09-01 Sun 23:28>
-** DONE Send out the email about the discussion and what todo next.
-** DONE Try Bayesian Multilevel model and see the results using the test data <2019-08-19 Mon 10:09>
-*** the one of pudding hypothesis was tested. <2019-08-17 Sat 20:10>
-*** the one of pudding hypothesis with interaction between DM and time slots was tried but failed in SAS <2019-08-18 Sun 19:10>
-*** age to be used as continuous variable. 
-*** nssec8 need to be collapsed into 3 categories. 
-** DONE focus on looking for new hypothesis. <2019-08-27 Tue 17:14>
-*** hypotheses provided by chao uploaded
-** DONE hypotheses sent to coauthors <2019-08-28 Wed 16:53>
-** DONE Complete the analyses, using the four hypotheses and alcohols. 
-** DONE Prepare the poster 
-*** 4 figures completed <2019-09-12 Thu 15:55>
-*** discussion completed 1st draft <2019-09-13 Fri 23:29>
-DEADLINE: <2019-09-23 Mon>
-
-
-* DONE Understand the idea of categorical data sequence analysis        :css:
-** DOING Try example using the package TraMineR
-
-
 * DONE Prepare the manuscript for PeerJ (Ikemoto Paper)                 :AMU:
 ** DONE figures using tikz package in LaTeX <2019-09-02 Mon 11:25>
 ** DONE finish the part of disucssion about cronbach's alpha <2019-09-03 Tue 11:27>
 ** DONE finish abstract <2019-09-02 Mon 18:11>
 ** DONE send the paper pdf to dr ikemoto <2019-09-03 Tue 15:28>
-** TODO wait for English check 
+** DONE wait for English check  <2019-09-16 Mon 15:55>
 ** TODO PeerJ submission
 
-* TODO Paper review from Nutrients                                  :private:
-DEADLINE: <2019-08-25 Sun>
-** DONE comments completed <2019-08-28 Wed 14:52>
-** TODO reply to the revision 
 
+* TODO au wallet credit card cancellation                           :private:
+
+* TODO commufa hikari cancellation                                  :private:
+
+* TODO au gas payment cancellation                                  :private:
 
 
 
@@ -127,3 +88,45 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
 
+* DONE prepare the NDNS RP database analysis done by Marta            :LSHTM:
+** DONE Data clean <2019-08-02 Fri 16:45>
+** DONE unweighted CA analysis <2019-08-08 Thu 14:18>
+** DONE confirm hypothese and complete the confirmations <2019-09-01 Sun 23:28>
+** DONE Send out the email about the discussion and what todo next.
+** DONE Try Bayesian Multilevel model and see the results using the test data <2019-08-19 Mon 10:09>
+*** the one of pudding hypothesis was tested. <2019-08-17 Sat 20:10>
+*** the one of pudding hypothesis with interaction between DM and time slots was tried but failed in SAS <2019-08-18 Sun 19:10>
+*** age to be used as continuous variable. 
+*** nssec8 need to be collapsed into 3 categories. 
+** DONE focus on looking for new hypothesis. <2019-08-27 Tue 17:14>
+*** hypotheses provided by chao uploaded
+** DONE hypotheses sent to coauthors <2019-08-28 Wed 16:53>
+** DONE Complete the analyses, using the four hypotheses and alcohols. 
+** DONE Prepare the poster 
+*** 4 figures completed <2019-09-12 Thu 15:55>
+*** discussion completed 1st draft <2019-09-13 Fri 23:29>
+DEADLINE: <2019-09-23 Mon>
+
+
+* DONE Paper review from Nutrients                                  :private:
+DEADLINE: <2019-08-25 Sun>
+** DONE comments completed <2019-08-28 Wed 14:52>
+** DONE reply to the revision <2019-09-16 Mon 22:47>
+
+* DONE Understand the idea of categorical data sequence analysis        :css:
+** DONE Try example using the package TraMineR
+* DONE Prepare for next 疫学懇話会                                      :AMU:
+** DONE title to be determined <2019-08-01 Thu 10:59>
+Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme data, understand when you eat, what you eat and where you eat. 
+** DONE Slides preparation 
+*** page 20 <2019-09-10 Tue 09:40>
+*** Page 28 <2019-09-11 Wed 15:02>
+*** Page 45 <2019-09-11 Wed 21:05>
+*** Page 56 <2019-09-12 Thu 01:35>
+*** Page 64 <2019-09-12 Thu 15:54>
+*** Page 67 <2019-09-13 Fri 11:28>
+*** Page 71 <2019-09-13 Fri 23:28>
+*** Page 72 <2019-09-16 Mon 16:05>
+
+* DONE Proposal of call for papers edit for LP                        :LSHTM:
+<2019-09-12 Thu 22:21>
