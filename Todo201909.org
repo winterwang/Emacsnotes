@@ -30,6 +30,18 @@ DEADLINE: <2019-09-19 Thu>
 
 * TODO apply network connection for my iphone                       :private:
 
+
+* TODO 海外出張書類                                                     :AMU:
+** my part 
+** luigi part
+
+* TODO Book flight for Luigi                                          :LSHTM:
+
+* TODO submit poster to FENS 2019                                     :LSHTM:
+
+* DONE Italy conference registration fee                            :private:
+
+
 * DONE au wallet credit card cancellation                           :private:
 <2019-09-18 Wed 10:53>
 
