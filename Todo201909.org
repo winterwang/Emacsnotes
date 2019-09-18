@@ -30,7 +30,8 @@ DEADLINE: <2019-09-19 Thu>
 
 * TODO apply network connection for my iphone                       :private:
 
-* TODO au wallet credit card cancellation                           :private:
+* DONE au wallet credit card cancellation                           :private:
+<2019-09-18 Wed 10:53>
 
 * TODO commufa hikari cancellation                                  :private:
 
@@ -40,7 +41,7 @@ DEADLINE: <2019-09-19 Thu>
 
 * TODO look for information about coefficient of variation              :AMU:
 
-
+* TODO statistifcal review for research square                      :private:
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
