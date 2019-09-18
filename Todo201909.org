@@ -15,7 +15,7 @@ plain-text system.
 * TODO Prepare response to the reviewers by Nutrients                :NDNSRP:
 ** DONE reviewer #1 <2019-09-10 Tue 23:29>
 ** DONE reviewer #2 <2019-09-10 Tue 23:29>
-** TODO reviewer #3 
+** DONE reviewer #3 <2019-09-18 Wed 10:07>
 DEADLINE: <2019-09-19 Thu>
 ** DOING Revise the paper 
 ** TODO Resubmit with another submission ID (new submission)
@@ -28,6 +28,7 @@ DEADLINE: <2019-09-19 Thu>
 ** DONE wait for English check  <2019-09-16 Mon 15:55>
 ** TODO PeerJ submission
 
+* TODO apply network connection for my iphone                       :private:
 
 * TODO au wallet credit card cancellation                           :private:
 
@@ -35,13 +36,17 @@ DEADLINE: <2019-09-19 Thu>
 
 * TODO au gas payment cancellation                                  :private:
 
+* TODO confirm kikuchi file for simulation                              :AMU:
+
+* TODO look for information about coefficient of variation              :AMU:
 
 
-* DOING Cluster analysis & Principal component analysis               :LSHTM:
+
+* HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
 ** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
-
+** TODO practical
 
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
 
