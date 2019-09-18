@@ -26,7 +26,7 @@ DEADLINE: <2019-09-19 Thu>
 ** DONE finish abstract <2019-09-02 Mon 18:11>
 ** DONE send the paper pdf to dr ikemoto <2019-09-03 Tue 15:28>
 ** DONE wait for English check  <2019-09-16 Mon 15:55>
-** TODO PeerJ submission
+** DONE PeerJ submission　<2019-09-18 Wed 21:42>
 
 * TODO apply network connection for my iphone                       :private:
 
