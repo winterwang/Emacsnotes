@@ -12,27 +12,22 @@ plain-text system.
 
 
 
-* TODO Prepare response to the reviewers by Nutrients                :NDNSRP:
+* DONE Prepare response to the reviewers by Nutrients                :NDNSRP:
 ** DONE reviewer #1 <2019-09-10 Tue 23:29>
 ** DONE reviewer #2 <2019-09-10 Tue 23:29>
 ** DONE reviewer #3 <2019-09-18 Wed 10:07>
 DEADLINE: <2019-09-19 Thu>
-** DOING Revise the paper 
-** TODO Resubmit with another submission ID (new submission)
+** DONE Revise the paper <2019-09-19 Thu 14:35>
+** DONE Resubmit with another submission ID (new submission) <2019-09-19 Thu 14:35>
 
-* DONE Prepare the manuscript for PeerJ (Ikemoto Paper)                 :AMU:
-** DONE figures using tikz package in LaTeX <2019-09-02 Mon 11:25>
-** DONE finish the part of disucssion about cronbach's alpha <2019-09-03 Tue 11:27>
-** DONE finish abstract <2019-09-02 Mon 18:11>
-** DONE send the paper pdf to dr ikemoto <2019-09-03 Tue 15:28>
-** DONE wait for English check  <2019-09-16 Mon 15:55>
-** DONE PeerJ submission　<2019-09-18 Wed 21:42>
+* DONE Confirm how to compare coefficient of variance.                  :AMU:
+<2019-09-19 Thu 18:04>
 
-* TODO apply network connection for my iphone                       :private:
+* DONE apply network connection for my iphone                       :private:
+<2019-09-18 Wed 17:34>
 
-
-* TODO 海外出張書類                                                     :AMU:
-** my part 
+* DOING 海外出張書類                                                    :AMU:
+** DONE my part 
 ** luigi part
 
 * TODO Book flight for Luigi                                          :LSHTM:
@@ -48,8 +43,6 @@ DEADLINE: <2019-09-19 Thu>
 * TODO commufa hikari cancellation                                  :private:
 
 * TODO au gas payment cancellation                                  :private:
-
-* TODO confirm kikuchi file for simulation                              :AMU:
 
 * TODO look for information about coefficient of variation              :AMU:
 
@@ -148,3 +141,11 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 
 * DONE Proposal of call for papers edit for LP                        :LSHTM:
 <2019-09-12 Thu 22:21>
+* DONE Prepare the manuscript for PeerJ (Ikemoto Paper)                 :AMU:
+** DONE figures using tikz package in LaTeX <2019-09-02 Mon 11:25>
+** DONE finish the part of disucssion about cronbach's alpha <2019-09-03 Tue 11:27>
+** DONE finish abstract <2019-09-02 Mon 18:11>
+** DONE send the paper pdf to dr ikemoto <2019-09-03 Tue 15:28>
+** DONE wait for English check  <2019-09-16 Mon 15:55>
+** DONE PeerJ submission　<2019-09-18 Wed 21:42>
+* DONE confirm kikuchi file for simulation                              :AMU:
