@@ -26,7 +26,8 @@ plain-text system.
 * TODO au gas payment cancellation                                  :private:
 
 
-* DOING statistifcal review for research square                     :private:
+* DONE statistifcal review for research square                      :private:
+<2019-09-23 Mon 23:34>
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
