@@ -12,19 +12,6 @@ plain-text system.
 
 
 
-* DONE Prepare response to the reviewers by Nutrients                :NDNSRP:
-** DONE reviewer #1 <2019-09-10 Tue 23:29>
-** DONE reviewer #2 <2019-09-10 Tue 23:29>
-** DONE reviewer #3 <2019-09-18 Wed 10:07>
-DEADLINE: <2019-09-19 Thu>
-** DONE Revise the paper <2019-09-19 Thu 14:35>
-** DONE Resubmit with another submission ID (new submission) <2019-09-19 Thu 14:35>
-
-* DONE Confirm how to compare coefficient of variance.                  :AMU:
-<2019-09-19 Thu 18:04>
-
-* DONE apply network connection for my iphone                       :private:
-<2019-09-18 Wed 17:34>
 
 * DOING 海外出張書類                                                    :AMU:
 ** DONE my part 
@@ -32,21 +19,14 @@ DEADLINE: <2019-09-19 Thu>
 
 * TODO Book flight for Luigi                                          :LSHTM:
 
-* TODO submit poster to FENS 2019                                     :LSHTM:
-
-* DONE Italy conference registration fee                            :private:
-
-
-* DONE au wallet credit card cancellation                           :private:
-<2019-09-18 Wed 10:53>
+* TODO 日本疫学会抄録投稿                                               :AMU:
 
 * TODO commufa hikari cancellation                                  :private:
 
 * TODO au gas payment cancellation                                  :private:
 
-* TODO look for information about coefficient of variation              :AMU:
 
-* TODO statistifcal review for research square                      :private:
+* DOING statistifcal review for research square                     :private:
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -118,7 +98,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 *** discussion completed 1st draft <2019-09-13 Fri 23:29>
 DEADLINE: <2019-09-23 Mon>
 
-
 * DONE Paper review from Nutrients                                  :private:
 DEADLINE: <2019-08-25 Sun>
 ** DONE comments completed <2019-08-28 Wed 14:52>
@@ -149,3 +128,24 @@ Chrononutrition: mining the National Diet and Nutrition Survey Rolling Programme
 ** DONE wait for English check  <2019-09-16 Mon 15:55>
 ** DONE PeerJ submission　<2019-09-18 Wed 21:42>
 * DONE confirm kikuchi file for simulation                              :AMU:
+* DONE Prepare response to the reviewers by Nutrients                :NDNSRP:
+** DONE reviewer #1 <2019-09-10 Tue 23:29>
+** DONE reviewer #2 <2019-09-10 Tue 23:29>
+** DONE reviewer #3 <2019-09-18 Wed 10:07>
+DEADLINE: <2019-09-19 Thu>
+** DONE Revise the paper <2019-09-19 Thu 14:35>
+** DONE Resubmit with another submission ID (new submission) <2019-09-19 Thu 14:35>
+
+* DONE Confirm how to compare coefficient of variance.                  :AMU:
+<2019-09-19 Thu 18:04>
+* DONE apply network connection for my iphone                       :private:
+<2019-09-18 Wed 17:34>
+* DONE look for information about coefficient of variation              :AMU:
+<2019-09-19 Thu 18:16>
+
+* DONE submit poster to FENS 2019                                     :LSHTM:
+<2019-09-23 Mon 18:15>
+* DONE Italy conference registration fee                            :private:
+
+* DONE au wallet credit card cancellation                           :private:
+<2019-09-18 Wed 10:53>
