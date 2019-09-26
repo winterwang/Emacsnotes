@@ -11,29 +11,47 @@ plain-text system.
 #+END_EXAMPLE
 
 
+* TODO 書類準備給DG                                                 :private:
 
+* TODO 郵送する to DG                                               :private:
+
+* TODO Nutrients review                                             :private:
+
+* TODO Deep Learning finish the final two weeks ends the paying     :private:
+
+* TODO Send the changed abstract to LP and SA                           :AMU:
+
+* TODO Buy zeida's legend for nintendo                              :private:
+
+* TODO Cancel membership for 公衆衛生学会                               :AMU:
 
 * DOING 海外出張書類                                                    :AMU:
 ** DONE my part 
-** luigi part
+** TODO luigi part
+
+* TODO Get the visa for mom                                         :private:
+DEADLINE: <2019-10-08 Tue>
+
+* TODO Send out the count and summary of the student reports            :AMU:
+
+* TODO confirm student reports                                          :AMU:
 
 * TODO Book flight for Luigi                                          :LSHTM:
 
-* TODO 日本疫学会抄録投稿                                               :AMU:
 
 * TODO commufa hikari cancellation                                  :private:
+
 
 * TODO au gas payment cancellation                                  :private:
 
 
-* DONE statistifcal review for research square                      :private:
-<2019-09-23 Mon 23:34>
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
 ** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
 ** TODO practical
+
 
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
 
@@ -150,3 +168,11 @@ DEADLINE: <2019-09-19 Thu>
 
 * DONE au wallet credit card cancellation                           :private:
 <2019-09-18 Wed 10:53>
+* DONE statistifcal review for research square                      :private:
+<2019-09-23 Mon 23:34>
+h
+* DONE 日本疫学会抄録投稿                                               :AMU:
+submitted <2019-09-25 Wed 18:27>
+* DONE resubmit minor revision for Nutrients.                         :LSHTM:
+** DONE minor revision <2019-09-24 Tue 17:20>
+** DONE Pending for resubmit <2019-09-25 Wed 22:07>
