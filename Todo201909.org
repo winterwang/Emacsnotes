@@ -19,7 +19,8 @@ plain-text system.
 
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
-* TODO Send the changed abstract to LP and SA                           :AMU:
+* DONE Send the changed abstract to LP and SA                           :AMU:
+<2019-09-26 Thu 10:18>
 
 * TODO Buy zeida's legend for nintendo                              :private:
 
@@ -32,7 +33,8 @@ plain-text system.
 * TODO Get the visa for mom                                         :private:
 DEADLINE: <2019-10-08 Tue>
 
-* TODO Send out the count and summary of the student reports            :AMU:
+* DONE Send out the count and summary of the student reports            :AMU:
+<2019-09-26 Thu 09:55>
 
 * TODO confirm student reports                                          :AMU:
 
