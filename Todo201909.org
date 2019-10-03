@@ -27,8 +27,6 @@ DEADLINE: <2019-10-15 Tue>
 ** DOING 滞在予定表                                                 
 ** TODO 郵送する to DG
 
-* TODO understand how to compare overall sum of variances for different models :kikuchi:
-
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
 
@@ -206,3 +204,6 @@ DEADLINE: <2019-10-08 Tue>
 * DONE Nutrients review                                             :private:
 <2019-10-02 Wed 23:57>
 
+* DONE understand how to compare overall sum of variances for different models :kikuchi:
+** cleared and methods confirmed: <2019-10-03 Thu 17:11>
+http://www.sthda.com/english/wiki/compare-multiple-sample-variances-in-r
