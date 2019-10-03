@@ -27,8 +27,7 @@ DEADLINE: <2019-10-15 Tue>
 ** DOING 滞在予定表                                                 
 ** TODO 郵送する to DG
 
-* DONE Nutrients review                                             :private:
-<2019-10-02 Wed 23:57>
+* TODO understand how to compare overall sum of variances for different models :kikuchi:
 
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
@@ -200,4 +199,10 @@ DEADLINE: <2019-10-08 Tue>
 
 * DONE Submit proofread paper to Nutrients                        :LSHTM:AMU:
 <2019-10-02 Wed 22:41>
+
+* DONE print all files papers needed to travel to ireland               :AMU:
+<2019-10-03 Thu 11:00>
+
+* DONE Nutrients review                                             :private:
+<2019-10-02 Wed 23:57>
 
