@@ -12,11 +12,9 @@ plain-text system.
 
 
 
-* TODO JACC analysis BMI and gastric cancer                            :JACC:
+* DOING JACC analysis BMI and gastric cancer                           :JACC:
 DEADLINE: <2019-10-15 Tue>
 
-* DONE Submit proofread paper to Nutrients                        :LSHTM:AMU:
-<2019-10-02 Wed 22:41>
 * DOING 書類準備給DG                                                :private:
 ** DONE 住民票<2019-09-26 Thu 13:16>
 ** DONE 課税証明書<2019-09-26 Thu 13:17>
@@ -25,20 +23,18 @@ DEADLINE: <2019-10-15 Tue>
 ** DOING 招へい経緯書
 ** DONE 招へい理由書<2019-09-26 Thu 16:20>
 ** DONE 在留カード両面<2019-09-26 Thu 11:30>
+** DONE 在留カード両面mama<2019-10-03 Thu 10:58>
 ** DOING 滞在予定表                                                 
 ** TODO 郵送する to DG
 
-* TODO Nutrients review                                             :private:
+* DONE Nutrients review                                             :private:
+<2019-10-02 Wed 23:57>
 
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
 
 
 * TODO Cancel membership for 公衆衛生学会                               :AMU:
-
-* DONE Get the visa for mom                                         :private:
-DEADLINE: <2019-10-08 Tue>
-<2019-10-01 Tue 13:04>
 
 
 * TODO commufa hikari cancellation                                  :private:
@@ -54,6 +50,7 @@ DEADLINE: <2019-10-08 Tue>
 ** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
 ** TODO practical
 
+* TODO CSS paper confirm (haga)                                         :CSS:
 
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
 
@@ -195,4 +192,12 @@ submitted <2019-09-25 Wed 18:27>
 
 * DONE 兒童練習寫字打印                                             :private:
 <2019-10-02 Wed 10:18>
+
+* DONE Get the visa for mom                                         :private:
+DEADLINE: <2019-10-08 Tue>
+<2019-10-01 Tue 13:04>
+
+
+* DONE Submit proofread paper to Nutrients                        :LSHTM:AMU:
+<2019-10-02 Wed 22:41>
 
