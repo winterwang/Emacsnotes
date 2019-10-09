@@ -11,30 +11,24 @@ plain-text system.
 #+END_EXAMPLE
 
 
+* TODO Things todo before moving                                    :private:
+** DONE 退去届を出す <2019-10-07 Mon 17:34>
+** TODO Move the big TV to new place
+** 住所変更必要
+*** 免許
+*** 銀行
+*** 所属先
+ 
 
 * DOING JACC analysis BMI and gastric cancer                           :JACC:
 DEADLINE: <2019-10-15 Tue>
 
-* DOING 書類準備給DG                                                :private:
-** DONE 住民票<2019-09-26 Thu 13:16>
-** DONE 課税証明書<2019-09-26 Thu 13:17>
-** DONE 在職証明書<2019-09-25 Wed 15:17>
-** DONE 身元保証書<2019-09-26 Thu 11:17>
-** DOING 招へい経緯書
-** DONE 招へい理由書<2019-09-26 Thu 16:20>
-** DONE 在留カード両面<2019-09-26 Thu 11:30>
-** DONE 在留カード両面mama<2019-10-03 Thu 10:58>
-** DOING 滞在予定表                                                 
-** TODO 郵送する to DG
 
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
 
 
 * TODO Cancel membership for 公衆衛生学会                               :AMU:
-
-
-* TODO commufa hikari cancellation                                  :private:
 
 
 * TODO au gas payment cancellation                                  :private:
@@ -47,7 +41,6 @@ DEADLINE: <2019-10-15 Tue>
 ** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
 ** TODO practical
 
-* TODO CSS paper confirm (haga)                                         :CSS:
 
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
 
@@ -194,7 +187,6 @@ submitted <2019-09-25 Wed 18:27>
 DEADLINE: <2019-10-08 Tue>
 <2019-10-01 Tue 13:04>
 
-
 * DONE Submit proofread paper to Nutrients                        :LSHTM:AMU:
 <2019-10-02 Wed 22:41>
 
@@ -207,3 +199,19 @@ DEADLINE: <2019-10-08 Tue>
 * DONE understand how to compare overall sum of variances for different models :kikuchi:
 ** cleared and methods confirmed: <2019-10-03 Thu 17:11>
 http://www.sthda.com/english/wiki/compare-multiple-sample-variances-in-r
+* DONE CSS paper confirm (haga)                                         :CSS:
+paper confirmed <2019-10-04 Fri 14:58>
+
+* DONE commufa hikari cancellation                                  :private:
+<2019-10-06 Sun 10:57>
+* DONE 書類準備給DG                                                 :private:
+** DONE 住民票<2019-09-26 Thu 13:16>
+** DONE 課税証明書<2019-09-26 Thu 13:17>
+** DONE 在職証明書<2019-09-25 Wed 15:17>
+** DONE 身元保証書<2019-09-26 Thu 11:17>
+** DONE 招へい経緯書<2019-10-08 Tue 15:35>
+** DONE 招へい理由書<2019-09-26 Thu 16:20>
+** DONE 在留カード両面<2019-09-26 Thu 11:30>
+** DONE 在留カード両面mama<2019-10-03 Thu 10:58>
+** DONE 滞在予定表 <2019-10-08 Tue 16:35>
+** DONE 郵送する to DG<2019-10-08 Tue 16:36>
