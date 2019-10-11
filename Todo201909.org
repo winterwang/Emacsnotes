@@ -25,6 +25,7 @@ plain-text system.
 DEADLINE: <2019-10-15 Tue>
 ** DONE until the definition of personyears for first 6 outcomes <2019-10-10 Thu 22:59>
 ** DONE definition of personyears for all outcomes done <2019-10-11 Fri 14:50>
+** DONE Baseline information table done<2019-10-11 Fri 15:36>
 
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
