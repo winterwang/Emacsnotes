@@ -20,6 +20,10 @@ plain-text system.
 *** TODO 所属先
 ** TODO 郵便局に住所変更届け 
 ** TODO 引越し準備
+*** TODO 箱詰め
+
+* DONE CA figure in total and in DM missing value                     :LSHTM:
+<2019-10-12 Sat 21:03>
 
 * DOING JACC analysis BMI and gastric cancer                           :JACC:
 DEADLINE: <2019-10-15 Tue>
