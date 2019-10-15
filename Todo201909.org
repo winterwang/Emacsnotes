@@ -30,6 +30,7 @@ DEADLINE: <2019-10-31 Thu>
 ** DONE Baseline information table done<2019-10-11 Fri 15:36>
 ** TODO variable for calculating pack year of smoking is lacking (sm_y)<2019-10-11 Fri 16:12>
 
+* TODO 若手の会合宿抄録                                                 :AMU:
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 * TODO Cancel membership for 公衆衛生学会                               :AMU:
 
