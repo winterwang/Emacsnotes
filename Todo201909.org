@@ -11,9 +11,15 @@ plain-text system.
 #+END_EXAMPLE
 
 
+
+#+BEGIN_COMMENT
+Work schedule need to be done under PRIVATE category
+#+END_COMMENT
+
+
 * TODO Things todo before moving                                    :private:
 ** DONE 退去届を出す <2019-10-07 Mon 17:34>
-** TODO 火災保険・家財保険
+** DOING 火災保険・家財保険
 ** TODO Move the big TV to new place
 ** 住所変更必要
 *** TODO 免許
@@ -22,6 +28,35 @@ plain-text system.
 ** TODO 郵便局に住所変更届け 
 ** TODO 引越し準備
 *** TODO 箱詰め
+** TODO 鍵もらったら住所変更 (法務局登記に必要)
+*** TODO 住民票×３(全員、省略なし)
+*** TODO 印鑑登録証明書×３×２人
+* TODO Deep Learning finish the final two weeks ends the paying     :private:
+
+* TODO au gas payment cancellation                                  :private:
+
+
+
+* DOING Read book 7: Learn Python the hard way                      :private:
+** DONE Page 38 <2019-08-05 Mon 12:01>
+** DONE Ex6 <2019-08-09 Fri 21:19>
+** DONE Ex7 <2019-08-09 Fri 21:32>
+
+* TODO Chinese Calligraphy(Lantingji Xu)                            :private:
+
+* TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
+
+
+
+
+
+
+
+#+BEGIN_COMMENT
+Work schedule need to be done under not-PRIVATE category = means work, paperwork, school work, teaching tasks etc.
+#+END_COMMENT
+
+
 
 * DOING JACC analysis BMI and gastric cancer                           :JACC:
 DEADLINE: <2019-10-31 Thu>
@@ -30,11 +65,13 @@ DEADLINE: <2019-10-31 Thu>
 ** DONE Baseline information table done<2019-10-11 Fri 15:36>
 ** TODO variable for calculating pack year of smoking is lacking (sm_y)<2019-10-11 Fri 16:12>
 
-* TODO 若手の会合宿抄録                                                 :AMU:
-* TODO Deep Learning finish the final two weeks ends the paying     :private:
-* TODO Cancel membership for 公衆衛生学会                               :AMU:
+* TODO Nutrients review                                                 :AMU:
+* TODO JAT review                                                       :AMU:
+* TODO Nutr-Metabo review                                               :AMU:
+* TODO receipt diary                                                :private:
+* TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 
-* TODO au gas payment cancellation                                  :private:
+* TODO Cancel membership for 公衆衛生学会                               :AMU:
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -69,16 +106,14 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
 
-* DOING Read book 7: Learn Python the hard way                      :private:
-** DONE Page 38 <2019-08-05 Mon 12:01>
-** DONE Ex6 <2019-08-09 Fri 21:19>
-** DONE Ex7 <2019-08-09 Fri 21:32>
 
-* TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
-* TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
-* DOING Conference: European Nutrition Conference attending between 13-19 Oct 2019: [[http://www.fens2019.org/][http://www.fens2019.org/]]
+#+BEGIN_COMMENT
+Work schedule marked as completed
+#+END_COMMENT
+
+
 
 * DONE prepare the NDNS RP database analysis done by Marta            :LSHTM:
 ** DONE Data clean <2019-08-02 Fri 16:45>
@@ -210,3 +245,7 @@ paper confirmed <2019-10-04 Fri 14:58>
 ** DONE 郵送する to DG<2019-10-08 Tue 16:36>
 * DONE CA figure in total and in DM missing value                     :LSHTM:
 <2019-10-12 Sat 21:03>
+* DONE 若手の会合宿抄録                                                 :AMU:
+<2019-10-15 Tue 08:16>
+* DONE Conference: European Nutrition Conference attending between 13-19 Oct 2019: [[http://www.fens2019.org/][http://www.fens2019.org/]]
+** DONE paper work also needed for reimbursement <2019-10-23 Wed 10:27>
