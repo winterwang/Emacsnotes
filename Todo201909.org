@@ -187,7 +187,6 @@ DEADLINE: <2019-09-19 Thu>
 <2019-09-18 Wed 10:53>
 * DONE statistifcal review for research square                      :private:
 <2019-09-23 Mon 23:34>
-h
 * DONE 日本疫学会抄録投稿                                               :AMU:
 submitted <2019-09-25 Wed 18:27>
 * DONE resubmit minor revision for Nutrients.                         :LSHTM:
