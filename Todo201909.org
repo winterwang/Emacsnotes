@@ -33,11 +33,6 @@ Work schedule need to be done under PRIVATE category
 *** TODO 印鑑登録証明書×３×２人
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
-* DONE au gas/denki payment stop and cancellation                   :private:
-<2019-10-29 Tue 11:59>
-** gas stop on 2019-11-28
-** electricity stop on 2019-11-29
-
 
 * DOING Read book 7: Learn Python the hard way                      :private:
 ** DONE Page 38 <2019-08-05 Mon 12:01>
@@ -67,14 +62,13 @@ DEADLINE: <2019-10-31 Thu>
 ** DONE until the definition of personyears for first 6 outcomes <2019-10-10 Thu 22:59>
 ** DONE definition of personyears for all outcomes done <2019-10-11 Fri 14:50>
 ** DONE Baseline information table done<2019-10-11 Fri 15:36>
-** TODO variable for calculating pack year of smoking is lacking (sm_y)<2019-10-11 Fri 16:12>
+** DONE variable for calculating pack year of smoking is lacking (sm_y)<2019-10-11 Fri 16:12>
+** TODO upto smokers and nonsmokers
 
-* TODO Nutrients review                                                 :AMU:
 * TODO JAT review                                                       :AMU:
 * TODO Nutr-Metabo review                                               :AMU:
-* TODO receipt diary                                                :private:
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
-
+* TODO Scientific report review                                         :AMU:
 * TODO Cancel membership for 公衆衛生学会                               :AMU:
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
@@ -250,3 +244,13 @@ paper confirmed <2019-10-04 Fri 14:58>
 <2019-10-15 Tue 08:16>
 * DONE Conference: European Nutrition Conference attending between 13-19 Oct 2019: [[http://www.fens2019.org/][http://www.fens2019.org/]]
 ** DONE paper work also needed for reimbursement <2019-10-23 Wed 10:27>
+* DONE Nutrients review                                                 :AMU:
+<2019-10-24 Thu 09:36>
+* DONE receipt diary                                                :private:
+<2019-10-28 Mon 09:48>
+
+* DONE au gas/denki payment stop and cancellation                   :private:
+<2019-10-29 Tue 11:59>
+** gas stop on 2019-11-28
+** electricity stop on 2019-11-29
+
