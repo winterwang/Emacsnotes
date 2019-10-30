@@ -57,13 +57,6 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 
 
-* DOING JACC analysis BMI and gastric cancer                           :JACC:
-DEADLINE: <2019-10-31 Thu>
-** DONE until the definition of personyears for first 6 outcomes <2019-10-10 Thu 22:59>
-** DONE definition of personyears for all outcomes done <2019-10-11 Fri 14:50>
-** DONE Baseline information table done<2019-10-11 Fri 15:36>
-** DONE variable for calculating pack year of smoking is lacking (sm_y)<2019-10-11 Fri 16:12>
-** TODO upto smokers and nonsmokers
 
 * TODO JAT review                                                       :AMU:
 * TODO Nutr-Metabo review                                               :AMU:
@@ -253,4 +246,12 @@ paper confirmed <2019-10-04 Fri 14:58>
 <2019-10-29 Tue 11:59>
 ** gas stop on 2019-11-28
 ** electricity stop on 2019-11-29
+* DONE JACC analysis BMI and gastric cancer                            :JACC:
+DEADLINE: <2019-10-31 Thu>
+** DONE until the definition of personyears for first 6 outcomes <2019-10-10 Thu 22:59>
+** DONE definition of personyears for all outcomes done <2019-10-11 Fri 14:50>
+** DONE Baseline information table done<2019-10-11 Fri 15:36>
+** DONE variable for calculating pack year of smoking is lacking (sm_y)<2019-10-11 Fri 16:12>
+** DONE upto smokers and nonsmokers
+<2019-10-30 Wed 12:24>
 
