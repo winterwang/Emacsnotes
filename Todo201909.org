@@ -19,9 +19,12 @@ Work schedule need to be done under PRIVATE category
 
 * TODO Things todo before moving                                    :private:
 ** DONE 退去届を出す <2019-10-07 Mon 17:34>
-** DOING 火災保険・家財保険
+** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
+** TODO go to ニッショーショップ to cancel the existing insurance 
+DEADLINE: <2019-11-28 Thu>
 ** TODO Move the big TV to new place
-** 住所変更必要
+** TODO 外構を決める
+** TODO 住所変更必要
 *** TODO 免許
 *** TODO 銀行
 *** TODO 所属先
@@ -61,8 +64,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 * TODO JAT review                                                       :AMU:
 * TODO Nutr-Metabo review                                               :AMU:
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
-* TODO Scientific report review                                         :AMU:
-* TODO Cancel membership for 公衆衛生学会                               :AMU:
+* CANCEL Scientific report review                                       :AMU:
+
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -255,3 +258,6 @@ DEADLINE: <2019-10-31 Thu>
 ** DONE upto smokers and nonsmokers
 <2019-10-30 Wed 12:24>
 
+
+* DONE Cancel membership for 公衆衛生学会                               :AMU:
+<2019-10-30 Wed 14:55>
