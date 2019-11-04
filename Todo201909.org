@@ -20,7 +20,7 @@ Work schedule need to be done under PRIVATE category
 * TODO Things todo before moving                                    :private:
 ** DONE 退去届を出す <2019-10-07 Mon 17:34>
 ** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
-** TODO go to ニッショーショップ to cancel the existing insurance 
+** DONE go to ニッショーショップ to cancel the existing insurance 
 DEADLINE: <2019-11-28 Thu>
 ** TODO Move the big TV to new place
 ** TODO 外構を決める
@@ -62,7 +62,7 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 
 * TODO JAT review                                                       :AMU:
-* TODO Nutr-Metabo review                                               :AMU:
+* DOING Nutr-Metabo review                                              :AMU:
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 * CANCEL Scientific report review                                       :AMU:
 
