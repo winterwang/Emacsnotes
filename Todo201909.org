@@ -27,13 +27,16 @@ DEADLINE: <2019-11-28 Thu>
 ** TODO 住所変更必要
 *** TODO 免許
 *** TODO 銀行
-*** TODO 所属先
-** TODO 郵便局に住所変更届け 
+*** TODO 所属先 (A and C)
+** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
 ** TODO 引越し準備
 *** TODO 箱詰め
 ** TODO 鍵もらったら住所変更 (法務局登記に必要)
 *** TODO 住民票×３(全員、省略なし)
 *** TODO 印鑑登録証明書×３×２人
+** DOING 残金振込 
+*** 1st part done <2019-11-05 Tue 10:21>
+
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
 
@@ -64,8 +67,11 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 * TODO JAT review                                                       :AMU:
 * DOING Nutr-Metabo review                                              :AMU:
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
+* TODO Revision PeerJ                                                   :AMU:
 * CANCEL Scientific report review                                       :AMU:
-
+* 年末調整書類確認
+** 保険
+** how to do 確定申告
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 

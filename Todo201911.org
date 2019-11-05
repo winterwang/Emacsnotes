@@ -1,0 +1,119 @@
+#+TITLE: Org-mode todo 2019-09/10
+#+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
+#+EMAIL: chaochen@wangcc.me
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+
+#+BEGIN_EXAMPLE 
+Org is a mode for keeping notes, maintaining TODO lists,
+and doing project planning with a fast and effective 
+plain-text system.
+#+END_EXAMPLE
+
+
+
+#+BEGIN_COMMENT
+Work schedule need to be done under PRIVATE category
+#+END_COMMENT
+
+
+* TODO Things todo before moving                                    :private:
+** DONE 退去届を出す <2019-10-07 Mon 17:34>
+** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
+** DONE go to ニッショーショップ to cancel the existing insurance 
+DEADLINE: <2019-11-28 Thu>
+** TODO Move the big TV to new place
+** TODO 外構を決める
+** TODO 住所変更必要
+*** TODO 免許
+*** TODO 銀行
+*** TODO 所属先 (A and C)
+** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
+** TODO 引越し準備
+*** TODO 箱詰め
+** TODO 鍵もらったら住所変更 (法務局登記に必要)
+*** TODO 住民票×３(全員、省略なし)
+*** TODO 印鑑登録証明書×３×２人
+** DOING 残金振込 
+*** 1st part done <2019-11-05 Tue 10:21>
+
+* TODO Deep Learning finish the final two weeks ends the paying     :private:
+
+
+* DOING Read book 7: Learn Python the hard way                      :private:
+** DONE Page 38 <2019-08-05 Mon 12:01>
+** DONE Ex6 <2019-08-09 Fri 21:19>
+** DONE Ex7 <2019-08-09 Fri 21:32>
+
+* TODO Chinese Calligraphy(Lantingji Xu)                            :private:
+
+* TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
+
+
+
+
+
+
+
+#+BEGIN_COMMENT
+Work schedule need to be done under not-PRIVATE category = means work, paperwork, school work, teaching tasks etc.
+#+END_COMMENT
+
+
+
+
+
+
+* TODO JAT review                                                       :AMU:
+
+* TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
+* TODO Revision PeerJ                                                   :AMU:
+* CANCEL Scientific report review                                       :AMU:
+* DONE 年末調整書類確認
+** DONE 保険
+** 住所変更
+** how to do 確定申告
+
+* HANGUP Cluster analysis & Principal component analysis              :LSHTM:
+*** lecture notes 
+** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
+** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
+** TODO practical
+
+* TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
+
+* TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                  :bookdown:books:LSHTM:
+
+* TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
+*** until P226
+
+* TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
+
+* DOING Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+** till page 30 <2019-06-26 Wed>
+** till page 37 <2019-07-03 Wed 17:40>
+** till page 43 <2019-07-04 Thu 11:47> 
+** till page 56 [2019-07-09 Tue 11:44]
+:LOGBOOK:
+CLOCK: [2019-07-09 Tue 10:56]--[2019-07-09 Tue 11:44] =>  0:48
+:END:
+** till page 61 [2019-07-10 Wed 14:58]
+:LOGBOOK:
+CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
+:END:
+
+* DOING Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                    :reading:
+** DONE [[https://wangcc.me/post/poisson-stan/][Poisson Regression Stan model]] done <2019-07-12 Fri 00:44>
+** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
+
+
+
+#+BEGIN_COMMENT
+Work schedule marked as completed
+#+END_COMMENT
+
+
+
+
+* DONE Nutr-Metabo review                                               :AMU:
+<2019-11-05 Tue 17:26>
