@@ -18,18 +18,25 @@ Work schedule need to be done under PRIVATE category
 
 
 * TODO Things todo before moving                                    :private:
+** DONE 電気止める<2019-11-06 Wed 10:32>
+** DONE 水道止める<2019-11-06 Wed 10:31>
+** DONE ガス止める<2019-11-06 Wed 10:32>
 ** DONE 退去届を出す <2019-10-07 Mon 17:34>
 ** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
+** TODO 光ファイバ解約 <2019-11-23 Sat 10:37>
+** TODO 光ファイバ新規契約<2019-11-28 Thu 10:37>
 ** DONE go to ニッショーショップ to cancel the existing insurance 
 DEADLINE: <2019-11-28 Thu>
 ** TODO Move the big TV to new place
-** TODO 外構を決める
+** TODO go to buy new dishes, bowls, and etc.
+** DOING 外構を決める
+*** TODO visit LIXIL show room <2019-11-17 Sun 10:38>
 ** TODO 住所変更必要
 *** TODO 免許
 *** TODO 銀行
 *** TODO 所属先 (A and C)
 ** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
-** TODO 引越し準備
+** TODO 引越し準備 <2019-11-16 Sat 10:37>
 *** TODO 箱詰め
 ** TODO 鍵もらったら住所変更 (法務局登記に必要)
 *** TODO 住民票×３(全員、省略なし)
