@@ -34,7 +34,11 @@ DEADLINE: <2019-11-28 Thu>
 ** TODO 住所変更必要
 *** TODO 免許
 *** TODO 銀行
+**** UFJ jojo() chao()
+**** SMBC jojo() chao()
+**** Yucho jojo() chao()
 *** TODO 所属先 (A and C)
+*** TODO 保育園？
 ** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
 ** TODO 引越し準備 <2019-11-16 Sat 10:37>
 *** TODO 箱詰め
@@ -44,6 +48,7 @@ DEADLINE: <2019-11-28 Thu>
 ** DOING 残金振込 
 *** 1st part done <2019-11-05 Tue 10:21>
 
+* TODO 確定申告の仕方確認                                           :private:
 * TODO Deep Learning finish the final two weeks ends the paying     :private:
 
 
