@@ -1,4 +1,4 @@
-#+TITLE: Org-mode todo 2019-09/10
+#+TITLE: Org-mode todo 2019-11
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
