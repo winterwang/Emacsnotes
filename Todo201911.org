@@ -49,7 +49,8 @@ DEADLINE: <2019-11-28 Thu>
 *** 1st part done <2019-11-05 Tue 10:21>
 
 * TODO 確定申告の仕方確認                                           :private:
-* TODO Deep Learning finish the final two weeks ends the paying     :private:
+* DOING Deep Learning finish the final two weeks ends the paying    :private:
+** DONE Week 4 done <2019-11-06 Wed 16:13>
 
 
 * DOING Read book 7: Learn Python the hard way                      :private:
