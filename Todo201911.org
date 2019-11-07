@@ -51,6 +51,7 @@ DEADLINE: <2019-11-28 Thu>
 * TODO 確定申告の仕方確認                                           :private:
 * DOING Deep Learning finish the final two weeks ends the paying    :private:
 ** DONE Week 4 done <2019-11-06 Wed 16:13>
+** DOING Week 5 30% done <2019-11-07 Thu 17:25>
 
 
 * DOING Read book 7: Learn Python the hard way                      :private:
@@ -77,14 +78,14 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 
 
-* TODO JAT review                                                       :AMU:
-
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
+
 * TODO Revision PeerJ                                                   :AMU:
+
 * CANCEL Scientific report review                                       :AMU:
 * DONE 年末調整書類確認
 ** DONE 保険
-** 住所変更
+** TODO 住所変更
 ** how to do 確定申告
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
@@ -130,3 +131,5 @@ Work schedule marked as completed
 
 * DONE Nutr-Metabo review                                               :AMU:
 <2019-11-05 Tue 17:26>
+* DONE JAT review                                                       :AMU:
+<2019-11-07 Thu 15:25>
