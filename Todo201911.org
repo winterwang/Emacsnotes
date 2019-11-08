@@ -83,6 +83,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 * TODO Revision PeerJ                                                   :AMU:
 
 
+* DOING Prepare propensity score study group                            :css:
+
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
