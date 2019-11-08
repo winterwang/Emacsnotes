@@ -82,11 +82,6 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO Revision PeerJ                                                   :AMU:
 
-* CANCEL Scientific report review                                       :AMU:
-* DONE 年末調整書類確認
-** DONE 保険
-** TODO 住所変更
-** how to do 確定申告
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -133,3 +128,8 @@ Work schedule marked as completed
 <2019-11-05 Tue 17:26>
 * DONE JAT review                                                       :AMU:
 <2019-11-07 Thu 15:25>
+* CANCEL Scientific report review                                       :AMU:
+* DONE 年末調整書類確認
+** DONE 保険
+** DONE 住所変更<2019-11-08 Fri 09:28>
+** how to do 確定申告
