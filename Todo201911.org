@@ -90,6 +90,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 DEADLINE: <2019-11-12 Tue>
 
 * DOING Prepare propensity score study group                            :css:
+** 30% <2019-11-11 Mon 16:15>
+
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
