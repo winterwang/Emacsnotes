@@ -28,9 +28,9 @@ Work schedule need to be done under PRIVATE category
 ** DONE go to ニッショーショップ to cancel the existing insurance 
 DEADLINE: <2019-11-28 Thu>
 ** TODO Move the big TV to new place
-** TODO go to buy new dishes, bowls, and etc.
+** DOING go to buy new dishes, bowls, and etc.
 ** DOING 外構を決める
-*** TODO visit LIXIL show room <2019-11-17 Sun 10:38>
+*** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
 ** TODO 住所変更必要
 *** TODO 免許
 *** TODO 銀行
@@ -45,13 +45,17 @@ DEADLINE: <2019-11-28 Thu>
 ** TODO 鍵もらったら住所変更 (法務局登記に必要)
 *** TODO 住民票×３(全員、省略なし)
 *** TODO 印鑑登録証明書×３×２人
-** DOING 残金振込 
+** DONE 残金振込 to Ichijo
 *** 1st part done <2019-11-05 Tue 10:21>
+*** 2nd part done <2019-11-06 Wed 11:34>
+** TODO 鍵もらう<2019-11-12 Tue 11:36>
+** TODO Pay the curtains and furnitures 
+DEADLINE: <2019-11-19 Tue>
 
 * TODO 確定申告の仕方確認                                           :private:
 * DOING Deep Learning finish the final two weeks ends the paying    :private:
 ** DONE Week 4 done <2019-11-06 Wed 16:13>
-** DOING Week 5 30% done <2019-11-07 Thu 17:25>
+** DOING Week 5 80% done <2019-11-11 Mon 11:25>
 
 
 * DOING Read book 7: Learn Python the hard way                      :private:
@@ -82,6 +86,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO Revision PeerJ                                                   :AMU:
 
+* TODO Nutrients review comments                                        :AMU:
+DEADLINE: <2019-11-12 Tue>
 
 * DOING Prepare propensity score study group                            :css:
 
