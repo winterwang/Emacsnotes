@@ -51,7 +51,7 @@ DEADLINE: <2019-11-28 Thu>
 ** TODO 鍵もらう<2019-11-12 Tue 11:36>
 ** TODO Pay the curtains and furnitures 
 DEADLINE: <2019-11-19 Tue>
-** DONE the au 電気 au ガス for Oct paid <2019-11-12 Tue 10:19>
+** DONE the au 電気 au ガス for Sep paid <2019-11-12 Tue 10:19>
 
 * TODO 確定申告の仕方確認                                           :private:
 * DOING Deep Learning finish the final two weeks ends the paying    :private:
