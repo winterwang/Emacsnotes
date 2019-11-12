@@ -126,7 +126,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE [[https://wangcc.me/post/poisson-stan/][Poisson Regression Stan model]] done <2019-07-12 Fri 00:44>
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
-* TODO Pay お茶代                                                       :AMU:
+* DOING Pay お茶代                                                      :AMU:
 
 #+BEGIN_COMMENT
 Work schedule marked as completed
