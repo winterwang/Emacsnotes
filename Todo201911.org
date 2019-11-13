@@ -27,7 +27,7 @@ Work schedule need to be done under PRIVATE category
 ** TODO 光ファイバ新規契約<2019-11-28 Thu 10:37>
 ** DONE go to ニッショーショップ to cancel the existing insurance 
 DEADLINE: <2019-11-28 Thu>
-** TODO Move the big TV to new place
+** DONE Move the big TV to new place <2019-11-12 Tue 18:24>
 ** DOING go to buy new dishes, bowls, and etc.
 ** DOING 外構を決める
 *** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
@@ -48,7 +48,7 @@ DEADLINE: <2019-11-28 Thu>
 ** DONE 残金振込 to Ichijo
 *** 1st part done <2019-11-05 Tue 10:21>
 *** 2nd part done <2019-11-06 Wed 11:34>
-** TODO 鍵もらう<2019-11-12 Tue 11:36>
+** DONE 鍵もらう<2019-11-12 Tue 11:36>
 ** TODO Pay the curtains and furnitures 
 DEADLINE: <2019-11-19 Tue>
 ** DONE the au 電気 au ガス for Sep paid <2019-11-12 Tue 10:19>
@@ -67,7 +67,6 @@ DEADLINE: <2019-11-19 Tue>
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
-
 
 
 
@@ -126,7 +125,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE [[https://wangcc.me/post/poisson-stan/][Poisson Regression Stan model]] done <2019-07-12 Fri 00:44>
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
-* DOING Pay お茶代                                                      :AMU:
+* DONE Pay お茶代  6000 yen                                             :AMU:
+<2019-11-13 Wed 09:23>
 
 #+BEGIN_COMMENT
 Work schedule marked as completed
