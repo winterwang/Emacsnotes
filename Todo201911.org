@@ -86,9 +86,6 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO Revision PeerJ                                                   :AMU:
 
-* TODO Nutrients review comments                                        :AMU:
-DEADLINE: <2019-11-12 Tue>
-
 * DOING Prepare propensity score study group                            :css:
 ** 30% <2019-11-11 Mon 16:15>
 
@@ -144,3 +141,6 @@ Work schedule marked as completed
 ** DONE 保険
 ** DONE 住所変更<2019-11-08 Fri 09:28>
 ** how to do 確定申告
+* DONE Nutrients review comments                                        :AMU:
+<2019-11-13 Wed 13:47>
+DEADLINE: <2019-11-12 Tue>
