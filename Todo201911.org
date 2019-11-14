@@ -31,6 +31,9 @@ DEADLINE: <2019-11-28 Thu>
 ** DOING go to buy new dishes, bowls, and etc.
 ** DOING 外構を決める
 *** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
+*** TODO ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
+*** TODO ユニホ打ち合わせ <2019-11-15 Fri 16:30>
+*** TODO mizuno 打ち合わせ <2019-11-24 Sun 18:11>
 ** TODO 住所変更必要
 *** TODO 免許
 *** TODO 銀行
@@ -52,6 +55,7 @@ DEADLINE: <2019-11-28 Thu>
 ** TODO Pay the curtains and furnitures 
 DEADLINE: <2019-11-19 Tue>
 ** DONE the au 電気 au ガス for Sep paid <2019-11-12 Tue 10:19>
+
 
 * TODO 確定申告の仕方確認                                           :private:
 * DOING Deep Learning finish the final two weeks ends the paying    :private:
@@ -89,6 +93,7 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 * DOING Prepare propensity score study group                            :css:
 ** 30% <2019-11-11 Mon 16:15>
 
+* TODO 定期保険新規加入変更                                             :AMU:
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
