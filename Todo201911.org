@@ -17,7 +17,7 @@ Work schedule need to be done under PRIVATE category
 #+END_COMMENT
 
 
-* TODO Things todo before moving                                    :private:
+* DOING Things todo before moving                                   :private:
 ** DONE 電気止める<2019-11-06 Wed 10:32>
 ** DONE 水道止める<2019-11-06 Wed 10:31>
 ** DONE ガス止める<2019-11-06 Wed 10:32>
@@ -40,14 +40,15 @@ DEADLINE: <2019-11-28 Thu>
 **** UFJ jojo() chao()
 **** SMBC jojo() chao()
 **** Yucho jojo() chao()
-*** TODO 所属先 (A and C)
+*** DOING 所属先 (A and C(done <2019-11-15 Fri 11:11>))
 *** TODO 保育園？
 ** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
 ** TODO 引越し準備 <2019-11-16 Sat 10:37>
 *** TODO 箱詰め
-** TODO 鍵もらったら住所変更 (法務局登記に必要)
-*** TODO 住民票×３(全員、省略なし)
+** DONE 鍵もらったら住所変更 (法務局登記に必要)
+*** DONE 住民票×３(全員、省略なし) <2019-11-14 Thu 16:11>
 *** TODO 印鑑登録証明書×３×２人
+*** TODO Call Murata san after 18th Nov <2019-11-19 Tue 11:16>
 ** DONE 残金振込 to Ichijo
 *** 1st part done <2019-11-05 Tue 10:21>
 *** 2nd part done <2019-11-06 Wed 11:34>
@@ -84,16 +85,21 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 
 
-
+* TODO Attend the AI合宿 (<2019-11-16/17 Sat/Sun>)                      :AMU:
 
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
+DEADLINE: <2019-11-22 Fri>
 
 * TODO Revision PeerJ                                                   :AMU:
+DEADLINE: <2019-11-30 Sat>
 
 * DOING Prepare propensity score study group                            :css:
+DEADLINE: <2019-11-25 Mon>
 ** 30% <2019-11-11 Mon 16:15>
+** TODO Send out the invitation 
 
 * TODO 定期保険新規加入変更                                             :AMU:
+DEADLINE: <2019-11-22 Fri>
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -127,8 +133,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE [[https://wangcc.me/post/poisson-stan/][Poisson Regression Stan model]] done <2019-07-12 Fri 00:44>
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
-* DONE Pay お茶代  6000 yen                                             :AMU:
-<2019-11-13 Wed 09:23>
 
 #+BEGIN_COMMENT
 Work schedule marked as completed
@@ -149,3 +153,5 @@ Work schedule marked as completed
 * DONE Nutrients review comments                                        :AMU:
 <2019-11-13 Wed 13:47>
 DEADLINE: <2019-11-12 Tue>
+* DONE Pay お茶代  6000 yen                                             :AMU:
+<2019-11-13 Wed 09:23>
