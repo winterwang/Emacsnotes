@@ -246,6 +246,17 @@ $$
 
 *** 活性化関数 ReLU関数
 
+*** back propagation 逆誤差伝播法
+出力層の誤差を隠れ層→入力層
+
+*** Deep learning 
+4層以上
+
+**** CNN (畳み込みニューラルネットワーク)
+**** RNN (回帰的ニューラルネットワーク)
+LSTM long-short term memory
+
+
 * Unsupervised learning 
 
 ** データの潜在的パターンを抽出：クラスタリング、次元圧縮
