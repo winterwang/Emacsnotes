@@ -161,3 +161,29 @@ Bayesian philophers often see Bayesianism as analogous to deductive logic in thi
 * Gabadinho, A., Ritschard, G., Mueller, N. S. & Studer, M. Analyzing and Visualizing State Sequences in R with TraMineR. Journal of Statistical Software 40, 1–37 (2011).
 
 ** central concept of *state sequence object*
+
+
+<2019-11-16 Sat 14:42> 
+* naniar package; dataset name: riskfactor
+
+
+
+
+* supervised learning
+
+** Mean absolute error (MAE) 
+
+$$
+MAE= \frac{\sum_{i=1}^N|y - \hat{y}|}{N}
+$$
+
+** Mean squared error (MSE)
+
+** $R^2$ 
+
+** 例外：目的変数に外れ値がある；ラベルに偏りがある
+
+
+
+
+
