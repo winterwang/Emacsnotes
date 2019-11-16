@@ -181,9 +181,22 @@ $$
 
 ** $R^2$ 
 
+** AUC 
+
 ** 例外：目的変数に外れ値がある；ラベルに偏りがある
 
+** regulation 正則化
 
+*** L1 (Lasso)
 
+$$
+E(\mathbf{w}) + \lambda\sum_{i=1}^K|w_i|
+$$
+
+*** L2 (Ridge)
+
+$$
+E(\mathbf{w}) + \frac{\lambda}{2}\sum_{i=1}^K|w_i|^2
+$$
 
 
