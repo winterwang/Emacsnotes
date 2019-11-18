@@ -95,7 +95,8 @@ DEADLINE: <2019-11-30 Sat>
 * DOING Prepare propensity score study group                            :css:
 DEADLINE: <2019-11-25 Mon>
 ** 30% <2019-11-11 Mon 16:15>
-** TODO Send out the invitation 
+** DONE Send out the invitation  <2019-11-18 Mon 18:05>
+** 70% <2019-11-18 Mon 18:06>
 
 * TODO 定期保険新規加入変更                                             :AMU:
 DEADLINE: <2019-11-22 Fri>
