@@ -31,11 +31,11 @@ DEADLINE: <2019-11-28 Thu>
 ** DOING go to buy new dishes, bowls, and etc.
 ** DOING 外構を決める
 *** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
-*** TODO ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
-*** TODO ユニホ打ち合わせ <2019-11-15 Fri 16:30>
+*** DONE ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
+*** DONE ユニホ打ち合わせ <2019-11-15 Fri 16:30>
 *** TODO mizuno 打ち合わせ <2019-11-24 Sun 18:11>
-** TODO 住所変更必要
-*** TODO 免許
+** DOING 住所変更必要
+*** DONE 免許 chao (<2019-11-15 Fri 15:14>)
 *** TODO 銀行
 **** UFJ jojo() chao()
 **** SMBC jojo() chao()
@@ -44,7 +44,7 @@ DEADLINE: <2019-11-28 Thu>
 *** TODO 保育園？
 ** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
 ** TODO 引越し準備 <2019-11-16 Sat 10:37>
-*** TODO 箱詰め
+*** DOING 箱詰め
 ** DONE 鍵もらったら住所変更 (法務局登記に必要)
 *** DONE 住民票×３(全員、省略なし) <2019-11-14 Thu 16:11>
 *** TODO 印鑑登録証明書×３×２人
@@ -53,7 +53,7 @@ DEADLINE: <2019-11-28 Thu>
 *** 1st part done <2019-11-05 Tue 10:21>
 *** 2nd part done <2019-11-06 Wed 11:34>
 ** DONE 鍵もらう<2019-11-12 Tue 11:36>
-** TODO Pay the curtains and furnitures 
+** DONE Pay the curtains and furnitures <2019-11-15 Fri 14:15>
 DEADLINE: <2019-11-19 Tue>
 ** DONE the au 電気 au ガス for Sep paid <2019-11-12 Tue 10:19>
 
@@ -85,7 +85,6 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 
 
-* TODO Attend the AI合宿 (<2019-11-16/17 Sat/Sun>)                      :AMU:
 
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2019-11-22 Fri>
@@ -155,3 +154,4 @@ Work schedule marked as completed
 DEADLINE: <2019-11-12 Tue>
 * DONE Pay お茶代  6000 yen                                             :AMU:
 <2019-11-13 Wed 09:23>
+* DONE Attend the AI合宿 (<2019-11-16/17 Sat/Sun>)                      :AMU:
