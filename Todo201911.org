@@ -133,6 +133,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
 
+* TODO Home Page updated                                                :AMU:
+70% <2019-11-20 Wed 19:03>
 #+BEGIN_COMMENT
 Work schedule marked as completed
 #+END_COMMENT
