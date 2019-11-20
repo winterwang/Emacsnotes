@@ -37,11 +37,12 @@ DEADLINE: <2019-11-28 Thu>
 *** TODO mizuno 打ち合わせ <2019-11-24 Sun 18:11>
 ** DOING 住所変更必要
 *** DONE 免許 chao (<2019-11-15 Fri 15:14>)
+*** DONE 保険×2  <2019-11-20 Wed 11:09> 
 *** TODO 銀行
 **** UFJ jojo() chao()
 **** SMBC jojo() chao()
 **** Yucho jojo() chao()
-*** DOING 所属先 (A and C(done <2019-11-15 Fri 11:11>))
+*** DONE 所属先 (A <2019-11-19 Tue 11:10> and C(done <2019-11-15 Fri 11:11>))
 *** TODO 保育園？
 ** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
 ** TODO 引越し準備 <2019-11-16 Sat 10:37>
