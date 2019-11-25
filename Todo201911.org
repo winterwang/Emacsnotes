@@ -23,18 +23,19 @@ Work schedule need to be done under PRIVATE category
 ** DONE ガス止める<2019-11-06 Wed 10:32>
 ** DONE 退去届を出す <2019-10-07 Mon 17:34>
 ** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
-** TODO 光ファイバ解約 <2019-11-23 Sat 10:37>
+** DONE 光ファイバ解約 <2019-11-23 Sat 10:37>
 ** TODO 光ファイバ新規契約<2019-11-28 Thu 10:37>
 ** DONE go to ニッショーショップ to cancel the existing insurance 
 DEADLINE: <2019-11-28 Thu>
 ** DONE Move the big TV to new place <2019-11-12 Tue 18:24>
-** DOING go to buy new dishes, bowls, and etc.
+** DONE go to buy new nabe dishes, bowls, and etc. <2019-11-23 Sat 18:24>
 ** DOING 外構を決める
 *** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
 *** DONE ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
 **** second plan recieved <2019-11-18 Mon 17:56>
 *** DONE ユニホ打ち合わせ <2019-11-15 Fri 16:30>
-*** TODO mizuno 打ち合わせ <2019-11-24 Sun 18:11>
+*** DONE mizuno 打ち合わせ <2019-11-24 Sun 18:11>
+*** TODO Next 打ち合わせ with Mizuno (final) <2019-12-01 Sun 10:25>
 ** DOING 住所変更必要
 *** DONE 免許 chao (<2019-11-15 Fri 15:14>)
 *** DONE 保険×2  <2019-11-20 Wed 11:09> 
@@ -44,14 +45,15 @@ DEADLINE: <2019-11-28 Thu>
 **** Yucho jojo() chao()
 *** DONE 所属先 (A <2019-11-19 Tue 11:10> and C(done <2019-11-15 Fri 11:11>))
 *** TODO 保育園？
-** TODO 郵便局に住所変更届け (kuroneko, and sagawa)
+** DONE 郵便局に住所変更届け <2019-11-22 Fri 10:27>
+*** (kuroneko, and sagawa)
 ** TODO 引越し準備 <2019-11-16 Sat 10:37>
 *** DOING 箱詰め
 ** DONE 鍵もらったら住所変更 (法務局登記に必要)
 *** DONE 住民票×３(全員、省略なし) <2019-11-14 Thu 16:11>
 *** DONE 印鑑登録証明書×３×２人 <2019-11-19 Tue 09:54>
 *** DONE Call Murata san after 18th Nov <2019-11-19 Tue 11:16>
-*** TODO Murata san come to take the papers <2019-11-22 Fri 09:55>
+*** DONE Murata san come to take the papers, and land information documents <2019-11-22 Fri 09:55>
 ** DONE 残金振込 to Ichijo
 *** 1st part done <2019-11-05 Tue 10:21>
 *** 2nd part done <2019-11-06 Wed 11:34>
@@ -99,6 +101,7 @@ DEADLINE: <2019-11-25 Mon>
 ** DONE Send out the invitation  <2019-11-18 Mon 18:05>
 ** 70% <2019-11-18 Mon 18:06>
 
+* TODO HAMA personal statement check and comment                        :CSS:
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
