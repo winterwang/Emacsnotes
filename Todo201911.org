@@ -87,9 +87,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 
 
-* DONE JAT paper review task                                        :YATSUYA:
-<2019-11-25 Mon 17:15>
-* DOING Reply to Dr. Yatsuya about the data with time of eating info :YATSUYA:
+
+
 
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2019-11-22 Fri>
@@ -141,7 +140,8 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 
 * DOING Home Page updating                                              :AMU:
-** 70% <2019-11-20 Wed 19:03>
+** DONE 70% <2019-11-20 Wed 19:03>
+** DONE 統計解析のための線形代数　追加 <2019-11-26 Tue 11:46>
 ** TODO confirm that stan runs on the new MacOS 
 * 
 #+BEGIN_COMMENT
@@ -172,3 +172,7 @@ DEADLINE: <2019-11-22 Fri>
 ** DONE Week 4 done <2019-11-06 Wed 16:13>
 ** DONE Week 5 85% done <2019-11-11 Mon 11:25>
 ** Done all <2019-11-19 Tue 17:59>
+* DONE JAT paper review task                                        :YATSUYA:
+<2019-11-25 Mon 17:15>
+* DONE Reply to Dr. Yatsuya about the data with time of eating info :YATSUYA:
+<2019-11-26 Tue 10:14>
