@@ -33,6 +33,7 @@ DEADLINE: <2019-11-28 Thu>
 *** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
 *** DONE ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
 **** second plan recieved <2019-11-18 Mon 17:56>
+**** TODO return the email to turn it down 
 *** DONE ユニホ打ち合わせ <2019-11-15 Fri 16:30>
 *** DONE mizuno 打ち合わせ <2019-11-24 Sun 18:11>
 *** TODO Next 打ち合わせ with Mizuno (final) <2019-12-01 Sun 10:25>
@@ -40,8 +41,8 @@ DEADLINE: <2019-11-28 Thu>
 *** DONE 免許 chao (<2019-11-15 Fri 15:14>)
 *** DONE 保険×2  <2019-11-20 Wed 11:09> 
 *** TODO 銀行
-**** UFJ jojo() chao()
-**** SMBC jojo() chao()
+**** UFJ jojo() chao(x)
+**** SMBC jojo() chao(x)
 **** Yucho jojo() chao()
 *** DONE 所属先 (A <2019-11-19 Tue 11:10> and C(done <2019-11-15 Fri 11:11>))
 *** TODO 保育園？
