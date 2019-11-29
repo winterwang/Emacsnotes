@@ -24,7 +24,7 @@ Work schedule need to be done under PRIVATE category
 ** DONE 退去届を出す <2019-10-07 Mon 17:34>
 ** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
 ** DONE 光ファイバ解約 <2019-11-23 Sat 10:37>
-** TODO 光ファイバ新規契約<2019-11-28 Thu 10:37>
+** DONE 光ファイバ新規契約<2019-11-28 Thu 13:37>
 ** DONE go to ニッショーショップ to cancel the existing insurance 
 DEADLINE: <2019-11-28 Thu>
 ** DONE Move the big TV to new place <2019-11-12 Tue 18:24>
@@ -48,8 +48,8 @@ DEADLINE: <2019-11-28 Thu>
 *** TODO 保育園？
 ** DONE 郵便局に住所変更届け <2019-11-22 Fri 10:27>
 *** (kuroneko, and sagawa)
-** TODO 引越し準備 <2019-11-16 Sat 10:37>
-*** DOING 箱詰め
+** DONE 引越し準備 <2019-11-16 Sat 10:37>
+*** DONE 箱詰め <2019-11-28 Thu 12:08>
 ** DONE 鍵もらったら住所変更 (法務局登記に必要)
 *** DONE 住民票×３(全員、省略なし) <2019-11-14 Thu 16:11>
 *** DONE 印鑑登録証明書×３×２人 <2019-11-19 Tue 09:54>
