@@ -17,7 +17,7 @@ Work schedule need to be done under PRIVATE category
 #+END_COMMENT
 
 
-* DOING Things todo before moving                                   :private:
+* DONE Things todo before moving                                    :private:
 ** DONE 電気止める<2019-11-06 Wed 10:32>
 ** DONE 水道止める<2019-11-06 Wed 10:31>
 ** DONE ガス止める<2019-11-06 Wed 10:32>
@@ -29,18 +29,19 @@ Work schedule need to be done under PRIVATE category
 DEADLINE: <2019-11-28 Thu>
 ** DONE Move the big TV to new place <2019-11-12 Tue 18:24>
 ** DONE go to buy new nabe dishes, bowls, and etc. <2019-11-23 Sat 18:24>
-** DOING 外構を決める
+** DONE 外構を決める
 *** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
 *** DONE ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
 **** second plan recieved <2019-11-18 Mon 17:56>
-**** TODO return the email to turn it down 
+**** DONE return the email to turn it down  <2019-11-29 Fri 14:12>
 *** DONE ユニホ打ち合わせ <2019-11-15 Fri 16:30>
 *** DONE mizuno 打ち合わせ <2019-11-24 Sun 18:11>
-*** TODO Next 打ち合わせ with Mizuno (final) <2019-12-01 Sun 10:25>
+*** DONE Next 打ち合わせ with Mizuno (final) <2019-12-01 Sun 18:25>
+**** Mizuno plan decided <2019-12-01 Sun 18:13>
 ** DOING 住所変更必要
 *** DONE 免許 chao (<2019-11-15 Fri 15:14>)
 *** DONE 保険×2  <2019-11-20 Wed 11:09> 
-*** TODO 銀行
+*** DOING 銀行
 **** UFJ jojo(x) chao(x)
 **** SMBC jojo(x) chao(x)
 **** Yucho jojo(x) chao()
