@@ -1,4 +1,4 @@
-#+TITLE: Org-mode todo 2019-11
+#+TITLE: Org-mode todo 2019-11/12
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
@@ -16,54 +16,6 @@ plain-text system.
 Work schedule need to be done under PRIVATE category
 #+END_COMMENT
 
-
-* DONE Things todo before moving                                    :private:
-** DONE 電気止める<2019-11-06 Wed 10:32>
-** DONE 水道止める<2019-11-06 Wed 10:31>
-** DONE ガス止める<2019-11-06 Wed 10:32>
-** DONE 退去届を出す <2019-10-07 Mon 17:34>
-** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
-** DONE 光ファイバ解約 <2019-11-23 Sat 10:37>
-** DONE 光ファイバ新規契約<2019-11-28 Thu 13:37>
-** DONE go to ニッショーショップ to cancel the existing insurance 
-DEADLINE: <2019-11-28 Thu>
-** DONE Move the big TV to new place <2019-11-12 Tue 18:24>
-** DONE go to buy new nabe dishes, bowls, and etc. <2019-11-23 Sat 18:24>
-** DONE 外構を決める
-*** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
-*** DONE ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
-**** second plan recieved <2019-11-18 Mon 17:56>
-**** DONE return the email to turn it down  <2019-11-29 Fri 14:12>
-*** DONE ユニホ打ち合わせ <2019-11-15 Fri 16:30>
-*** DONE mizuno 打ち合わせ <2019-11-24 Sun 18:11>
-*** DONE Next 打ち合わせ with Mizuno (final) <2019-12-01 Sun 18:25>
-**** Mizuno plan decided <2019-12-01 Sun 18:13>
-** DOING 住所変更必要
-*** DONE 免許 chao (<2019-11-15 Fri 15:14>)
-*** DONE 保険×2  <2019-11-20 Wed 11:09> 
-*** DOING 銀行
-**** UFJ jojo(x) chao(x)
-**** SMBC jojo(x) chao(x)
-**** Yucho jojo(x) chao()
-*** DONE 所属先 (A <2019-11-19 Tue 11:10> and C(done <2019-11-15 Fri 11:11>))
-*** DONE 保育園
-** DONE 郵便局に住所変更届け <2019-11-22 Fri 10:27>
-*** (kuroneko, and sagawa)
-** DONE 引越し準備 <2019-11-16 Sat 10:37>
-*** DONE 箱詰め <2019-11-28 Thu 12:08>
-** DONE 鍵もらったら住所変更 (法務局登記に必要)
-*** DONE 住民票×３(全員、省略なし) <2019-11-14 Thu 16:11>
-*** DONE 印鑑登録証明書×３×２人 <2019-11-19 Tue 09:54>
-*** DONE Call Murata san after 18th Nov <2019-11-19 Tue 11:16>
-*** DONE Murata san come to take the papers, and land information documents <2019-11-22 Fri 09:55>
-** DONE 残金振込 to Ichijo
-*** 1st part done <2019-11-05 Tue 10:21>
-*** 2nd part done <2019-11-06 Wed 11:34>
-** DONE 鍵もらう<2019-11-12 Tue 11:36>
-** DONE Pay the curtains and furnitures <2019-11-15 Fri 14:15>
-DEADLINE: <2019-11-19 Tue>
-** DONE Pay Hattori 家具 <2019-11-19 Tue 11:55>
-** DONE the au 電気 au ガス for Sep paid <2019-11-12 Tue 10:19>
 
 
 * TODO 確定申告の仕方確認                                           :private:
@@ -100,7 +52,7 @@ DEADLINE: <2019-11-22 Fri>
 * DOING Revision PeerJ                                                  :AMU:
 DEADLINE: <2019-12-30 Mon>
 ** #1 Reviewer done <2019-12-05 Thu 09:41>
-** #2 Reviewer 
+** #2 Reviewer 10% <2019-12-06 Fri 16:05>
 
 * DOING Prepare propensity score study group                            :css:
 DEADLINE: <2019-11-25 Mon>
@@ -185,3 +137,50 @@ DEADLINE: <2019-11-22 Fri>
 ** DONE 70% <2019-11-20 Wed 19:03>
 ** DONE 統計解析のための線形代数　追加 <2019-11-26 Tue 11:46>
 ** DONE confirm that stan runs on the new MacOS <2019-11-26 Tue 17:16>
+* DONE Things todo before moving                                    :private:
+** DONE 電気止める<2019-11-06 Wed 10:32>
+** DONE 水道止める<2019-11-06 Wed 10:31>
+** DONE ガス止める<2019-11-06 Wed 10:32>
+** DONE 退去届を出す <2019-10-07 Mon 17:34>
+** DONE 火災保険・家財保険 <2019-11-02 Sat 21:10>
+** DONE 光ファイバ解約 <2019-11-23 Sat 10:37>
+** DONE 光ファイバ新規契約<2019-11-28 Thu 13:37>
+** DONE go to ニッショーショップ to cancel the existing insurance 
+DEADLINE: <2019-11-28 Thu>
+** DONE Move the big TV to new place <2019-11-12 Tue 18:24>
+** DONE go to buy new nabe dishes, bowls, and etc. <2019-11-23 Sat 18:24>
+** DONE 外構を決める
+*** DONE visit LIXIL show room <2019-11-10 Sun 10:38>
+*** DONE ヤマイチ打ち合わせ <2019-11-15 Fri 15:10>
+**** second plan recieved <2019-11-18 Mon 17:56>
+**** DONE return the email to turn it down  <2019-11-29 Fri 14:12>
+*** DONE ユニホ打ち合わせ <2019-11-15 Fri 16:30>
+*** DONE mizuno 打ち合わせ <2019-11-24 Sun 18:11>
+*** DONE Next 打ち合わせ with Mizuno (final) <2019-12-01 Sun 18:25>
+**** Mizuno plan decided <2019-12-01 Sun 18:13>
+** DONE 住所変更必要
+*** DONE 免許 chao (<2019-11-15 Fri 15:14>)
+*** DONE 保険×2  <2019-11-20 Wed 11:09> 
+*** DONE 銀行
+**** UFJ jojo(x) chao(x)
+**** SMBC jojo(x) chao(x)
+**** Yucho jojo(x) chao(x) <2019-12-05 Thu 15:59>
+*** DONE 所属先 (A <2019-11-19 Tue 11:10> and C(done <2019-11-15 Fri 11:11>))
+*** DONE 保育園
+** DONE 郵便局に住所変更届け <2019-11-22 Fri 10:27>
+*** (kuroneko, and sagawa)
+** DONE 引越し準備 <2019-11-16 Sat 10:37>
+*** DONE 箱詰め <2019-11-28 Thu 12:08>
+** DONE 鍵もらったら住所変更 (法務局登記に必要)
+*** DONE 住民票×３(全員、省略なし) <2019-11-14 Thu 16:11>
+*** DONE 印鑑登録証明書×３×２人 <2019-11-19 Tue 09:54>
+*** DONE Call Murata san after 18th Nov <2019-11-19 Tue 11:16>
+*** DONE Murata san come to take the papers, and land information documents <2019-11-22 Fri 09:55>
+** DONE 残金振込 to Ichijo
+*** 1st part done <2019-11-05 Tue 10:21>
+*** 2nd part done <2019-11-06 Wed 11:34>
+** DONE 鍵もらう<2019-11-12 Tue 11:36>
+** DONE Pay the curtains and furnitures <2019-11-15 Fri 14:15>
+DEADLINE: <2019-11-19 Tue>
+** DONE Pay Hattori 家具 <2019-11-19 Tue 11:55>
+** DONE the au 電気 au ガス for Sep paid <2019-11-12 Tue 10:19>
