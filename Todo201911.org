@@ -97,8 +97,10 @@ DEADLINE: <2019-11-22 Fri>
 
 * TODO Prepare slides for JEA presentation                              :AMU:
 
-* TODO Revision PeerJ                                                   :AMU:
-DEADLINE: <2019-11-30 Sat>
+* DOING Revision PeerJ                                                  :AMU:
+DEADLINE: <2019-12-30 Mon>
+** #1 Reviewer done <2019-12-05 Thu 09:41>
+** #2 Reviewer 
 
 * DOING Prepare propensity score study group                            :css:
 DEADLINE: <2019-11-25 Mon>
