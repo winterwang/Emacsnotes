@@ -53,6 +53,7 @@ DEADLINE: <2019-12-30 Mon>
 ** #1 Reviewer done <2019-12-05 Thu 09:41>
 ** #2 Reviewer 10% <2019-12-06 Fri 16:05>
 ** #2 Reviewer 30% <2019-12-09 Mon 16:01>
+** #2 Reviewer 70% <2019-12-10 Tue 17:55>
 
 * DOING Prepare propensity score study group                            :css:
 DEADLINE: <2019-11-25 Mon>
