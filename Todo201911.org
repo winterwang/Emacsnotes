@@ -43,17 +43,22 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO Come up with a name for presentation in the JACC study group discussion :AMU:JACC:
 
+
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2019-11-22 Fri>
 
 * TODO Prepare slides for JEA presentation                              :AMU:
 
-* DOING Revision PeerJ                                                  :AMU:
+* DONE Revision PeerJ                                                   :AMU:
 DEADLINE: <2019-12-30 Mon>
 ** #1 Reviewer done <2019-12-05 Thu 09:41>
 ** #2 Reviewer 10% <2019-12-06 Fri 16:05>
 ** #2 Reviewer 30% <2019-12-09 Mon 16:01>
-** #2 Reviewer 70% <2019-12-10 Tue 17:55>
+** #2 Reviewer 80% <2019-12-10 Tue 17:55>
+** #2 Reviewer 100% <2019-12-16 Mon 10:17>
+** #3 Reviewer 100% <2019-12-16 Mon 17:55>
+
+* TODO Resubmit the locomo paper                                        :AMU:
 
 * DOING Prepare propensity score study group                            :css:
 DEADLINE: <2019-11-25 Mon>
