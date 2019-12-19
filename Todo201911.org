@@ -19,7 +19,9 @@ Work schedule need to be done under PRIVATE category
 
 
 * TODO 確定申告の仕方確認                                           :private:
-** wait for 市役所 to notify the date and time for doing this
+** TODO wait for 市役所 to notify the date and time for doing this
+** TODO 領樹 クーポン
+** 
 
 * DOING Read book 7: Learn Python the hard way                      :private:
 ** DONE Page 38 <2019-08-05 Mon 12:01>
@@ -41,8 +43,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 
 
-* TODO Come up with a name for presentation in the JACC study group discussion :AMU:JACC:
-
+* DONE Come up with a name for presentation in the JACC study group discussion :AMU:JACC:
+** Bayesian Survival Analysis of Milk Intake and the Risk of Stroke Mortality using data from the JACC study. 
 
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2019-11-22 Fri>
