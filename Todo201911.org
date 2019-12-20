@@ -21,7 +21,6 @@ Work schedule need to be done under PRIVATE category
 * TODO 確定申告の仕方確認                                           :private:
 ** TODO wait for 市役所 to notify the date and time for doing this
 ** TODO 領樹 クーポン
-** 
 
 * DOING Read book 7: Learn Python the hard way                      :private:
 ** DONE Page 38 <2019-08-05 Mon 12:01>
@@ -51,16 +50,6 @@ DEADLINE: <2019-11-22 Fri>
 
 * TODO Prepare slides for JEA presentation                              :AMU:
 
-* DONE Revision PeerJ                                                   :AMU:
-DEADLINE: <2019-12-30 Mon>
-** #1 Reviewer done <2019-12-05 Thu 09:41>
-** #2 Reviewer 10% <2019-12-06 Fri 16:05>
-** #2 Reviewer 30% <2019-12-09 Mon 16:01>
-** #2 Reviewer 80% <2019-12-10 Tue 17:55>
-** #2 Reviewer 100% <2019-12-16 Mon 10:17>
-** #3 Reviewer 100% <2019-12-16 Mon 17:55>
-
-* TODO Resubmit the locomo paper                                        :AMU:
 
 * DOING Prepare propensity score study group                            :css:
 DEADLINE: <2019-11-25 Mon>
@@ -70,6 +59,8 @@ DEADLINE: <2019-11-25 Mon>
 ** 70% of 1st slides <2019-11-18 Mon 18:06>
 ** 80% of 1st slides 
 ** 5% of 2nd slides <2019-12-09 Mon 18:04>
+
+
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -195,3 +186,14 @@ DEADLINE: <2019-11-19 Tue>
 ** DONE the au 電気 au ガス for Sep paid <2019-11-12 Tue 10:19>
 * DONE 機種変更 for mom (LG k50 to iphone)                          :private:
 <2019-12-09 Mon 12:14>
+* DONE Revision PeerJ                                                   :AMU:
+DEADLINE: <2019-12-30 Mon>
+** #1 Reviewer done <2019-12-05 Thu 09:41>
+** #2 Reviewer 10% <2019-12-06 Fri 16:05>
+** #2 Reviewer 30% <2019-12-09 Mon 16:01>
+** #2 Reviewer 80% <2019-12-10 Tue 17:55>
+** #2 Reviewer 100% <2019-12-16 Mon 10:17>
+** #3 Reviewer 100% <2019-12-16 Mon 17:55>
+
+* DONE Resubmit the locomo paper                                        :AMU:
+** resubmitted <2019-12-20 Fri 15:50>
