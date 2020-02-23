@@ -62,14 +62,14 @@ DEADLINE: <2019-11-25 Mon>
 *** lecture notes 
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
 ** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
-** TODO practical
+** HANGUP practical
 
 * TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
 
 * DOING update learning notes of LSHTM (causal inference)             :LSHTM:
 
 * TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                  :bookdown:books:LSHTM:
-** TODO Change all the openbugs codes into JAGS codes
+** DOING Change all the openbugs codes into JAGS codes
 
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
 *** until P226
@@ -89,10 +89,11 @@ CLOCK: [2019-07-09 Tue 10:56]--[2019-07-09 Tue 11:44] =>  0:48
 CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 :END:
 
-* DOING Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                    :reading:
+* HANGUP Read book 5: [[https://www.amazon.co.jp/Stan%E3%81%A8R%E3%81%A7%E3%83%99%E3%82%A4%E3%82%BA%E7%B5%B1%E8%A8%88%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-Wonderful-R-%E6%9D%BE%E6%B5%A6-%E5%81%A5%E5%A4%AA%E9%83%8E/dp/4320112423/ref=sr_1_1?ie=UTF8&qid=1546839385&sr=8-1&keywords=wonderful+R][Wonderful R]]                                   :reading:
 ** DONE [[https://wangcc.me/post/poisson-stan/][Poisson Regression Stan model]] done <2019-07-12 Fri 00:44>
 ** DONE Chapter 7 60% done <2019-07-17 Wed 17:58>
 
+* Read book 6 [[https://www.amazon.co.jp/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=5CYX08YQ85N9&keywords=doing+bayesian+data+analysis&qid=1582459727&sprefix=Doing+Bay%2Caps%2C278&sr=8-1][Doing Bayesian Data Analysis]]                          :reading:
 
 * 
 #+BEGIN_COMMENT
