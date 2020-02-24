@@ -158,6 +158,8 @@ Bayesian philophers often see Bayesianism as analogous to deductive logic in thi
 
 (P57) ... This is the patterns of reasoning that Sherlock Holmes endorses in *The Sign of Four* where Sir Arthur Conan Doyle has his hero say that "when you have eliminated the impossible, whatever remains, however improbable, mush be the truth."
 
+()
+
 * Gabadinho, A., Ritschard, G., Mueller, N. S. & Studer, M. Analyzing and Visualizing State Sequences in R with TraMineR. Journal of Statistical Software 40, 1–37 (2011).
 
 ** central concept of *state sequence object*

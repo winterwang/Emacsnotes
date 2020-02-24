@@ -104,3 +104,4 @@ Work schedule marked as completed
 * DONE Prepare slides for JEA presentation   <2020-02-18 Tue>           :AMU:
 DEADLINE: <2020-02-16 Sun>
 
+* DONE review for EJCN for Dr. Yatsuya <2020-02-24 Mon> 
