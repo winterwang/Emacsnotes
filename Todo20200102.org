@@ -31,30 +31,18 @@ Work schedule need to be done under PRIVATE category
 
 * TODO Read the Evidence and evolution                              :private:
 
+* DOING Read 暴政:20世紀の歴史に学ぶ20のレッスン                    :private:
+** Lesson 6 done <2020-03-03 Tue>
 
+* 
 #+BEGIN_COMMENT
 Work schedule need to be done under not-PRIVATE category = means work, paperwork, school work, teaching tasks etc.
 #+END_COMMENT
 
 
-* TODO resubmit locomo paper                                            :AMU:
-DEADLINE: <2020-02-22 Sat>
-
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
-
-
-
-* DOING Prepare propensity score study group                            :css:
-DEADLINE: <2019-11-25 Mon>
-** 30% <2019-11-11 Mon 16:15>
-** DONE Send out the invitation to KOG, TISO, etc.  <2019-11-18 Mon 18:05>
-** DONE Send out the invitation to stat members and writing group <2019-11-25 Mon 18:15>
-** 70% of 1st slides <2019-11-18 Mon 18:06>
-** 80% of 1st slides 
-** 5% of 2nd slides <2019-12-09 Mon 18:04>
-** 60% of 2nd slides <2020-02-14 Fri>
 
 
 
@@ -97,6 +85,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 * TODO JAT review                                                    :review:
 
+
 * 
 #+BEGIN_COMMENT
 Work schedule marked as completed
@@ -107,3 +96,18 @@ Work schedule marked as completed
 DEADLINE: <2020-02-16 Sun>
 
 * DONE review for EJCN for Dr. Yatsuya <2020-02-24 Mon> 
+
+* DONE resubmit locomo paper                                            :AMU:
+DEADLINE: <2020-02-22 Sat> submitted 
+
+
+* DONE Prepare propensity score study group                             :css:
+DEADLINE: <2019-11-25 Mon>
+** 30% <2019-11-11 Mon 16:15>
+** DONE Send out the invitation to KOG, TISO, etc.  <2019-11-18 Mon 18:05>
+** DONE Send out the invitation to stat members and writing group <2019-11-25 Mon 18:15>
+** 70% of 1st slides <2019-11-18 Mon 18:06>
+** 80% of 1st slides 
+** 5% of 2nd slides <2019-12-09 Mon 18:04>
+** 60% of 2nd slides <2020-02-14 Fri>
+** completed slides [[http://wangcc.me/PSA-CSS-Day2][http://wangcc.me/PSA-CSS-Day2]] <2020-02-28 Fri>
