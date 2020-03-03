@@ -83,7 +83,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 * TODO Read book 6 [[https://www.amazon.co.jp/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=5CYX08YQ85N9&keywords=doing+bayesian+data+analysis&qid=1582459727&sprefix=Doing+Bay%2Caps%2C278&sr=8-1][Doing Bayesian Data Analysis]]                     :reading:
 
-* TODO JAT review                                                    :review:
+
 
 
 * 
@@ -111,3 +111,6 @@ DEADLINE: <2019-11-25 Mon>
 ** 5% of 2nd slides <2019-12-09 Mon 18:04>
 ** 60% of 2nd slides <2020-02-14 Fri>
 ** completed slides [[http://wangcc.me/PSA-CSS-Day2][http://wangcc.me/PSA-CSS-Day2]] <2020-02-28 Fri>
+
+* DONE JAT review                                                    :review:
+<2020-03-03 Tue>
