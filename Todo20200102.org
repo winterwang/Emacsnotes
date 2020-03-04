@@ -33,6 +33,7 @@ Work schedule need to be done under PRIVATE category
 
 * DOING Read 暴政:20世紀の歴史に学ぶ20のレッスン                    :private:
 ** Lesson 6 done <2020-03-03 Tue>
+** Lesson 9 40% P56 <2020-03-04 Wed> 
 
 * 
 #+BEGIN_COMMENT
@@ -84,7 +85,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO Read book 6 [[https://www.amazon.co.jp/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=5CYX08YQ85N9&keywords=doing+bayesian+data+analysis&qid=1582459727&sprefix=Doing+Bay%2Caps%2C278&sr=8-1][Doing Bayesian Data Analysis]]                     :reading:
 
 
-
+* TODO Read Satoshi Paper                                           :reading:
 
 * 
 #+BEGIN_COMMENT
