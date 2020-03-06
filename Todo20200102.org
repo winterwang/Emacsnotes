@@ -34,6 +34,7 @@ Work schedule need to be done under PRIVATE category
 * DOING Read 暴政:20世紀の歴史に学ぶ20のレッスン                    :private:
 ** Lesson 6 done <2020-03-03 Tue>
 ** Lesson 9 40% P56 <2020-03-04 Wed> 
+** Lesson 10 P67 <2020-03-05 Thu> 
 
 * 
 #+BEGIN_COMMENT
