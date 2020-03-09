@@ -1,4 +1,4 @@
-#+TITLE: Org-mode todo 2020-01/02/03
+1#+TITLE: Org-mode todo 2020-01/02/03
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
@@ -31,11 +31,7 @@ Work schedule need to be done under PRIVATE category
 
 * TODO Read the Evidence and evolution                              :private:
 
-* DOING Read 暴政:20世紀の歴史に学ぶ20のレッスン                    :private:
-** Lesson 6 done <2020-03-03 Tue>
-** Lesson 9 40% P56 <2020-03-04 Wed> 
-** Lesson 10 P67 <2020-03-05 Thu> 
-** Lesson 13 done <2020-03-06 Fri>
+* TODO 鬼推磨                                                       :private:
 
 * 
 #+BEGIN_COMMENT
@@ -87,7 +83,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 * TODO Read book 6 [[https://www.amazon.co.jp/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=5CYX08YQ85N9&keywords=doing+bayesian+data+analysis&qid=1582459727&sprefix=Doing+Bay%2Caps%2C278&sr=8-1][Doing Bayesian Data Analysis]]                     :reading:
 
 
-* TODO Read Satoshi Paper                                           :reading:
+
 
 * 
 #+BEGIN_COMMENT
@@ -117,3 +113,13 @@ DEADLINE: <2019-11-25 Mon>
 
 * DONE JAT review                                                    :review:
 <2020-03-03 Tue>
+
+* DONE Read 暴政:20世紀の歴史に学ぶ20のレッスン                     :private:
+** Lesson 6 done <2020-03-03 Tue>
+** Lesson 9 40% P56 <2020-03-04 Wed> 
+** Lesson 10 P67 <2020-03-05 Thu> 
+** Lesson 13 done <2020-03-06 Fri>
+** Lesson 20 done <2020-03-09 Mon>
+
+* DONE Read Satoshi Paper                                           :reading:
+<2020-03-05 Thu>

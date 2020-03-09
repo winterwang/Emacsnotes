@@ -262,3 +262,7 @@ LSTM long-short term memory
 * Unsupervised learning 
 
 ** データの潜在的パターンを抽出：クラスタリング、次元圧縮
+
+
+* Doing Bayesian data analysis 
+
