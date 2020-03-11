@@ -31,10 +31,11 @@ Work schedule need to be done under PRIVATE category
 
 * TODO Read the Evidence and evolution                              :private:
 
-* TODO 鬼推磨                                                       :private:
+* DOING 鬼推磨                                                      :private:
 
 * DOING Trick or treatment (alternative medicine on trial)          :private:
 To Page 24 <2020-03-10 Tue>
+To Page 44 <2020-03-11 Wed>
 
 * 
 #+BEGIN_COMMENT
