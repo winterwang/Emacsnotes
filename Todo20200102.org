@@ -31,7 +31,7 @@ Work schedule need to be done under PRIVATE category
 
 * TODO Read the Evidence and evolution                              :private:
 
-* DOING 鬼推磨                                                      :private:
+
 
 * DOING Trick or treatment (alternative medicine on trial)          :private:
 To Page 24 <2020-03-10 Tue>
@@ -129,3 +129,7 @@ DEADLINE: <2019-11-25 Mon>
 
 * DONE Read Satoshi Paper                                           :reading:
 <2020-03-05 Thu>
+
+
+* DONE 鬼推磨                                                       :private:
+** <2020-03-15 Sun>
