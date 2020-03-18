@@ -88,7 +88,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 
 * TODO prepare slides about cohort study for CSS                        :CSS:
 
-* TODO resubmit locomo25 3rd revision                                   :AMU:
 
 
 * 
@@ -133,3 +132,6 @@ DEADLINE: <2019-11-25 Mon>
 
 * DONE 鬼推磨                                                       :private:
 ** <2020-03-15 Sun>
+
+* DONE resubmit locomo25 3rd revision                                   :AMU:
+<2020-03-18 Wed>
