@@ -1,4 +1,4 @@
-1#+TITLE: Org-mode todo 2020-01/02/03
+1#+TITLE: Org-mode todo 2020/01-04
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
@@ -39,9 +39,9 @@ DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
 
-* TODO Comment for Research Square                                       :RS:
-DEADLINE: <2020-04-07 Tue>
 
+
+* TODO Comment for Yatsuya/Matsuo from JE paper                          :JE:
 
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
@@ -153,3 +153,8 @@ To Page 348 <2020-03-30 Mon>
 To Page 380 <2020-04-01 Wed>
 To Page 460 <2020-04-04 Sat>
 FINISHED <2020-04-06 Mon>
+
+
+* DONE Comment for Research Square                                       :RS:
+DEADLINE: <2020-04-07 Tue>
+<2020-04-07 Tue>
