@@ -13,7 +13,7 @@ Using Emacs, Learning Emacs, Trying Emacs. Life become better
 9. [My Todo schedule link, July-August. 2019](https://wangcc.me/Emacsnotes/Todo201907)
 10. [My Todo Schedule link, September-October, 2019](https://wangcc.me/Emacsnotes/Todo201909)
 11. [My Todo Schedule link, November, 2019](https://wangcc.me/Emacsnotes/Todo201911)
-12. [My Todo Schedule link, Jan-Feb-March, 2020](https://wangcc.me/Emacsnotes/Todo20200102)
+12. [My Todo Schedule link, Jan-Feb-March-April, 2020](https://wangcc.me/Emacsnotes/Todo20200102)
 
 ## Notes and ideas:
 2. [My Bayesian Biotstats Learning note](https://wangcc.me/Emacsnotes/Notes_from_learning_Bayesian_Biostat)
