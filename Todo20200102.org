@@ -41,8 +41,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
-
-
+* DOING JACC study pool analysis smoking and colon cancer              :JACC:
+** 30%
 
 * TODO Comment for Yatsuya/Matsuo from JE paper                          :JE:
 
