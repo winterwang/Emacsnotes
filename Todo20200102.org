@@ -42,7 +42,8 @@ DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
 * DOING JACC study pool analysis smoking and colon cancer              :JACC:
-** 30%
+** 30% <2020-04-15 Wed 17:30>
+** 70% <2020-04-16 Thu 16:57>
 
 * TODO Comment for Yatsuya/Matsuo from JE paper                          :JE:
 
