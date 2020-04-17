@@ -47,7 +47,7 @@ DEADLINE: <2020-02-14 Fri>
 ** 70% <2020-04-16 Thu 16:57>
 
 * TODO Comment for Yatsuya/Matsuo from JE paper                          :JE:
-
+** TODO Ask for extension
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -96,9 +96,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** Page 206 <2020-03-27 Fri>
 ** Page 221 <2020-03-30 Mon>
 
-* DOING prepare slides about cohort study for CSS                       :CSS:
-** Page 6 <2020-04-03 Fri>
-** Page 13 <2020-04-08 Wed>
+
 
 * 
 #+BEGIN_COMMENT
@@ -170,3 +168,8 @@ FINISHED <2020-04-06 Mon>
 * DONE Comment for Research Square                                       :RS:
 DEADLINE: <2020-04-07 Tue>
 <2020-04-07 Tue>
+
+* DONE prepare slides about cohort study for CSS                        :CSS:
+** Page 6 <2020-04-03 Fri>
+** Page 13 <2020-04-08 Wed>
+** Done <2020-04-17 Fri 17:38>
