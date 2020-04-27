@@ -33,14 +33,18 @@ To Page 28 <2020-04-10 Fri 16:08>
 To Page 121 Chapter 6 <2020-04-16 Thu 22:57>
 To Page 200 <2020-04-22 Wed 12:05>
 To Page 221 <2020-04-23 Thu 17:37>
+To Page 253 Chapter 10 <2020-04-27 Mon 14:35>
+
 * 
 #+BEGIN_COMMENT
 Work schedule need to be done under not-PRIVATE category = means work, paperwork, school work, teaching tasks etc.
 #+END_COMMENT
 
+* TODO Prepare slides about meta-analysis for CSS members               :CSS:
 
 * DOING 試験問題                                                        :AMU:
 ** DONE 再々試験問題作成　<2020-04-22 Wed 19:55>
+** TODO 定期試験問題 
 
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2020-02-14 Fri>
