@@ -27,14 +27,6 @@ Work schedule need to be done under PRIVATE category
 
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
-* DOING The Hundred-Year Marathon: China's Secret Strategy to Replace America as the Global Superpower (English Edition) :private:
-To Page 14 <2020-04-09 Thu> 
-To Page 28 <2020-04-10 Fri 16:08>
-To Page 121 Chapter 6 <2020-04-16 Thu 22:57>
-To Page 200 <2020-04-22 Wed 12:05>
-To Page 221 <2020-04-23 Thu 17:37>
-To Page 253 Chapter 10 <2020-04-27 Mon 14:35>
-To Page 271 Chapter 11 <2020-04-28 Tue 11:53>
 
 * 
 #+BEGIN_COMMENT
@@ -51,6 +43,7 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
+* 
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -189,3 +182,13 @@ DEADLINE: <2020-04-07 Tue>
 DEADLINE: <2020-04-24 Fri>
 ** DONE Ask for extension <2020-04-19 Sun 13:41>
 ** DONE <2020-04-21 Tue 17:31>
+
+* DONE The Hundred-Year Marathon: China's Secret Strategy to Replace America as the Global Superpower (English Edition) :private:
+** To Page 14 <2020-04-09 Thu> 
+** To Page 28 <2020-04-10 Fri 16:08>
+** To Page 121 Chapter 6 <2020-04-16 Thu 22:57>
+** To Page 200 <2020-04-22 Wed 12:05>
+** To Page 221 <2020-04-23 Thu 17:37>
+** To Page 253 Chapter 10 <2020-04-27 Mon 14:35>
+** To Page 271 Chapter 11 <2020-04-28 Tue 11:53>
+** Done reading <2020-04-30 Thu 15:02>
