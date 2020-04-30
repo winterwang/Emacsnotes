@@ -37,7 +37,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * DOING 試験問題                                                        :AMU:
 ** DONE 再々試験問題作成　<2020-04-22 Wed 19:55>
-** TODO 定期試験問題 
+** DOING 定期試験問題 
+*** DONE Q1-2  <2020-04-30 Thu 22:16>
 
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2020-02-14 Fri>
