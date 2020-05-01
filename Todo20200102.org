@@ -35,16 +35,15 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO Prepare slides about meta-analysis for CSS members               :CSS:
 
-* DOING 試験問題                                                        :AMU:
-** DONE 再々試験問題作成　<2020-04-22 Wed 19:55>
-** DOING 定期試験問題 
-*** DONE Q1-2  <2020-04-30 Thu 22:16>
 
 * TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
-* 
+* TODO Research square new task                                     :private:
+DEADLINE: <2020-05-02 Sat>
+
+
 
 * HANGUP Cluster analysis & Principal component analysis              :LSHTM:
 *** lecture notes 
@@ -193,3 +192,9 @@ DEADLINE: <2020-04-24 Fri>
 ** To Page 253 Chapter 10 <2020-04-27 Mon 14:35>
 ** To Page 271 Chapter 11 <2020-04-28 Tue 11:53>
 ** Done reading <2020-04-30 Thu 15:02>
+
+* DONE 試験問題                                                         :AMU:
+** DONE 再々試験問題作成　<2020-04-22 Wed 19:55>
+** DONE 定期試験問題 
+*** DONE Q1-2  <2020-04-30 Thu 22:16>
+*** DONE Q3,4  <2020-05-01 Fri 14:49>
