@@ -33,30 +33,39 @@ Work schedule need to be done under PRIVATE category
 Work schedule need to be done under not-PRIVATE category = means work, paperwork, school work, teaching tasks etc.
 #+END_COMMENT
 
-* TODO Prepare slides about meta-analysis for CSS members               :CSS:
+* TODO [#A] Prepare slides about meta-analysis for CSS members          :CSS:
 
 
-* TODO Prepare manuscript from the NDNS RP correspondence analysis    :LSHTM:
+* TODO [#A] Prepare manuscript from the NDNS RP correspondence analysis :LSHTM:
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
-* TODO Research square new task                                     :private:
-DEADLINE: <2020-05-02 Sat>
+* TODO LSHTM COVID-19 task part 3 data cleaning                       :LSHTM:
 
+* TODO [#A] Research square new task                                :private:
+DEADLINE: <2020-05-04 Mon>
 
+* TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
 
-* HANGUP Cluster analysis & Principal component analysis              :LSHTM:
+* TODO [#B] Modify the 試験問題                                         :AMU:
+
+* HANGUP [#C] Cluster analysis & Principal component analysis         :LSHTM:
 *** lecture notes 
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
 ** DONE 120% PCA supplementary variables added <2019-07-15 Mon 11:28>
 ** HANGUP practical
 
-* TODO Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]                :bookdown:books:LSHTM:
+* HANGUP [#C] Survival analysis [[https://wangcc.me/LSHTMlearningnote/-time-dependent-variables-frailty-model.html][Frailty models]]         :bookdown:books:LSHTM:
 
-* DOING update learning notes of LSHTM (causal inference)             :LSHTM:
+* HANGUP [#C] update learning notes of LSHTM (causal inference)       :LSHTM:
 
-* TODO [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];                  :bookdown:books:LSHTM:
+
+* TODO [#B] [[https://wangcc.me/LSHTMlearningnote/section-88.html][Bayesian statistics Chapter 9]];             :bookdown:books:LSHTM:
 ** DOING Change all the openbugs codes into JAGS codes
+40% or so? 
+
+* TODO [#B] GLM part                                         :bookdown:LSHTM:
+
 
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
 *** until P226
