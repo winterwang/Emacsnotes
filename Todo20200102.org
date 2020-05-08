@@ -22,7 +22,6 @@ Work schedule need to be done under PRIVATE category
 ** DONE Ex6 <2019-08-09 Fri 21:19>
 ** DONE Ex7 <2019-08-09 Fri 21:32>
 
-* TODO Buy connectors for iMac monitor                                  :AMU:
 
 * TODO Chinese Calligraphy(Lantingji Xu)                            :private:
 
@@ -210,4 +209,8 @@ DEADLINE: <2020-04-24 Fri>
 * DONE [#A] Research square new task                                :private:
 DEADLINE: <2020-05-04 Mon>
 ** Finished <2020-05-03 Sun 21:25>
+
 * DONE LSHTM COVID-19 task part 3 data cleaning                       :LSHTM:
+
+* DONE Buy connectors for iMac monitor                                  :AMU:
+** <2020-05-08 Fri 11:17>
