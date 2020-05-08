@@ -1,4 +1,4 @@
-#+TITLE: Org-mode todo 2020/01-04
+#+TITLE: Org-mode todo 2020/01-05
 #+AUTHOR: [[https://wangcc.me][Chaochen Wang]]
 #+EMAIL: chaochen@wangcc.me
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:t f:t inline:t num:t
@@ -40,10 +40,6 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
-* TODO LSHTM COVID-19 task part 3 data cleaning                       :LSHTM:
-
-* TODO [#A] Research square new task                                :private:
-DEADLINE: <2020-05-04 Mon>
 
 * TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
 
@@ -64,17 +60,17 @@ DEADLINE: <2020-05-04 Mon>
 ** DOING Change all the openbugs codes into JAGS codes
 40% or so? 
 
-* TODO [#B] GLM part                                         :bookdown:LSHTM:
-
+* DOING [#B] GLM part                                        :bookdown:LSHTM:
+** Practical 05 06 07 done <2020-05-08 Fri 10:26>
 
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
 *** until P226
 
-* TODO Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:               :interests:reading:
+* HANGUP Read book 3: [[https://www.wiley.com/en-us/Bayesian+Biostatistics-p-9780470018231][Bayesian biostatistics]]:             :interests:reading:
 
 
 
-* DOING Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
+* DOING [#A] Read book 4: [[https://www.cambridge.org/jp/academic/subjects/philosophy/philosophy-science/evidence-and-evolution-logic-behind-science?format=HB&isbn=9780521871884][Evidence and Evolution: The logic behind the science.]] :reading:
 ** till page 30 <2019-06-26 Wed>
 ** till page 37 <2019-07-03 Wed 17:40>
 ** till page 43 <2019-07-04 Thu 11:47> 
@@ -101,7 +97,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** Page 206 <2020-03-27 Fri>
 ** Page 221 <2020-03-30 Mon>
 
-
+* TODO [#A] Reading task: Death by China                            :reading:
 
 * 
 #+BEGIN_COMMENT
@@ -207,3 +203,8 @@ DEADLINE: <2020-04-24 Fri>
 ** DONE 定期試験問題 
 *** DONE Q1-2  <2020-04-30 Thu 22:16>
 *** DONE Q3,4  <2020-05-01 Fri 14:49>
+
+* DONE [#A] Research square new task                                :private:
+DEADLINE: <2020-05-04 Mon>
+** Finished <2020-05-03 Sun 21:25>
+* DONE LSHTM COVID-19 task part 3 data cleaning                       :LSHTM:
