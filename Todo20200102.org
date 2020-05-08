@@ -46,6 +46,8 @@ DEADLINE: <2020-02-14 Fri>
 
 * TODO [#B] Modify the 試験問題                                         :AMU:
 
+* TODO help kikuchi and sasakabe with the bootstrapping method          :AMU:
+
 * HANGUP [#C] Cluster analysis & Principal component analysis         :LSHTM:
 *** lecture notes 
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
