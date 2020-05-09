@@ -40,12 +40,18 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
+* TODO [#A] Comment to Kikuchi Paper                                    :AMU:
+DEADLINE: <2020-05-12 Tue>
 
 * TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
+DEADLINE: <2020-05-12 Tue>
 
 * TODO [#B] Modify the 試験問題                                         :AMU:
 
-* TODO help kikuchi and sasakabe with the bootstrapping method          :AMU:
+
+
+* DONE help kikuchi and sasakabe with the bootstrapping method          :AMU:
+** sent to Sasakabe <2020-05-08 Fri 18:07>
 
 * HANGUP [#C] Cluster analysis & Principal component analysis         :LSHTM:
 *** lecture notes 
@@ -100,6 +106,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** Page 221 <2020-03-30 Mon>
 
 * TODO [#A] Reading task: Death by China                            :reading:
+
 
 * 
 #+BEGIN_COMMENT
