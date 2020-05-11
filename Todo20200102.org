@@ -46,7 +46,8 @@ DEADLINE: <2020-05-12 Tue>
 * TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
 DEADLINE: <2020-05-12 Tue>
 
-* TODO [#B] Modify the 試験問題                                         :AMU:
+* DONE [#B] Modify the 試験問題                                         :AMU:
+** finished and sent to kikuchi <2020-05-11 Mon 15:49>
 
 
 
