@@ -50,9 +50,6 @@ DEADLINE: <2020-05-12 Tue>
 
 
 
-* DONE help kikuchi and sasakabe with the bootstrapping method          :AMU:
-** sent to Sasakabe <2020-05-08 Fri 18:07>
-
 * HANGUP [#C] Cluster analysis & Principal component analysis         :LSHTM:
 *** lecture notes 
 ** DONE 100% of the PCA note lecture <2019-07-15 Mon 00:53> 
@@ -222,3 +219,7 @@ DEADLINE: <2020-05-04 Mon>
 
 * DONE Buy connectors for iMac monitor                                  :AMU:
 ** <2020-05-08 Fri 11:17>
+
+
+* DONE help kikuchi and sasakabe with the bootstrapping method          :AMU:
+** sent to Sasakabe <2020-05-08 Fri 18:07>
