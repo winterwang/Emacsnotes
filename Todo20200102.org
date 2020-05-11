@@ -28,13 +28,13 @@ Work schedule need to be done under PRIVATE category
 * TODO [[https://www.coursera.org/learn/machine-learning/home/welcome][Machine Learning]] Week 9 tasks                                :private:
 
 
-* 
+*   
 #+BEGIN_COMMENT
 Work schedule need to be done under not-PRIVATE category = means work, paperwork, school work, teaching tasks etc.
 #+END_COMMENT
 
 * TODO [#A] Prepare slides about meta-analysis for CSS members          :CSS:
-
+    
 
 * TODO [#A] Prepare manuscript from the NDNS RP correspondence analysis :LSHTM:
 DEADLINE: <2020-02-14 Fri>
@@ -70,6 +70,7 @@ DEADLINE: <2020-05-12 Tue>
 
 * DOING [#B] GLM part                                        :bookdown:LSHTM:
 ** Practical 05 06 07 done <2020-05-08 Fri 10:26>
+** Practical 08 doen <2020-05-11 Mon 12:18>
 
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
 *** until P226
