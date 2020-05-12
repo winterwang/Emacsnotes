@@ -35,20 +35,17 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO [#A] Prepare slides about meta-analysis for CSS members          :CSS:
     
+* TODO [#A] Paper work for kakenhi 報告書                               :AMU:
 
 * TODO [#A] Prepare manuscript from the NDNS RP correspondence analysis :LSHTM:
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
-* TODO [#A] Comment to Kikuchi Paper                                    :AMU:
+* DOING [#A] Comment to Kikuchi Paper                                   :AMU:
 DEADLINE: <2020-05-12 Tue>
 
 * TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
-DEADLINE: <2020-05-12 Tue>
-
-* DONE [#B] Modify the 試験問題                                         :AMU:
-** finished and sent to kikuchi <2020-05-11 Mon 15:49>
-
+DEADLINE: <2020-05-14 Thu>
 
 
 * HANGUP [#C] Cluster analysis & Principal component analysis         :LSHTM:
@@ -224,3 +221,7 @@ DEADLINE: <2020-05-04 Mon>
 
 * DONE help kikuchi and sasakabe with the bootstrapping method          :AMU:
 ** sent to Sasakabe <2020-05-08 Fri 18:07>
+
+
+* DONE [#B] Modify the 試験問題                                         :AMU:
+** finished and sent to kikuchi <2020-05-11 Mon 15:49>
