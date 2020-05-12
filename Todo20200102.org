@@ -41,9 +41,6 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
-* DOING [#A] Comment to Kikuchi Paper                                   :AMU:
-DEADLINE: <2020-05-12 Tue>
-
 * TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
 DEADLINE: <2020-05-14 Thu>
 
@@ -65,7 +62,7 @@ DEADLINE: <2020-05-14 Thu>
 
 * DOING [#B] GLM part                                        :bookdown:LSHTM:
 ** Practical 05 06 07 done <2020-05-08 Fri 10:26>
-** Practical 08 doen <2020-05-11 Mon 12:18>
+** Practical 08 done <2020-05-11 Mon 12:18>
 
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
 *** until P226
@@ -102,7 +99,7 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** Page 221 <2020-03-30 Mon>
 
 * TODO [#A] Reading task: Death by China                            :reading:
-
+** Page 23 <2020-05-12 Tue 13:46>
 
 * 
 #+BEGIN_COMMENT
@@ -225,3 +222,7 @@ DEADLINE: <2020-05-04 Mon>
 
 * DONE [#B] Modify the 試験問題                                         :AMU:
 ** finished and sent to kikuchi <2020-05-11 Mon 15:49>
+
+* DONE [#A] Comment to Kikuchi Paper                                    :AMU:
+DEADLINE: <2020-05-12 Tue>
+** done and replied <2020-05-12 Tue 16:55>
