@@ -35,7 +35,8 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO [#A] Prepare slides about meta-analysis for CSS members          :CSS:
     
-* TODO [#A] Paper work for kakenhi 報告書                               :AMU:
+* DOING [#A] Paper work for kakenhi 報告書                              :AMU:
+** 10% <2020-05-13 Wed 18:45>
 
 * TODO [#A] Prepare manuscript from the NDNS RP correspondence analysis :LSHTM:
 DEADLINE: <2020-02-14 Fri>
