@@ -35,8 +35,6 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 
 * TODO [#A] Prepare slides about meta-analysis for CSS members          :CSS:
     
-* DOING [#A] Paper work for kakenhi 報告書                              :AMU:
-** 10% <2020-05-13 Wed 18:45>
 
 * TODO [#A] Prepare manuscript from the NDNS RP correspondence analysis :LSHTM:
 DEADLINE: <2020-02-14 Fri>
@@ -65,6 +63,16 @@ DEADLINE: <2020-05-14 Thu>
 ** Practical 05 06 07 done <2020-05-08 Fri 10:26>
 ** Practical 08 done <2020-05-11 Mon 12:18>
 ** Practical 09 till 50% <2020-05-14 Thu 00:52>
+
+* HANGUP Missing data                                                 :LSHTM:
+** Videos
+** Practicals
+** Lectures 
+
+* HANGUP Advanced Stata                                               :LSHTM:
+** Lecture slides
+** Practicals & exercises
+
 
 * TODO Read book 1: [[http://ywang.uchicago.edu/history/victim_ebook_070505.pdf][victim book]]                                     :reading:
 *** until P226
@@ -228,3 +236,10 @@ DEADLINE: <2020-05-04 Mon>
 * DONE [#A] Comment to Kikuchi Paper                                    :AMU:
 DEADLINE: <2020-05-12 Tue>
 ** done and replied <2020-05-12 Tue 16:55>
+
+* DONE 総合試験問題登録　                                               :AMU:
+** <2020-05-14 Thu 13:16>
+
+* DONE [#A] Paper work for kakenhi 報告書                               :AMU:
+** 10% <2020-05-13 Wed 18:45>
+** done 100% <2020-05-14 Thu 16:52>
