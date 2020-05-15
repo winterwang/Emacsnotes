@@ -33,8 +33,10 @@ Work schedule need to be done under PRIVATE category
 Work schedule need to be done under not-PRIVATE category = means work, paperwork, school work, teaching tasks etc.
 #+END_COMMENT
 
-* TODO [#A] Prepare slides about meta-analysis for CSS members          :CSS:
-    
+* DOING [#A] Prepare slides about meta-analysis for CSS members         :CSS:
+** DONE send invitation letter to make schedule <2020-05-15 Fri 18:23>
+** 5% slides
+
 
 * TODO [#A] Prepare manuscript from the NDNS RP correspondence analysis :LSHTM:
 DEADLINE: <2020-02-14 Fri>
