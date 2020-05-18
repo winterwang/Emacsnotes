@@ -45,9 +45,6 @@ DEADLINE: <2020-02-14 Fri>
 * TODO [#A] Preprare manuscript for JACC bayesian survival analysis     :AMU:
 ** TODO run all models on the remote machine
 
-* TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
-DEADLINE: <2020-05-14 Thu>
-
 
 * HANGUP [#C] Cluster analysis & Principal component analysis         :LSHTM:
 *** lecture notes 
@@ -253,3 +250,7 @@ DEADLINE: <2020-05-12 Tue>
 * DONE [#C] Reading task: Death by China                            :reading:
 ** Page 23 <2020-05-12 Tue 13:46>
 ** content too poor <2020-05-18 Mon 14:56>
+
+* DONE [#A] EJCN new task from Dr Yatsuya                               :AMU:
+DEADLINE: <2020-05-14 Thu>
+** submitted <2020-05-18 Mon 16:34>
