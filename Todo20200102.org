@@ -42,6 +42,9 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
+* TODO [#A] Preprare manuscript for JACC bayesian survival analysis     :AMU:
+** TODO run all models on the remote machine
+
 * TODO [#A] EJCN new task from Dr Yatsuya                               :AMU:
 DEADLINE: <2020-05-14 Thu>
 
@@ -110,8 +113,6 @@ CLOCK: [2019-07-10 Wed 14:18]--[2019-07-10 Wed 14:58] =>  0:40
 ** Page 206 <2020-03-27 Fri>
 ** Page 221 <2020-03-30 Mon>
 
-* TODO [#A] Reading task: Death by China                            :reading:
-** Page 23 <2020-05-12 Tue 13:46>
 
 * 
 #+BEGIN_COMMENT
@@ -248,3 +249,7 @@ DEADLINE: <2020-05-12 Tue>
 
 * DONE JE review task                                                   :AMU:
 ** finished <2020-05-15 Fri 13:18>
+
+* DONE [#C] Reading task: Death by China                            :reading:
+** Page 23 <2020-05-12 Tue 13:46>
+** content too poor <2020-05-18 Mon 14:56>
