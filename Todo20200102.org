@@ -36,6 +36,7 @@ Work schedule need to be done under not-PRIVATE category = means work, paperwork
 * DOING [#A] Prepare slides about meta-analysis for CSS members         :CSS:
 ** DONE send invitation letter to make schedule <2020-05-15 Fri 18:23>
 ** 5% slides
+** TODO decide the date and time 
 
 
 * TODO [#A] Prepare manuscript from the NDNS RP correspondence analysis :LSHTM:
@@ -43,7 +44,7 @@ DEADLINE: <2020-02-14 Fri>
 ** 40% done <2020-02-18 Tue>
 
 * TODO [#A] Preprare manuscript for JACC bayesian survival analysis     :AMU:
-** TODO run all models on the remote machine
+** TODO re-run all models on the remote machine
 
 
 * HANGUP [#C] Cluster analysis & Principal component analysis         :LSHTM:
