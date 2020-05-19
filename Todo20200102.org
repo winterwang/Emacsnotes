@@ -255,3 +255,6 @@ DEADLINE: <2020-05-12 Tue>
 * DONE [#A] EJCN new task from Dr Yatsuya                               :AMU:
 DEADLINE: <2020-05-14 Thu>
 ** submitted <2020-05-18 Mon 16:34>
+
+* DONE [#A] reply to student about debate schedule                      :AMU:
+** replied <2020-05-19 Tue 11:47>
